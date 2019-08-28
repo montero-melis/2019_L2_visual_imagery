@@ -1,0 +1,261 @@
+item_id,trial_type,pic_file,trial_lang,ObjectName
+1,target,17_u2_key.png,English,Key
+2,target,3_sem_tap.png,English,Tap
+3,target,5_u2_tie.png,English,Tie
+4,target,5_sem_cake.png,English,Cake
+5,target,7_sem_present.png,English,Present
+6,target,8_sem_monkey.png,English,Monkey
+7,target,12_u1_meat.png,English,Meat
+8,target,14_vis_gun.png,English,Gun
+9,target,21_u2_bell.png,English,Bell
+10,target,24_u1_pants.png,English,Pants
+11,target,25_u2_barrel.png,English,Barrel
+12,target,26_sem_bowl.png,English,Bowl
+13,target,27_u1_eagle.png,English,Eagle
+14,target,27_u2_basket.png,English,Basket
+15,target,35_u1_fan.png,English,Fan
+16,target,38_u1_bow.png,English,Bow
+17,target,40_u1_chair.png,English,Chair
+18,target,41_u1_frog.png,English,Frog
+19,target,41_u2_drum.png,English,Drum
+20,target,45_u2_bag.png,English,Bag
+21,target,47_vis_lighter.png,English,Lighter
+22,target,54_vis_tray.png,English,Tray
+23,target,56_vis_globe.png,English,Globe
+24,target,59_u1_chain.png,English,Chain
+25,target,61_u1_belt.png,English,Belt
+26,target,62_u2_desk.png,English,Desk
+27,target,63_u1_leaf.png,English,Leaf
+28,target,67_vis_fence.png,English,Fence
+29,target,69_u1_watch.png,English,Watch
+30,target,70_vis_snake.png,English,Snake
+31,target,74_sem_cap.png,English,Cap
+32,target,74_u2_package.png,English,Package
+33,target,74_vis_iron.png,English,Iron
+34,target,80_u2_jacket.png,English,Jacket
+35,target,82_vis_rope.png,English,Rope
+36,target,86_sem_horse.png,English,Horse
+37,target,87_u1_flower.png,English,Flower
+38,target,92_sem_spoon.png,English,Spoon
+39,target,93_sem_teeth.png,English,Teeth
+40,target,7_vis_cherry.png,English,Cherry
+41,target,94_u1_shark.png,English,Shark
+42,target,94_u2_slide.png,English,Slide
+43,target,95_sem_lobster.png,English,Lobster
+44,target,97_u1_sausage.png,English,Sausage
+45,target,98_u2_lock.png,English,Lock
+46,target,97_vis_cross.png,English,Cross
+47,target,3_u1_baseball glove.png,English,baseball glove
+48,target,4_u2_coffee machine.png,English,coffee machine
+49,target,4_vis_hot water bottle.png,English,hot water bottle
+50,target,5_u1_ice skate.png,English,ice skate
+51,target,6_sem_soccer shoes.png,English,soccer shoes
+52,target,7_u1_cheese slicer.png,English,cheese slicer
+53,target,11_sem_rocking horse.png,English,rocking horse
+54,target,14_sem_measuring tape.png,English,measuring tape
+55,target,14_u2_office chair.png,English,office chair
+56,target,18_sem_baby bottle.png,English,baby bottle
+57,target,19_vis_life saver.png,English,life saver
+58,target,20_vis_ice cream.png,English,ice cream
+59,target,22_u2_playing cards.png,English,playing cards
+60,target,25_u1_rubber duck.png,English,rubber duck
+61,target,25_vis_rolling pin.png,English,rolling pin
+62,target,27_sem_light switch.png,English,light switch
+63,target,28_u1_shaving brush.png,English,shaving brush
+64,target,28_vis_bike pedals.png,English,bike pedals
+65,target,31_u2_ice cream cone.png,English,ice cream cone
+66,target,32_sem_cement truck.png,English,cement truck
+67,target,33_u1_teddy bear.png,English,teddy bear
+68,target,34_u2_bottle opener.png,English,bottle opener
+69,target,36_sem_coat rack.png,English,coat rack
+70,target,38_vis_band aid.png,English,band aid
+71,target,42_u2_dentist chair.png,English,dentist chair
+72,target,43_sem_rocking chair.png,English,rocking chair
+73,target,48_u1_trash can.png,English,trash can
+74,target,48_u2_life jacket.png,English,life jacket
+75,target,52_u2_trash bags.png,English,trash bags
+76,target,58_sem_frying pan.png,English,frying pan
+77,target,60_sem_rain boots.png,English,rain boots
+78,target,60_u1_safety pins.png,English,safety pins
+79,target,62_sem_polar bear.png,English,polar bear
+80,target,65_sem_watering can.png,English,watering can
+81,target,66_sem_pencil sharpener.png,English,pencil sharpener
+82,target,68_u1_pencil case.png,English,pencil case
+83,target,73_u2_shopping cart.png,English,shopping cart
+84,target,75_u2_potato peeler.png,English,potato peeler
+85,target,75_vis_light bulb.png,English,light bulb
+86,target,76_u2_cutting board.png,English,cutting board
+87,target,79_u2_ironing board.png,English,ironing board
+88,target,79_vis_guinea pig.png,English,guinea pig
+89,target,82_u1_traffic light.png,English,traffic light
+90,target,86_vis_potato masher.png,English,potato masher
+91,target,87_sem_laundry basket.png,English,laundry basket
+92,target,91_sem_remote control.png,English,remote control
+93,target,92_vis_candle holder.png,English,candle holder
+94,target,93_vis_bow tie.png,English,bow tie
+95,target,95_u1_lamp post.png,English,lamp post
+96,target,96_vis_traffic sign.png,English,traffic sign
+97,target,100_sem_riding helmet.png,English,riding helmet
+98,target,100_vis_fishing rod.png,English,fishing rod
+99,catch,90_u2_crutch.png,English,coconut
+100,catch,91_u1_trombone.png,English,canoe
+101,catch,91_vis_blackboard.png,English,tambourine
+102,catch,92_u1_sneakers.png,English,tomato
+103,catch,93_u2_logs.png,English,crutch
+104,catch,94_sem_wheel.png,English,trombone
+105,catch,96_u1_rifle.png,English,blackboard
+106,catch,96_u2_printer.png,English,sneakers
+107,catch,98_sem_caterpillar.png,English,hookah
+108,catch,98_u1_rice.png,English,cassette
+109,catch,98_vis_toolbox.png,English,flipflops
+110,catch,99_sem_candle.png,English,sleigh
+111,catch,99_u2_flippers.png,English,logs
+112,catch,99_vis_plunger.png,English,wheel
+113,catch,100_u1_binoculars.png,English,rifle
+114,catch,100_u2_raspberry.png,English,printer
+115,catch,1_sem_corn.png,English,paintbrush
+116,catch,1_u1_battery.png,English,yoyo
+117,catch,1_u2_pencil.png,English,pinecone
+118,catch,1_vis_bowling ball.png,English,pipe
+119,catch,2_sem_pipe.png,English,caterpillar
+120,catch,2_u1_pinecone.png,English,rice
+121,catch,2_vis_yoyo.png,English,toolbox
+122,catch,3_u2_paintbrush.png,English,candle
+123,catch,3_vis_sleigh.png,English,bowling ball
+124,catch,4_sem_flipflops.png,English,pencil
+125,catch,5_vis_cassette.png,English,battery
+126,catch,6_u1_hookah.png,English,corn
+127,catch,6_vis_tomato.png,English,flippers
+128,catch,8_u1_tambourine.png,English,plunger
+129,catch,8_vis_canoe.png,English,binoculars
+130,catch,9_vis_coconut.png,English,raspberry
+1,target,17_u2_key.png,Dutch,Sleutel
+2,target,3_sem_tap.png,Dutch,Tik
+3,target,5_u2_tie.png,Dutch,Stropdas
+4,target,5_sem_cake.png,Dutch,Taart (Cake?)
+5,target,7_sem_present.png,Dutch,Aanwezig
+6,target,8_sem_monkey.png,Dutch,Aap
+7,target,12_u1_meat.png,Dutch,Vlees
+8,target,14_vis_gun.png,Dutch,Geweer
+9,target,21_u2_bell.png,Dutch,Klok
+10,target,24_u1_pants.png,Dutch,Broek
+11,target,25_u2_barrel.png,Dutch,Vaat
+12,target,26_sem_bowl.png,Dutch,Kom
+13,target,27_u1_eagle.png,Dutch,Adelaar
+14,target,27_u2_basket.png,Dutch,Mand
+15,target,35_u1_fan.png,Dutch,Ventilator
+16,target,38_u1_bow.png,Dutch,Boog
+17,target,40_u1_chair.png,Dutch,Stoel
+18,target,41_u1_frog.png,Dutch,Kikker
+19,target,41_u2_drum.png,Dutch,Trommel
+20,target,45_u2_bag.png,Dutch,Zak
+21,target,47_vis_lighter.png,Dutch,Aansteker
+22,target,54_vis_tray.png,Dutch,Dienblad
+23,target,56_vis_globe.png,Dutch,Wereldbol
+24,target,59_u1_chain.png,Dutch,Keten
+25,target,61_u1_belt.png,Dutch,Riem
+26,target,62_u2_desk.png,Dutch,Bureau
+27,target,63_u1_leaf.png,Dutch,Blad
+28,target,67_vis_fence.png,Dutch,Hek
+29,target,69_u1_watch.png,Dutch,Horloge
+30,target,70_vis_snake.png,Dutch,Slang
+31,target,74_sem_cap.png,Dutch,Pet
+32,target,74_u2_package.png,Dutch,Pakket
+33,target,74_vis_iron.png,Dutch,Ijzer
+34,target,80_u2_jacket.png,Dutch,Jas
+35,target,82_vis_rope.png,Dutch,Touw
+36,target,86_sem_horse.png,Dutch,Paard
+37,target,87_u1_flower.png,Dutch,Bloem
+38,target,92_sem_spoon.png,Dutch,Lepel
+39,target,93_sem_teeth.png,Dutch,Tanden
+40,target,7_vis_cherry.png,Dutch,Kers
+41,target,94_u1_shark.png,Dutch,Haai
+42,target,94_u2_slide.png,Dutch,Glaasje
+43,target,95_sem_lobster.png,Dutch,Kreeft
+44,target,97_u1_sausage.png,Dutch,Worst
+45,target,98_u2_lock.png,Dutch,Slot
+46,target,97_vis_cross.png,Dutch,Kruis
+47,target,3_u1_baseball glove.png,Dutch,honkbalhandschoen
+48,target,4_u2_coffee machine.png,Dutch,koffiezetapparaat
+49,target,4_vis_hot water bottle.png,Dutch,heet water fles
+50,target,5_u1_ice skate.png,Dutch,schaatsen
+51,target,6_sem_soccer shoes.png,Dutch,voetbalschoenen
+52,target,7_u1_cheese slicer.png,Dutch,kaasschaaf
+53,target,11_sem_rocking horse.png,Dutch,hobbelpaard
+54,target,14_sem_measuring tape.png,Dutch,meetlint
+55,target,14_u2_office chair.png,Dutch,bureaustoel
+56,target,18_sem_baby bottle.png,Dutch,Baby flesje
+57,target,19_vis_life saver.png,Dutch,levensredder
+58,target,20_vis_ice cream.png,Dutch,ijsje
+59,target,22_u2_playing cards.png,Dutch,speelkaarten
+60,target,25_u1_rubber duck.png,Dutch,badeend
+61,target,25_vis_rolling pin.png,Dutch,deegroller
+62,target,27_sem_light switch.png,Dutch,lichtschakelaar
+63,target,28_u1_shaving brush.png,Dutch,scheerkwast
+64,target,28_vis_bike pedals.png,Dutch,fiets pedalen
+65,target,31_u2_ice cream cone.png,Dutch,ijshoorn
+66,target,32_sem_cement truck.png,Dutch,cement vrachtwagen
+67,target,33_u1_teddy bear.png,Dutch,knuffelbeer
+68,target,34_u2_bottle opener.png,Dutch,flesopener
+69,target,36_sem_coat rack.png,Dutch,kapstok
+70,target,38_vis_band aid.png,Dutch,pleister
+71,target,42_u2_dentist chair.png,Dutch,tandarts stoel
+72,target,43_sem_rocking chair.png,Dutch,schommelstoel
+73,target,48_u1_trash can.png,Dutch,prullenbak
+74,target,48_u2_life jacket.png,Dutch,reddingsvest
+75,target,52_u2_trash bags.png,Dutch,vuilniszakken
+76,target,58_sem_frying pan.png,Dutch,frituurpan
+77,target,60_sem_rain boots.png,Dutch,regenlaarzen
+78,target,60_u1_safety pins.png,Dutch,veiligheidsspelden
+79,target,62_sem_polar bear.png,Dutch,ijsbeer
+80,target,65_sem_watering can.png,Dutch,gieter
+81,target,66_sem_pencil sharpener.png,Dutch,puntenslijper
+82,target,68_u1_pencil case.png,Dutch,pennenzak
+83,target,73_u2_shopping cart.png,Dutch,winkelwagen
+84,target,75_u2_potato peeler.png,Dutch,aardappelschiller
+85,target,75_vis_light bulb.png,Dutch,gloeilamp
+86,target,76_u2_cutting board.png,Dutch,snijplank
+87,target,79_u2_ironing board.png,Dutch,strijkplank
+88,target,79_vis_guinea pig.png,Dutch,cavia
+89,target,82_u1_traffic light.png,Dutch,stoplicht
+90,target,86_vis_potato masher.png,Dutch,aardappelstamper
+91,target,87_sem_laundry basket.png,Dutch,wasmand
+92,target,91_sem_remote control.png,Dutch,afstandsbediening
+93,target,92_vis_candle holder.png,Dutch,kandelaar
+94,target,93_vis_bow tie.png,Dutch,vlinderdas
+95,target,95_u1_lamp post.png,Dutch,lantarenpaal
+96,target,96_vis_traffic sign.png,Dutch,verkeersbord
+97,target,100_sem_riding helmet.png,Dutch,paardrijhelm
+98,target,100_vis_fishing rod.png,Dutch,Vis hengel
+99,catch,90_u2_crutch.png,Dutch,kokosnoot
+100,catch,91_u1_trombone.png,Dutch,kano
+101,catch,91_vis_blackboard.png,Dutch,tamboerijn
+102,catch,92_u1_sneakers.png,Dutch,tomaat
+103,catch,93_u2_logs.png,Dutch,kruk
+104,catch,94_sem_wheel.png,Dutch,trombone
+105,catch,96_u1_rifle.png,Dutch,schoolbord
+106,catch,96_u2_printer.png,Dutch,sportschoenen
+107,catch,98_sem_caterpillar.png,Dutch,hookah
+108,catch,98_u1_rice.png,Dutch,cassette
+109,catch,98_vis_toolbox.png,Dutch,slippers
+110,catch,99_sem_candle.png,Dutch,slee
+111,catch,99_u2_flippers.png,Dutch,logs
+112,catch,99_vis_plunger.png,Dutch,wiel
+113,catch,100_u1_binoculars.png,Dutch,geweer
+114,catch,100_u2_raspberry.png,Dutch,printer
+115,catch,1_sem_corn.png,Dutch,penseel
+116,catch,1_u1_battery.png,Dutch,yoyo
+117,catch,1_u2_pencil.png,Dutch,dennenappel
+118,catch,1_vis_bowling ball.png,Dutch,pijp
+119,catch,2_sem_pipe.png,Dutch,rups
+120,catch,2_u1_pinecone.png,Dutch,rijst
+121,catch,2_vis_yoyo.png,Dutch,gereedschapskist
+122,catch,3_u2_paintbrush.png,Dutch,kaars
+123,catch,3_vis_sleigh.png,Dutch,bowlingbal
+124,catch,4_sem_flipflops.png,Dutch,potlood
+125,catch,5_vis_cassette.png,Dutch,accu
+126,catch,6_u1_hookah.png,Dutch,maïs
+127,catch,6_vis_tomato.png,Dutch,flippers
+128,catch,8_u1_tambourine.png,Dutch,plunjer
+129,catch,8_vis_canoe.png,Dutch,kijker
+130,catch,9_vis_coconut.png,Dutch,framboos
