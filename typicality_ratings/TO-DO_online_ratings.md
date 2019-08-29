@@ -37,15 +37,12 @@ RA (Iris)
 Experiment build
 ================
 
-- Save all image files to git repo
-
 - Indicate self-rated L2 English proficiency
 - In Dutch: Text for "Word doesn't match the picture" 
-
 - Adjust Dutch instructions to match English
-
-Item/stimuli:
-- Adjust verb for plural forms
+- In items/stimuli: Adjust verb for plural forms
+- Change label shown on top of screen (e.g., "dutch_ratings", etc.)
+- Rating instructions: Add "If you don't know the word, click on the corresponding button."
 
 
 Qs Maarten
