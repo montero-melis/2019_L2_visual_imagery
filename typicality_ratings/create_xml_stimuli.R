@@ -7,62 +7,76 @@ library(tidyverse)
 
 ## read verb stimuli
 items <- read_csv("typicality_ratings/stimuli_typicality.csv")
+items$object_name <- toupper(items$object_name)
 head(items)
 
 
 ## create output file
-file.create("online_exp/stimuli_xml.xml")
+file.create("typicality_ratings/stimuli_xml.xml")
 
 
-## feature task
-feature_xml <- paste(
-  '<stimulus identifier="feature',
-  verbs$id,
-  '" label="',
-  verbs$feature,
-  '" pauseMs="0" tags="feature_task"/>',
+## Dutch ratings
+du_xml <- paste(
+  '<stimulus identifier="Dutch_',
+  with(items[items$trial_lang == "Dutch", ],
+       paste(item_id, trial_type, sep = "_")),
+  '" label="Hoe typisch ',
+  items[items$trial_lang == "Dutch", ]$carrier,
+  ' ',
+  items[items$trial_lang == "Dutch", ]$object_name,
+  '?" imagePath = "',
+  items[items$trial_lang == "Dutch", ]$pic_file,
+  '" pauseMs="0" tags="dutch_ratings"/>',
   sep = "")
-head(feature_xml)
+head(du_xml)
 
 # Write to disk
-cat("<!-- stimuli for FEATURE task -->", file = "online_exp/stimuli_xml.xml",
+cat("<!-- stimuli for Dutch ratings -->", file = "typicality_ratings/stimuli_xml.xml",
     sep = "\n", append = TRUE)
-write.table(feature_xml, file = "online_exp/stimuli_xml.xml", quote = FALSE,
+write.table(du_xml, file = "typicality_ratings/stimuli_xml.xml", quote = FALSE,
             col.names = FALSE, row.names = FALSE, append = TRUE)
-cat("\n", file = "online_exp/stimuli_xml.xml", append = TRUE)
+cat("\n", file = "typicality_ratings/stimuli_xml.xml", append = TRUE)
 
 
-## negation task
-negation_xml <- paste(
-  '<stimulus identifier="negation',
-  verbs$id,
-  '" label="Zij ',
-  verbs$negation,
-  ', maar zij..." pauseMs="0" tags="negation_task"/>',
+
+## English ratings
+en_xml <- paste(
+  '<stimulus identifier="English_',
+  with(items[items$trial_lang == "English", ],
+       paste(item_id, trial_type, sep = "_")),
+  '" label="How typical ',
+  items[items$trial_lang == "English", ]$carrier,
+  ' ',
+  items[items$trial_lang == "English", ]$object_name,
+  '?" imagePath = "',
+  items[items$trial_lang == "English", ]$pic_file,
+  '" pauseMs="0" tags="english_ratings"/>',
   sep = "")
-negation_xml
+head(en_xml)
 
 # Write to disk
-cat("<!-- stimuli for NEGATION task -->", file = "online_exp/stimuli_xml.xml",
+cat("<!-- stimuli for English ratings -->", file = "typicality_ratings/stimuli_xml.xml",
     sep = "\n", append = TRUE)
-write.table(negation_xml, file = "online_exp/stimuli_xml.xml", quote = FALSE,
+write.table(en_xml, file = "typicality_ratings/stimuli_xml.xml", quote = FALSE,
             col.names = FALSE, row.names = FALSE, append = TRUE)
-cat("\n", file = "online_exp/stimuli_xml.xml", append = TRUE)
+cat("\n", file = "typicality_ratings/stimuli_xml.xml", append = TRUE)
 
 
-## via task
-via_xml <- paste(
-  '<stimulus identifier="via',
-  verbs$id,
-  '" label="Zij ',
-  verbs$via,
-  ' via ..." pauseMs="0" tags="via_task"/>',
+
+## Translation task
+transl_xml <- paste(
+  '<stimulus identifier="Translate_',
+  with(items[items$trial_lang == "English", ],
+       paste(item_id, trial_type, sep = "_")),
+  '" label="What is \'',
+  items[items$trial_lang == "English", ]$object_name,
+  '\' in Dutch?" pauseMs="0" tags="translation_task"/>',
   sep = "")
-via_xml
+head(transl_xml)
 
 # Write to disk
-cat("<!-- stimuli for VIA task -->", file = "online_exp/stimuli_xml.xml",
+cat("<!-- stimuli for translation task -->", file = "typicality_ratings/stimuli_xml.xml",
     sep = "\n", append = TRUE)
-write.table(via_xml, file = "online_exp/stimuli_xml.xml", quote = FALSE,
+write.table(transl_xml, file = "typicality_ratings/stimuli_xml.xml", quote = FALSE,
             col.names = FALSE, row.names = FALSE, append = TRUE)
-cat("\n", file = "online_exp/stimuli_xml.xml", append = TRUE)
+cat("\n", file = "typicality_ratings/stimuli_xml.xml", append = TRUE)
