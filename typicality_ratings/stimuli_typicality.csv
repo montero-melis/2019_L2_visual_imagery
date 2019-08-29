@@ -75,7 +75,7 @@ item_id,trial_type,pic_file,trial_lang,sing_plur,du_gend,carrier,object_name
 74,target,48_u2_life jacket.png,English,sing,,is this,life jacket
 75,target,52_u2_trash bags.png,English,plur,,are these,trash bags
 76,target,58_sem_frying pan.png,English,sing,,is this,frying pan
-77,target,60_sem_rain boots.png,English,sing,,is this,rain boots
+77,target,60_sem_rain boots.png,English,plur,,are these,rain boots
 78,target,60_u1_safety pins.png,English,plur,,are these,safety pins
 79,target,62_sem_polar bear.png,English,sing,,is this,polar bear
 80,target,65_sem_watering can.png,English,sing,,is this,watering can
@@ -254,7 +254,7 @@ item_id,trial_type,pic_file,trial_lang,sing_plur,du_gend,carrier,object_name
 123,catch,3_vis_sleigh.png,Dutch,sing,,is deze,bowlingbal
 124,catch,4_sem_flipflops.png,Dutch,sing,,is deze,potlood
 125,catch,5_vis_cassette.png,Dutch,sing,,is deze,accu
-126,catch,6_u1_hookah.png,Dutch,sing,,is deze,ma?
+126,catch,6_u1_hookah.png,Dutch,sing,,is deze,maïs
 127,catch,6_vis_tomato.png,Dutch,sing,,is deze,flippers
 128,catch,8_u1_tambourine.png,Dutch,sing,,is deze,plunjer
 129,catch,8_vis_canoe.png,Dutch,sing,,is deze,kijker
