@@ -1,0 +1,396 @@
+<!-- stimuli for Dutch ratings -->
+<stimulus identifier="Dutch_1_target" label="Hoe typisch is deze SLEUTEL?" imagePath = "17_u2_key.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_2_target" label="Hoe typisch is deze TIK?" imagePath = "3_sem_tap.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_3_target" label="Hoe typisch is deze STROPDAS?" imagePath = "5_u2_tie.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_4_target" label="Hoe typisch is deze TAART?" imagePath = "5_sem_cake.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_5_target" label="Hoe typisch is deze AANWEZIG?" imagePath = "7_sem_present.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_6_target" label="Hoe typisch is deze AAP?" imagePath = "8_sem_monkey.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_7_target" label="Hoe typisch is deze VLEES?" imagePath = "12_u1_meat.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_8_target" label="Hoe typisch is deze GEWEER?" imagePath = "14_vis_gun.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_9_target" label="Hoe typisch is deze KLOK?" imagePath = "21_u2_bell.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_10_target" label="Hoe typisch is deze BROEK?" imagePath = "24_u1_pants.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_11_target" label="Hoe typisch is deze VAAT?" imagePath = "25_u2_barrel.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_12_target" label="Hoe typisch is deze KOM?" imagePath = "26_sem_bowl.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_13_target" label="Hoe typisch is deze ADELAAR?" imagePath = "27_u1_eagle.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_14_target" label="Hoe typisch is deze MAND?" imagePath = "27_u2_basket.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_15_target" label="Hoe typisch is deze VENTILATOR?" imagePath = "35_u1_fan.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_16_target" label="Hoe typisch is deze BOOG?" imagePath = "38_u1_bow.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_17_target" label="Hoe typisch is deze STOEL?" imagePath = "40_u1_chair.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_18_target" label="Hoe typisch is deze KIKKER?" imagePath = "41_u1_frog.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_19_target" label="Hoe typisch is deze TROMMEL?" imagePath = "41_u2_drum.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_20_target" label="Hoe typisch is deze ZAK?" imagePath = "45_u2_bag.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_21_target" label="Hoe typisch is deze AANSTEKER?" imagePath = "47_vis_lighter.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_22_target" label="Hoe typisch is deze DIENBLAD?" imagePath = "54_vis_tray.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_23_target" label="Hoe typisch is deze WERELDBOL?" imagePath = "56_vis_globe.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_24_target" label="Hoe typisch is deze KETEN?" imagePath = "59_u1_chain.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_25_target" label="Hoe typisch is deze RIEM?" imagePath = "61_u1_belt.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_26_target" label="Hoe typisch is deze BUREAU?" imagePath = "62_u2_desk.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_27_target" label="Hoe typisch is deze BLAD?" imagePath = "63_u1_leaf.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_28_target" label="Hoe typisch is deze HEK?" imagePath = "67_vis_fence.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_29_target" label="Hoe typisch is deze HORLOGE?" imagePath = "69_u1_watch.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_30_target" label="Hoe typisch is deze SLANG?" imagePath = "70_vis_snake.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_31_target" label="Hoe typisch is deze PET?" imagePath = "74_sem_cap.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_32_target" label="Hoe typisch is deze PAKKET?" imagePath = "74_u2_package.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_33_target" label="Hoe typisch is deze IJZER?" imagePath = "74_vis_iron.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_34_target" label="Hoe typisch is deze JAS?" imagePath = "80_u2_jacket.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_35_target" label="Hoe typisch is deze TOUW?" imagePath = "82_vis_rope.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_36_target" label="Hoe typisch is deze PAARD?" imagePath = "86_sem_horse.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_37_target" label="Hoe typisch is deze BLOEM?" imagePath = "87_u1_flower.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_38_target" label="Hoe typisch is deze LEPEL?" imagePath = "92_sem_spoon.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_39_target" label="Hoe typisch is deze TANDEN?" imagePath = "93_sem_teeth.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_40_target" label="Hoe typisch is deze KERS?" imagePath = "7_vis_cherry.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_41_target" label="Hoe typisch is deze HAAI?" imagePath = "94_u1_shark.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_42_target" label="Hoe typisch is deze GLAASJE?" imagePath = "94_u2_slide.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_43_target" label="Hoe typisch is deze KREEFT?" imagePath = "95_sem_lobster.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_44_target" label="Hoe typisch is deze WORST?" imagePath = "97_u1_sausage.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_45_target" label="Hoe typisch is deze SLOT?" imagePath = "98_u2_lock.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_46_target" label="Hoe typisch is deze KRUIS?" imagePath = "97_vis_cross.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_47_target" label="Hoe typisch zijn deze HONKBALHANDSCHOEN?" imagePath = "3_u1_baseball glove.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_48_target" label="Hoe typisch is deze KOFFIEZETAPPARAAT?" imagePath = "4_u2_coffee machine.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_49_target" label="Hoe typisch is deze HEET WATER FLES?" imagePath = "4_vis_hot water bottle.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_50_target" label="Hoe typisch is deze SCHAATSEN?" imagePath = "5_u1_ice skate.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_51_target" label="Hoe typisch is deze VOETBALSCHOENEN?" imagePath = "6_sem_soccer shoes.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_52_target" label="Hoe typisch is deze KAASSCHAAF?" imagePath = "7_u1_cheese slicer.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_53_target" label="Hoe typisch is deze HOBBELPAARD?" imagePath = "11_sem_rocking horse.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_54_target" label="Hoe typisch is deze MEETLINT?" imagePath = "14_sem_measuring tape.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_55_target" label="Hoe typisch is deze BUREAUSTOEL?" imagePath = "14_u2_office chair.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_56_target" label="Hoe typisch is deze BABY FLESJE?" imagePath = "18_sem_baby bottle.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_57_target" label="Hoe typisch is deze LEVENSREDDER?" imagePath = "19_vis_life saver.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_58_target" label="Hoe typisch is deze IJSJE?" imagePath = "20_vis_ice cream.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_59_target" label="Hoe typisch is deze SPEELKAARTEN?" imagePath = "22_u2_playing cards.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_60_target" label="Hoe typisch is deze BADEEND?" imagePath = "25_u1_rubber duck.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_61_target" label="Hoe typisch is deze DEEGROLLER?" imagePath = "25_vis_rolling pin.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_62_target" label="Hoe typisch is deze LICHTSCHAKELAAR?" imagePath = "27_sem_light switch.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_63_target" label="Hoe typisch is deze SCHEERKWAST?" imagePath = "28_u1_shaving brush.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_64_target" label="Hoe typisch is deze FIETS PEDALEN?" imagePath = "28_vis_bike pedals.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_65_target" label="Hoe typisch is deze IJSHOORN?" imagePath = "31_u2_ice cream cone.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_66_target" label="Hoe typisch is deze CEMENT VRACHTWAGEN?" imagePath = "32_sem_cement truck.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_67_target" label="Hoe typisch is deze KNUFFELBEER?" imagePath = "33_u1_teddy bear.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_68_target" label="Hoe typisch is deze FLESOPENER?" imagePath = "34_u2_bottle opener.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_69_target" label="Hoe typisch is deze KAPSTOK?" imagePath = "36_sem_coat rack.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_70_target" label="Hoe typisch is deze PLEISTER?" imagePath = "38_vis_band aid.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_71_target" label="Hoe typisch is deze TANDARTS STOEL?" imagePath = "42_u2_dentist chair.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_72_target" label="Hoe typisch is deze SCHOMMELSTOEL?" imagePath = "43_sem_rocking chair.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_73_target" label="Hoe typisch is deze PRULLENBAK?" imagePath = "48_u1_trash can.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_74_target" label="Hoe typisch is deze REDDINGSVEST?" imagePath = "48_u2_life jacket.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_75_target" label="Hoe typisch is deze VUILNISZAKKEN?" imagePath = "52_u2_trash bags.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_76_target" label="Hoe typisch is deze FRITUURPAN?" imagePath = "58_sem_frying pan.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_77_target" label="Hoe typisch is deze REGENLAARZEN?" imagePath = "60_sem_rain boots.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_78_target" label="Hoe typisch is deze VEILIGHEIDSSPELDEN?" imagePath = "60_u1_safety pins.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_79_target" label="Hoe typisch is deze IJSBEER?" imagePath = "62_sem_polar bear.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_80_target" label="Hoe typisch is deze GIETER?" imagePath = "65_sem_watering can.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_81_target" label="Hoe typisch is deze PUNTENSLIJPER?" imagePath = "66_sem_pencil sharpener.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_82_target" label="Hoe typisch is deze PENNENZAK?" imagePath = "68_u1_pencil case.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_83_target" label="Hoe typisch is deze WINKELWAGEN?" imagePath = "73_u2_shopping cart.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_84_target" label="Hoe typisch is deze AARDAPPELSCHILLER?" imagePath = "75_u2_potato peeler.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_85_target" label="Hoe typisch is deze GLOEILAMP?" imagePath = "75_vis_light bulb.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_86_target" label="Hoe typisch is deze SNIJPLANK?" imagePath = "76_u2_cutting board.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_87_target" label="Hoe typisch is deze STRIJKPLANK?" imagePath = "79_u2_ironing board.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_88_target" label="Hoe typisch is deze CAVIA?" imagePath = "79_vis_guinea pig.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_89_target" label="Hoe typisch is deze STOPLICHT?" imagePath = "82_u1_traffic light.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_90_target" label="Hoe typisch is deze AARDAPPELSTAMPER?" imagePath = "86_vis_potato masher.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_91_target" label="Hoe typisch is deze WASMAND?" imagePath = "87_sem_laundry basket.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_92_target" label="Hoe typisch is deze AFSTANDSBEDIENING?" imagePath = "91_sem_remote control.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_93_target" label="Hoe typisch is deze KANDELAAR?" imagePath = "92_vis_candle holder.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_94_target" label="Hoe typisch is deze VLINDERDAS?" imagePath = "93_vis_bow tie.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_95_target" label="Hoe typisch is deze LANTARENPAAL?" imagePath = "95_u1_lamp post.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_96_target" label="Hoe typisch is deze VERKEERSBORD?" imagePath = "96_vis_traffic sign.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_97_target" label="Hoe typisch is deze PAARDRIJHELM?" imagePath = "100_sem_riding helmet.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_98_target" label="Hoe typisch is deze VIS HENGEL?" imagePath = "100_vis_fishing rod.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_99_catch" label="Hoe typisch is deze KOKOSNOOT?" imagePath = "90_u2_crutch.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_100_catch" label="Hoe typisch is deze KANO?" imagePath = "91_u1_trombone.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_101_catch" label="Hoe typisch is deze TAMBOERIJN?" imagePath = "91_vis_blackboard.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_102_catch" label="Hoe typisch is deze TOMAAT?" imagePath = "92_u1_sneakers.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_103_catch" label="Hoe typisch is deze KRUK?" imagePath = "93_u2_logs.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_104_catch" label="Hoe typisch is deze TROMBONE?" imagePath = "94_sem_wheel.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_105_catch" label="Hoe typisch is deze SCHOOLBORD?" imagePath = "96_u1_rifle.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_106_catch" label="Hoe typisch is deze SPORTSCHOENEN?" imagePath = "96_u2_printer.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_107_catch" label="Hoe typisch is deze HOOKAH?" imagePath = "98_sem_caterpillar.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_108_catch" label="Hoe typisch is deze CASSETTE?" imagePath = "98_u1_rice.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_109_catch" label="Hoe typisch is deze SLIPPERS?" imagePath = "98_vis_toolbox.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_110_catch" label="Hoe typisch is deze SLEE?" imagePath = "99_sem_candle.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_111_catch" label="Hoe typisch is deze LOGS?" imagePath = "99_u2_flippers.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_112_catch" label="Hoe typisch is deze WIEL?" imagePath = "99_vis_plunger.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_113_catch" label="Hoe typisch is deze GEWEER?" imagePath = "100_u1_binoculars.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_114_catch" label="Hoe typisch is deze PRINTER?" imagePath = "100_u2_raspberry.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_115_catch" label="Hoe typisch is deze PENSEEL?" imagePath = "1_sem_corn.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_116_catch" label="Hoe typisch is deze YOYO?" imagePath = "1_u1_battery.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_117_catch" label="Hoe typisch is deze DENNENAPPEL?" imagePath = "1_u2_pencil.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_118_catch" label="Hoe typisch is deze PIJP?" imagePath = "1_vis_bowling ball.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_119_catch" label="Hoe typisch is deze RUPS?" imagePath = "2_sem_pipe.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_120_catch" label="Hoe typisch is deze RIJST?" imagePath = "2_u1_pinecone.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_121_catch" label="Hoe typisch is deze GEREEDSCHAPSKIST?" imagePath = "2_vis_yoyo.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_122_catch" label="Hoe typisch is deze KAARS?" imagePath = "3_u2_paintbrush.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_123_catch" label="Hoe typisch is deze BOWLINGBAL?" imagePath = "3_vis_sleigh.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_124_catch" label="Hoe typisch is deze POTLOOD?" imagePath = "4_sem_flipflops.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_125_catch" label="Hoe typisch is deze ACCU?" imagePath = "5_vis_cassette.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_126_catch" label="Hoe typisch is deze MA??" imagePath = "6_u1_hookah.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_127_catch" label="Hoe typisch is deze FLIPPERS?" imagePath = "6_vis_tomato.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_128_catch" label="Hoe typisch is deze PLUNJER?" imagePath = "8_u1_tambourine.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_129_catch" label="Hoe typisch is deze KIJKER?" imagePath = "8_vis_canoe.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_130_catch" label="Hoe typisch is deze FRAMBOOS?" imagePath = "9_vis_coconut.png" pauseMs="0" tags="dutch_ratings"/>
+
+<!-- stimuli for English ratings -->
+<stimulus identifier="English_1_target" label="How typical is this KEY?" imagePath = "17_u2_key.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_2_target" label="How typical is this TAP?" imagePath = "3_sem_tap.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_3_target" label="How typical is this TIE?" imagePath = "5_u2_tie.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_4_target" label="How typical is this CAKE?" imagePath = "5_sem_cake.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_5_target" label="How typical is this PRESENT?" imagePath = "7_sem_present.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_6_target" label="How typical is this MONKEY?" imagePath = "8_sem_monkey.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_7_target" label="How typical is this MEAT?" imagePath = "12_u1_meat.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_8_target" label="How typical is this GUN?" imagePath = "14_vis_gun.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_9_target" label="How typical is this BELL?" imagePath = "21_u2_bell.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_10_target" label="How typical are these PANTS?" imagePath = "24_u1_pants.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_11_target" label="How typical is this BARREL?" imagePath = "25_u2_barrel.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_12_target" label="How typical is this BOWL?" imagePath = "26_sem_bowl.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_13_target" label="How typical is this EAGLE?" imagePath = "27_u1_eagle.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_14_target" label="How typical is this BASKET?" imagePath = "27_u2_basket.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_15_target" label="How typical is this FAN?" imagePath = "35_u1_fan.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_16_target" label="How typical is this BOW?" imagePath = "38_u1_bow.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_17_target" label="How typical is this CHAIR?" imagePath = "40_u1_chair.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_18_target" label="How typical is this FROG?" imagePath = "41_u1_frog.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_19_target" label="How typical is this DRUM?" imagePath = "41_u2_drum.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_20_target" label="How typical is this BAG?" imagePath = "45_u2_bag.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_21_target" label="How typical is this LIGHTER?" imagePath = "47_vis_lighter.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_22_target" label="How typical is this TRAY?" imagePath = "54_vis_tray.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_23_target" label="How typical is this GLOBE?" imagePath = "56_vis_globe.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_24_target" label="How typical is this CHAIN?" imagePath = "59_u1_chain.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_25_target" label="How typical is this BELT?" imagePath = "61_u1_belt.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_26_target" label="How typical is this DESK?" imagePath = "62_u2_desk.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_27_target" label="How typical is this LEAF?" imagePath = "63_u1_leaf.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_28_target" label="How typical is this FENCE?" imagePath = "67_vis_fence.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_29_target" label="How typical is this WATCH?" imagePath = "69_u1_watch.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_30_target" label="How typical is this SNAKE?" imagePath = "70_vis_snake.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_31_target" label="How typical is this CAP?" imagePath = "74_sem_cap.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_32_target" label="How typical is this PACKAGE?" imagePath = "74_u2_package.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_33_target" label="How typical is this IRON?" imagePath = "74_vis_iron.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_34_target" label="How typical is this JACKET?" imagePath = "80_u2_jacket.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_35_target" label="How typical is this ROPE?" imagePath = "82_vis_rope.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_36_target" label="How typical is this HORSE?" imagePath = "86_sem_horse.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_37_target" label="How typical is this FLOWER?" imagePath = "87_u1_flower.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_38_target" label="How typical is this SPOON?" imagePath = "92_sem_spoon.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_39_target" label="How typical is this TEETH?" imagePath = "93_sem_teeth.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_40_target" label="How typical is this CHERRY?" imagePath = "7_vis_cherry.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_41_target" label="How typical is this SHARK?" imagePath = "94_u1_shark.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_42_target" label="How typical is this SLIDE?" imagePath = "94_u2_slide.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_43_target" label="How typical is this LOBSTER?" imagePath = "95_sem_lobster.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_44_target" label="How typical is this SAUSAGE?" imagePath = "97_u1_sausage.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_45_target" label="How typical is this LOCK?" imagePath = "98_u2_lock.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_46_target" label="How typical is this CROSS?" imagePath = "97_vis_cross.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_47_target" label="How typical is this BASEBALL GLOVE?" imagePath = "3_u1_baseball glove.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_48_target" label="How typical is this COFFEE MACHINE?" imagePath = "4_u2_coffee machine.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_49_target" label="How typical is this HOT WATER BOTTLE?" imagePath = "4_vis_hot water bottle.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_50_target" label="How typical is this ICE SKATE?" imagePath = "5_u1_ice skate.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_51_target" label="How typical are these SOCCER SHOES?" imagePath = "6_sem_soccer shoes.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_52_target" label="How typical is this CHEESE SLICER?" imagePath = "7_u1_cheese slicer.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_53_target" label="How typical is this ROCKING HORSE?" imagePath = "11_sem_rocking horse.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_54_target" label="How typical is this MEASURING TAPE?" imagePath = "14_sem_measuring tape.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_55_target" label="How typical is this OFFICE CHAIR?" imagePath = "14_u2_office chair.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_56_target" label="How typical is this BABY BOTTLE?" imagePath = "18_sem_baby bottle.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_57_target" label="How typical is this LIFE SAVER?" imagePath = "19_vis_life saver.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_58_target" label="How typical is this ICE CREAM?" imagePath = "20_vis_ice cream.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_59_target" label="How typical are these PLAYING CARDS?" imagePath = "22_u2_playing cards.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_60_target" label="How typical is this RUBBER DUCK?" imagePath = "25_u1_rubber duck.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_61_target" label="How typical is this ROLLING PIN?" imagePath = "25_vis_rolling pin.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_62_target" label="How typical is this LIGHT SWITCH?" imagePath = "27_sem_light switch.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_63_target" label="How typical is this SHAVING BRUSH?" imagePath = "28_u1_shaving brush.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_64_target" label="How typical are these BIKE PEDALS?" imagePath = "28_vis_bike pedals.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_65_target" label="How typical is this ICE CREAM CONE?" imagePath = "31_u2_ice cream cone.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_66_target" label="How typical is this CEMENT TRUCK?" imagePath = "32_sem_cement truck.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_67_target" label="How typical is this TEDDY BEAR?" imagePath = "33_u1_teddy bear.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_68_target" label="How typical is this BOTTLE OPENER?" imagePath = "34_u2_bottle opener.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_69_target" label="How typical is this COAT RACK?" imagePath = "36_sem_coat rack.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_70_target" label="How typical is this BAND AID?" imagePath = "38_vis_band aid.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_71_target" label="How typical is this DENTIST CHAIR?" imagePath = "42_u2_dentist chair.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_72_target" label="How typical is this ROCKING CHAIR?" imagePath = "43_sem_rocking chair.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_73_target" label="How typical is this TRASH CAN?" imagePath = "48_u1_trash can.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_74_target" label="How typical is this LIFE JACKET?" imagePath = "48_u2_life jacket.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_75_target" label="How typical are these TRASH BAGS?" imagePath = "52_u2_trash bags.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_76_target" label="How typical is this FRYING PAN?" imagePath = "58_sem_frying pan.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_77_target" label="How typical is this RAIN BOOTS?" imagePath = "60_sem_rain boots.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_78_target" label="How typical are these SAFETY PINS?" imagePath = "60_u1_safety pins.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_79_target" label="How typical is this POLAR BEAR?" imagePath = "62_sem_polar bear.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_80_target" label="How typical is this WATERING CAN?" imagePath = "65_sem_watering can.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_81_target" label="How typical is this PENCIL SHARPENER?" imagePath = "66_sem_pencil sharpener.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_82_target" label="How typical is this PENCIL CASE?" imagePath = "68_u1_pencil case.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_83_target" label="How typical is this SHOPPING CART?" imagePath = "73_u2_shopping cart.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_84_target" label="How typical is this POTATO PEELER?" imagePath = "75_u2_potato peeler.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_85_target" label="How typical is this LIGHT BULB?" imagePath = "75_vis_light bulb.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_86_target" label="How typical is this CUTTING BOARD?" imagePath = "76_u2_cutting board.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_87_target" label="How typical is this IRONING BOARD?" imagePath = "79_u2_ironing board.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_88_target" label="How typical is this GUINEA PIG?" imagePath = "79_vis_guinea pig.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_89_target" label="How typical is this TRAFFIC LIGHT?" imagePath = "82_u1_traffic light.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_90_target" label="How typical is this POTATO MASHER?" imagePath = "86_vis_potato masher.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_91_target" label="How typical is this LAUNDRY BASKET?" imagePath = "87_sem_laundry basket.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_92_target" label="How typical is this REMOTE CONTROL?" imagePath = "91_sem_remote control.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_93_target" label="How typical is this CANDLE HOLDER?" imagePath = "92_vis_candle holder.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_94_target" label="How typical is this BOW TIE?" imagePath = "93_vis_bow tie.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_95_target" label="How typical is this LAMP POST?" imagePath = "95_u1_lamp post.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_96_target" label="How typical is this TRAFFIC SIGN?" imagePath = "96_vis_traffic sign.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_97_target" label="How typical is this RIDING HELMET?" imagePath = "100_sem_riding helmet.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_98_target" label="How typical is this FISHING ROD?" imagePath = "100_vis_fishing rod.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_99_catch" label="How typical is this COCONUT?" imagePath = "90_u2_crutch.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_100_catch" label="How typical is this CANOE?" imagePath = "91_u1_trombone.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_101_catch" label="How typical is this TAMBOURINE?" imagePath = "91_vis_blackboard.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_102_catch" label="How typical is this TOMATO?" imagePath = "92_u1_sneakers.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_103_catch" label="How typical is this CRUTCH?" imagePath = "93_u2_logs.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_104_catch" label="How typical is this TROMBONE?" imagePath = "94_sem_wheel.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_105_catch" label="How typical is this BLACKBOARD?" imagePath = "96_u1_rifle.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_106_catch" label="How typical are these SNEAKERS?" imagePath = "96_u2_printer.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_107_catch" label="How typical is this HOOKAH?" imagePath = "98_sem_caterpillar.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_108_catch" label="How typical is this CASSETTE?" imagePath = "98_u1_rice.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_109_catch" label="How typical are these FLIPFLOPS?" imagePath = "98_vis_toolbox.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_110_catch" label="How typical is this SLEIGH?" imagePath = "99_sem_candle.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_111_catch" label="How typical is this LOGS?" imagePath = "99_u2_flippers.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_112_catch" label="How typical is this WHEEL?" imagePath = "99_vis_plunger.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_113_catch" label="How typical is this RIFLE?" imagePath = "100_u1_binoculars.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_114_catch" label="How typical is this PRINTER?" imagePath = "100_u2_raspberry.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_115_catch" label="How typical is this PAINTBRUSH?" imagePath = "1_sem_corn.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_116_catch" label="How typical is this YOYO?" imagePath = "1_u1_battery.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_117_catch" label="How typical is this PINECONE?" imagePath = "1_u2_pencil.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_118_catch" label="How typical is this PIPE?" imagePath = "1_vis_bowling ball.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_119_catch" label="How typical is this CATERPILLAR?" imagePath = "2_sem_pipe.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_120_catch" label="How typical is this RICE?" imagePath = "2_u1_pinecone.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_121_catch" label="How typical is this TOOLBOX?" imagePath = "2_vis_yoyo.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_122_catch" label="How typical is this CANDLE?" imagePath = "3_u2_paintbrush.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_123_catch" label="How typical is this BOWLING BALL?" imagePath = "3_vis_sleigh.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_124_catch" label="How typical is this PENCIL?" imagePath = "4_sem_flipflops.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_125_catch" label="How typical is this BATTERY?" imagePath = "5_vis_cassette.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_126_catch" label="How typical is this CORN?" imagePath = "6_u1_hookah.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_127_catch" label="How typical are these FLIPPERS?" imagePath = "6_vis_tomato.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_128_catch" label="How typical is this PLUNGER?" imagePath = "8_u1_tambourine.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_129_catch" label="How typical are these BINOCULARS?" imagePath = "8_vis_canoe.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_130_catch" label="How typical is this RASPBERRY?" imagePath = "9_vis_coconut.png" pauseMs="0" tags="english_ratings"/>
+
+<!-- stimuli for translation task -->
+<stimulus identifier="Translate_1_target" label="What is 'KEY' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_2_target" label="What is 'TAP' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_3_target" label="What is 'TIE' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_4_target" label="What is 'CAKE' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_5_target" label="What is 'PRESENT' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_6_target" label="What is 'MONKEY' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_7_target" label="What is 'MEAT' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_8_target" label="What is 'GUN' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_9_target" label="What is 'BELL' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_10_target" label="What is 'PANTS' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_11_target" label="What is 'BARREL' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_12_target" label="What is 'BOWL' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_13_target" label="What is 'EAGLE' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_14_target" label="What is 'BASKET' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_15_target" label="What is 'FAN' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_16_target" label="What is 'BOW' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_17_target" label="What is 'CHAIR' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_18_target" label="What is 'FROG' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_19_target" label="What is 'DRUM' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_20_target" label="What is 'BAG' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_21_target" label="What is 'LIGHTER' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_22_target" label="What is 'TRAY' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_23_target" label="What is 'GLOBE' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_24_target" label="What is 'CHAIN' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_25_target" label="What is 'BELT' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_26_target" label="What is 'DESK' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_27_target" label="What is 'LEAF' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_28_target" label="What is 'FENCE' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_29_target" label="What is 'WATCH' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_30_target" label="What is 'SNAKE' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_31_target" label="What is 'CAP' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_32_target" label="What is 'PACKAGE' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_33_target" label="What is 'IRON' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_34_target" label="What is 'JACKET' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_35_target" label="What is 'ROPE' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_36_target" label="What is 'HORSE' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_37_target" label="What is 'FLOWER' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_38_target" label="What is 'SPOON' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_39_target" label="What is 'TEETH' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_40_target" label="What is 'CHERRY' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_41_target" label="What is 'SHARK' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_42_target" label="What is 'SLIDE' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_43_target" label="What is 'LOBSTER' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_44_target" label="What is 'SAUSAGE' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_45_target" label="What is 'LOCK' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_46_target" label="What is 'CROSS' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_47_target" label="What is 'BASEBALL GLOVE' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_48_target" label="What is 'COFFEE MACHINE' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_49_target" label="What is 'HOT WATER BOTTLE' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_50_target" label="What is 'ICE SKATE' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_51_target" label="What is 'SOCCER SHOES' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_52_target" label="What is 'CHEESE SLICER' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_53_target" label="What is 'ROCKING HORSE' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_54_target" label="What is 'MEASURING TAPE' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_55_target" label="What is 'OFFICE CHAIR' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_56_target" label="What is 'BABY BOTTLE' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_57_target" label="What is 'LIFE SAVER' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_58_target" label="What is 'ICE CREAM' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_59_target" label="What is 'PLAYING CARDS' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_60_target" label="What is 'RUBBER DUCK' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_61_target" label="What is 'ROLLING PIN' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_62_target" label="What is 'LIGHT SWITCH' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_63_target" label="What is 'SHAVING BRUSH' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_64_target" label="What is 'BIKE PEDALS' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_65_target" label="What is 'ICE CREAM CONE' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_66_target" label="What is 'CEMENT TRUCK' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_67_target" label="What is 'TEDDY BEAR' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_68_target" label="What is 'BOTTLE OPENER' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_69_target" label="What is 'COAT RACK' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_70_target" label="What is 'BAND AID' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_71_target" label="What is 'DENTIST CHAIR' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_72_target" label="What is 'ROCKING CHAIR' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_73_target" label="What is 'TRASH CAN' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_74_target" label="What is 'LIFE JACKET' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_75_target" label="What is 'TRASH BAGS' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_76_target" label="What is 'FRYING PAN' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_77_target" label="What is 'RAIN BOOTS' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_78_target" label="What is 'SAFETY PINS' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_79_target" label="What is 'POLAR BEAR' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_80_target" label="What is 'WATERING CAN' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_81_target" label="What is 'PENCIL SHARPENER' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_82_target" label="What is 'PENCIL CASE' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_83_target" label="What is 'SHOPPING CART' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_84_target" label="What is 'POTATO PEELER' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_85_target" label="What is 'LIGHT BULB' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_86_target" label="What is 'CUTTING BOARD' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_87_target" label="What is 'IRONING BOARD' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_88_target" label="What is 'GUINEA PIG' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_89_target" label="What is 'TRAFFIC LIGHT' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_90_target" label="What is 'POTATO MASHER' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_91_target" label="What is 'LAUNDRY BASKET' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_92_target" label="What is 'REMOTE CONTROL' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_93_target" label="What is 'CANDLE HOLDER' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_94_target" label="What is 'BOW TIE' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_95_target" label="What is 'LAMP POST' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_96_target" label="What is 'TRAFFIC SIGN' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_97_target" label="What is 'RIDING HELMET' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_98_target" label="What is 'FISHING ROD' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_99_catch" label="What is 'COCONUT' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_100_catch" label="What is 'CANOE' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_101_catch" label="What is 'TAMBOURINE' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_102_catch" label="What is 'TOMATO' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_103_catch" label="What is 'CRUTCH' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_104_catch" label="What is 'TROMBONE' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_105_catch" label="What is 'BLACKBOARD' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_106_catch" label="What is 'SNEAKERS' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_107_catch" label="What is 'HOOKAH' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_108_catch" label="What is 'CASSETTE' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_109_catch" label="What is 'FLIPFLOPS' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_110_catch" label="What is 'SLEIGH' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_111_catch" label="What is 'LOGS' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_112_catch" label="What is 'WHEEL' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_113_catch" label="What is 'RIFLE' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_114_catch" label="What is 'PRINTER' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_115_catch" label="What is 'PAINTBRUSH' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_116_catch" label="What is 'YOYO' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_117_catch" label="What is 'PINECONE' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_118_catch" label="What is 'PIPE' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_119_catch" label="What is 'CATERPILLAR' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_120_catch" label="What is 'RICE' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_121_catch" label="What is 'TOOLBOX' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_122_catch" label="What is 'CANDLE' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_123_catch" label="What is 'BOWLING BALL' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_124_catch" label="What is 'PENCIL' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_125_catch" label="What is 'BATTERY' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_126_catch" label="What is 'CORN' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_127_catch" label="What is 'FLIPPERS' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_128_catch" label="What is 'PLUNGER' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_129_catch" label="What is 'BINOCULARS' in Dutch?" pauseMs="0" tags="translation_task"/>
+<stimulus identifier="Translate_130_catch" label="What is 'RASPBERRY' in Dutch?" pauseMs="0" tags="translation_task"/>
+
