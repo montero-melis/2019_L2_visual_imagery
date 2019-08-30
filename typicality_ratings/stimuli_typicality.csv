@@ -129,133 +129,133 @@ item_id,trial_type,pic_file,trial_lang,sing_plur,du_gend,carrier,object_name
 128,catch,8_u1_tambourine.png,English,sing,,is this,plunger
 129,catch,8_vis_canoe.png,English,plur,,are these,binoculars
 130,catch,9_vis_coconut.png,English,sing,,is this,raspberry
-1,target,17_u2_key.png,Dutch,sing,,is deze,Sleutel
-2,target,3_sem_tap.png,Dutch,sing,,is deze,Tik
-3,target,5_u2_tie.png,Dutch,sing,,is deze,Stropdas
-4,target,5_sem_cake.png,Dutch,sing,,is deze,Taart
-5,target,7_sem_present.png,Dutch,sing,,is deze,Aanwezig
-6,target,8_sem_monkey.png,Dutch,sing,,is deze,Aap
-7,target,12_u1_meat.png,Dutch,sing,,is deze,Vlees
-8,target,14_vis_gun.png,Dutch,sing,,is deze,Geweer
-9,target,21_u2_bell.png,Dutch,sing,,is deze,Klok
-10,target,24_u1_pants.png,Dutch,sing,,is deze,Broek
-11,target,25_u2_barrel.png,Dutch,sing,,is deze,Vaat
-12,target,26_sem_bowl.png,Dutch,sing,,is deze,Kom
-13,target,27_u1_eagle.png,Dutch,sing,,is deze,Adelaar
-14,target,27_u2_basket.png,Dutch,sing,,is deze,Mand
-15,target,35_u1_fan.png,Dutch,sing,,is deze,Ventilator
-16,target,38_u1_bow.png,Dutch,sing,,is deze,Boog
-17,target,40_u1_chair.png,Dutch,sing,,is deze,Stoel
-18,target,41_u1_frog.png,Dutch,sing,,is deze,Kikker
-19,target,41_u2_drum.png,Dutch,sing,,is deze,Trommel
-20,target,45_u2_bag.png,Dutch,sing,,is deze,Zak
-21,target,47_vis_lighter.png,Dutch,sing,,is deze,Aansteker
-22,target,54_vis_tray.png,Dutch,sing,,is deze,Dienblad
+1,target,17_u2_key.png,Dutch,sing,de,is deze,Sleutel
+2,target,3_sem_tap.png,Dutch,sing,de,is deze,Kraan
+3,target,5_u2_tie.png,Dutch,sing,de,is deze,Stropdas
+4,target,5_sem_cake.png,Dutch,sing,de,is deze,Taart
+5,target,7_sem_present.png,Dutch,sing,het,is dit,Cadeau
+6,target,8_sem_monkey.png,Dutch,sing,de,is deze,Aap
+7,target,12_u1_meat.png,Dutch,sing,het,is dit,Vlees
+8,target,14_vis_gun.png,Dutch,sing,het,is dit,Pistool
+9,target,21_u2_bell.png,Dutch,sing,de,is deze,Klok
+10,target,24_u1_pants.png,Dutch,sing,de,is deze,Broek
+11,target,25_u2_barrel.png,Dutch,sing,de,is deze,Ton
+12,target,26_sem_bowl.png,Dutch,sing,de,is deze,Kom
+13,target,27_u1_eagle.png,Dutch,sing,de,is deze,Adelaar
+14,target,27_u2_basket.png,Dutch,sing,de,is deze,Mand
+15,target,35_u1_fan.png,Dutch,sing,de,is deze,Ventilator
+16,target,38_u1_bow.png,Dutch,sing,de,is deze,Boog
+17,target,40_u1_chair.png,Dutch,sing,de,is deze,Stoel
+18,target,41_u1_frog.png,Dutch,sing,de,is deze,Kikker
+19,target,41_u2_drum.png,Dutch,sing,de,is deze,Trommel
+20,target,45_u2_bag.png,Dutch,sing,de,is deze,Tas
+21,target,47_vis_lighter.png,Dutch,sing,de,is deze,Aansteker
+22,target,54_vis_tray.png,Dutch,sing,het,is dit,Dienblad
 23,target,56_vis_globe.png,Dutch,sing,de,is deze,Wereldbol
-24,target,59_u1_chain.png,Dutch,sing,,is deze,Keten
-25,target,61_u1_belt.png,Dutch,sing,,is deze,Riem
-26,target,62_u2_desk.png,Dutch,sing,,is deze,Bureau
-27,target,63_u1_leaf.png,Dutch,sing,,is deze,Blad
-28,target,67_vis_fence.png,Dutch,sing,,is deze,Hek
-29,target,69_u1_watch.png,Dutch,sing,,is deze,Horloge
-30,target,70_vis_snake.png,Dutch,sing,,is deze,Slang
-31,target,74_sem_cap.png,Dutch,sing,,is deze,Pet
-32,target,74_u2_package.png,Dutch,sing,,is deze,Pakket
-33,target,74_vis_iron.png,Dutch,sing,,is deze,Ijzer
-34,target,80_u2_jacket.png,Dutch,sing,,is deze,Jas
-35,target,82_vis_rope.png,Dutch,sing,,is deze,Touw
-36,target,86_sem_horse.png,Dutch,sing,,is deze,Paard
-37,target,87_u1_flower.png,Dutch,sing,,is deze,Bloem
-38,target,92_sem_spoon.png,Dutch,sing,,is deze,Lepel
-39,target,93_sem_teeth.png,Dutch,sing,,is deze,Tanden
-40,target,7_vis_cherry.png,Dutch,sing,,is deze,Kers
-41,target,94_u1_shark.png,Dutch,sing,,is deze,Haai
-42,target,94_u2_slide.png,Dutch,sing,,is deze,Glaasje
-43,target,95_sem_lobster.png,Dutch,sing,,is deze,Kreeft
-44,target,97_u1_sausage.png,Dutch,sing,,is deze,Worst
-45,target,98_u2_lock.png,Dutch,sing,,is deze,Slot
-46,target,97_vis_cross.png,Dutch,sing,,is deze,Kruis
-47,target,3_u1_baseball glove.png,Dutch,plur,,zijn deze,honkbalhandschoen
-48,target,4_u2_coffee machine.png,Dutch,sing,,is deze,koffiezetapparaat
-49,target,4_vis_hot water bottle.png,Dutch,sing,,is deze,heet water fles
-50,target,5_u1_ice skate.png,Dutch,sing,,is deze,schaatsen
-51,target,6_sem_soccer shoes.png,Dutch,sing,,is deze,voetbalschoenen
-52,target,7_u1_cheese slicer.png,Dutch,sing,,is deze,kaasschaaf
-53,target,11_sem_rocking horse.png,Dutch,sing,,is deze,hobbelpaard
-54,target,14_sem_measuring tape.png,Dutch,sing,,is deze,meetlint
-55,target,14_u2_office chair.png,Dutch,sing,,is deze,bureaustoel
-56,target,18_sem_baby bottle.png,Dutch,sing,,is deze,Baby flesje
-57,target,19_vis_life saver.png,Dutch,sing,,is deze,levensredder
-58,target,20_vis_ice cream.png,Dutch,sing,,is deze,ijsje
-59,target,22_u2_playing cards.png,Dutch,sing,,is deze,speelkaarten
-60,target,25_u1_rubber duck.png,Dutch,sing,,is deze,badeend
-61,target,25_vis_rolling pin.png,Dutch,sing,,is deze,deegroller
-62,target,27_sem_light switch.png,Dutch,sing,,is deze,lichtschakelaar
-63,target,28_u1_shaving brush.png,Dutch,sing,,is deze,scheerkwast
-64,target,28_vis_bike pedals.png,Dutch,sing,,is deze,fiets pedalen
-65,target,31_u2_ice cream cone.png,Dutch,sing,,is deze,ijshoorn
-66,target,32_sem_cement truck.png,Dutch,sing,,is deze,cement vrachtwagen
-67,target,33_u1_teddy bear.png,Dutch,sing,,is deze,knuffelbeer
-68,target,34_u2_bottle opener.png,Dutch,sing,,is deze,flesopener
-69,target,36_sem_coat rack.png,Dutch,sing,,is deze,kapstok
-70,target,38_vis_band aid.png,Dutch,sing,,is deze,pleister
-71,target,42_u2_dentist chair.png,Dutch,sing,,is deze,tandarts stoel
-72,target,43_sem_rocking chair.png,Dutch,sing,,is deze,schommelstoel
-73,target,48_u1_trash can.png,Dutch,sing,,is deze,prullenbak
-74,target,48_u2_life jacket.png,Dutch,sing,,is deze,reddingsvest
-75,target,52_u2_trash bags.png,Dutch,sing,,is deze,vuilniszakken
-76,target,58_sem_frying pan.png,Dutch,sing,,is deze,frituurpan
-77,target,60_sem_rain boots.png,Dutch,sing,,is deze,regenlaarzen
-78,target,60_u1_safety pins.png,Dutch,sing,,is deze,veiligheidsspelden
-79,target,62_sem_polar bear.png,Dutch,sing,,is deze,ijsbeer
-80,target,65_sem_watering can.png,Dutch,sing,,is deze,gieter
-81,target,66_sem_pencil sharpener.png,Dutch,sing,,is deze,puntenslijper
-82,target,68_u1_pencil case.png,Dutch,sing,,is deze,pennenzak
-83,target,73_u2_shopping cart.png,Dutch,sing,,is deze,winkelwagen
-84,target,75_u2_potato peeler.png,Dutch,sing,,is deze,aardappelschiller
-85,target,75_vis_light bulb.png,Dutch,sing,,is deze,gloeilamp
-86,target,76_u2_cutting board.png,Dutch,sing,,is deze,snijplank
-87,target,79_u2_ironing board.png,Dutch,sing,,is deze,strijkplank
-88,target,79_vis_guinea pig.png,Dutch,sing,,is deze,cavia
-89,target,82_u1_traffic light.png,Dutch,sing,,is deze,stoplicht
-90,target,86_vis_potato masher.png,Dutch,sing,,is deze,aardappelstamper
-91,target,87_sem_laundry basket.png,Dutch,sing,,is deze,wasmand
-92,target,91_sem_remote control.png,Dutch,sing,,is deze,afstandsbediening
-93,target,92_vis_candle holder.png,Dutch,sing,,is deze,kandelaar
-94,target,93_vis_bow tie.png,Dutch,sing,,is deze,vlinderdas
-95,target,95_u1_lamp post.png,Dutch,sing,,is deze,lantarenpaal
-96,target,96_vis_traffic sign.png,Dutch,sing,,is deze,verkeersbord
-97,target,100_sem_riding helmet.png,Dutch,sing,,is deze,paardrijhelm
-98,target,100_vis_fishing rod.png,Dutch,sing,,is deze,Vis hengel
-99,catch,90_u2_crutch.png,Dutch,sing,,is deze,kokosnoot
-100,catch,91_u1_trombone.png,Dutch,sing,,is deze,kano
-101,catch,91_vis_blackboard.png,Dutch,sing,,is deze,tamboerijn
-102,catch,92_u1_sneakers.png,Dutch,sing,,is deze,tomaat
-103,catch,93_u2_logs.png,Dutch,sing,,is deze,kruk
-104,catch,94_sem_wheel.png,Dutch,sing,,is deze,trombone
-105,catch,96_u1_rifle.png,Dutch,sing,,is deze,schoolbord
-106,catch,96_u2_printer.png,Dutch,sing,,is deze,sportschoenen
-107,catch,98_sem_caterpillar.png,Dutch,sing,,is deze,hookah
-108,catch,98_u1_rice.png,Dutch,sing,,is deze,cassette
-109,catch,98_vis_toolbox.png,Dutch,sing,,is deze,slippers
-110,catch,99_sem_candle.png,Dutch,sing,,is deze,slee
-111,catch,99_u2_flippers.png,Dutch,sing,,is deze,logs
-112,catch,99_vis_plunger.png,Dutch,sing,,is deze,wiel
-113,catch,100_u1_binoculars.png,Dutch,sing,,is deze,geweer
-114,catch,100_u2_raspberry.png,Dutch,sing,,is deze,printer
-115,catch,1_sem_corn.png,Dutch,sing,,is deze,penseel
-116,catch,1_u1_battery.png,Dutch,sing,,is deze,yoyo
-117,catch,1_u2_pencil.png,Dutch,sing,,is deze,dennenappel
-118,catch,1_vis_bowling ball.png,Dutch,sing,,is deze,pijp
-119,catch,2_sem_pipe.png,Dutch,sing,,is deze,rups
-120,catch,2_u1_pinecone.png,Dutch,sing,,is deze,rijst
-121,catch,2_vis_yoyo.png,Dutch,sing,,is deze,gereedschapskist
-122,catch,3_u2_paintbrush.png,Dutch,sing,,is deze,kaars
-123,catch,3_vis_sleigh.png,Dutch,sing,,is deze,bowlingbal
-124,catch,4_sem_flipflops.png,Dutch,sing,,is deze,potlood
-125,catch,5_vis_cassette.png,Dutch,sing,,is deze,accu
-126,catch,6_u1_hookah.png,Dutch,sing,,is deze,maïs
-127,catch,6_vis_tomato.png,Dutch,sing,,is deze,flippers
-128,catch,8_u1_tambourine.png,Dutch,sing,,is deze,plunjer
-129,catch,8_vis_canoe.png,Dutch,sing,,is deze,kijker
-130,catch,9_vis_coconut.png,Dutch,sing,,is deze,framboos
+24,target,59_u1_chain.png,Dutch,sing,de,is deze,Ketting
+25,target,61_u1_belt.png,Dutch,sing,de,is deze,Riem
+26,target,62_u2_desk.png,Dutch,sing,het,is dit,Bureau
+27,target,63_u1_leaf.png,Dutch,sing,het,is dit,Blad
+28,target,67_vis_fence.png,Dutch,sing,het,is dit,Hek
+29,target,69_u1_watch.png,Dutch,sing,het,is dit,Horloge
+30,target,70_vis_snake.png,Dutch,sing,de,is deze,Slang
+31,target,74_sem_cap.png,Dutch,sing,de,is deze,Pet
+32,target,74_u2_package.png,Dutch,sing,het,is dit,Pakket,"99% of the time Dutch people will say ""pakketje"" (= small package). Even if it is a large package!"
+33,target,74_vis_iron.png,Dutch,sing,het,is dit,Strijkijzer
+34,target,80_u2_jacket.png,Dutch,sing,de,is deze,Jas
+35,target,82_vis_rope.png,Dutch,sing,het,is dit,Touw
+36,target,86_sem_horse.png,Dutch,sing,het,is dit,Paard
+37,target,87_u1_flower.png,Dutch,sing,de,is deze,Bloem
+38,target,92_sem_spoon.png,Dutch,sing,de,is deze,Lepel
+39,target,93_sem_teeth.png,Dutch,plur,de,zijn deze,Tanden
+40,target,7_vis_cherry.png,Dutch,sing,de,is deze,Kers
+41,target,94_u1_shark.png,Dutch,sing,de,is deze,Haai
+42,target,94_u2_slide.png,Dutch,sing,de,is deze,Glijbaan
+43,target,95_sem_lobster.png,Dutch,sing,de,is deze,Kreeft
+44,target,97_u1_sausage.png,Dutch,sing,de,is deze,Worst
+45,target,98_u2_lock.png,Dutch,sing,het,is dit,Slot
+46,target,97_vis_cross.png,Dutch,sing,het,is dit,Kruis
+47,target,3_u1_baseball glove.png,Dutch,plur,de,zijn deze,honkbalhandschoen
+48,target,4_u2_coffee machine.png,Dutch,sing,het,is dit,koffiezetapparaat
+49,target,4_vis_hot water bottle.png,Dutch,sing,de,is deze,Kruik
+50,target,5_u1_ice skate.png,Dutch,plur,de,zijn deze,schaatsen
+51,target,6_sem_soccer shoes.png,Dutch,plur,de,zijn deze,voetbalschoenen
+52,target,7_u1_cheese slicer.png,Dutch,sing,de,is deze,kaasschaaf
+53,target,11_sem_rocking horse.png,Dutch,sing,het,is dit,hobbelpaard
+54,target,14_sem_measuring tape.png,Dutch,sing,het,is dit,meetlint
+55,target,14_u2_office chair.png,Dutch,sing,de,is deze,bureaustoel
+56,target,18_sem_baby bottle.png,Dutch,sing,het,is dit,Baby flesje
+57,target,19_vis_life saver.png,Dutch,sing,de,is deze,Reddinsboei
+58,target,20_vis_ice cream.png,Dutch,sing,het,is dit,ijsje
+59,target,22_u2_playing cards.png,Dutch,sing,de,is deze,speelkaarten
+60,target,25_u1_rubber duck.png,Dutch,sing,de,is deze,badeend
+61,target,25_vis_rolling pin.png,Dutch,sing,de,is deze,deegroller
+62,target,27_sem_light switch.png,Dutch,sing,de,is deze,lichtschakelaar
+63,target,28_u1_shaving brush.png,Dutch,sing,de,is deze,scheerkwast
+64,target,28_vis_bike pedals.png,Dutch,plur,de,zijn deze,trappers
+65,target,31_u2_ice cream cone.png,Dutch,sing,het,is dit,ijshoorntje
+66,target,32_sem_cement truck.png,Dutch,sing,de,is deze,cementwagen
+67,target,33_u1_teddy bear.png,Dutch,sing,de,is deze,knuffelbeer
+68,target,34_u2_bottle opener.png,Dutch,sing,de,is deze,flesopener
+69,target,36_sem_coat rack.png,Dutch,sing,de,is deze,kapstok
+70,target,38_vis_band aid.png,Dutch,sing,de,is deze,pleister
+71,target,42_u2_dentist chair.png,Dutch,sing,de,is deze,tandartsstoel
+72,target,43_sem_rocking chair.png,Dutch,sing,de,is deze,schommelstoel
+73,target,48_u1_trash can.png,Dutch,sing,de,is deze,prullenbak
+74,target,48_u2_life jacket.png,Dutch,sing,het,is dit,reddingsvest
+75,target,52_u2_trash bags.png,Dutch,plur,de,zijn deze,vuilniszakken
+76,target,58_sem_frying pan.png,Dutch,sing,de,is deze,frituurpan
+77,target,60_sem_rain boots.png,Dutch,plur,de,zijn deze,regenlaarzen
+78,target,60_u1_safety pins.png,Dutch,plur,de,zijn deze,veiligheidsspelden
+79,target,62_sem_polar bear.png,Dutch,sing,de,is deze,ijsbeer
+80,target,65_sem_watering can.png,Dutch,sing,de,is deze,gieter
+81,target,66_sem_pencil sharpener.png,Dutch,sing,de,is deze,puntenslijper
+82,target,68_u1_pencil case.png,Dutch,sing,de,is deze,etui
+83,target,73_u2_shopping cart.png,Dutch,sing,de,is deze,winkelwagen
+84,target,75_u2_potato peeler.png,Dutch,sing,de,is deze,aardappelschiller
+85,target,75_vis_light bulb.png,Dutch,sing,de,is deze,gloeilamp
+86,target,76_u2_cutting board.png,Dutch,sing,de,is deze,snijplank
+87,target,79_u2_ironing board.png,Dutch,sing,de,is deze,strijkplank
+88,target,79_vis_guinea pig.png,Dutch,sing,de,is deze,cavia
+89,target,82_u1_traffic light.png,Dutch,sing,het,is dit,stoplicht
+90,target,86_vis_potato masher.png,Dutch,sing,de,is deze,stampot stamper
+91,target,87_sem_laundry basket.png,Dutch,sing,de,is deze,wasmand
+92,target,91_sem_remote control.png,Dutch,sing,de,is deze,afstandsbediening
+93,target,92_vis_candle holder.png,Dutch,sing,de,is deze,kandelaar
+94,target,93_vis_bow tie.png,Dutch,sing,de,is deze,vlinderdas
+95,target,95_u1_lamp post.png,Dutch,sing,de,is deze,lantaarnpaal
+96,target,96_vis_traffic sign.png,Dutch,sing,het,is dit,verkeersbord
+97,target,100_sem_riding helmet.png,Dutch,sing,de,is deze,paardrijhelm
+98,target,100_vis_fishing rod.png,Dutch,sing,de,is deze,Vishengel
+99,catch,90_u2_crutch.png,Dutch,sing,de,is deze,kokosnoot
+100,catch,91_u1_trombone.png,Dutch,sing,de,is deze,kano
+101,catch,91_vis_blackboard.png,Dutch,sing,de,is deze,tamboerijn
+102,catch,92_u1_sneakers.png,Dutch,sing,de,is deze,tomaat
+103,catch,93_u2_logs.png,Dutch,sing,de,is deze,kruk
+104,catch,94_sem_wheel.png,Dutch,sing,de,is deze,trombone
+105,catch,96_u1_rifle.png,Dutch,sing,het,is dit,schoolbord
+106,catch,96_u2_printer.png,Dutch,plur,de,zijn deze,sportschoenen
+107,catch,98_sem_caterpillar.png,Dutch,sing,de,is deze,waterpijp
+108,catch,98_u1_rice.png,Dutch,sing,het,is dit,cassettebandje
+109,catch,98_vis_toolbox.png,Dutch,plur,de,zijn deze,slippers
+110,catch,99_sem_candle.png,Dutch,sing,de,is deze,slee
+111,catch,99_u2_flippers.png,Dutch,plur,de,zijn deze,boomstammen
+112,catch,99_vis_plunger.png,Dutch,sing,het,is dit,wiel
+113,catch,100_u1_binoculars.png,Dutch,sing,het,is dit,geweer
+114,catch,100_u2_raspberry.png,Dutch,sing,de,is deze,printer
+115,catch,1_sem_corn.png,Dutch,sing,de,is deze,kwast
+116,catch,1_u1_battery.png,Dutch,sing,de,is deze,jojo
+117,catch,1_u2_pencil.png,Dutch,sing,de,is deze,dennenappel
+118,catch,1_vis_bowling ball.png,Dutch,sing,de,is deze,pijp
+119,catch,2_sem_pipe.png,Dutch,sing,de,is deze,rups
+120,catch,2_u1_pinecone.png,Dutch,sing,de,is deze,rijst
+121,catch,2_vis_yoyo.png,Dutch,sing,de,is deze,gereedschapskist
+122,catch,3_u2_paintbrush.png,Dutch,sing,de,is deze,kaars
+123,catch,3_vis_sleigh.png,Dutch,sing,de,is deze,bowlingbal
+124,catch,4_sem_flipflops.png,Dutch,sing,het,is dit,potlood
+125,catch,5_vis_cassette.png,Dutch,sing,de,is deze,batterij
+126,catch,6_u1_hookah.png,Dutch,sing,de,is deze,maïs
+127,catch,6_vis_tomato.png,Dutch,sing,de,is deze,flippers
+128,catch,8_u1_tambourine.png,Dutch,sing,de,is deze,gootsteenontstopper
+129,catch,8_vis_canoe.png,Dutch,sing,de,is deze,verrekijker
+130,catch,9_vis_coconut.png,Dutch,sing,de,is deze,framboos
