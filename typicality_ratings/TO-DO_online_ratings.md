@@ -37,12 +37,13 @@ RA (Iris)
 Experiment build
 ================
 
+- Catch trials don't need to be translated
 - Indicate self-rated L2 English proficiency
+- Rating instructions: Add "If you don't know the word, click on the corresponding button."
 - In Dutch: Text for "Word doesn't match the picture" 
 - Adjust Dutch instructions to match English
 - In items/stimuli: Adjust verb for plural forms
 - Change label shown on top of screen (e.g., "dutch_ratings", etc.)
-- Rating instructions: Add "If you don't know the word, click on the corresponding button."
 
 
 Qs Maarten
