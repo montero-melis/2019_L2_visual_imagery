@@ -63,13 +63,13 @@ cat("\n", file = "typicality_ratings/stimuli_xml.xml", append = TRUE)
 
 
 
-## Translation task
+## Translation task (NB: We only include target trials, not catch trials)
 transl_xml <- paste(
   '<stimulus identifier="Translate_',
-  with(items[items$trial_lang == "English", ],
+  with(items[items$trial_lang == "English" & items$trial_type == "target", ],
        paste(item_id, trial_type, sep = "_")),
   '" label="What is \'',
-  items[items$trial_lang == "English", ]$object_name,
+  items[items$trial_lang == "English" & items$trial_type == "target", ]$object_name,
   '\' in Dutch?" pauseMs="0" tags="translation_task"/>',
   sep = "")
 head(transl_xml)

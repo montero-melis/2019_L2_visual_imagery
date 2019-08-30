@@ -124,7 +124,7 @@
 <stimulus identifier="Dutch_123_catch" label="Hoe typisch is deze BOWLINGBAL?" imagePath = "3_vis_sleigh.png" pauseMs="0" tags="dutch_ratings"/>
 <stimulus identifier="Dutch_124_catch" label="Hoe typisch is deze POTLOOD?" imagePath = "4_sem_flipflops.png" pauseMs="0" tags="dutch_ratings"/>
 <stimulus identifier="Dutch_125_catch" label="Hoe typisch is deze ACCU?" imagePath = "5_vis_cassette.png" pauseMs="0" tags="dutch_ratings"/>
-<stimulus identifier="Dutch_126_catch" label="Hoe typisch is deze MA??" imagePath = "6_u1_hookah.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_126_catch" label="Hoe typisch is deze MAÏS?" imagePath = "6_u1_hookah.png" pauseMs="0" tags="dutch_ratings"/>
 <stimulus identifier="Dutch_127_catch" label="Hoe typisch is deze FLIPPERS?" imagePath = "6_vis_tomato.png" pauseMs="0" tags="dutch_ratings"/>
 <stimulus identifier="Dutch_128_catch" label="Hoe typisch is deze PLUNJER?" imagePath = "8_u1_tambourine.png" pauseMs="0" tags="dutch_ratings"/>
 <stimulus identifier="Dutch_129_catch" label="Hoe typisch is deze KIJKER?" imagePath = "8_vis_canoe.png" pauseMs="0" tags="dutch_ratings"/>
@@ -207,7 +207,7 @@
 <stimulus identifier="English_74_target" label="How typical is this LIFE JACKET?" imagePath = "48_u2_life jacket.png" pauseMs="0" tags="english_ratings"/>
 <stimulus identifier="English_75_target" label="How typical are these TRASH BAGS?" imagePath = "52_u2_trash bags.png" pauseMs="0" tags="english_ratings"/>
 <stimulus identifier="English_76_target" label="How typical is this FRYING PAN?" imagePath = "58_sem_frying pan.png" pauseMs="0" tags="english_ratings"/>
-<stimulus identifier="English_77_target" label="How typical is this RAIN BOOTS?" imagePath = "60_sem_rain boots.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_77_target" label="How typical are these RAIN BOOTS?" imagePath = "60_sem_rain boots.png" pauseMs="0" tags="english_ratings"/>
 <stimulus identifier="English_78_target" label="How typical are these SAFETY PINS?" imagePath = "60_u1_safety pins.png" pauseMs="0" tags="english_ratings"/>
 <stimulus identifier="English_79_target" label="How typical is this POLAR BEAR?" imagePath = "62_sem_polar bear.png" pauseMs="0" tags="english_ratings"/>
 <stimulus identifier="English_80_target" label="How typical is this WATERING CAN?" imagePath = "65_sem_watering can.png" pauseMs="0" tags="english_ratings"/>
@@ -361,36 +361,4 @@
 <stimulus identifier="Translate_96_target" label="What is 'TRAFFIC SIGN' in Dutch?" pauseMs="0" tags="translation_task"/>
 <stimulus identifier="Translate_97_target" label="What is 'RIDING HELMET' in Dutch?" pauseMs="0" tags="translation_task"/>
 <stimulus identifier="Translate_98_target" label="What is 'FISHING ROD' in Dutch?" pauseMs="0" tags="translation_task"/>
-<stimulus identifier="Translate_99_catch" label="What is 'COCONUT' in Dutch?" pauseMs="0" tags="translation_task"/>
-<stimulus identifier="Translate_100_catch" label="What is 'CANOE' in Dutch?" pauseMs="0" tags="translation_task"/>
-<stimulus identifier="Translate_101_catch" label="What is 'TAMBOURINE' in Dutch?" pauseMs="0" tags="translation_task"/>
-<stimulus identifier="Translate_102_catch" label="What is 'TOMATO' in Dutch?" pauseMs="0" tags="translation_task"/>
-<stimulus identifier="Translate_103_catch" label="What is 'CRUTCH' in Dutch?" pauseMs="0" tags="translation_task"/>
-<stimulus identifier="Translate_104_catch" label="What is 'TROMBONE' in Dutch?" pauseMs="0" tags="translation_task"/>
-<stimulus identifier="Translate_105_catch" label="What is 'BLACKBOARD' in Dutch?" pauseMs="0" tags="translation_task"/>
-<stimulus identifier="Translate_106_catch" label="What is 'SNEAKERS' in Dutch?" pauseMs="0" tags="translation_task"/>
-<stimulus identifier="Translate_107_catch" label="What is 'HOOKAH' in Dutch?" pauseMs="0" tags="translation_task"/>
-<stimulus identifier="Translate_108_catch" label="What is 'CASSETTE' in Dutch?" pauseMs="0" tags="translation_task"/>
-<stimulus identifier="Translate_109_catch" label="What is 'FLIPFLOPS' in Dutch?" pauseMs="0" tags="translation_task"/>
-<stimulus identifier="Translate_110_catch" label="What is 'SLEIGH' in Dutch?" pauseMs="0" tags="translation_task"/>
-<stimulus identifier="Translate_111_catch" label="What is 'LOGS' in Dutch?" pauseMs="0" tags="translation_task"/>
-<stimulus identifier="Translate_112_catch" label="What is 'WHEEL' in Dutch?" pauseMs="0" tags="translation_task"/>
-<stimulus identifier="Translate_113_catch" label="What is 'RIFLE' in Dutch?" pauseMs="0" tags="translation_task"/>
-<stimulus identifier="Translate_114_catch" label="What is 'PRINTER' in Dutch?" pauseMs="0" tags="translation_task"/>
-<stimulus identifier="Translate_115_catch" label="What is 'PAINTBRUSH' in Dutch?" pauseMs="0" tags="translation_task"/>
-<stimulus identifier="Translate_116_catch" label="What is 'YOYO' in Dutch?" pauseMs="0" tags="translation_task"/>
-<stimulus identifier="Translate_117_catch" label="What is 'PINECONE' in Dutch?" pauseMs="0" tags="translation_task"/>
-<stimulus identifier="Translate_118_catch" label="What is 'PIPE' in Dutch?" pauseMs="0" tags="translation_task"/>
-<stimulus identifier="Translate_119_catch" label="What is 'CATERPILLAR' in Dutch?" pauseMs="0" tags="translation_task"/>
-<stimulus identifier="Translate_120_catch" label="What is 'RICE' in Dutch?" pauseMs="0" tags="translation_task"/>
-<stimulus identifier="Translate_121_catch" label="What is 'TOOLBOX' in Dutch?" pauseMs="0" tags="translation_task"/>
-<stimulus identifier="Translate_122_catch" label="What is 'CANDLE' in Dutch?" pauseMs="0" tags="translation_task"/>
-<stimulus identifier="Translate_123_catch" label="What is 'BOWLING BALL' in Dutch?" pauseMs="0" tags="translation_task"/>
-<stimulus identifier="Translate_124_catch" label="What is 'PENCIL' in Dutch?" pauseMs="0" tags="translation_task"/>
-<stimulus identifier="Translate_125_catch" label="What is 'BATTERY' in Dutch?" pauseMs="0" tags="translation_task"/>
-<stimulus identifier="Translate_126_catch" label="What is 'CORN' in Dutch?" pauseMs="0" tags="translation_task"/>
-<stimulus identifier="Translate_127_catch" label="What is 'FLIPPERS' in Dutch?" pauseMs="0" tags="translation_task"/>
-<stimulus identifier="Translate_128_catch" label="What is 'PLUNGER' in Dutch?" pauseMs="0" tags="translation_task"/>
-<stimulus identifier="Translate_129_catch" label="What is 'BINOCULARS' in Dutch?" pauseMs="0" tags="translation_task"/>
-<stimulus identifier="Translate_130_catch" label="What is 'RASPBERRY' in Dutch?" pauseMs="0" tags="translation_task"/>
 
