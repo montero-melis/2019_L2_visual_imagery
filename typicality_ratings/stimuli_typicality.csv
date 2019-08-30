@@ -160,7 +160,7 @@ item_id,trial_type,pic_file,trial_lang,sing_plur,du_gend,carrier,object_name
 29,target,69_u1_watch.png,Dutch,sing,het,is dit,Horloge
 30,target,70_vis_snake.png,Dutch,sing,de,is deze,Slang
 31,target,74_sem_cap.png,Dutch,sing,de,is deze,Pet
-32,target,74_u2_package.png,Dutch,sing,het,is dit,Pakket,"99% of the time Dutch people will say ""pakketje"" (= small package). Even if it is a large package!"
+32,target,74_u2_package.png,Dutch,sing,het,is dit,Pakket
 33,target,74_vis_iron.png,Dutch,sing,het,is dit,Strijkijzer
 34,target,80_u2_jacket.png,Dutch,sing,de,is deze,Jas
 35,target,82_vis_rope.png,Dutch,sing,het,is dit,Touw
