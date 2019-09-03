@@ -18,7 +18,6 @@ https://frinexstaging.mpi.nl/typicality_rating-admin/
 Data
 ====
 
-- Fix problem if someone types new line
 - Verify that I can distinguish catch and target trials!
 
 
@@ -32,8 +31,6 @@ RA (Iris)
 Experiment build
 ================
 
-- Add initial Instrux slide before branching for TaskOrder
-- Change label shown on top of screen (e.g., "dutch_ratings", etc.)
 
 
 Qs Maarten
