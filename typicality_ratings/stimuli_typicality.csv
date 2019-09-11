@@ -37,7 +37,7 @@ item_id,trial_type,pic_file,trial_lang,sing_plur,du_gend,carrier,object_name
 36,target,86_sem_horse.png,English,sing,,is this,Horse
 37,target,87_u1_flower.png,English,sing,,is this,Flower
 38,target,92_sem_spoon.png,English,sing,,is this,Spoon
-39,target,93_sem_teeth.png,English,sing,,is this,Teeth
+39,target,93_sem_teeth.png,English,plur,,are these,Teeth
 40,target,7_vis_cherry.png,English,sing,,is this,Cherry
 41,target,94_u1_shark.png,English,sing,,is this,Shark
 42,target,94_u2_slide.png,English,sing,,is this,Slide
@@ -109,7 +109,7 @@ item_id,trial_type,pic_file,trial_lang,sing_plur,du_gend,carrier,object_name
 108,catch,98_u1_rice.png,English,sing,,is this,cassette
 109,catch,98_vis_toolbox.png,English,plur,,are these,flipflops
 110,catch,99_sem_candle.png,English,sing,,is this,sleigh
-111,catch,99_u2_flippers.png,English,sing,,is this,logs
+111,catch,99_u2_flippers.png,English,plur,,are these,logs
 112,catch,99_vis_plunger.png,English,sing,,is this,wheel
 113,catch,100_u1_binoculars.png,English,sing,,is this,rifle
 114,catch,100_u2_raspberry.png,English,sing,,is this,printer
