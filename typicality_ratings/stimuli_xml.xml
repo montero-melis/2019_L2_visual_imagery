@@ -169,7 +169,7 @@
 <stimulus identifier="English_36_target" label="How typical is this HORSE?" imagePath = "86_sem_horse.png" pauseMs="0" tags="english_ratings"/>
 <stimulus identifier="English_37_target" label="How typical is this FLOWER?" imagePath = "87_u1_flower.png" pauseMs="0" tags="english_ratings"/>
 <stimulus identifier="English_38_target" label="How typical is this SPOON?" imagePath = "92_sem_spoon.png" pauseMs="0" tags="english_ratings"/>
-<stimulus identifier="English_39_target" label="How typical is this TEETH?" imagePath = "93_sem_teeth.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_39_target" label="How typical are these TEETH?" imagePath = "93_sem_teeth.png" pauseMs="0" tags="english_ratings"/>
 <stimulus identifier="English_40_target" label="How typical is this CHERRY?" imagePath = "7_vis_cherry.png" pauseMs="0" tags="english_ratings"/>
 <stimulus identifier="English_41_target" label="How typical is this SHARK?" imagePath = "94_u1_shark.png" pauseMs="0" tags="english_ratings"/>
 <stimulus identifier="English_42_target" label="How typical is this SLIDE?" imagePath = "94_u2_slide.png" pauseMs="0" tags="english_ratings"/>
@@ -241,7 +241,7 @@
 <stimulus identifier="English_108_catch" label="How typical is this CASSETTE?" imagePath = "98_u1_rice.png" pauseMs="0" tags="english_ratings"/>
 <stimulus identifier="English_109_catch" label="How typical are these FLIPFLOPS?" imagePath = "98_vis_toolbox.png" pauseMs="0" tags="english_ratings"/>
 <stimulus identifier="English_110_catch" label="How typical is this SLEIGH?" imagePath = "99_sem_candle.png" pauseMs="0" tags="english_ratings"/>
-<stimulus identifier="English_111_catch" label="How typical is this LOGS?" imagePath = "99_u2_flippers.png" pauseMs="0" tags="english_ratings"/>
+<stimulus identifier="English_111_catch" label="How typical are these LOGS?" imagePath = "99_u2_flippers.png" pauseMs="0" tags="english_ratings"/>
 <stimulus identifier="English_112_catch" label="How typical is this WHEEL?" imagePath = "99_vis_plunger.png" pauseMs="0" tags="english_ratings"/>
 <stimulus identifier="English_113_catch" label="How typical is this RIFLE?" imagePath = "100_u1_binoculars.png" pauseMs="0" tags="english_ratings"/>
 <stimulus identifier="English_114_catch" label="How typical is this PRINTER?" imagePath = "100_u2_raspberry.png" pauseMs="0" tags="english_ratings"/>
