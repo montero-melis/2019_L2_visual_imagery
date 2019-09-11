@@ -18,24 +18,27 @@ https://frinexstaging.mpi.nl/typicality_rating-admin/
 Data
 ====
 
-- Verify that I can distinguish catch and target trials!
 
-
-RA (Iris)
+RA
 =========
 
 - Check that everything looks all right, both the experiment itself and all the small admin around it
+- Estimate the time it takes
 - Share Eva Poort's email templates from previous exp
+- Provide TaskOrder in the link --> Add "?TaskOrder=A" or "?TaskOrder=B" at the end. E.g., https://frinexproduction.mpi.nl/typicality_rating/?TaskOrder=B
 
 
 Experiment build
 ================
 
+- Remove TaskOrder from info screen: I think this is line <metadataField fieldName="TaskOrder"/>
+- Fill in time it takes and payment
 
 
 Qs Maarten
 ==========
 
+- Overlapping text in display on Mac?
 
 
 Other
