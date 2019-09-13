@@ -6,7 +6,7 @@
 
 # Excel files
 *.xlsx
-!typicality_ratings/stimuli_190829.xlsx
+!typicality_ratings/stimuli_typicality.xlsx
 
 
 ###########################################################
