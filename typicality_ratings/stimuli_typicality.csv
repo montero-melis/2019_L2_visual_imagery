@@ -55,7 +55,7 @@ item_id,trial_type,pic_file,trial_lang,sing_plur,du_gend,carrier,object_name
 54,target,14_sem_measuring tape.png,English,sing,,is this,measuring tape
 55,target,14_u2_office chair.png,English,sing,,is this,office chair
 56,target,18_sem_baby bottle.png,English,sing,,is this,baby bottle
-57,target,19_vis_life saver.png,English,sing,,is this,life saver
+57,target,19_vis_life saver.png,English,sing,,is this,lifebuoy
 58,target,20_vis_ice cream.png,English,sing,,is this,ice cream
 59,target,22_u2_playing cards.png,English,plur,,are these,playing cards
 60,target,25_u1_rubber duck.png,English,sing,,is this,rubber duck
@@ -93,7 +93,7 @@ item_id,trial_type,pic_file,trial_lang,sing_plur,du_gend,carrier,object_name
 92,target,91_sem_remote control.png,English,sing,,is this,remote control
 93,target,92_vis_candle holder.png,English,sing,,is this,candle holder
 94,target,93_vis_bow tie.png,English,sing,,is this,bow tie
-95,target,95_u1_lamp post.png,English,sing,,is this,lamp post
+95,target,95_u1_lamp post.png,English,sing,,is this,streetlight
 96,target,96_vis_traffic sign.png,English,sing,,is this,traffic sign
 97,target,100_sem_riding helmet.png,English,sing,,is this,riding helmet
 98,target,100_vis_fishing rod.png,English,sing,,is this,fishing rod
@@ -137,7 +137,7 @@ item_id,trial_type,pic_file,trial_lang,sing_plur,du_gend,carrier,object_name
 6,target,8_sem_monkey.png,Dutch,sing,de,is deze,Aap
 7,target,12_u1_meat.png,Dutch,sing,het,is dit,Vlees
 8,target,14_vis_gun.png,Dutch,sing,het,is dit,Pistool
-9,target,21_u2_bell.png,Dutch,sing,de,is deze,Klok
+9,target,21_u2_bell.png,Dutch,sing,de,is deze,Bel
 10,target,24_u1_pants.png,Dutch,sing,de,is deze,Broek
 11,target,25_u2_barrel.png,Dutch,sing,de,is deze,Ton
 12,target,26_sem_bowl.png,Dutch,sing,de,is deze,Kom
@@ -175,7 +175,7 @@ item_id,trial_type,pic_file,trial_lang,sing_plur,du_gend,carrier,object_name
 44,target,97_u1_sausage.png,Dutch,sing,de,is deze,Worst
 45,target,98_u2_lock.png,Dutch,sing,het,is dit,Slot
 46,target,97_vis_cross.png,Dutch,sing,het,is dit,Kruis
-47,target,3_u1_baseball glove.png,Dutch,plur,de,zijn deze,honkbalhandschoen
+47,target,3_u1_baseball glove.png,Dutch,sing,de,is deze,honkbalhandschoen
 48,target,4_u2_coffee machine.png,Dutch,sing,het,is dit,koffiezetapparaat
 49,target,4_vis_hot water bottle.png,Dutch,sing,de,is deze,Kruik
 50,target,5_u1_ice skate.png,Dutch,plur,de,zijn deze,schaatsen
@@ -185,7 +185,7 @@ item_id,trial_type,pic_file,trial_lang,sing_plur,du_gend,carrier,object_name
 54,target,14_sem_measuring tape.png,Dutch,sing,het,is dit,meetlint
 55,target,14_u2_office chair.png,Dutch,sing,de,is deze,bureaustoel
 56,target,18_sem_baby bottle.png,Dutch,sing,het,is dit,Baby flesje
-57,target,19_vis_life saver.png,Dutch,sing,de,is deze,Reddinsboei
+57,target,19_vis_life saver.png,Dutch,sing,de,is deze,Reddingsboei
 58,target,20_vis_ice cream.png,Dutch,sing,het,is dit,ijsje
 59,target,22_u2_playing cards.png,Dutch,sing,de,is deze,speelkaarten
 60,target,25_u1_rubber duck.png,Dutch,sing,de,is deze,badeend
@@ -204,7 +204,7 @@ item_id,trial_type,pic_file,trial_lang,sing_plur,du_gend,carrier,object_name
 73,target,48_u1_trash can.png,Dutch,sing,de,is deze,prullenbak
 74,target,48_u2_life jacket.png,Dutch,sing,het,is dit,reddingsvest
 75,target,52_u2_trash bags.png,Dutch,plur,de,zijn deze,vuilniszakken
-76,target,58_sem_frying pan.png,Dutch,sing,de,is deze,frituurpan
+76,target,58_sem_frying pan.png,Dutch,sing,de,is deze,koekenpan
 77,target,60_sem_rain boots.png,Dutch,plur,de,zijn deze,regenlaarzen
 78,target,60_u1_safety pins.png,Dutch,plur,de,zijn deze,veiligheidsspelden
 79,target,62_sem_polar bear.png,Dutch,sing,de,is deze,ijsbeer
@@ -218,7 +218,7 @@ item_id,trial_type,pic_file,trial_lang,sing_plur,du_gend,carrier,object_name
 87,target,79_u2_ironing board.png,Dutch,sing,de,is deze,strijkplank
 88,target,79_vis_guinea pig.png,Dutch,sing,de,is deze,cavia
 89,target,82_u1_traffic light.png,Dutch,sing,het,is dit,stoplicht
-90,target,86_vis_potato masher.png,Dutch,sing,de,is deze,stampot stamper
+90,target,86_vis_potato masher.png,Dutch,sing,de,is deze,stampotstamper
 91,target,87_sem_laundry basket.png,Dutch,sing,de,is deze,wasmand
 92,target,91_sem_remote control.png,Dutch,sing,de,is deze,afstandsbediening
 93,target,92_vis_candle holder.png,Dutch,sing,de,is deze,kandelaar
@@ -255,7 +255,7 @@ item_id,trial_type,pic_file,trial_lang,sing_plur,du_gend,carrier,object_name
 124,catch,4_sem_flipflops.png,Dutch,sing,het,is dit,potlood
 125,catch,5_vis_cassette.png,Dutch,sing,de,is deze,batterij
 126,catch,6_u1_hookah.png,Dutch,sing,de,is deze,maïs
-127,catch,6_vis_tomato.png,Dutch,sing,de,is deze,flippers
+127,catch,6_vis_tomato.png,Dutch,plur,de,zijn deze,flippers
 128,catch,8_u1_tambourine.png,Dutch,sing,de,is deze,gootsteenontstopper
 129,catch,8_vis_canoe.png,Dutch,sing,de,is deze,verrekijker
 130,catch,9_vis_coconut.png,Dutch,sing,de,is deze,framboos
