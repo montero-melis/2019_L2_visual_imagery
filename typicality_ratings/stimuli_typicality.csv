@@ -178,7 +178,7 @@ item_id,trial_type,pic_file,trial_lang,sing_plur,du_gend,carrier,object_name
 47,target,3_u1_baseball glove.png,Dutch,sing,de,is deze,honkbalhandschoen
 48,target,4_u2_coffee machine.png,Dutch,sing,het,is dit,koffiezetapparaat
 49,target,4_vis_hot water bottle.png,Dutch,sing,de,is deze,Kruik
-50,target,5_u1_ice skate.png,Dutch,plur,de,zijn deze,schaatsen
+50,target,5_u1_ice skate.png,Dutch,sing,de,is deze,schaats
 51,target,6_sem_soccer shoes.png,Dutch,plur,de,zijn deze,voetbalschoenen
 52,target,7_u1_cheese slicer.png,Dutch,sing,de,is deze,kaasschaaf
 53,target,11_sem_rocking horse.png,Dutch,sing,het,is dit,hobbelpaard
