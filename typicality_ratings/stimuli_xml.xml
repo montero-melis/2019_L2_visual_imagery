@@ -48,7 +48,7 @@
 <stimulus identifier="Dutch_47_target" label="Hoe typisch is deze HONKBALHANDSCHOEN?" imagePath = "3_u1_baseball glove.png" pauseMs="0" tags="dutch_ratings"/>
 <stimulus identifier="Dutch_48_target" label="Hoe typisch is dit KOFFIEZETAPPARAAT?" imagePath = "4_u2_coffee machine.png" pauseMs="0" tags="dutch_ratings"/>
 <stimulus identifier="Dutch_49_target" label="Hoe typisch is deze KRUIK?" imagePath = "4_vis_hot water bottle.png" pauseMs="0" tags="dutch_ratings"/>
-<stimulus identifier="Dutch_50_target" label="Hoe typisch zijn deze SCHAATSEN?" imagePath = "5_u1_ice skate.png" pauseMs="0" tags="dutch_ratings"/>
+<stimulus identifier="Dutch_50_target" label="Hoe typisch is deze SCHAATS?" imagePath = "5_u1_ice skate.png" pauseMs="0" tags="dutch_ratings"/>
 <stimulus identifier="Dutch_51_target" label="Hoe typisch zijn deze VOETBALSCHOENEN?" imagePath = "6_sem_soccer shoes.png" pauseMs="0" tags="dutch_ratings"/>
 <stimulus identifier="Dutch_52_target" label="Hoe typisch is deze KAASSCHAAF?" imagePath = "7_u1_cheese slicer.png" pauseMs="0" tags="dutch_ratings"/>
 <stimulus identifier="Dutch_53_target" label="Hoe typisch is dit HOBBELPAARD?" imagePath = "11_sem_rocking horse.png" pauseMs="0" tags="dutch_ratings"/>
