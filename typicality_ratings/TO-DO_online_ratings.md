@@ -11,9 +11,10 @@ Test version at
 https://frinexstaging.mpi.nl/typicality_rating/
 
 To access the admin panel, e.g. to download the data:
+staging version (pw needed): 
 https://frinexstaging.mpi.nl/typicality_rating-admin/
-(pw needed)
-
+production v: 
+https://frinexproduction.mpi.nl/typicality_rating-admin/
 
 Data
 ====
@@ -45,4 +46,5 @@ Other
 =====
 
 - Remove TaskOrder from info screen: I think this is line <metadataField fieldName="TaskOrder"/>
-- Provide TaskOrder in the link --> Add "?TaskOrder=A" or "?TaskOrder=B" at the end. E.g., https://frinexproduction.mpi.nl/typicality_rating/?TaskOrder=B
+- Provide TaskOrder in the link --> Add "?TaskOrder=A" or "?TaskOrder=B" at the end. E.g.,
+https://frinexproduction.mpi.nl/typicality_rating/?TaskOrder=B
