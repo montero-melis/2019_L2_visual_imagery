@@ -32,7 +32,6 @@ head(valid_codes)
 ppt_info <- read.csv(file.path(mypath, "participants.csv"))
 head(ppt_info)
 
-
 # List of items / stimuli
 items <- read_csv("typicality_ratings/stimuli_typicality.csv") %>%
   select(item_id, trial_type, trial_lang, pic_file, object_name)
@@ -49,10 +48,12 @@ valid_ids <- user_ids[user_ids$TagValue2 %in% valid_codes$code, ] %>% pull(UserI
 
 # Use the data from valid pilot participants only
 d <- d_all[d_all$UserId %in% valid_ids, ]
+# same for participant info - keep only valid participants:
+ppt_info <- ppt_info[ppt_info$UserId %in% valid_ids,]
 
 # How many participants are there?
-length(unique(d$UserId))
-
+length(unique(d$UserId))         # 30
+length(unique(ppt_info$UserId))  # 30
 
 
 # Translation task --------------------------------------------------------
