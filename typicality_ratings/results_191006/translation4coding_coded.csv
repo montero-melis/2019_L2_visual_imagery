@@ -1,0 +1,442 @@
+item_id;object_name;pic_file;Response;Score;Comment;originalOrder
+1;KEY;17_u2_key.png;sleutel;1;;1
+2;TAP;3_sem_tap.png;aanraken;2;;2
+2;TAP;3_sem_tap.png;bar;3;;3
+2;TAP;3_sem_tap.png;drukken;2;;4
+2;TAP;3_sem_tap.png;kraan;1;;5
+2;TAP;3_sem_tap.png;tap;2;;6
+2;TAP;3_sem_tap.png;tap / kraan;"2;1";;7
+3;TIE;5_u2_tie.png;das;1;;8
+3;TIE;5_u2_tie.png;strik;3;;9
+3;TIE;5_u2_tie.png;stropdas;1;;10
+4;CAKE;5_sem_cake.png;cake;1;;11
+4;CAKE;5_sem_cake.png;cake of taart;"1;1";;12
+4;CAKE;5_sem_cake.png;cake/taart;"1;1";;13
+4;CAKE;5_sem_cake.png;taart;1;;14
+4;CAKE;5_sem_cake.png;taart/cake;"1;1";;15
+5;PRESENT;7_sem_present.png;aanwezig;2;;16
+5;PRESENT;7_sem_present.png;aanwezigheid;2;;17
+5;PRESENT;7_sem_present.png;cadeai;1;spelling mistake;18
+5;PRESENT;7_sem_present.png;cadeau;1;;19
+5;PRESENT;7_sem_present.png;cadeautje;1;;20
+5;PRESENT;7_sem_present.png;heden;2;;21
+5;PRESENT;7_sem_present.png;kadootjes/tegenwoordige tijd;"1;2";;22
+5;PRESENT;7_sem_present.png;nu;2;;23
+5;PRESENT;7_sem_present.png;op dit moment;3;;24
+6;MONKEY;8_sem_monkey.png;aap;1;;25
+7;MEAT;12_u1_meat.png;vlees;1;;26
+8;GUN;14_vis_gun.png;geweer;1;;27
+8;GUN;14_vis_gun.png;pistool;1;;28
+9;BELL;21_u2_bell.png;?;0;;29
+9;BELL;21_u2_bell.png;bel;1;;30
+9;BELL;21_u2_bell.png;x;0;;31
+10;PANTS;24_u1_pants.png;broek;1;;32
+11;BARREL;25_u2_barrel.png;-;0;;33
+11;BARREL;25_u2_barrel.png;?;0;;34
+11;BARREL;25_u2_barrel.png;barrel;0;did not translate;35
+11;BARREL;25_u2_barrel.png;gewicht;3;;36
+11;BARREL;25_u2_barrel.png;stal;3;;37
+11;BARREL;25_u2_barrel.png;ton;1;;38
+11;BARREL;25_u2_barrel.png;vat;1;;39
+11;BARREL;25_u2_barrel.png;vat/ton;"1;1";;40
+11;BARREL;25_u2_barrel.png;x;0;;41
+12;BOWL;26_sem_bowl.png;bakje;3;;42
+12;BOWL;26_sem_bowl.png;bakje/schaal;"3;1";;43
+12;BOWL;26_sem_bowl.png;bol;3;;44
+12;BOWL;26_sem_bowl.png;kom;1;;45
+12;BOWL;26_sem_bowl.png;schaal;1;;46
+12;BOWL;26_sem_bowl.png;schaal/kom;"1;1";;47
+12;BOWL;26_sem_bowl.png;schaaltje;1;;48
+12;BOWL;26_sem_bowl.png;x;0;;49
+13;EAGLE;27_u1_eagle.png;-;0;;50
+13;EAGLE;27_u1_eagle.png;adelaar;1;;51
+13;EAGLE;27_u1_eagle.png;arend;1;;52
+13;EAGLE;27_u1_eagle.png;zeemeeuw;3;;53
+14;BASKET;27_u2_basket.png;bak;3;;54
+14;BASKET;27_u2_basket.png;bakje;3;;55
+14;BASKET;27_u2_basket.png;mand;1;;56
+14;BASKET;27_u2_basket.png;mandje;1;;57
+14;BASKET;27_u2_basket.png;prullenbak;3;;58
+14;BASKET;27_u2_basket.png;ring;3;;59
+15;FAN;35_u1_fan.png;bewonderaar;2;;60
+15;FAN;35_u1_fan.png;fan;2;;61
+15;FAN;35_u1_fan.png;fan/waaier;"2;2";;62
+15;FAN;35_u1_fan.png;ventilator;1;;63
+15;FAN;35_u1_fan.png;ventillator;1;spelling mistake;64
+15;FAN;35_u1_fan.png;verntilator;1;spelling mistake;65
+15;FAN;35_u1_fan.png;waaier;2;;66
+15;FAN;35_u1_fan.png;x;0;;67
+16;BOW;38_u1_bow.png;boog;1;;68
+16;BOW;38_u1_bow.png;das;3;;69
+16;BOW;38_u1_bow.png;schaal;3;;70
+16;BOW;38_u1_bow.png;strik;2;;71
+16;BOW;38_u1_bow.png;strikje;2;;72
+16;BOW;38_u1_bow.png;stropdas;3;;73
+16;BOW;38_u1_bow.png;x;0;;74
+17;CHAIR;40_u1_chair.png;stoel;1;;75
+18;FROG;41_u1_frog.png;kikker;1;;76
+19;DRUM;41_u2_drum.png;drum;3;did not translate;77
+19;DRUM;41_u2_drum.png;drums?;3;did not translate;78
+19;DRUM;41_u2_drum.png;drumstel;3;not specific enough;79
+19;DRUM;41_u2_drum.png;drumstel/trommel;"3;1";not specific enough;80
+19;DRUM;41_u2_drum.png;trommel;1;;81
+20;BAG;45_u2_bag.png;tas;1;;82
+20;BAG;45_u2_bag.png;tas/zak;"1;2";;83
+20;BAG;45_u2_bag.png;zak;2;;84
+21;LIGHTER;47_vis_lighter.png;aansteker;1;;85
+22;TRAY;54_vis_tray.png;bak;3;;86
+22;TRAY;54_vis_tray.png;blikje;3;;87
+22;TRAY;54_vis_tray.png;dienblad;1;;88
+22;TRAY;54_vis_tray.png;lade;3;;89
+22;TRAY;54_vis_tray.png;lade/bakje;"3;3";;90
+22;TRAY;54_vis_tray.png;lade/dienblad;"3;1";;91
+22;TRAY;54_vis_tray.png;vat;3;;92
+22;TRAY;54_vis_tray.png;x;0;;93
+23;GLOBE;56_vis_globe.png;aardbol;1;;94
+23;GLOBE;56_vis_globe.png;aardbol/globe;"1;1";;95
+23;GLOBE;56_vis_globe.png;aarde;1;;96
+23;GLOBE;56_vis_globe.png;globe;1;;97
+23;GLOBE;56_vis_globe.png;handschoen;3;;98
+23;GLOBE;56_vis_globe.png;wereldbol;1;;99
+24;CHAIN;59_u1_chain.png;kettign;1;spelling mistake;100
+24;CHAIN;59_u1_chain.png;ketting;1;;101
+24;CHAIN;59_u1_chain.png;kleed;3;;102
+24;CHAIN;59_u1_chain.png;slot;3;;103
+24;CHAIN;59_u1_chain.png;stoel;3;;104
+25;BELT;61_u1_belt.png;riem;1;;105
+26;DESK;62_u2_desk.png;bureau;1;;106
+26;DESK;62_u2_desk.png;tafel;3;not specific enough;107
+27;LEAF;63_u1_leaf.png;blaadje;1;;108
+27;LEAF;63_u1_leaf.png;blad;1;;109
+27;LEAF;63_u1_leaf.png;bloemkool;3;;110
+28;FENCE;67_vis_fence.png;hek;1;;111
+28;FENCE;67_vis_fence.png;potlood;3;;112
+28;FENCE;67_vis_fence.png;x;0;;113
+29;WATCH;69_u1_watch.png;horloge;1;;114
+30;SNAKE;70_vis_snake.png;slang;1;;115
+31;CAP;74_sem_cap.png;dop;2;;116
+31;CAP;74_sem_cap.png;helm;2;;117
+31;CAP;74_sem_cap.png;hoed;3;not specific enough;118
+31;CAP;74_sem_cap.png;kap;3;;119
+31;CAP;74_sem_cap.png;pet;1;;120
+32;PACKAGE;74_u2_package.png;bagage;3;;121
+32;PACKAGE;74_u2_package.png;doos;3;not specific enough;122
+32;PACKAGE;74_u2_package.png;pakje;1;;123
+32;PACKAGE;74_u2_package.png;pakket;1;;124
+32;PACKAGE;74_u2_package.png;pakketje;1;;125
+33;IRON;74_vis_iron.png;ijzer;2;;126
+33;IRON;74_vis_iron.png;iron;0;did not translate;127
+33;IRON;74_vis_iron.png;staal;3;;128
+33;IRON;74_vis_iron.png;stijkijzer;1;spelling mistake;129
+33;IRON;74_vis_iron.png;strijkijzer;1;;130
+34;JACKET;80_u2_jacket.png;jas;1;;131
+34;JACKET;80_u2_jacket.png;jasje;1;;132
+34;JACKET;80_u2_jacket.png;vestje;3;;133
+35;ROPE;82_vis_rope.png;touw;1;;134
+36;HORSE;86_sem_horse.png;paard;1;;135
+36;HORSE;86_sem_horse.png;paars;1;spelling mistake;136
+37;FLOWER;87_u1_flower.png;bloem;1;;137
+38;SPOON;92_sem_spoon.png;lepel;1;;138
+39;TEETH;93_sem_teeth.png;tand;1;singular provided i.s.o. plural;139
+39;TEETH;93_sem_teeth.png;tanden;1;;140
+40;CHERRY;7_vis_cherry.png;bes;3;;141
+40;CHERRY;7_vis_cherry.png;kers;1;;142
+41;SHARK;94_u1_shark.png;haai;1;;143
+42;SLIDE;94_u2_slide.png;dia;2;;144
+42;SLIDE;94_u2_slide.png;glijbaan;1;;145
+42;SLIDE;94_u2_slide.png;glijden/dia;"2;2";;146
+42;SLIDE;94_u2_slide.png;plaatje;2;;147
+42;SLIDE;94_u2_slide.png;slee;3;;148
+42;SLIDE;94_u2_slide.png;stukje;3;;149
+42;SLIDE;94_u2_slide.png;vegen;3;;150
+43;LOBSTER;95_sem_lobster.png;krab;3;;151
+43;LOBSTER;95_sem_lobster.png;kreeft;1;;152
+44;SAUSAGE;97_u1_sausage.png;worst;1;;153
+44;SAUSAGE;97_u1_sausage.png;worstje;1;;154
+45;LOCK;98_u2_lock.png;slot;1;;155
+46;CROSS;97_vis_cross.png;cross;0;did not translate;156
+46;CROSS;97_vis_cross.png;kruis;1;;157
+46;CROSS;97_vis_cross.png;oversteken;2;;158
+47;BASEBALL GLOVE;3_u1_baseball glove.png;basebalhandschoen;1;spelling mistake;159
+47;BASEBALL GLOVE;3_u1_baseball glove.png;baseball handschoen;1;spelling mistake;160
+47;BASEBALL GLOVE;3_u1_baseball glove.png;basketbal handschoen;3;"partly correct; spelling mistake";161
+47;BASEBALL GLOVE;3_u1_baseball glove.png;basketbalhandschoen;3;partly correct;162
+47;BASEBALL GLOVE;3_u1_baseball glove.png;handbalhandschoen;3;partly correct;163
+47;BASEBALL GLOVE;3_u1_baseball glove.png;handbalhandschoenen;3;"partly correct; plural provided i.s.o. singular";164
+47;BASEBALL GLOVE;3_u1_baseball glove.png;honkbal handschoen;1;spelling mistake;165
+47;BASEBALL GLOVE;3_u1_baseball glove.png;honkbalhandschoen;1;;166
+47;BASEBALL GLOVE;3_u1_baseball glove.png;pet;3;;167
+47;BASEBALL GLOVE;3_u1_baseball glove.png;slagbalhandschoen;1;partly correct;168
+47;BASEBALL GLOVE;3_u1_baseball glove.png;softbal handschoen;1;"partly correct; spelling mistake";169
+47;BASEBALL GLOVE;3_u1_baseball glove.png;softbalhandschoen;1;partly correct;170
+48;COFFEE MACHINE;4_u2_coffee machine.png;koffieapparaat;1;;171
+48;COFFEE MACHINE;4_u2_coffee machine.png;koffiemachine;1;;172
+48;COFFEE MACHINE;4_u2_coffee machine.png;koffiemachine/koffiezetapparaat;"1;1";;173
+48;COFFEE MACHINE;4_u2_coffee machine.png;koffiezet apparaat;1;spelling mistake;174
+48;COFFEE MACHINE;4_u2_coffee machine.png;koffiezetapparaat;1;;175
+49;HOT WATER BOTTLE;4_vis_hot water bottle.png;heet waterfles;3;too literal;176
+49;HOT WATER BOTTLE;4_vis_hot water bottle.png;kruik;1;;177
+49;HOT WATER BOTTLE;4_vis_hot water bottle.png;theekan;3;;178
+49;HOT WATER BOTTLE;4_vis_hot water bottle.png;warmte fles;3;too literal;179
+49;HOT WATER BOTTLE;4_vis_hot water bottle.png;waterfles;3;too literal;180
+49;HOT WATER BOTTLE;4_vis_hot water bottle.png;waterflesje;3;too literal;181
+49;HOT WATER BOTTLE;4_vis_hot water bottle.png;waterkoker;3;;182
+50;ICE SKATE;5_u1_ice skate.png;ijsschaatsen;1;bit strange;183
+50;ICE SKATE;5_u1_ice skate.png;rolschaatsen;3;;184
+50;ICE SKATE;5_u1_ice skate.png;schaats;1;;185
+50;ICE SKATE;5_u1_ice skate.png;schaatsen;1;plural provided i.s.o. singular ;186
+51;SOCCER SHOES;6_sem_soccer shoes.png;voetbalschoenen;1;;187
+52;CHEESE SLICER;7_u1_cheese slicer.png;kaasschaaf;1;;188
+52;CHEESE SLICER;7_u1_cheese slicer.png;kaassnijder;3;too literal;189
+53;ROCKING HORSE;11_sem_rocking horse.png;hobbelpaard;1;;190
+53;ROCKING HORSE;11_sem_rocking horse.png;houten paard;2;partly correct;191
+53;ROCKING HORSE;11_sem_rocking horse.png;schommelpaard;1;;192
+53;ROCKING HORSE;11_sem_rocking horse.png;speelgoed paard;2;partly correct;193
+53;ROCKING HORSE;11_sem_rocking horse.png;speelpaardje;2;partly correct;194
+53;ROCKING HORSE;11_sem_rocking horse.png;x;0;;195
+54;MEASURING TAPE;14_sem_measuring tape.png;ducktape;3;;196
+54;MEASURING TAPE;14_sem_measuring tape.png;meetlint;1;;197
+54;MEASURING TAPE;14_sem_measuring tape.png;meetlint/rolmaat;"1;1";;198
+54;MEASURING TAPE;14_sem_measuring tape.png;meetteep;3;;199
+54;MEASURING TAPE;14_sem_measuring tape.png;rolmaat;1;;200
+54;MEASURING TAPE;14_sem_measuring tape.png;veiligheidstape;3;;201
+55;OFFICE CHAIR;14_u2_office chair.png;bureau stoel;1;spelling mistake;202
+55;OFFICE CHAIR;14_u2_office chair.png;bureaustoel;1;;203
+55;OFFICE CHAIR;14_u2_office chair.png;kantoorstoel;1;;204
+56;BABY BOTTLE;18_sem_baby bottle.png;baby flesje;1;spelling mistake;205
+56;BABY BOTTLE;18_sem_baby bottle.png;babyfles;1;;206
+56;BABY BOTTLE;18_sem_baby bottle.png;babyflesje;1;;207
+56;BABY BOTTLE;18_sem_baby bottle.png;fles;3;not specific enough;208
+56;BABY BOTTLE;18_sem_baby bottle.png;fles voor baby;1;;209
+56;BABY BOTTLE;18_sem_baby bottle.png;flesje;3;not specific enough;210
+56;BABY BOTTLE;18_sem_baby bottle.png;kinderflesje;1;;211
+57;LIFEBUOY;19_vis_life saver.png;?;0;;212
+57;LIFEBUOY;19_vis_life saver.png;boei;3;not specific enough;213
+57;LIFEBUOY;19_vis_life saver.png;huh;0;;214
+57;LIFEBUOY;19_vis_life saver.png;reddingsboei;1;;215
+57;LIFEBUOY;19_vis_life saver.png;reddingsvest;3;;216
+57;LIFEBUOY;19_vis_life saver.png;veiligheid;3;;217
+57;LIFEBUOY;19_vis_life saver.png;veiligheidsboei;1;;218
+57;LIFEBUOY;19_vis_life saver.png;x;0;;219
+58;ICE CREAM;20_vis_ice cream.png;ijs;1;;220
+58;ICE CREAM;20_vis_ice cream.png;ijshoorn;3;too specific;221
+58;ICE CREAM;20_vis_ice cream.png;ijsje;1;;222
+59;PLAYING CARDS;22_u2_playing cards.png;kaarten;3;not specific enough;223
+59;PLAYING CARDS;22_u2_playing cards.png;kaartspel;3;not specific enough;224
+59;PLAYING CARDS;22_u2_playing cards.png;speelkaarten;1;;225
+59;PLAYING CARDS;22_u2_playing cards.png;spel kaarten;1;spelling mistake;226
+59;PLAYING CARDS;22_u2_playing cards.png;spelkaarten;1;;227
+60;RUBBER DUCK;25_u1_rubber duck.png;badeend;1;spelling mistake;228
+60;RUBBER DUCK;25_u1_rubber duck.png;badeendje;1;;229
+60;RUBBER DUCK;25_u1_rubber duck.png;rubber eend;2;"too literal; not specific enough; spelling mistake";230
+60;RUBBER DUCK;25_u1_rubber duck.png;rubberen eend;2;"too literal; not specific enough";231
+61;ROLLING PIN;25_vis_rolling pin.png;-;0;;232
+61;ROLLING PIN;25_vis_rolling pin.png;bowlingkegel;3;;233
+61;ROLLING PIN;25_vis_rolling pin.png;deeg roller;1;spelling mistake;234
+61;ROLLING PIN;25_vis_rolling pin.png;deegroller;1;;235
+61;ROLLING PIN;25_vis_rolling pin.png;haarspeld;3;;236
+61;ROLLING PIN;25_vis_rolling pin.png;jojo;3;;237
+61;ROLLING PIN;25_vis_rolling pin.png;pen;3;;238
+61;ROLLING PIN;25_vis_rolling pin.png;rolmaat;3;;239
+61;ROLLING PIN;25_vis_rolling pin.png;rolschaats;3;;240
+61;ROLLING PIN;25_vis_rolling pin.png;rolstok;3;;241
+61;ROLLING PIN;25_vis_rolling pin.png;veiligheidspeld;3;;242
+61;ROLLING PIN;25_vis_rolling pin.png;veiligheidsspeld;3;;243
+61;ROLLING PIN;25_vis_rolling pin.png;x;0;;244
+62;LIGHT SWITCH;27_sem_light switch.png;licht knop;1;spelling mistake;245
+62;LIGHT SWITCH;27_sem_light switch.png;lichtknop;1;;246
+62;LIGHT SWITCH;27_sem_light switch.png;lichtknop/schakelaar;"1;1";;247
+62;LIGHT SWITCH;27_sem_light switch.png;lichtknopje;1;;248
+62;LIGHT SWITCH;27_sem_light switch.png;lichtschakelaar;1;;249
+62;LIGHT SWITCH;27_sem_light switch.png;schakelaar;3;not specific enough;250
+63;SHAVING BRUSH;28_u1_shaving brush.png;borstel;3;not specific enough;251
+63;SHAVING BRUSH;28_u1_shaving brush.png;scheer borstel;3;too literal;252
+63;SHAVING BRUSH;28_u1_shaving brush.png;scheer kwast;1;spelling mistake;253
+63;SHAVING BRUSH;28_u1_shaving brush.png;scheerborstel;3;too literal;254
+63;SHAVING BRUSH;28_u1_shaving brush.png;scheerkwast;1;;255
+63;SHAVING BRUSH;28_u1_shaving brush.png;scheermes;3;;256
+64;BIKE PEDALS;28_vis_bike pedals.png;fiets pedalen;1;spelling mistake;257
+64;BIKE PEDALS;28_vis_bike pedals.png;fietsendalen (fietspedalen?);1;spelling mistake;258
+64;BIKE PEDALS;28_vis_bike pedals.png;fietspedaal;1;singular provided i.s.o. plural;259
+64;BIKE PEDALS;28_vis_bike pedals.png;fietspedalen;1;;260
+64;BIKE PEDALS;28_vis_bike pedals.png;fietstrappers;1;;261
+64;BIKE PEDALS;28_vis_bike pedals.png;pedalen;3;not specific enough;262
+64;BIKE PEDALS;28_vis_bike pedals.png;pendalen;3;"not specific enough; spelling mistake";263
+64;BIKE PEDALS;28_vis_bike pedals.png;trappedalen/fietspedalen;"1;1";;264
+64;BIKE PEDALS;28_vis_bike pedals.png;trappers;1;;265
+64;BIKE PEDALS;28_vis_bike pedals.png;trappers (van de fiets);1;;266
+65;ICE CREAM CONE;31_u2_ice cream cone.png;hoorntje;1;;267
+65;ICE CREAM CONE;31_u2_ice cream cone.png;horentje;1;spelling mistake;268
+65;ICE CREAM CONE;31_u2_ice cream cone.png;ijs hoorn;1;spelling mistake;269
+65;ICE CREAM CONE;31_u2_ice cream cone.png;ijs hoorntje;1;spelling mistake;270
+65;ICE CREAM CONE;31_u2_ice cream cone.png;ijshoorn;1;;271
+65;ICE CREAM CONE;31_u2_ice cream cone.png;ijshoorntje;1;;272
+65;ICE CREAM CONE;31_u2_ice cream cone.png;ijsje;1;;273
+66;CEMENT TRUCK;32_sem_cement truck.png;betonwagen;1;;274
+66;CEMENT TRUCK;32_sem_cement truck.png;cement vrachtwagen;2;"too literal; spelling mistake";275
+66;CEMENT TRUCK;32_sem_cement truck.png;cement wagen;1;;276
+66;CEMENT TRUCK;32_sem_cement truck.png;cementvrachtwagen;2;"too literal; spelling mistake";277
+66;CEMENT TRUCK;32_sem_cement truck.png;cementwagen;1;;278
+67;TEDDY BEAR;33_u1_teddy bear.png;beer;3;not specific enough;279
+67;TEDDY BEAR;33_u1_teddy bear.png;knuffelbeer;1;;280
+67;TEDDY BEAR;33_u1_teddy bear.png;speelgoed beer;1;spelling mistake;281
+67;TEDDY BEAR;33_u1_teddy bear.png;teddy beer;1;spelling mistake;282
+67;TEDDY BEAR;33_u1_teddy bear.png;teddybeer;1;;283
+68;BOTTLE OPENER;34_u2_bottle opener.png;bieropener;1;;284
+68;BOTTLE OPENER;34_u2_bottle opener.png;blikopener;3;;285
+68;BOTTLE OPENER;34_u2_bottle opener.png;flesopener;1;;286
+68;BOTTLE OPENER;34_u2_bottle opener.png;flessenopener;1;;287
+69;COAT RACK;36_sem_coat rack.png;..;0;;288
+69;COAT RACK;36_sem_coat rack.png;jas;3;;289
+69;COAT RACK;36_sem_coat rack.png;jassenhanger;3;too literal;290
+69;COAT RACK;36_sem_coat rack.png;kapstok;1;;291
+69;COAT RACK;36_sem_coat rack.png;kledingrek;3;not specific enough;292
+69;COAT RACK;36_sem_coat rack.png;regenjas;3;;293
+69;COAT RACK;36_sem_coat rack.png;weet ik niet;0;;294
+69;COAT RACK;36_sem_coat rack.png;x;0;;295
+70;BAND AID;38_vis_band aid.png;ehbo doos;3;;296
+70;BAND AID;38_vis_band aid.png;pleister;1;;297
+70;BAND AID;38_vis_band aid.png;pleister (/verband);"1;3";;298
+70;BAND AID;38_vis_band aid.png;plijster;1;spelling mistake;299
+70;BAND AID;38_vis_band aid.png;verband;3;;300
+70;BAND AID;38_vis_band aid.png;x;0;;301
+71;DENTIST CHAIR;42_u2_dentist chair.png;tandardsstoel;1;spelling mistake;302
+71;DENTIST CHAIR;42_u2_dentist chair.png;tandarts stoel;1;spelling mistake;303
+71;DENTIST CHAIR;42_u2_dentist chair.png;tandartsenstoel;1;;304
+71;DENTIST CHAIR;42_u2_dentist chair.png;tandartsstoel;1;;305
+71;DENTIST CHAIR;42_u2_dentist chair.png;tandartstoel;1;spelling mistake;306
+72;ROCKING CHAIR;43_sem_rocking chair.png;hobbelstoel;1;;307
+72;ROCKING CHAIR;43_sem_rocking chair.png;schommel stoel;1;spelling mistake;308
+72;ROCKING CHAIR;43_sem_rocking chair.png;schommelstoel;1;;309
+72;ROCKING CHAIR;43_sem_rocking chair.png;stoel;3;not specific enough;310
+72;ROCKING CHAIR;43_sem_rocking chair.png;wiebelstoel;1;bit strange;311
+72;ROCKING CHAIR;43_sem_rocking chair.png;wipstoel;1;bit strange;312
+72;ROCKING CHAIR;43_sem_rocking chair.png;x;0;;313
+73;TRASH CAN;48_u1_trash can.png;afvalbak;1;;314
+73;TRASH CAN;48_u1_trash can.png;prullenbak;1;;315
+73;TRASH CAN;48_u1_trash can.png;vuilnisbak;1;;316
+73;TRASH CAN;48_u1_trash can.png;vuilnisemmer;1;;317
+74;LIFE JACKET;48_u2_life jacket.png;reddingsvest;1;;318
+74;LIFE JACKET;48_u2_life jacket.png;veiligheidshesje;3;not specific enough;319
+74;LIFE JACKET;48_u2_life jacket.png;veiligheidsvest;3;not specific enough;320
+74;LIFE JACKET;48_u2_life jacket.png;zwemvest;1;;321
+75;TRASH BAGS;52_u2_trash bags.png;afvalzak;1;singular provided i.s.o. plural;322
+75;TRASH BAGS;52_u2_trash bags.png;prullenbakken;3;;323
+75;TRASH BAGS;52_u2_trash bags.png;vuilnismachnine;3;;324
+75;TRASH BAGS;52_u2_trash bags.png;vuilniszak;1;singular provided i.s.o. plural;325
+75;TRASH BAGS;52_u2_trash bags.png;vuilniszakken;1;;326
+76;FRYING PAN;58_sem_frying pan.png;bakpan;1;;327
+76;FRYING PAN;58_sem_frying pan.png;braadpan;3;;328
+76;FRYING PAN;58_sem_frying pan.png;frituese;3;"too literal; spelling mistake";329
+76;FRYING PAN;58_sem_frying pan.png;frituurpan;3;too literal;330
+76;FRYING PAN;58_sem_frying pan.png;koekenpan;1;;331
+76;FRYING PAN;58_sem_frying pan.png;koekenpan/wokpan;"1;3";;332
+76;FRYING PAN;58_sem_frying pan.png;koekepan;1;;333
+76;FRYING PAN;58_sem_frying pan.png;wokpan;3;;334
+77;RAIN BOOTS;60_sem_rain boots.png;regenlaarsen;1;spelling mistake;335
+77;RAIN BOOTS;60_sem_rain boots.png;regenlaarzen;1;;336
+78;SAFETY PINS;60_u1_safety pins.png;veiligheidsspeld;1;singular provided i.s.o. plural;337
+78;SAFETY PINS;60_u1_safety pins.png;veiligheidsspelden;1;;338
+78;SAFETY PINS;60_u1_safety pins.png;veiligheidsspelt;1;"spelling mistake; singular provided i.s.o. plural ";339
+79;POLAR BEAR;62_sem_polar bear.png;ijsbeer;1;;340
+80;WATERING CAN;65_sem_watering can.png;gieter;1;;341
+80;WATERING CAN;65_sem_watering can.png;kruik;3;;342
+80;WATERING CAN;65_sem_watering can.png;waterfles;3;;343
+80;WATERING CAN;65_sem_watering can.png;waterkan;3;too literal;344
+80;WATERING CAN;65_sem_watering can.png;x;0;;345
+81;PENCIL SHARPENER;66_sem_pencil sharpener.png;potloodslijper;1;;346
+81;PENCIL SHARPENER;66_sem_pencil sharpener.png;puntenslijper;1;;347
+81;PENCIL SHARPENER;66_sem_pencil sharpener.png;slijper;1;;348
+82;PENCIL CASE;68_u1_pencil case.png;etiue;1;spelling mistake;349
+82;PENCIL CASE;68_u1_pencil case.png;etui;1;;350
+82;PENCIL CASE;68_u1_pencil case.png;potlood;3;;351
+83;SHOPPING CART;73_u2_shopping cart.png;winkelmand;3;;352
+83;SHOPPING CART;73_u2_shopping cart.png;winkelmandje;3;;353
+83;SHOPPING CART;73_u2_shopping cart.png;winkelwagen;1;;354
+83;SHOPPING CART;73_u2_shopping cart.png;winkelwagentje;1;;355
+84;POTATO PEELER;75_u2_potato peeler.png;aardappel schiller;1;spelling mistake;356
+84;POTATO PEELER;75_u2_potato peeler.png;aardappel snijder;3;spelling mistake;357
+84;POTATO PEELER;75_u2_potato peeler.png;aardappelschiller;1;;358
+84;POTATO PEELER;75_u2_potato peeler.png;aardappelschilmes;1;;359
+84;POTATO PEELER;75_u2_potato peeler.png;aardappelschilmesje;1;;360
+84;POTATO PEELER;75_u2_potato peeler.png;aardappelsnijder;3;;361
+84;POTATO PEELER;75_u2_potato peeler.png;schilmesje;1;;362
+85;LIGHT BULB;75_vis_light bulb.png;gloeilamp;1;;363
+85;LIGHT BULB;75_vis_light bulb.png;kandelaar;3;;364
+85;LIGHT BULB;75_vis_light bulb.png;lamp;1;;365
+85;LIGHT BULB;75_vis_light bulb.png;lampje;1;;366
+85;LIGHT BULB;75_vis_light bulb.png;lichtpeer;1;bit strange;367
+85;LIGHT BULB;75_vis_light bulb.png;peertje;1;;368
+85;LIGHT BULB;75_vis_light bulb.png;x;0;;369
+86;CUTTING BOARD;76_u2_cutting board.png;knutseltafel;3;;370
+86;CUTTING BOARD;76_u2_cutting board.png;snijplank;1;;371
+86;CUTTING BOARD;76_u2_cutting board.png;x;0;;372
+87;IRONING BOARD;79_u2_ironing board.png;i;0;;373
+87;IRONING BOARD;79_u2_ironing board.png;strijkbout;3;;374
+87;IRONING BOARD;79_u2_ironing board.png;strijkijzer;3;;375
+87;IRONING BOARD;79_u2_ironing board.png;strijkijzerplank;1;bit strange;376
+87;IRONING BOARD;79_u2_ironing board.png;strijkplank;1;;377
+87;IRONING BOARD;79_u2_ironing board.png;x;0;;378
+88;GUINEA PIG;79_vis_guinea pig.png;cavia;1;;379
+88;GUINEA PIG;79_vis_guinea pig.png;varken;3;;380
+89;TRAFFIC LIGHT;82_u1_traffic light.png;stoplicht;1;;381
+89;TRAFFIC LIGHT;82_u1_traffic light.png;verkeer/stoplicht;1;;382
+89;TRAFFIC LIGHT;82_u1_traffic light.png;verkeerslicht;1;;383
+89;TRAFFIC LIGHT;82_u1_traffic light.png;verkeerslicht (geen stoplicht!);1;;384
+90;POTATO MASHER;86_vis_potato masher.png;(aardappel)stamper;1;;385
+90;POTATO MASHER;86_vis_potato masher.png;aardappel;3;;386
+90;POTATO MASHER;86_vis_potato masher.png;aardappel stamper;1;spelling mistake;387
+90;POTATO MASHER;86_vis_potato masher.png;aardappelschiller;3;;388
+90;POTATO MASHER;86_vis_potato masher.png;aardappelstamper;1;;389
+90;POTATO MASHER;86_vis_potato masher.png;aardappelstamper? aardappelpureestamper ofzo;"1;1";;390
+90;POTATO MASHER;86_vis_potato masher.png;stamper;1;;391
+90;POTATO MASHER;86_vis_potato masher.png;stampot stamper;1;spelling mistake;392
+90;POTATO MASHER;86_vis_potato masher.png;stampotmaker;1;;393
+90;POTATO MASHER;86_vis_potato masher.png;stampotstamper;1;;394
+90;POTATO MASHER;86_vis_potato masher.png;stamppotstamper;1;spelling mistake;395
+91;LAUNDRY BASKET;87_sem_laundry basket.png;wasmand;1;;396
+92;REMOTE CONTROL;91_sem_remote control.png;afstandbediening;1;spelling mistake;397
+92;REMOTE CONTROL;91_sem_remote control.png;afstandsbediening;1;;398
+92;REMOTE CONTROL;91_sem_remote control.png;x;0;;399
+93;CANDLE HOLDER;92_vis_candle holder.png;kaarsenhouder;3;too literal;400
+93;CANDLE HOLDER;92_vis_candle holder.png;kaarsenstandaard;3;too literal;401
+93;CANDLE HOLDER;92_vis_candle holder.png;kaarshouder;3;too literal;402
+93;CANDLE HOLDER;92_vis_candle holder.png;kaarsstandaard;3;too literal;403
+93;CANDLE HOLDER;92_vis_candle holder.png;kandelaar;1;;404
+93;CANDLE HOLDER;92_vis_candle holder.png;kandelaarhouder;3;;405
+94;BOW TIE;93_vis_bow tie.png;boog;3;;406
+94;BOW TIE;93_vis_bow tie.png;strik;3;not specific enough;407
+94;BOW TIE;93_vis_bow tie.png;strikje;3;not specific enough;408
+94;BOW TIE;93_vis_bow tie.png;stropdas;3;not specific enough;409
+94;BOW TIE;93_vis_bow tie.png;vlinderdas;1;;410
+94;BOW TIE;93_vis_bow tie.png;vlinderstrik;1;;411
+94;BOW TIE;93_vis_bow tie.png;vlinderstrikje;1;;412
+94;BOW TIE;93_vis_bow tie.png;vlinderstropdas;1;;413
+94;BOW TIE;93_vis_bow tie.png;x;0;;414
+95;STREETLIGHT;95_u1_lamp post.png;lantaarn;3;not specific enough;415
+95;STREETLIGHT;95_u1_lamp post.png;lantaarnpaal;1;;416
+95;STREETLIGHT;95_u1_lamp post.png;lantaren;3;not specific enough;417
+95;STREETLIGHT;95_u1_lamp post.png;lantarenpaal;1;spelling mistake;418
+95;STREETLIGHT;95_u1_lamp post.png;stoplicht;3;;419
+95;STREETLIGHT;95_u1_lamp post.png;straatlantaarn;1;;420
+95;STREETLIGHT;95_u1_lamp post.png;straatlicht;1;;421
+95;STREETLIGHT;95_u1_lamp post.png;verkeerslicht;3;;422
+96;TRAFFIC SIGN;96_vis_traffic sign.png;stoplicht;3;;423
+96;TRAFFIC SIGN;96_vis_traffic sign.png;verkeersbord;1;;424
+96;TRAFFIC SIGN;96_vis_traffic sign.png;verkeerslicht;3;;425
+97;RIDING HELMET;100_sem_riding helmet.png;(paard)rijhelm;1;;426
+97;RIDING HELMET;100_sem_riding helmet.png;(paardrij) helm;1;;427
+97;RIDING HELMET;100_sem_riding helmet.png;cap;1;;428
+97;RIDING HELMET;100_sem_riding helmet.png;fietshelm;3;;429
+97;RIDING HELMET;100_sem_riding helmet.png;helm;3;not specific enough;430
+97;RIDING HELMET;100_sem_riding helmet.png;motorhelm;3;;431
+97;RIDING HELMET;100_sem_riding helmet.png;paardenrij helm;1;spelling mistake;432
+97;RIDING HELMET;100_sem_riding helmet.png;paardrij helm;1;spelling mistake;433
+97;RIDING HELMET;100_sem_riding helmet.png;paardrijcap;1;;434
+97;RIDING HELMET;100_sem_riding helmet.png;paardrijhelm;1;;435
+97;RIDING HELMET;100_sem_riding helmet.png;rijdhelm;3;not specific enough;436
+97;RIDING HELMET;100_sem_riding helmet.png;rijhelm;3;not specific enough;437
+98;FISHING ROD;100_vis_fishing rod.png;hengel;1;;438
+98;FISHING ROD;100_vis_fishing rod.png;vis hengel;1;spelling mistake;439
+98;FISHING ROD;100_vis_fishing rod.png;vishengel;1;;440
+98;FISHING ROD;100_vis_fishing rod.png;x;0;;441
