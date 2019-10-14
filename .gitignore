@@ -8,6 +8,9 @@
 *.xlsx
 !typicality_ratings/stimuli_typicality.xlsx
 
+# Image files used as stimuli (too large for github)
+pictures_groot-et-al_2016/*
+
 
 ###########################################################
 # DEFAULT
