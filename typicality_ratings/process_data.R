@@ -1,7 +1,7 @@
 ## Process data as output by the online experiment in Frinex
 
-library(dplyr)
-library(readr)
+library("tidyverse")  # ggplot2, dplyr, readr, purrr, etc
+# library(readr)
 
 mypath <- file.path("typicality_ratings", "results_191006")
 mypath
@@ -29,8 +29,10 @@ valid_codes <- read.table(
 head(valid_codes)
 
 # List of participant information
-ppt_info <- read.csv(file.path(mypath, "participants.csv"))
+ppt_info <- read_csv(file.path(mypath, "participants.csv"))
 head(ppt_info)
+# Add task order info (somehow didn't get recorded to TaskOrder but info is there)
+ppt_info$task_order <- ifelse(ppt_info$Item == "english_ratings", "En-Du", "Du-En")
 
 # List of items / stimuli
 items <- read_csv("typicality_ratings/stimuli_typicality.csv") %>%
@@ -50,6 +52,10 @@ valid_ids <- user_ids[user_ids$TagValue2 %in% valid_codes$code, ] %>% pull(UserI
 d <- d_all[d_all$UserId %in% valid_ids, ]
 # same for participant info - keep only valid participants:
 ppt_info <- ppt_info[ppt_info$UserId %in% valid_ids,]
+ppt_info$user_id <- seq_len(nrow(ppt_info))
+head(ppt_info)
+
+d <- left_join(d, ppt_info %>% select(UserId, user_id))
 
 # How many participants are there?
 length(unique(d$UserId))         # 30
@@ -91,111 +97,119 @@ write_csv(transl4cod, file.path(mypath, "transl_task_4coding.csv"))
 
 
 
+# Translation task: coded data --------------------------------------------
+
+# The coding was done offline by the RA. Now we merge the coded data set back:
+transl_coded <- read_csv2(file.path(mypath, "translation4coding_coded.csv"))
+head(transl_coded)
+
+# Coding conventions:
+# Data for this task is coded with the following values:
+# 0 = No response (incl ?, -, etc)
+# 1 = Correct and intended translation (corresponds to the picture)
+# 2 = Correct but unintended translation (does not correspond to the picture)
+# 3 = Incorrect translation
+#
+# 1 and 2 are considered correct for purposes of data exclusion
+#
+# When participants gave more than two words, each of them could be coded in the
+# way above. To err on the conservative side, we always code the response as the
+# worse score, e.g.;
+# "1;2" --> 2
+# "1;3" --> 3
+# "3;1" --> 3
+# "2;3" --> 3
+# "1;2;3" --> 3
+
+transl_coded$Score_ascoded <- transl_coded$Score
+
+# Unique coded responses and their frequency:
+table(transl_coded$Score_ascoded)
+# It works to just take the max number if there are several (separated by ";")
+transl_coded$Score <- sapply(
+  lapply(
+    strsplit(transl_coded$Score_ascoded, split = ";"),
+    as.numeric),
+  max)
+
+table(transl_coded$Score)
+
+# Fold back into the data
+head(transl_coded)
+head(transl)
+transl_scored <- left_join(transl, transl_coded %>% select(item_id : Score))
+
+# Specify the trial within group (works bc data frame is ordered by row_nb)
+transl_scored <- transl_scored %>%
+  group_by(UserId) %>%
+  mutate(trial = row_number())
+
+# Not all participants have the same number of trials!
+table(transl_scored$trial)  # trial = 99?
+transl_scored[transl_scored$trial == 99, ]
+# A couple of trials seem to be repeated!
+sum(table(transl_scored$object_name) != 30)
+table(transl_scored$object_name)[table(transl_scored$object_name) != 30]
+weird_items <- names(table(transl_scored$object_name)[table(transl_scored$object_name) != 30])
+weird_ppts <- transl_scored[transl_scored$trial == 99, ] %>% pull(UserId)
+transl_scored %>%
+  filter(UserId %in% weird_ppts, object_name %in% weird_items)
+# ... well, at least they were consistent in their responses; leave it in for simplicity
+
+# Save to disk the final version with only necessary columns
+transl_scored %>%
+  ungroup %>%
+  select(user_id, item_id, response = Response, score = Score,
+         object_name, pic_file) %>%
+  write_csv(file.path(mypath, "translation_task.csv"))
 
 
 
+# Typicality ratings ------------------------------------------------------
+
+# Choose rows from typicality rating task and simplify columns
+typic <- d %>%
+  filter(EventTag %in% c("RatingButton", "ObjectMismatch", "DontKnowWord")) %>%
+  select(user_id, EventTag, TagValue1, TagValue2, row_nb)
+head(typic)
+
+# As for translation task, join with item data; however now we also need the
+# trial language in addition to the item number
+
+# Extract item ID
+typic$item_id <- as.numeric(sub(".*_([0-9]+)_.*", "\\1", typic$TagValue1))
+# Extract trial language
+typic$trial_lang <- sub("(.*)_[0-9].*", "\\1", typic$TagValue1)
+head(typic)
+
+# Join with item data
+typic <- left_join(typic, items)
+head(typic)
+
+# Join with task-order from participant data
+typic <- left_join(typic, ppt_info %>% select(user_id, task_order))
+head(typic)
 
 
+# Put the responses in a single column
+typic$Response <- typic$TagValue2
+# Mismatch responses:
+typic[typic$EventTag == "ObjectMismatch", "Response"] <- "Mismatch"
+typic[typic$EventTag == "DontKnowWord", "Response"] <- "WordUnknown"
+
+# Specify the trial within group (works bc data frame is ordered by row_nb)
+typic <- typic %>%
+  group_by(user_id) %>%
+  mutate(trial = row_number())
+
+# Simplify columns
+typic <- typic %>%
+  ungroup %>%
+  select(user_id, task_order, trial, Response, item_id : object_name)
+head(typic)
+
+# Does it look all right?
+table(typic$user_id)[table(typic$user_id) != 228]
 
 
-
-# Select relevant rows only -----------------------------------------------
-
-# EvenTag column specifies the nature of the logged data
-unique(d$EventTag)
-
-# Keep only relevant data: text input or presentation time
-d <- d[d$EventTag %in% c("StimulusPresentationTime", "freeText"), ]
-# Trim leading/trailing white spaces and to lower case
-d$TagValue2 <- tolower(trimws(d$TagValue2))
-
-
-
-# Add verb ----------------------------------------------------------------
-
-# The number at the end of TagValue tells us which verb was the stimulus
-# So put that into a new column
-d$verb_id <- as.numeric(gsub("\\D", "", d$TagValue1))
-
-# Join it with the actual verb
-d <- left_join(d, verbs)
-
-
-
-# Feature task ------------------------------------------------------------
-
-# Select feature trials and filter out all empty cells
-feat <- d[grepl("^feat", d$TagValue1), ] %>%
-  filter(EventTag == "freeText" & TagValue2 != "") %>%
-  select(UserId, verb_id, verb, feature_raw = TagValue2)
-
-# How many unique features?
-length(unique(feat$feature_raw))  # 823
-
-# Save to disk feature data set
-write_csv(feat, path = "online_exp/pilot_data/feature_trial-data.csv")
-
-# Data file for coding, which contains only unique features per verb:
-feat_coding <- unique(feat[, c("verb", "feature_raw")])
-feat_coding$feature_clean <- feat_coding$feature_raw
-feat_coding$feature_revised <- ""
-feat_coding$revision <- ""
-feat_coding$feature_type <- ""
-feat_coding$feature_english <- ""
-feat_coding$comment <- ""
-
-# Save to disk
-write_csv(feat_coding, path = "online_exp/pilot_data/feature_for-coding.csv")
-
-
-# Negation task -----------------------------------------------------------
-
-# Select negation trials and filter out all empty cells
-neg <- d[grepl("^neg", d$TagValue1), ] %>%
-  filter(EventTag == "freeText" & TagValue2 != "") %>%
-  mutate(response_clean = TagValue2, synonym_group = "", comment = "") %>%
-  group_by(UserId) %>% mutate(trial = row_number()) %>% ungroup() %>%
-  select(UserId, trial, verb_id, verb, response_raw = TagValue2,
-         response_clean, synonym_group, comment)
-
-# How many unique responses?
-length(unique(neg$response_raw))
-
-# Save to disk negation data set arranged in a more useful format
-write_csv(neg %>% arrange(verb, response_raw),
-          path = "online_exp/pilot_data/negation_trial-data.csv")
-
-# Data file for coding, which contains only unique responses:
-neg_coding <- data.frame(
-  response_raw   = sort(unique(neg$response_raw)),
-  response_clean = sort(unique(neg$response_raw)),
-  response_english = "",
-  comment = ""
-)
-
-# Save to disk
-write_csv(neg_coding, path = "online_exp/pilot_data/negation_for-coding.csv")
-
-
-
-# Via task ----------------------------------------------------------------
-
-# Select via trials
-via <- d[grepl("^via", d$TagValue1), ] %>%
-  filter(EventTag == "freeText" & TagValue2 != "") %>%
-  select(UserId, verb_id, verb, response_raw = TagValue2)
-
-# How many unique verb-response pairs?
-nrow(unique(via[, c("verb", "response_raw")]))
-
-# Save to disk via data set
-write_csv(via, path = "online_exp/pilot_data/via_trial-data.csv")
-
-# Data file for coding, which contains only unique responses per verb:
-via_coding <- via[, c("verb", "response_raw")] %>%
-  mutate(response_clean   = response_raw,
-         valid_response   = "",
-         comment          = "")
-
-# Save to disk
-write_csv(via_coding, path = "online_exp/pilot_data/via_for-coding.csv")
+# Write to disk

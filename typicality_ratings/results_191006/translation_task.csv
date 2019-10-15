@@ -1,0 +1,2943 @@
+user_id,item_id,response,score,object_name,pic_file
+30,81,puntenslijper,1,PENCIL SHARPENER,66_sem_pencil sharpener.png
+30,90,stampotstamper,1,POTATO MASHER,86_vis_potato masher.png
+30,49,kruik,1,HOT WATER BOTTLE,4_vis_hot water bottle.png
+30,18,kikker,1,FROG,41_u1_frog.png
+30,50,schaats,1,ICE SKATE,5_u1_ice skate.png
+30,93,kandelaar,1,CANDLE HOLDER,92_vis_candle holder.png
+30,78,veiligheidsspelden,1,SAFETY PINS,60_u1_safety pins.png
+30,80,gieter,1,WATERING CAN,65_sem_watering can.png
+30,42,glijbaan,1,SLIDE,94_u2_slide.png
+30,69,kapstok,1,COAT RACK,36_sem_coat rack.png
+30,3,das,1,TIE,5_u2_tie.png
+30,97,paardrijhelm,1,RIDING HELMET,100_sem_riding helmet.png
+30,48,koffiezetapparaat,1,COFFEE MACHINE,4_u2_coffee machine.png
+30,27,blad,1,LEAF,63_u1_leaf.png
+30,26,bureau,1,DESK,62_u2_desk.png
+30,75,vuilniszakken,1,TRASH BAGS,52_u2_trash bags.png
+30,63,scheerkwast,1,SHAVING BRUSH,28_u1_shaving brush.png
+30,51,voetbalschoenen,1,SOCCER SHOES,6_sem_soccer shoes.png
+30,15,ventilator,1,FAN,35_u1_fan.png
+30,35,touw,1,ROPE,82_vis_rope.png
+30,87,strijkplank,1,IRONING BOARD,79_u2_ironing board.png
+30,83,winkelwagentje,1,SHOPPING CART,73_u2_shopping cart.png
+30,23,wereldbol,1,GLOBE,56_vis_globe.png
+30,1,sleutel,1,KEY,17_u2_key.png
+30,17,stoel,1,CHAIR,40_u1_chair.png
+30,91,wasmand,1,LAUNDRY BASKET,87_sem_laundry basket.png
+30,30,slang,1,SNAKE,70_vis_snake.png
+30,77,regenlaarzen,1,RAIN BOOTS,60_sem_rain boots.png
+30,70,plijster,1,BAND AID,38_vis_band aid.png
+30,72,schommelstoel,1,ROCKING CHAIR,43_sem_rocking chair.png
+30,59,kaartspel,3,PLAYING CARDS,22_u2_playing cards.png
+30,22,dienblad,1,TRAY,54_vis_tray.png
+30,55,kantoorstoel,1,OFFICE CHAIR,14_u2_office chair.png
+30,25,riem,1,BELT,61_u1_belt.png
+30,34,jas,1,JACKET,80_u2_jacket.png
+30,57,reddingsboei,1,LIFEBUOY,19_vis_life saver.png
+30,39,tanden,1,TEETH,93_sem_teeth.png
+30,60,rubber eend,2,RUBBER DUCK,25_u1_rubber duck.png
+30,66,cementwagen,1,CEMENT TRUCK,32_sem_cement truck.png
+30,82,etui,1,PENCIL CASE,68_u1_pencil case.png
+30,20,tas,1,BAG,45_u2_bag.png
+30,92,afstandsbediening,1,REMOTE CONTROL,91_sem_remote control.png
+30,85,lamp,1,LIGHT BULB,75_vis_light bulb.png
+30,56,babyflesje,1,BABY BOTTLE,18_sem_baby bottle.png
+30,58,ijsje,1,ICE CREAM,20_vis_ice cream.png
+30,11,ton,1,BARREL,25_u2_barrel.png
+30,28,hek,1,FENCE,67_vis_fence.png
+30,67,knuffelbeer,1,TEDDY BEAR,33_u1_teddy bear.png
+30,68,flesopener,1,BOTTLE OPENER,34_u2_bottle opener.png
+30,47,basebalhandschoen,1,BASEBALL GLOVE,3_u1_baseball glove.png
+30,44,worst,1,SAUSAGE,97_u1_sausage.png
+30,43,kreeft,1,LOBSTER,95_sem_lobster.png
+30,41,haai,1,SHARK,94_u1_shark.png
+30,73,prullenbak,1,TRASH CAN,48_u1_trash can.png
+30,94,vlinderdas,1,BOW TIE,93_vis_bow tie.png
+30,8,pistool,1,GUN,14_vis_gun.png
+30,9,bel,1,BELL,21_u2_bell.png
+30,32,pakket,1,PACKAGE,74_u2_package.png
+30,19,drum,3,DRUM,41_u2_drum.png
+30,10,broek,1,PANTS,24_u1_pants.png
+30,5,cadeau,1,PRESENT,7_sem_present.png
+30,96,verkeersbord,1,TRAFFIC SIGN,96_vis_traffic sign.png
+30,53,schommelpaard,1,ROCKING HORSE,11_sem_rocking horse.png
+30,61,haarspeld,3,ROLLING PIN,25_vis_rolling pin.png
+30,74,reddingsvest,1,LIFE JACKET,48_u2_life jacket.png
+30,29,horloge,1,WATCH,69_u1_watch.png
+30,89,verkeerslicht,1,TRAFFIC LIGHT,82_u1_traffic light.png
+30,86,snijplank,1,CUTTING BOARD,76_u2_cutting board.png
+30,37,bloem,1,FLOWER,87_u1_flower.png
+30,95,lantaarnpaal,1,STREETLIGHT,95_u1_lamp post.png
+30,2,kraan,1,TAP,3_sem_tap.png
+30,45,slot,1,LOCK,98_u2_lock.png
+30,52,kaasschaaf,1,CHEESE SLICER,7_u1_cheese slicer.png
+30,98,vishengel,1,FISHING ROD,100_vis_fishing rod.png
+30,46,kruis,1,CROSS,97_vis_cross.png
+30,4,cake/taart,1,CAKE,5_sem_cake.png
+30,33,strijkijzer,1,IRON,74_vis_iron.png
+30,71,tandartsstoel,1,DENTIST CHAIR,42_u2_dentist chair.png
+30,88,cavia,1,GUINEA PIG,79_vis_guinea pig.png
+30,36,paard,1,HORSE,86_sem_horse.png
+30,31,pet,1,CAP,74_sem_cap.png
+30,14,mand,1,BASKET,27_u2_basket.png
+30,21,aansteker,1,LIGHTER,47_vis_lighter.png
+30,76,koekenpan,1,FRYING PAN,58_sem_frying pan.png
+30,40,kers,1,CHERRY,7_vis_cherry.png
+30,65,ijshoorntje,1,ICE CREAM CONE,31_u2_ice cream cone.png
+30,62,lichtknop,1,LIGHT SWITCH,27_sem_light switch.png
+30,12,kom,1,BOWL,26_sem_bowl.png
+30,13,adelaar,1,EAGLE,27_u1_eagle.png
+30,79,ijsbeer,1,POLAR BEAR,62_sem_polar bear.png
+30,24,ketting,1,CHAIN,59_u1_chain.png
+30,16,boog,1,BOW,38_u1_bow.png
+30,6,aap,1,MONKEY,8_sem_monkey.png
+30,84,aardappelschiller,1,POTATO PEELER,75_u2_potato peeler.png
+30,38,lepel,1,SPOON,92_sem_spoon.png
+30,54,meetlint,1,MEASURING TAPE,14_sem_measuring tape.png
+30,7,vlees,1,MEAT,12_u1_meat.png
+30,64,fietstrappers,1,BIKE PEDALS,28_vis_bike pedals.png
+29,62,lichtknop,1,LIGHT SWITCH,27_sem_light switch.png
+29,47,basketbalhandschoen,3,BASEBALL GLOVE,3_u1_baseball glove.png
+29,31,pet,1,CAP,74_sem_cap.png
+29,67,teddy beer,1,TEDDY BEAR,33_u1_teddy bear.png
+29,88,cavia,1,GUINEA PIG,79_vis_guinea pig.png
+29,61,deegroller,1,ROLLING PIN,25_vis_rolling pin.png
+29,70,pleister,1,BAND AID,38_vis_band aid.png
+29,24,ketting,1,CHAIN,59_u1_chain.png
+29,78,veiligheidsspelden,1,SAFETY PINS,60_u1_safety pins.png
+29,50,schaats,1,ICE SKATE,5_u1_ice skate.png
+29,28,hek,1,FENCE,67_vis_fence.png
+29,81,puntenslijper,1,PENCIL SHARPENER,66_sem_pencil sharpener.png
+29,6,aap,1,MONKEY,8_sem_monkey.png
+29,10,broek,1,PANTS,24_u1_pants.png
+29,27,blad,1,LEAF,63_u1_leaf.png
+29,45,slot,1,LOCK,98_u2_lock.png
+29,36,paard,1,HORSE,86_sem_horse.png
+29,80,gieter,1,WATERING CAN,65_sem_watering can.png
+29,63,scheer kwast,1,SHAVING BRUSH,28_u1_shaving brush.png
+29,19,trommel,1,DRUM,41_u2_drum.png
+29,94,strik,3,BOW TIE,93_vis_bow tie.png
+29,4,taart,1,CAKE,5_sem_cake.png
+29,29,horloge,1,WATCH,69_u1_watch.png
+29,90,aardappelstamper,1,POTATO MASHER,86_vis_potato masher.png
+29,83,winkelwagen,1,SHOPPING CART,73_u2_shopping cart.png
+29,30,slang,1,SNAKE,70_vis_snake.png
+29,57,reddingsboei,1,LIFEBUOY,19_vis_life saver.png
+29,66,cementwagen,1,CEMENT TRUCK,32_sem_cement truck.png
+29,42,glijbaan,1,SLIDE,94_u2_slide.png
+29,21,aansteker,1,LIGHTER,47_vis_lighter.png
+29,3,das,1,TIE,5_u2_tie.png
+29,96,verkeersbord,1,TRAFFIC SIGN,96_vis_traffic sign.png
+29,9,bel,1,BELL,21_u2_bell.png
+29,7,vlees,1,MEAT,12_u1_meat.png
+29,38,lepel,1,SPOON,92_sem_spoon.png
+29,46,kruis,1,CROSS,97_vis_cross.png
+29,14,mand,1,BASKET,27_u2_basket.png
+29,40,kers,1,CHERRY,7_vis_cherry.png
+29,68,flesopener,1,BOTTLE OPENER,34_u2_bottle opener.png
+29,58,ijsje,1,ICE CREAM,20_vis_ice cream.png
+29,12,kom,1,BOWL,26_sem_bowl.png
+29,85,gloeilamp,1,LIGHT BULB,75_vis_light bulb.png
+29,74,reddingsvest,1,LIFE JACKET,48_u2_life jacket.png
+29,53,schommelpaard,1,ROCKING HORSE,11_sem_rocking horse.png
+29,64,fietspedalen,1,BIKE PEDALS,28_vis_bike pedals.png
+29,54,meetlint,1,MEASURING TAPE,14_sem_measuring tape.png
+29,2,kraan,1,TAP,3_sem_tap.png
+29,72,schommelstoel,1,ROCKING CHAIR,43_sem_rocking chair.png
+29,44,worst,1,SAUSAGE,97_u1_sausage.png
+29,37,bloem,1,FLOWER,87_u1_flower.png
+29,51,voetbalschoenen,1,SOCCER SHOES,6_sem_soccer shoes.png
+29,25,riem,1,BELT,61_u1_belt.png
+29,77,regenlaarzen,1,RAIN BOOTS,60_sem_rain boots.png
+29,52,kaasschaaf,1,CHEESE SLICER,7_u1_cheese slicer.png
+29,79,ijsbeer,1,POLAR BEAR,62_sem_polar bear.png
+29,39,tanden,1,TEETH,93_sem_teeth.png
+29,43,kreeft,1,LOBSTER,95_sem_lobster.png
+29,1,sleutel,1,KEY,17_u2_key.png
+29,92,afstandsbediening,1,REMOTE CONTROL,91_sem_remote control.png
+29,15,ventilator,1,FAN,35_u1_fan.png
+29,82,etui,1,PENCIL CASE,68_u1_pencil case.png
+29,89,verkeerslicht,1,TRAFFIC LIGHT,82_u1_traffic light.png
+29,41,haai,1,SHARK,94_u1_shark.png
+29,8,pistool,1,GUN,14_vis_gun.png
+29,69,kledingrek,3,COAT RACK,36_sem_coat rack.png
+29,26,bureau,1,DESK,62_u2_desk.png
+29,49,kruik,1,HOT WATER BOTTLE,4_vis_hot water bottle.png
+29,16,boog,1,BOW,38_u1_bow.png
+29,35,touw,1,ROPE,82_vis_rope.png
+29,33,strijkijzer,1,IRON,74_vis_iron.png
+29,17,stoel,1,CHAIR,40_u1_chair.png
+29,93,kandelaar,1,CANDLE HOLDER,92_vis_candle holder.png
+29,55,kantoorstoel,1,OFFICE CHAIR,14_u2_office chair.png
+29,60,badeend,1,RUBBER DUCK,25_u1_rubber duck.png
+29,48,koffiezetapparaat,1,COFFEE MACHINE,4_u2_coffee machine.png
+29,11,vat,1,BARREL,25_u2_barrel.png
+29,87,strijkplank,1,IRONING BOARD,79_u2_ironing board.png
+29,23,wereldbol,1,GLOBE,56_vis_globe.png
+29,71,tandartstoel,1,DENTIST CHAIR,42_u2_dentist chair.png
+29,18,kikker,1,FROG,41_u1_frog.png
+29,65,ijshoorntje,1,ICE CREAM CONE,31_u2_ice cream cone.png
+29,84,aardappelschiller,1,POTATO PEELER,75_u2_potato peeler.png
+29,59,spelkaarten,1,PLAYING CARDS,22_u2_playing cards.png
+29,91,wasmand,1,LAUNDRY BASKET,87_sem_laundry basket.png
+29,56,babyflesje,1,BABY BOTTLE,18_sem_baby bottle.png
+29,20,tas,1,BAG,45_u2_bag.png
+29,95,lantaarn,3,STREETLIGHT,95_u1_lamp post.png
+29,5,cadeau,1,PRESENT,7_sem_present.png
+29,22,dienblad,1,TRAY,54_vis_tray.png
+29,73,vuilnisbak,1,TRASH CAN,48_u1_trash can.png
+29,32,pakket,1,PACKAGE,74_u2_package.png
+29,98,vishengel,1,FISHING ROD,100_vis_fishing rod.png
+29,34,jas,1,JACKET,80_u2_jacket.png
+29,76,koekenpan,1,FRYING PAN,58_sem_frying pan.png
+29,86,snijplank,1,CUTTING BOARD,76_u2_cutting board.png
+29,75,vuilniszakken,1,TRASH BAGS,52_u2_trash bags.png
+29,13,arend,1,EAGLE,27_u1_eagle.png
+29,97,paardrijhelm,1,RIDING HELMET,100_sem_riding helmet.png
+28,41,haai,1,SHARK,94_u1_shark.png
+28,44,worst,1,SAUSAGE,97_u1_sausage.png
+28,20,tas,1,BAG,45_u2_bag.png
+28,46,kruis,1,CROSS,97_vis_cross.png
+28,71,tandartsstoel,1,DENTIST CHAIR,42_u2_dentist chair.png
+28,28,hek,1,FENCE,67_vis_fence.png
+28,56,babyflesje,1,BABY BOTTLE,18_sem_baby bottle.png
+28,89,verkeerslicht,1,TRAFFIC LIGHT,82_u1_traffic light.png
+28,1,sleutel,1,KEY,17_u2_key.png
+28,25,riem,1,BELT,61_u1_belt.png
+28,10,broek,1,PANTS,24_u1_pants.png
+28,63,scheerkwast,1,SHAVING BRUSH,28_u1_shaving brush.png
+28,5,cadeautje,1,PRESENT,7_sem_present.png
+28,26,bureau,1,DESK,62_u2_desk.png
+28,66,cementwagen,1,CEMENT TRUCK,32_sem_cement truck.png
+28,62,lichtschakelaar,1,LIGHT SWITCH,27_sem_light switch.png
+28,98,vishengel,1,FISHING ROD,100_vis_fishing rod.png
+28,68,flesopener,1,BOTTLE OPENER,34_u2_bottle opener.png
+28,42,glijbaan,1,SLIDE,94_u2_slide.png
+28,39,tanden,1,TEETH,93_sem_teeth.png
+28,18,kikker,1,FROG,41_u1_frog.png
+28,73,prullenbak,1,TRASH CAN,48_u1_trash can.png
+28,14,mand,1,BASKET,27_u2_basket.png
+28,86,snijplank,1,CUTTING BOARD,76_u2_cutting board.png
+28,69,weet ik niet,0,COAT RACK,36_sem_coat rack.png
+28,87,strijkplank,1,IRONING BOARD,79_u2_ironing board.png
+28,11,vat/ton,1,BARREL,25_u2_barrel.png
+28,77,regenlaarzen,1,RAIN BOOTS,60_sem_rain boots.png
+28,32,pakket,1,PACKAGE,74_u2_package.png
+28,65,ijshoorntje,1,ICE CREAM CONE,31_u2_ice cream cone.png
+28,83,winkelwagen,1,SHOPPING CART,73_u2_shopping cart.png
+28,59,spelkaarten,1,PLAYING CARDS,22_u2_playing cards.png
+28,52,kaasschaaf,1,CHEESE SLICER,7_u1_cheese slicer.png
+28,23,wereldbol,1,GLOBE,56_vis_globe.png
+28,54,meetlint,1,MEASURING TAPE,14_sem_measuring tape.png
+28,84,aardappelschilmesje,1,POTATO PEELER,75_u2_potato peeler.png
+28,53,hobbelpaard,1,ROCKING HORSE,11_sem_rocking horse.png
+28,61,deegroller,1,ROLLING PIN,25_vis_rolling pin.png
+28,19,trommel,1,DRUM,41_u2_drum.png
+28,96,verkeersbord,1,TRAFFIC SIGN,96_vis_traffic sign.png
+28,15,ventilator,1,FAN,35_u1_fan.png
+28,34,jas,1,JACKET,80_u2_jacket.png
+28,6,aap,1,MONKEY,8_sem_monkey.png
+28,78,veiligheidsspelden,1,SAFETY PINS,60_u1_safety pins.png
+28,31,pet,1,CAP,74_sem_cap.png
+28,85,gloeilamp,1,LIGHT BULB,75_vis_light bulb.png
+28,92,afstandsbediening,1,REMOTE CONTROL,91_sem_remote control.png
+28,49,kruik,1,HOT WATER BOTTLE,4_vis_hot water bottle.png
+28,47,honkbalhandschoen,1,BASEBALL GLOVE,3_u1_baseball glove.png
+28,64,trappers (van de fiets),1,BIKE PEDALS,28_vis_bike pedals.png
+28,22,dienblad,1,TRAY,54_vis_tray.png
+28,55,bureaustoel,1,OFFICE CHAIR,14_u2_office chair.png
+28,12,kom,1,BOWL,26_sem_bowl.png
+28,67,knuffelbeer,1,TEDDY BEAR,33_u1_teddy bear.png
+28,30,slang,1,SNAKE,70_vis_snake.png
+28,95,verkeerslicht,3,STREETLIGHT,95_u1_lamp post.png
+28,7,vlees,1,MEAT,12_u1_meat.png
+28,72,schommelstoel,1,ROCKING CHAIR,43_sem_rocking chair.png
+28,16,boog,1,BOW,38_u1_bow.png
+28,60,badeendje,1,RUBBER DUCK,25_u1_rubber duck.png
+28,13,adelaar,1,EAGLE,27_u1_eagle.png
+28,79,ijsbeer,1,POLAR BEAR,62_sem_polar bear.png
+28,94,vlinderdas,1,BOW TIE,93_vis_bow tie.png
+28,24,ketting,1,CHAIN,59_u1_chain.png
+28,50,schaats,1,ICE SKATE,5_u1_ice skate.png
+28,37,bloem,1,FLOWER,87_u1_flower.png
+28,2,kraan,1,TAP,3_sem_tap.png
+28,75,prullenbakken,3,TRASH BAGS,52_u2_trash bags.png
+28,51,voetbalschoenen,1,SOCCER SHOES,6_sem_soccer shoes.png
+28,88,cavia,1,GUINEA PIG,79_vis_guinea pig.png
+28,93,kandelaar,1,CANDLE HOLDER,92_vis_candle holder.png
+28,40,kers,1,CHERRY,7_vis_cherry.png
+28,80,gieter,1,WATERING CAN,65_sem_watering can.png
+28,17,stoel,1,CHAIR,40_u1_chair.png
+28,33,strijkijzer,1,IRON,74_vis_iron.png
+28,35,touw,1,ROPE,82_vis_rope.png
+28,36,paard,1,HORSE,86_sem_horse.png
+28,91,wasmand,1,LAUNDRY BASKET,87_sem_laundry basket.png
+28,27,blaadje,1,LEAF,63_u1_leaf.png
+28,29,horloge,1,WATCH,69_u1_watch.png
+28,70,pleister,1,BAND AID,38_vis_band aid.png
+28,81,potloodslijper,1,PENCIL SHARPENER,66_sem_pencil sharpener.png
+28,58,ijsje,1,ICE CREAM,20_vis_ice cream.png
+28,97,(paard)rijhelm,1,RIDING HELMET,100_sem_riding helmet.png
+28,90,aardappelstamper? aardappelpureestamper ofzo,1,POTATO MASHER,86_vis_potato masher.png
+28,82,etui,1,PENCIL CASE,68_u1_pencil case.png
+28,8,pistool,1,GUN,14_vis_gun.png
+28,76,koekenpan,1,FRYING PAN,58_sem_frying pan.png
+28,45,slot,1,LOCK,98_u2_lock.png
+28,43,kreeft,1,LOBSTER,95_sem_lobster.png
+28,9,bel,1,BELL,21_u2_bell.png
+28,74,reddingsvest,1,LIFE JACKET,48_u2_life jacket.png
+28,4,taart,1,CAKE,5_sem_cake.png
+28,38,lepel,1,SPOON,92_sem_spoon.png
+28,48,koffiezetapparaat,1,COFFEE MACHINE,4_u2_coffee machine.png
+28,57,reddingsboei,1,LIFEBUOY,19_vis_life saver.png
+28,3,stropdas,1,TIE,5_u2_tie.png
+28,21,aansteker,1,LIGHTER,47_vis_lighter.png
+27,53,hobbelpaard,1,ROCKING HORSE,11_sem_rocking horse.png
+27,25,riem,1,BELT,61_u1_belt.png
+27,81,puntenslijper,1,PENCIL SHARPENER,66_sem_pencil sharpener.png
+27,64,trappedalen/fietspedalen,1,BIKE PEDALS,28_vis_bike pedals.png
+27,86,snijplank,1,CUTTING BOARD,76_u2_cutting board.png
+27,11,ton,1,BARREL,25_u2_barrel.png
+27,79,ijsbeer,1,POLAR BEAR,62_sem_polar bear.png
+27,95,lantaarnpaal,1,STREETLIGHT,95_u1_lamp post.png
+27,88,cavia,1,GUINEA PIG,79_vis_guinea pig.png
+27,60,badeend,1,RUBBER DUCK,25_u1_rubber duck.png
+27,58,ijsje,1,ICE CREAM,20_vis_ice cream.png
+27,56,fles voor baby,1,BABY BOTTLE,18_sem_baby bottle.png
+27,76,koekenpan,1,FRYING PAN,58_sem_frying pan.png
+27,61,rolmaat,3,ROLLING PIN,25_vis_rolling pin.png
+27,82,etui,1,PENCIL CASE,68_u1_pencil case.png
+27,52,kaasschaaf,1,CHEESE SLICER,7_u1_cheese slicer.png
+27,50,schaatsen,1,ICE SKATE,5_u1_ice skate.png
+27,20,tas,1,BAG,45_u2_bag.png
+27,17,stoel,1,CHAIR,40_u1_chair.png
+27,39,tanden,1,TEETH,93_sem_teeth.png
+27,2,kraan,1,TAP,3_sem_tap.png
+27,80,waterkan,3,WATERING CAN,65_sem_watering can.png
+27,69,kapstok,1,COAT RACK,36_sem_coat rack.png
+27,75,vuilniszak,1,TRASH BAGS,52_u2_trash bags.png
+27,77,regenlaarzen,1,RAIN BOOTS,60_sem_rain boots.png
+27,43,kreeft,1,LOBSTER,95_sem_lobster.png
+27,92,afstandsbediening,1,REMOTE CONTROL,91_sem_remote control.png
+27,68,flessenopener,1,BOTTLE OPENER,34_u2_bottle opener.png
+27,55,bureaustoel,1,OFFICE CHAIR,14_u2_office chair.png
+27,48,koffiezetapparaat,1,COFFEE MACHINE,4_u2_coffee machine.png
+27,78,veiligheidsspelden,1,SAFETY PINS,60_u1_safety pins.png
+27,63,scheerkwast,1,SHAVING BRUSH,28_u1_shaving brush.png
+27,62,lichtknop/schakelaar,1,LIGHT SWITCH,27_sem_light switch.png
+27,94,strik,3,BOW TIE,93_vis_bow tie.png
+27,19,drumstel/trommel,3,DRUM,41_u2_drum.png
+27,91,wasmand,1,LAUNDRY BASKET,87_sem_laundry basket.png
+27,59,speelkaarten,1,PLAYING CARDS,22_u2_playing cards.png
+27,5,cadeau,1,PRESENT,7_sem_present.png
+27,83,winkelwagen,1,SHOPPING CART,73_u2_shopping cart.png
+27,26,bureau,1,DESK,62_u2_desk.png
+27,41,haai,1,SHARK,94_u1_shark.png
+27,31,pet,1,CAP,74_sem_cap.png
+27,37,bloem,1,FLOWER,87_u1_flower.png
+27,49,kruik,1,HOT WATER BOTTLE,4_vis_hot water bottle.png
+27,24,slot,3,CHAIN,59_u1_chain.png
+27,14,mand,1,BASKET,27_u2_basket.png
+27,12,bakje/schaal,3,BOWL,26_sem_bowl.png
+27,15,ventilator,1,FAN,35_u1_fan.png
+27,27,blad,1,LEAF,63_u1_leaf.png
+27,54,rolmaat,1,MEASURING TAPE,14_sem_measuring tape.png
+27,16,strik,2,BOW,38_u1_bow.png
+27,42,glijbaan,1,SLIDE,94_u2_slide.png
+27,70,pleister,1,BAND AID,38_vis_band aid.png
+27,85,gloeilamp,1,LIGHT BULB,75_vis_light bulb.png
+27,21,aansteker,1,LIGHTER,47_vis_lighter.png
+27,32,pakket,1,PACKAGE,74_u2_package.png
+27,46,kruis,1,CROSS,97_vis_cross.png
+27,72,schommelstoel,1,ROCKING CHAIR,43_sem_rocking chair.png
+27,96,verkeersbord,1,TRAFFIC SIGN,96_vis_traffic sign.png
+27,93,kandelaar,1,CANDLE HOLDER,92_vis_candle holder.png
+27,65,ijshoorntje,1,ICE CREAM CONE,31_u2_ice cream cone.png
+27,40,kers,1,CHERRY,7_vis_cherry.png
+27,87,strijkijzer,3,IRONING BOARD,79_u2_ironing board.png
+27,97,paardrijhelm,1,RIDING HELMET,100_sem_riding helmet.png
+27,34,jas,1,JACKET,80_u2_jacket.png
+27,28,hek,1,FENCE,67_vis_fence.png
+27,3,stropdas,1,TIE,5_u2_tie.png
+27,18,kikker,1,FROG,41_u1_frog.png
+27,47,honkbalhandschoen,1,BASEBALL GLOVE,3_u1_baseball glove.png
+27,29,horloge,1,WATCH,69_u1_watch.png
+27,23,handschoen,3,GLOBE,56_vis_globe.png
+27,22,dienblad,1,TRAY,54_vis_tray.png
+27,10,broek,1,PANTS,24_u1_pants.png
+27,74,veiligheidshesje,3,LIFE JACKET,48_u2_life jacket.png
+27,73,prullenbak,1,TRASH CAN,48_u1_trash can.png
+27,35,touw,1,ROPE,82_vis_rope.png
+27,57,?,0,LIFEBUOY,19_vis_life saver.png
+27,4,taart,1,CAKE,5_sem_cake.png
+27,71,tandarts stoel,1,DENTIST CHAIR,42_u2_dentist chair.png
+27,51,voetbalschoenen,1,SOCCER SHOES,6_sem_soccer shoes.png
+27,90,stamper,1,POTATO MASHER,86_vis_potato masher.png
+27,98,vishengel,1,FISHING ROD,100_vis_fishing rod.png
+27,44,worst,1,SAUSAGE,97_u1_sausage.png
+27,13,adelaar,1,EAGLE,27_u1_eagle.png
+27,38,lepel,1,SPOON,92_sem_spoon.png
+27,8,pistool,1,GUN,14_vis_gun.png
+27,89,verkeerslicht,1,TRAFFIC LIGHT,82_u1_traffic light.png
+27,36,paard,1,HORSE,86_sem_horse.png
+27,67,knuffelbeer,1,TEDDY BEAR,33_u1_teddy bear.png
+27,45,slot,1,LOCK,98_u2_lock.png
+27,30,slang,1,SNAKE,70_vis_snake.png
+27,9,bel,1,BELL,21_u2_bell.png
+27,66,cement vrachtwagen,2,CEMENT TRUCK,32_sem_cement truck.png
+27,84,aardappelschiller,1,POTATO PEELER,75_u2_potato peeler.png
+27,33,strijkijzer,1,IRON,74_vis_iron.png
+27,7,vlees,1,MEAT,12_u1_meat.png
+27,1,sleutel,1,KEY,17_u2_key.png
+27,6,aap,1,MONKEY,8_sem_monkey.png
+26,13,zeemeeuw,3,EAGLE,27_u1_eagle.png
+26,43,kreeft,1,LOBSTER,95_sem_lobster.png
+26,8,pistool,1,GUN,14_vis_gun.png
+26,12,kom,1,BOWL,26_sem_bowl.png
+26,77,regenlaarzen,1,RAIN BOOTS,60_sem_rain boots.png
+26,31,pet,1,CAP,74_sem_cap.png
+26,33,staal,3,IRON,74_vis_iron.png
+26,78,veiligheidsspelden,1,SAFETY PINS,60_u1_safety pins.png
+26,73,vuilnisbak,1,TRASH CAN,48_u1_trash can.png
+26,18,kikker,1,FROG,41_u1_frog.png
+26,11,vat/ton,1,BARREL,25_u2_barrel.png
+26,10,broek,1,PANTS,24_u1_pants.png
+26,24,ketting,1,CHAIN,59_u1_chain.png
+26,44,worst,1,SAUSAGE,97_u1_sausage.png
+26,23,wereldbol,1,GLOBE,56_vis_globe.png
+26,62,lichtschakelaar,1,LIGHT SWITCH,27_sem_light switch.png
+26,45,slot,1,LOCK,98_u2_lock.png
+26,94,strikje,3,BOW TIE,93_vis_bow tie.png
+26,7,vlees,1,MEAT,12_u1_meat.png
+26,36,paard,1,HORSE,86_sem_horse.png
+26,37,bloem,1,FLOWER,87_u1_flower.png
+26,25,riem,1,BELT,61_u1_belt.png
+26,95,lantaarnpaal,1,STREETLIGHT,95_u1_lamp post.png
+26,61,rolschaats,3,ROLLING PIN,25_vis_rolling pin.png
+26,49,kruik,1,HOT WATER BOTTLE,4_vis_hot water bottle.png
+26,29,horloge,1,WATCH,69_u1_watch.png
+26,32,pakket,1,PACKAGE,74_u2_package.png
+26,93,kandelaar,1,CANDLE HOLDER,92_vis_candle holder.png
+26,1,sleutel,1,KEY,17_u2_key.png
+26,64,trappers,1,BIKE PEDALS,28_vis_bike pedals.png
+26,81,puntenslijper,1,PENCIL SHARPENER,66_sem_pencil sharpener.png
+26,22,dienblad,1,TRAY,54_vis_tray.png
+26,51,voetbalschoenen,1,SOCCER SHOES,6_sem_soccer shoes.png
+26,55,bureaustoel,1,OFFICE CHAIR,14_u2_office chair.png
+26,54,meetlint,1,MEASURING TAPE,14_sem_measuring tape.png
+26,27,blad,1,LEAF,63_u1_leaf.png
+26,88,cavia,1,GUINEA PIG,79_vis_guinea pig.png
+26,83,winkelmandje,3,SHOPPING CART,73_u2_shopping cart.png
+26,41,haai,1,SHARK,94_u1_shark.png
+26,4,taart,1,CAKE,5_sem_cake.png
+26,50,schaats,1,ICE SKATE,5_u1_ice skate.png
+26,56,babyflesje,1,BABY BOTTLE,18_sem_baby bottle.png
+26,60,badeend,1,RUBBER DUCK,25_u1_rubber duck.png
+26,21,aansteker,1,LIGHTER,47_vis_lighter.png
+26,69,kapstok,1,COAT RACK,36_sem_coat rack.png
+26,97,fietshelm,3,RIDING HELMET,100_sem_riding helmet.png
+26,76,frituurpan,3,FRYING PAN,58_sem_frying pan.png
+26,85,gloeilamp,1,LIGHT BULB,75_vis_light bulb.png
+26,2,kraan,1,TAP,3_sem_tap.png
+26,65,ijshoorntje,1,ICE CREAM CONE,31_u2_ice cream cone.png
+26,15,ventilator,1,FAN,35_u1_fan.png
+26,14,mand,1,BASKET,27_u2_basket.png
+26,47,honkbalhandschoen,1,BASEBALL GLOVE,3_u1_baseball glove.png
+26,42,glijbaan,1,SLIDE,94_u2_slide.png
+26,98,vishengel,1,FISHING ROD,100_vis_fishing rod.png
+26,90,aardappelstamper,1,POTATO MASHER,86_vis_potato masher.png
+26,3,das,1,TIE,5_u2_tie.png
+26,96,stoplicht,3,TRAFFIC SIGN,96_vis_traffic sign.png
+26,57,reddingsboei,1,LIFEBUOY,19_vis_life saver.png
+26,86,snijplank,1,CUTTING BOARD,76_u2_cutting board.png
+26,30,slang,1,SNAKE,70_vis_snake.png
+26,5,cadeau,1,PRESENT,7_sem_present.png
+26,9,bel,1,BELL,21_u2_bell.png
+26,39,tanden,1,TEETH,93_sem_teeth.png
+26,70,verband,3,BAND AID,38_vis_band aid.png
+26,80,gieter,1,WATERING CAN,65_sem_watering can.png
+26,91,wasmand,1,LAUNDRY BASKET,87_sem_laundry basket.png
+26,89,stoplicht,1,TRAFFIC LIGHT,82_u1_traffic light.png
+26,46,kruis,1,CROSS,97_vis_cross.png
+26,71,tandartsstoel,1,DENTIST CHAIR,42_u2_dentist chair.png
+26,17,stoel,1,CHAIR,40_u1_chair.png
+26,67,teddybeer,1,TEDDY BEAR,33_u1_teddy bear.png
+26,53,hobbelpaard,1,ROCKING HORSE,11_sem_rocking horse.png
+26,52,kaasschaaf,1,CHEESE SLICER,7_u1_cheese slicer.png
+26,38,lepel,1,SPOON,92_sem_spoon.png
+26,28,hek,1,FENCE,67_vis_fence.png
+26,79,ijsbeer,1,POLAR BEAR,62_sem_polar bear.png
+26,58,ijs,1,ICE CREAM,20_vis_ice cream.png
+26,19,drums?,3,DRUM,41_u2_drum.png
+26,40,kers,1,CHERRY,7_vis_cherry.png
+26,68,flesopener,1,BOTTLE OPENER,34_u2_bottle opener.png
+26,6,aap,1,MONKEY,8_sem_monkey.png
+26,48,koffiezetapparaat,1,COFFEE MACHINE,4_u2_coffee machine.png
+26,84,aardappelschilmesje,1,POTATO PEELER,75_u2_potato peeler.png
+26,72,schommelstoel,1,ROCKING CHAIR,43_sem_rocking chair.png
+26,92,afstandsbediening,1,REMOTE CONTROL,91_sem_remote control.png
+26,75,vuilniszakken,1,TRASH BAGS,52_u2_trash bags.png
+26,63,scheerkwast,1,SHAVING BRUSH,28_u1_shaving brush.png
+26,35,touw,1,ROPE,82_vis_rope.png
+26,16,strikje,2,BOW,38_u1_bow.png
+26,87,strijkplank,1,IRONING BOARD,79_u2_ironing board.png
+26,74,reddingsvest,1,LIFE JACKET,48_u2_life jacket.png
+26,34,jas,1,JACKET,80_u2_jacket.png
+26,66,cementwagen,1,CEMENT TRUCK,32_sem_cement truck.png
+26,20,tas,1,BAG,45_u2_bag.png
+26,59,speelkaarten,1,PLAYING CARDS,22_u2_playing cards.png
+26,26,bureau,1,DESK,62_u2_desk.png
+26,82,etui,1,PENCIL CASE,68_u1_pencil case.png
+25,22,dienblad,1,TRAY,54_vis_tray.png
+25,82,etui,1,PENCIL CASE,68_u1_pencil case.png
+25,86,snijplank,1,CUTTING BOARD,76_u2_cutting board.png
+25,35,touw,1,ROPE,82_vis_rope.png
+25,3,stropdas,1,TIE,5_u2_tie.png
+25,37,bloem,1,FLOWER,87_u1_flower.png
+25,16,strik,2,BOW,38_u1_bow.png
+25,6,aap,1,MONKEY,8_sem_monkey.png
+25,31,pet,1,CAP,74_sem_cap.png
+25,68,flesopener,1,BOTTLE OPENER,34_u2_bottle opener.png
+25,18,kikker,1,FROG,41_u1_frog.png
+25,74,reddingsvest,1,LIFE JACKET,48_u2_life jacket.png
+25,24,ketting,1,CHAIN,59_u1_chain.png
+25,83,winkelwagen,1,SHOPPING CART,73_u2_shopping cart.png
+25,56,baby flesje,1,BABY BOTTLE,18_sem_baby bottle.png
+25,32,pakketje,1,PACKAGE,74_u2_package.png
+25,52,kaasschaaf,1,CHEESE SLICER,7_u1_cheese slicer.png
+25,48,koffiezetapparaat,1,COFFEE MACHINE,4_u2_coffee machine.png
+25,84,aardappelschiller,1,POTATO PEELER,75_u2_potato peeler.png
+25,95,lantaarnpaal,1,STREETLIGHT,95_u1_lamp post.png
+25,1,sleutel,1,KEY,17_u2_key.png
+25,49,kruik,1,HOT WATER BOTTLE,4_vis_hot water bottle.png
+25,41,haai,1,SHARK,94_u1_shark.png
+25,33,strijkijzer,1,IRON,74_vis_iron.png
+25,57,x,0,LIFEBUOY,19_vis_life saver.png
+25,2,kraan,1,TAP,3_sem_tap.png
+25,13,adelaar,1,EAGLE,27_u1_eagle.png
+25,70,pleister,1,BAND AID,38_vis_band aid.png
+25,93,kandelaar,1,CANDLE HOLDER,92_vis_candle holder.png
+25,46,kruis,1,CROSS,97_vis_cross.png
+25,42,glijbaan,1,SLIDE,94_u2_slide.png
+25,63,scheerkwast,1,SHAVING BRUSH,28_u1_shaving brush.png
+25,71,tandartsstoel,1,DENTIST CHAIR,42_u2_dentist chair.png
+25,94,vlinderdas,1,BOW TIE,93_vis_bow tie.png
+25,27,blaadje,1,LEAF,63_u1_leaf.png
+25,89,stoplicht,1,TRAFFIC LIGHT,82_u1_traffic light.png
+25,44,worst,1,SAUSAGE,97_u1_sausage.png
+25,78,veiligheidsspelden,1,SAFETY PINS,60_u1_safety pins.png
+25,96,verkeersbord,1,TRAFFIC SIGN,96_vis_traffic sign.png
+25,25,riem,1,BELT,61_u1_belt.png
+25,45,slot,1,LOCK,98_u2_lock.png
+25,11,vat,1,BARREL,25_u2_barrel.png
+25,87,strijkplank,1,IRONING BOARD,79_u2_ironing board.png
+25,17,stoel,1,CHAIR,40_u1_chair.png
+25,54,meetlint,1,MEASURING TAPE,14_sem_measuring tape.png
+25,85,gloeilamp,1,LIGHT BULB,75_vis_light bulb.png
+25,88,cavia,1,GUINEA PIG,79_vis_guinea pig.png
+25,5,cadeautje,1,PRESENT,7_sem_present.png
+25,65,ijshoorntje,1,ICE CREAM CONE,31_u2_ice cream cone.png
+25,39,tanden,1,TEETH,93_sem_teeth.png
+25,14,mand,1,BASKET,27_u2_basket.png
+25,19,trommel,1,DRUM,41_u2_drum.png
+25,79,ijsbeer,1,POLAR BEAR,62_sem_polar bear.png
+25,58,ijs,1,ICE CREAM,20_vis_ice cream.png
+25,20,tas,1,BAG,45_u2_bag.png
+25,97,paardrijhelm,1,RIDING HELMET,100_sem_riding helmet.png
+25,40,kers,1,CHERRY,7_vis_cherry.png
+25,59,speelkaarten,1,PLAYING CARDS,22_u2_playing cards.png
+25,66,cementwagen,1,CEMENT TRUCK,32_sem_cement truck.png
+25,60,badeend,1,RUBBER DUCK,25_u1_rubber duck.png
+25,34,jas,1,JACKET,80_u2_jacket.png
+25,61,bowlingkegel,3,ROLLING PIN,25_vis_rolling pin.png
+25,69,kapstok,1,COAT RACK,36_sem_coat rack.png
+25,75,vuilniszakken,1,TRASH BAGS,52_u2_trash bags.png
+25,9,bel,1,BELL,21_u2_bell.png
+25,36,paard,1,HORSE,86_sem_horse.png
+25,4,taart,1,CAKE,5_sem_cake.png
+25,92,afstandsbediening,1,REMOTE CONTROL,91_sem_remote control.png
+25,51,voetbalschoenen,1,SOCCER SHOES,6_sem_soccer shoes.png
+25,28,hek,1,FENCE,67_vis_fence.png
+25,81,puntenslijper,1,PENCIL SHARPENER,66_sem_pencil sharpener.png
+25,64,fietspedalen,1,BIKE PEDALS,28_vis_bike pedals.png
+25,47,basketbal handschoen,3,BASEBALL GLOVE,3_u1_baseball glove.png
+25,30,slang,1,SNAKE,70_vis_snake.png
+25,72,wipstoel,1,ROCKING CHAIR,43_sem_rocking chair.png
+25,21,aansteker,1,LIGHTER,47_vis_lighter.png
+25,73,vuilnisbak,1,TRASH CAN,48_u1_trash can.png
+25,26,bureau,1,DESK,62_u2_desk.png
+25,80,gieter,1,WATERING CAN,65_sem_watering can.png
+25,90,aardappelstamper,1,POTATO MASHER,86_vis_potato masher.png
+25,10,broek,1,PANTS,24_u1_pants.png
+25,77,regenlaarzen,1,RAIN BOOTS,60_sem_rain boots.png
+25,98,vishengel,1,FISHING ROD,100_vis_fishing rod.png
+25,7,vlees,1,MEAT,12_u1_meat.png
+25,12,bakje,3,BOWL,26_sem_bowl.png
+25,53,x,0,ROCKING HORSE,11_sem_rocking horse.png
+25,62,lichtknop,1,LIGHT SWITCH,27_sem_light switch.png
+25,8,geweer,1,GUN,14_vis_gun.png
+25,38,lepel,1,SPOON,92_sem_spoon.png
+25,91,wasmand,1,LAUNDRY BASKET,87_sem_laundry basket.png
+25,43,kreeft,1,LOBSTER,95_sem_lobster.png
+25,76,koekepan,1,FRYING PAN,58_sem_frying pan.png
+25,23,wereldbol,1,GLOBE,56_vis_globe.png
+25,15,ventilator,1,FAN,35_u1_fan.png
+25,67,knuffelbeer,1,TEDDY BEAR,33_u1_teddy bear.png
+25,55,bureaustoel,1,OFFICE CHAIR,14_u2_office chair.png
+25,29,horloge,1,WATCH,69_u1_watch.png
+25,50,schaats,1,ICE SKATE,5_u1_ice skate.png
+24,22,dienblad,1,TRAY,54_vis_tray.png
+24,55,bureaustoel,1,OFFICE CHAIR,14_u2_office chair.png
+24,98,vishengel,1,FISHING ROD,100_vis_fishing rod.png
+24,8,pistool,1,GUN,14_vis_gun.png
+24,16,boog,1,BOW,38_u1_bow.png
+24,13,adelaar,1,EAGLE,27_u1_eagle.png
+24,77,regenlaarzen,1,RAIN BOOTS,60_sem_rain boots.png
+24,31,dop,2,CAP,74_sem_cap.png
+24,75,vuilniszakken,1,TRASH BAGS,52_u2_trash bags.png
+24,94,vlinderdas,1,BOW TIE,93_vis_bow tie.png
+24,62,lichtschakelaar,1,LIGHT SWITCH,27_sem_light switch.png
+24,60,badeend,1,RUBBER DUCK,25_u1_rubber duck.png
+24,14,mand,1,BASKET,27_u2_basket.png
+24,38,lepel,1,SPOON,92_sem_spoon.png
+24,20,tas,1,BAG,45_u2_bag.png
+24,50,schaats,1,ICE SKATE,5_u1_ice skate.png
+24,86,snijplank,1,CUTTING BOARD,76_u2_cutting board.png
+24,30,slang,1,SNAKE,70_vis_snake.png
+24,42,glijbaan,1,SLIDE,94_u2_slide.png
+24,36,paard,1,HORSE,86_sem_horse.png
+24,40,kers,1,CHERRY,7_vis_cherry.png
+24,97,paardrijhelm,1,RIDING HELMET,100_sem_riding helmet.png
+24,71,tandartsstoel,1,DENTIST CHAIR,42_u2_dentist chair.png
+24,91,wasmand,1,LAUNDRY BASKET,87_sem_laundry basket.png
+24,90,stamppotstamper,1,POTATO MASHER,86_vis_potato masher.png
+24,68,flesopener,1,BOTTLE OPENER,34_u2_bottle opener.png
+24,87,strijkplank,1,IRONING BOARD,79_u2_ironing board.png
+24,85,gloeilamp,1,LIGHT BULB,75_vis_light bulb.png
+24,46,kruis,1,CROSS,97_vis_cross.png
+24,2,kraan,1,TAP,3_sem_tap.png
+24,65,ijsje,1,ICE CREAM CONE,31_u2_ice cream cone.png
+24,29,horloge,1,WATCH,69_u1_watch.png
+24,45,slot,1,LOCK,98_u2_lock.png
+24,69,kapstok,1,COAT RACK,36_sem_coat rack.png
+24,32,pakje,1,PACKAGE,74_u2_package.png
+24,53,hobbelpaard,1,ROCKING HORSE,11_sem_rocking horse.png
+24,34,jas,1,JACKET,80_u2_jacket.png
+24,74,reddingsvest,1,LIFE JACKET,48_u2_life jacket.png
+24,79,ijsbeer,1,POLAR BEAR,62_sem_polar bear.png
+24,76,koekenpan,1,FRYING PAN,58_sem_frying pan.png
+24,12,kom,1,BOWL,26_sem_bowl.png
+24,63,scheerkwast,1,SHAVING BRUSH,28_u1_shaving brush.png
+24,73,vuilnisbak,1,TRASH CAN,48_u1_trash can.png
+24,48,koffiezetapparaat,1,COFFEE MACHINE,4_u2_coffee machine.png
+24,96,stoplicht,3,TRAFFIC SIGN,96_vis_traffic sign.png
+24,84,aardappelschiller,1,POTATO PEELER,75_u2_potato peeler.png
+24,26,bureau,1,DESK,62_u2_desk.png
+24,5,cadeautje,1,PRESENT,7_sem_present.png
+24,15,ventilator,1,FAN,35_u1_fan.png
+24,49,kruik,1,HOT WATER BOTTLE,4_vis_hot water bottle.png
+24,93,kandelaar,1,CANDLE HOLDER,92_vis_candle holder.png
+24,39,tanden,1,TEETH,93_sem_teeth.png
+24,17,stoel,1,CHAIR,40_u1_chair.png
+24,88,cavia,1,GUINEA PIG,79_vis_guinea pig.png
+24,70,pleister,1,BAND AID,38_vis_band aid.png
+24,52,kaasschaaf,1,CHEESE SLICER,7_u1_cheese slicer.png
+24,1,sleutel,1,KEY,17_u2_key.png
+24,57,reddingsboei,1,LIFEBUOY,19_vis_life saver.png
+24,7,vlees,1,MEAT,12_u1_meat.png
+24,47,honkbalhandschoen,1,BASEBALL GLOVE,3_u1_baseball glove.png
+24,35,touw,1,ROPE,82_vis_rope.png
+24,6,aap,1,MONKEY,8_sem_monkey.png
+24,51,voetbalschoenen,1,SOCCER SHOES,6_sem_soccer shoes.png
+24,9,bel,1,BELL,21_u2_bell.png
+24,19,trommel,1,DRUM,41_u2_drum.png
+24,54,meetlint,1,MEASURING TAPE,14_sem_measuring tape.png
+24,10,broek,1,PANTS,24_u1_pants.png
+24,18,kikker,1,FROG,41_u1_frog.png
+24,72,schommelstoel,1,ROCKING CHAIR,43_sem_rocking chair.png
+23,81,puntenslijper,1,PENCIL SHARPENER,66_sem_pencil sharpener.png
+24,11,ton,1,BARREL,25_u2_barrel.png
+24,24,ketting,1,CHAIN,59_u1_chain.png
+23,58,ijsje,1,ICE CREAM,20_vis_ice cream.png
+23,22,dienblad,1,TRAY,54_vis_tray.png
+24,3,stropdas,1,TIE,5_u2_tie.png
+23,4,taart,1,CAKE,5_sem_cake.png
+24,64,trappers,1,BIKE PEDALS,28_vis_bike pedals.png
+23,24,ketting,1,CHAIN,59_u1_chain.png
+24,89,stoplicht,1,TRAFFIC LIGHT,82_u1_traffic light.png
+23,93,kandelaar,1,CANDLE HOLDER,92_vis_candle holder.png
+23,34,jas,1,JACKET,80_u2_jacket.png
+23,7,vlees,1,MEAT,12_u1_meat.png
+23,72,schommelstoel,1,ROCKING CHAIR,43_sem_rocking chair.png
+23,27,blad,1,LEAF,63_u1_leaf.png
+24,23,globe,1,GLOBE,56_vis_globe.png
+23,10,broek,1,PANTS,24_u1_pants.png
+23,71,tandartsstoel,1,DENTIST CHAIR,42_u2_dentist chair.png
+23,67,knuffelbeer,1,TEDDY BEAR,33_u1_teddy bear.png
+23,11,ton,1,BARREL,25_u2_barrel.png
+23,28,hek,1,FENCE,67_vis_fence.png
+23,79,ijsbeer,1,POLAR BEAR,62_sem_polar bear.png
+23,25,riem,1,BELT,61_u1_belt.png
+23,77,regenlaarsen,1,RAIN BOOTS,60_sem_rain boots.png
+23,14,mand,1,BASKET,27_u2_basket.png
+23,48,koffiezetapparaat,1,COFFEE MACHINE,4_u2_coffee machine.png
+23,50,schaats,1,ICE SKATE,5_u1_ice skate.png
+23,49,kruik,1,HOT WATER BOTTLE,4_vis_hot water bottle.png
+23,59,kaarten,3,PLAYING CARDS,22_u2_playing cards.png
+23,68,flesopener,1,BOTTLE OPENER,34_u2_bottle opener.png
+23,23,aardbol/globe,1,GLOBE,56_vis_globe.png
+23,12,kom,1,BOWL,26_sem_bowl.png
+23,32,pakketje,1,PACKAGE,74_u2_package.png
+23,75,vuilniszakken,1,TRASH BAGS,52_u2_trash bags.png
+23,78,veiligheidsspelden,1,SAFETY PINS,60_u1_safety pins.png
+23,31,pet,1,CAP,74_sem_cap.png
+24,80,gieter,1,WATERING CAN,65_sem_watering can.png
+23,74,reddingsvest,1,LIFE JACKET,48_u2_life jacket.png
+24,56,babyflesje,1,BABY BOTTLE,18_sem_baby bottle.png
+23,91,wasmand,1,LAUNDRY BASKET,87_sem_laundry basket.png
+24,44,worst,1,SAUSAGE,97_u1_sausage.png
+23,35,touw,1,ROPE,82_vis_rope.png
+23,64,trappers,1,BIKE PEDALS,28_vis_bike pedals.png
+24,67,teddybeer,1,TEDDY BEAR,33_u1_teddy bear.png
+24,92,afstandsbediening,1,REMOTE CONTROL,91_sem_remote control.png
+24,4,taart,1,CAKE,5_sem_cake.png
+23,13,arend,1,EAGLE,27_u1_eagle.png
+24,25,riem,1,BELT,61_u1_belt.png
+24,59,speelkaarten,1,PLAYING CARDS,22_u2_playing cards.png
+23,65,hoorntje,1,ICE CREAM CONE,31_u2_ice cream cone.png
+24,41,haai,1,SHARK,94_u1_shark.png
+24,83,winkelwagentje,1,SHOPPING CART,73_u2_shopping cart.png
+23,87,strijkplank,1,IRONING BOARD,79_u2_ironing board.png
+24,82,etui,1,PENCIL CASE,68_u1_pencil case.png
+23,37,bloem,1,FLOWER,87_u1_flower.png
+24,95,lantaarnpaal,1,STREETLIGHT,95_u1_lamp post.png
+23,55,bureaustoel,1,OFFICE CHAIR,14_u2_office chair.png
+24,43,kreeft,1,LOBSTER,95_sem_lobster.png
+23,2,kraan,1,TAP,3_sem_tap.png
+24,28,hek,1,FENCE,67_vis_fence.png
+24,37,bloem,1,FLOWER,87_u1_flower.png
+23,57,reddingsboei,1,LIFEBUOY,19_vis_life saver.png
+24,81,puntenslijper,1,PENCIL SHARPENER,66_sem_pencil sharpener.png
+23,62,lichtschakelaar,1,LIGHT SWITCH,27_sem_light switch.png
+24,58,ijs,1,ICE CREAM,20_vis_ice cream.png
+24,27,blad,1,LEAF,63_u1_leaf.png
+23,51,voetbalschoenen,1,SOCCER SHOES,6_sem_soccer shoes.png
+23,20,tas,1,BAG,45_u2_bag.png
+24,33,strijkijzer,1,IRON,74_vis_iron.png
+24,78,veiligheidsspelden,1,SAFETY PINS,60_u1_safety pins.png
+23,89,verkeerslicht (geen stoplicht!),1,TRAFFIC LIGHT,82_u1_traffic light.png
+24,21,aansteker,1,LIGHTER,47_vis_lighter.png
+22,18,kikker,1,FROG,41_u1_frog.png
+23,16,boog,1,BOW,38_u1_bow.png
+24,61,deegroller,1,ROLLING PIN,25_vis_rolling pin.png
+22,25,riem,1,BELT,61_u1_belt.png
+22,41,haai,1,SHARK,94_u1_shark.png
+24,66,cementwagen,1,CEMENT TRUCK,32_sem_cement truck.png
+23,3,stropdas,1,TIE,5_u2_tie.png
+22,58,ijsje,1,ICE CREAM,20_vis_ice cream.png
+23,52,kaasschaaf,1,CHEESE SLICER,7_u1_cheese slicer.png
+22,68,flesopener,1,BOTTLE OPENER,34_u2_bottle opener.png
+23,96,verkeerslicht,3,TRAFFIC SIGN,96_vis_traffic sign.png
+22,8,pistool,1,GUN,14_vis_gun.png
+23,94,vlinderdas,1,BOW TIE,93_vis_bow tie.png
+22,11,-,0,BARREL,25_u2_barrel.png
+23,85,peertje,1,LIGHT BULB,75_vis_light bulb.png
+23,17,stoel,1,CHAIR,40_u1_chair.png
+22,72,schommelstoel,1,ROCKING CHAIR,43_sem_rocking chair.png
+22,45,slot,1,LOCK,98_u2_lock.png
+23,21,aansteker,1,LIGHTER,47_vis_lighter.png
+23,66,cementwagen,1,CEMENT TRUCK,32_sem_cement truck.png
+22,3,stropdas,1,TIE,5_u2_tie.png
+23,19,trommel,1,DRUM,41_u2_drum.png
+22,48,koffieapparaat,1,COFFEE MACHINE,4_u2_coffee machine.png
+23,86,snijplank,1,CUTTING BOARD,76_u2_cutting board.png
+22,92,afstandsbediening,1,REMOTE CONTROL,91_sem_remote control.png
+23,95,verkeerslicht,3,STREETLIGHT,95_u1_lamp post.png
+22,69,kapstok,1,COAT RACK,36_sem_coat rack.png
+22,23,wereldbol,1,GLOBE,56_vis_globe.png
+23,47,softbalhandschoen,1,BASEBALL GLOVE,3_u1_baseball glove.png
+22,42,glijbaan,1,SLIDE,94_u2_slide.png
+23,56,babyflesje,1,BABY BOTTLE,18_sem_baby bottle.png
+22,52,kaasschaaf,1,CHEESE SLICER,7_u1_cheese slicer.png
+23,38,lepel,1,SPOON,92_sem_spoon.png
+23,9,bel,1,BELL,21_u2_bell.png
+22,71,tandartsstoel,1,DENTIST CHAIR,42_u2_dentist chair.png
+23,36,paard,1,HORSE,86_sem_horse.png
+22,77,regenlaarzen,1,RAIN BOOTS,60_sem_rain boots.png
+23,54,meetlint,1,MEASURING TAPE,14_sem_measuring tape.png
+22,84,aardappelschiller,1,POTATO PEELER,75_u2_potato peeler.png
+23,84,aardappelschiller,1,POTATO PEELER,75_u2_potato peeler.png
+23,5,cadeautje,1,PRESENT,7_sem_present.png
+22,98,vishengel,1,FISHING ROD,100_vis_fishing rod.png
+23,88,cavia,1,GUINEA PIG,79_vis_guinea pig.png
+22,4,taart,1,CAKE,5_sem_cake.png
+23,98,vishengel,1,FISHING ROD,100_vis_fishing rod.png
+22,90,stamper,1,POTATO MASHER,86_vis_potato masher.png
+23,80,waterfles,3,WATERING CAN,65_sem_watering can.png
+22,56,flesje,3,BABY BOTTLE,18_sem_baby bottle.png
+22,40,kers,1,CHERRY,7_vis_cherry.png
+23,53,hobbelpaard,1,ROCKING HORSE,11_sem_rocking horse.png
+23,8,geweer,1,GUN,14_vis_gun.png
+22,86,snijplank,1,CUTTING BOARD,76_u2_cutting board.png
+23,42,glijbaan,1,SLIDE,94_u2_slide.png
+22,76,braadpan,3,FRYING PAN,58_sem_frying pan.png
+23,97,cap,1,RIDING HELMET,100_sem_riding helmet.png
+23,43,kreeft,1,LOBSTER,95_sem_lobster.png
+22,63,scheerkwast,1,SHAVING BRUSH,28_u1_shaving brush.png
+23,76,koekenpan,1,FRYING PAN,58_sem_frying pan.png
+23,26,bureau,1,DESK,62_u2_desk.png
+22,78,veiligheidsspelden,1,SAFETY PINS,60_u1_safety pins.png
+23,92,afstandsbediening,1,REMOTE CONTROL,91_sem_remote control.png
+22,74,reddingsvest,1,LIFE JACKET,48_u2_life jacket.png
+22,17,stoel,1,CHAIR,40_u1_chair.png
+23,70,pleister,1,BAND AID,38_vis_band aid.png
+22,97,helm,3,RIDING HELMET,100_sem_riding helmet.png
+23,15,ventilator,1,FAN,35_u1_fan.png
+23,46,kruis,1,CROSS,97_vis_cross.png
+22,28,hek,1,FENCE,67_vis_fence.png
+23,90,aardappelstamper,1,POTATO MASHER,86_vis_potato masher.png
+22,20,tas,1,BAG,45_u2_bag.png
+23,73,vuilnisbak,1,TRASH CAN,48_u1_trash can.png
+23,44,worst,1,SAUSAGE,97_u1_sausage.png
+23,40,kers,1,CHERRY,7_vis_cherry.png
+23,82,etui,1,PENCIL CASE,68_u1_pencil case.png
+22,35,touw,1,ROPE,82_vis_rope.png
+23,29,horloge,1,WATCH,69_u1_watch.png
+22,49,kruik,1,HOT WATER BOTTLE,4_vis_hot water bottle.png
+23,6,aap,1,MONKEY,8_sem_monkey.png
+22,13,-,0,EAGLE,27_u1_eagle.png
+23,69,kapstok,1,COAT RACK,36_sem_coat rack.png
+22,64,trappers,1,BIKE PEDALS,28_vis_bike pedals.png
+23,33,stijkijzer,1,IRON,74_vis_iron.png
+23,30,slang,1,SNAKE,70_vis_snake.png
+23,18,kikker,1,FROG,41_u1_frog.png
+23,45,slot,1,LOCK,98_u2_lock.png
+22,61,-,0,ROLLING PIN,25_vis_rolling pin.png
+23,1,sleutel,1,KEY,17_u2_key.png
+23,60,badeend,1,RUBBER DUCK,25_u1_rubber duck.png
+23,63,scheerkwast,1,SHAVING BRUSH,28_u1_shaving brush.png
+23,41,haai,1,SHARK,94_u1_shark.png
+22,55,bureaustoel,1,OFFICE CHAIR,14_u2_office chair.png
+23,39,tanden,1,TEETH,93_sem_teeth.png
+22,66,cementwagen,1,CEMENT TRUCK,32_sem_cement truck.png
+22,10,broek,1,PANTS,24_u1_pants.png
+22,21,aansteker,1,LIGHTER,47_vis_lighter.png
+22,29,horloge,1,WATCH,69_u1_watch.png
+22,5,cadeau,1,PRESENT,7_sem_present.png
+22,87,strijkplank,1,IRONING BOARD,79_u2_ironing board.png
+22,6,aap,1,MONKEY,8_sem_monkey.png
+22,93,kaarshouder,3,CANDLE HOLDER,92_vis_candle holder.png
+22,75,vuilniszakken,1,TRASH BAGS,52_u2_trash bags.png
+22,95,lantaarnpaal,1,STREETLIGHT,95_u1_lamp post.png
+22,79,ijsbeer,1,POLAR BEAR,62_sem_polar bear.png
+22,34,jas,1,JACKET,80_u2_jacket.png
+22,24,ketting,1,CHAIN,59_u1_chain.png
+22,43,krab,3,LOBSTER,95_sem_lobster.png
+22,54,meetlint,1,MEASURING TAPE,14_sem_measuring tape.png
+22,46,kruis,1,CROSS,97_vis_cross.png
+22,60,badeend,1,RUBBER DUCK,25_u1_rubber duck.png
+22,12,bakje,3,BOWL,26_sem_bowl.png
+23,83,winkelwagentje,1,SHOPPING CART,73_u2_shopping cart.png
+22,7,vlees,1,MEAT,12_u1_meat.png
+22,32,pakketje,1,PACKAGE,74_u2_package.png
+22,83,winkelwagen,1,SHOPPING CART,73_u2_shopping cart.png
+22,62,lichtknop,1,LIGHT SWITCH,27_sem_light switch.png
+22,59,speelkaarten,1,PLAYING CARDS,22_u2_playing cards.png
+22,96,verkeersbord,1,TRAFFIC SIGN,96_vis_traffic sign.png
+23,61,x,0,ROLLING PIN,25_vis_rolling pin.png
+22,50,schaats,1,ICE SKATE,5_u1_ice skate.png
+22,19,trommel,1,DRUM,41_u2_drum.png
+22,88,cavia,1,GUINEA PIG,79_vis_guinea pig.png
+22,73,vuilnisbak,1,TRASH CAN,48_u1_trash can.png
+22,15,ventilator,1,FAN,35_u1_fan.png
+22,51,voetbalschoenen,1,SOCCER SHOES,6_sem_soccer shoes.png
+22,67,teddybeer,1,TEDDY BEAR,33_u1_teddy bear.png
+22,22,dienblad,1,TRAY,54_vis_tray.png
+22,2,tap / kraan,2,TAP,3_sem_tap.png
+22,47,baseball handschoen,1,BASEBALL GLOVE,3_u1_baseball glove.png
+22,1,sleutel,1,KEY,17_u2_key.png
+22,38,lepel,1,SPOON,92_sem_spoon.png
+22,89,verkeerslicht,1,TRAFFIC LIGHT,82_u1_traffic light.png
+22,26,bureau,1,DESK,62_u2_desk.png
+22,39,tand,1,TEETH,93_sem_teeth.png
+22,33,strijkijzer,1,IRON,74_vis_iron.png
+22,94,strikje,3,BOW TIE,93_vis_bow tie.png
+22,53,schommelpaard,1,ROCKING HORSE,11_sem_rocking horse.png
+22,81,puntenslijper,1,PENCIL SHARPENER,66_sem_pencil sharpener.png
+22,14,mand,1,BASKET,27_u2_basket.png
+22,91,wasmand,1,LAUNDRY BASKET,87_sem_laundry basket.png
+22,82,etui,1,PENCIL CASE,68_u1_pencil case.png
+22,37,bloem,1,FLOWER,87_u1_flower.png
+22,27,blad,1,LEAF,63_u1_leaf.png
+22,9,bel,1,BELL,21_u2_bell.png
+22,70,pleister,1,BAND AID,38_vis_band aid.png
+22,80,waterkan,3,WATERING CAN,65_sem_watering can.png
+22,31,pet,1,CAP,74_sem_cap.png
+22,36,paard,1,HORSE,86_sem_horse.png
+22,16,stropdas,3,BOW,38_u1_bow.png
+22,57,reddingsboei,1,LIFEBUOY,19_vis_life saver.png
+22,65,ijshoorn,1,ICE CREAM CONE,31_u2_ice cream cone.png
+22,30,slang,1,SNAKE,70_vis_snake.png
+22,85,lampje,1,LIGHT BULB,75_vis_light bulb.png
+22,44,worst,1,SAUSAGE,97_u1_sausage.png
+21,1,sleutel,1,KEY,17_u2_key.png
+21,7,vlees,1,MEAT,12_u1_meat.png
+21,43,kreeft,1,LOBSTER,95_sem_lobster.png
+21,98,vishengel,1,FISHING ROD,100_vis_fishing rod.png
+21,62,lichtschakelaar,1,LIGHT SWITCH,27_sem_light switch.png
+21,15,ventilator,1,FAN,35_u1_fan.png
+21,48,koffieapparaat,1,COFFEE MACHINE,4_u2_coffee machine.png
+21,71,tandartsstoel,1,DENTIST CHAIR,42_u2_dentist chair.png
+21,53,hobbelpaard,1,ROCKING HORSE,11_sem_rocking horse.png
+21,90,aardappelstamper,1,POTATO MASHER,86_vis_potato masher.png
+21,84,aardappelschilmesje,1,POTATO PEELER,75_u2_potato peeler.png
+21,26,bureau,1,DESK,62_u2_desk.png
+21,31,pet,1,CAP,74_sem_cap.png
+21,55,bureaustoel,1,OFFICE CHAIR,14_u2_office chair.png
+21,3,stropdas,1,TIE,5_u2_tie.png
+21,78,veiligheidsspelden,1,SAFETY PINS,60_u1_safety pins.png
+21,6,aap,1,MONKEY,8_sem_monkey.png
+21,58,ijs,1,ICE CREAM,20_vis_ice cream.png
+21,64,trappers,1,BIKE PEDALS,28_vis_bike pedals.png
+21,28,hek,1,FENCE,67_vis_fence.png
+21,5,nu,2,PRESENT,7_sem_present.png
+21,69,regenjas,3,COAT RACK,36_sem_coat rack.png
+21,12,bol,3,BOWL,26_sem_bowl.png
+21,35,touw,1,ROPE,82_vis_rope.png
+21,41,haai,1,SHARK,94_u1_shark.png
+21,27,blad,1,LEAF,63_u1_leaf.png
+21,34,jas,1,JACKET,80_u2_jacket.png
+21,22,vat,3,TRAY,54_vis_tray.png
+21,39,tanden,1,TEETH,93_sem_teeth.png
+21,91,wasmand,1,LAUNDRY BASKET,87_sem_laundry basket.png
+21,37,bloem,1,FLOWER,87_u1_flower.png
+21,94,vlinderstropdas,1,BOW TIE,93_vis_bow tie.png
+21,85,gloeilamp,1,LIGHT BULB,75_vis_light bulb.png
+21,42,glijbaan,1,SLIDE,94_u2_slide.png
+21,86,snijplank,1,CUTTING BOARD,76_u2_cutting board.png
+21,54,meetlint,1,MEASURING TAPE,14_sem_measuring tape.png
+21,20,tas,1,BAG,45_u2_bag.png
+21,92,afstandbediening,1,REMOTE CONTROL,91_sem_remote control.png
+21,2,tap,2,TAP,3_sem_tap.png
+21,8,geweer,1,GUN,14_vis_gun.png
+21,70,pleister,1,BAND AID,38_vis_band aid.png
+21,74,zwemvest,1,LIFE JACKET,48_u2_life jacket.png
+21,46,oversteken,2,CROSS,97_vis_cross.png
+21,4,taart,1,CAKE,5_sem_cake.png
+21,83,winkelwagen,1,SHOPPING CART,73_u2_shopping cart.png
+21,93,kaarsstandaard,3,CANDLE HOLDER,92_vis_candle holder.png
+21,77,regenlaarzen,1,RAIN BOOTS,60_sem_rain boots.png
+21,82,potlood,3,PENCIL CASE,68_u1_pencil case.png
+21,10,broek,1,PANTS,24_u1_pants.png
+21,56,babyfles,1,BABY BOTTLE,18_sem_baby bottle.png
+21,75,vuilniszak,1,TRASH BAGS,52_u2_trash bags.png
+21,66,cementwagen,1,CEMENT TRUCK,32_sem_cement truck.png
+21,60,rubber eend,2,RUBBER DUCK,25_u1_rubber duck.png
+21,19,trommel,1,DRUM,41_u2_drum.png
+21,57,reddingsboei,1,LIFEBUOY,19_vis_life saver.png
+21,96,stoplicht,3,TRAFFIC SIGN,96_vis_traffic sign.png
+21,63,borstel,3,SHAVING BRUSH,28_u1_shaving brush.png
+21,72,hobbelstoel,1,ROCKING CHAIR,43_sem_rocking chair.png
+21,29,horloge,1,WATCH,69_u1_watch.png
+21,9,?,0,BELL,21_u2_bell.png
+21,67,knuffelbeer,1,TEDDY BEAR,33_u1_teddy bear.png
+21,61,jojo,3,ROLLING PIN,25_vis_rolling pin.png
+21,50,schaats,1,ICE SKATE,5_u1_ice skate.png
+21,40,kers,1,CHERRY,7_vis_cherry.png
+21,16,boog,1,BOW,38_u1_bow.png
+21,73,vuilnisbak,1,TRASH CAN,48_u1_trash can.png
+21,14,mand,1,BASKET,27_u2_basket.png
+21,17,stoel,1,CHAIR,40_u1_chair.png
+21,87,strijkijzer,3,IRONING BOARD,79_u2_ironing board.png
+21,81,potloodslijper,1,PENCIL SHARPENER,66_sem_pencil sharpener.png
+21,44,worst,1,SAUSAGE,97_u1_sausage.png
+21,11,?,0,BARREL,25_u2_barrel.png
+21,76,koekenpan,1,FRYING PAN,58_sem_frying pan.png
+21,52,kaasschaaf,1,CHEESE SLICER,7_u1_cheese slicer.png
+21,23,wereldbol,1,GLOBE,56_vis_globe.png
+21,88,cavia,1,GUINEA PIG,79_vis_guinea pig.png
+21,33,ijzer,2,IRON,74_vis_iron.png
+21,89,stoplicht,1,TRAFFIC LIGHT,82_u1_traffic light.png
+21,45,slot,1,LOCK,98_u2_lock.png
+21,65,ijshoorntje,1,ICE CREAM CONE,31_u2_ice cream cone.png
+21,32,pakket,1,PACKAGE,74_u2_package.png
+21,38,lepel,1,SPOON,92_sem_spoon.png
+21,80,gieter,1,WATERING CAN,65_sem_watering can.png
+21,51,voetbalschoenen,1,SOCCER SHOES,6_sem_soccer shoes.png
+21,47,honkbalhandschoen,1,BASEBALL GLOVE,3_u1_baseball glove.png
+21,49,heet waterfles,3,HOT WATER BOTTLE,4_vis_hot water bottle.png
+21,21,aansteker,1,LIGHTER,47_vis_lighter.png
+21,95,straatlicht,1,STREETLIGHT,95_u1_lamp post.png
+21,25,riem,1,BELT,61_u1_belt.png
+21,79,ijsbeer,1,POLAR BEAR,62_sem_polar bear.png
+21,36,paard,1,HORSE,86_sem_horse.png
+21,18,kikker,1,FROG,41_u1_frog.png
+21,97,fietshelm,3,RIDING HELMET,100_sem_riding helmet.png
+21,59,spelkaarten,1,PLAYING CARDS,22_u2_playing cards.png
+21,24,kettign,1,CHAIN,59_u1_chain.png
+21,30,slang,1,SNAKE,70_vis_snake.png
+21,68,flesopener,1,BOTTLE OPENER,34_u2_bottle opener.png
+21,13,adelaar,1,EAGLE,27_u1_eagle.png
+20,85,gloeilamp,1,LIGHT BULB,75_vis_light bulb.png
+20,57,reddingsboei,1,LIFEBUOY,19_vis_life saver.png
+20,96,verkeersbord,1,TRAFFIC SIGN,96_vis_traffic sign.png
+20,3,stropdas,1,TIE,5_u2_tie.png
+20,8,pistool,1,GUN,14_vis_gun.png
+20,33,strijkijzer,1,IRON,74_vis_iron.png
+20,2,tap,2,TAP,3_sem_tap.png
+20,34,jas,1,JACKET,80_u2_jacket.png
+20,5,cadeau,1,PRESENT,7_sem_present.png
+20,11,ton,1,BARREL,25_u2_barrel.png
+20,28,hek,1,FENCE,67_vis_fence.png
+20,14,mand,1,BASKET,27_u2_basket.png
+20,46,kruis,1,CROSS,97_vis_cross.png
+20,42,glijbaan,1,SLIDE,94_u2_slide.png
+20,20,tas,1,BAG,45_u2_bag.png
+20,61,x,0,ROLLING PIN,25_vis_rolling pin.png
+20,18,kikker,1,FROG,41_u1_frog.png
+20,58,ijsje,1,ICE CREAM,20_vis_ice cream.png
+20,41,haai,1,SHARK,94_u1_shark.png
+20,95,verkeerslicht,3,STREETLIGHT,95_u1_lamp post.png
+20,1,sleutel,1,KEY,17_u2_key.png
+20,16,strik,2,BOW,38_u1_bow.png
+20,25,riem,1,BELT,61_u1_belt.png
+20,70,pleister,1,BAND AID,38_vis_band aid.png
+20,9,bel,1,BELL,21_u2_bell.png
+20,71,tandartsstoel,1,DENTIST CHAIR,42_u2_dentist chair.png
+20,19,drumstel,3,DRUM,41_u2_drum.png
+20,88,cavia,1,GUINEA PIG,79_vis_guinea pig.png
+20,97,paardrijcap,1,RIDING HELMET,100_sem_riding helmet.png
+20,35,touw,1,ROPE,82_vis_rope.png
+20,60,badeend,1,RUBBER DUCK,25_u1_rubber duck.png
+20,94,vlinderdas,1,BOW TIE,93_vis_bow tie.png
+20,67,knuffelbeer,1,TEDDY BEAR,33_u1_teddy bear.png
+20,24,ketting,1,CHAIN,59_u1_chain.png
+20,29,horloge,1,WATCH,69_u1_watch.png
+20,72,schommelstoel,1,ROCKING CHAIR,43_sem_rocking chair.png
+20,10,broek,1,PANTS,24_u1_pants.png
+20,90,stamper,1,POTATO MASHER,86_vis_potato masher.png
+20,53,hobbelpaard,1,ROCKING HORSE,11_sem_rocking horse.png
+20,62,lichtknopje,1,LIGHT SWITCH,27_sem_light switch.png
+20,37,bloem,1,FLOWER,87_u1_flower.png
+20,39,tanden,1,TEETH,93_sem_teeth.png
+20,50,schaats,1,ICE SKATE,5_u1_ice skate.png
+20,64,trappers,1,BIKE PEDALS,28_vis_bike pedals.png
+20,66,cementwagen,1,CEMENT TRUCK,32_sem_cement truck.png
+20,82,etui,1,PENCIL CASE,68_u1_pencil case.png
+20,22,dienblad,1,TRAY,54_vis_tray.png
+20,49,kruik,1,HOT WATER BOTTLE,4_vis_hot water bottle.png
+20,84,aardappelschilmesje,1,POTATO PEELER,75_u2_potato peeler.png
+20,31,pet,1,CAP,74_sem_cap.png
+20,68,flessenopener,1,BOTTLE OPENER,34_u2_bottle opener.png
+20,92,afstandsbediening,1,REMOTE CONTROL,91_sem_remote control.png
+20,43,kreeft,1,LOBSTER,95_sem_lobster.png
+20,81,puntenslijper,1,PENCIL SHARPENER,66_sem_pencil sharpener.png
+20,12,schaal,1,BOWL,26_sem_bowl.png
+20,27,blad,1,LEAF,63_u1_leaf.png
+20,74,reddingsvest,1,LIFE JACKET,48_u2_life jacket.png
+20,17,stoel,1,CHAIR,40_u1_chair.png
+20,77,regenlaarzen,1,RAIN BOOTS,60_sem_rain boots.png
+20,23,wereldbol,1,GLOBE,56_vis_globe.png
+20,40,kers,1,CHERRY,7_vis_cherry.png
+20,32,pakket,1,PACKAGE,74_u2_package.png
+20,69,kapstok,1,COAT RACK,36_sem_coat rack.png
+20,91,wasmand,1,LAUNDRY BASKET,87_sem_laundry basket.png
+20,87,strijkplank,1,IRONING BOARD,79_u2_ironing board.png
+20,47,honkbalhandschoen,1,BASEBALL GLOVE,3_u1_baseball glove.png
+20,83,winkelwagen,1,SHOPPING CART,73_u2_shopping cart.png
+20,36,paard,1,HORSE,86_sem_horse.png
+20,80,waterkan,3,WATERING CAN,65_sem_watering can.png
+20,86,snijplank,1,CUTTING BOARD,76_u2_cutting board.png
+20,75,vuilniszakken,1,TRASH BAGS,52_u2_trash bags.png
+20,30,slang,1,SNAKE,70_vis_snake.png
+20,51,voetbalschoenen,1,SOCCER SHOES,6_sem_soccer shoes.png
+20,38,lepel,1,SPOON,92_sem_spoon.png
+20,55,bureaustoel,1,OFFICE CHAIR,14_u2_office chair.png
+20,78,veiligheidsspelden,1,SAFETY PINS,60_u1_safety pins.png
+20,56,babyfles,1,BABY BOTTLE,18_sem_baby bottle.png
+20,59,speelkaarten,1,PLAYING CARDS,22_u2_playing cards.png
+20,15,ventilator,1,FAN,35_u1_fan.png
+20,21,aansteker,1,LIGHTER,47_vis_lighter.png
+20,65,hoorntje,1,ICE CREAM CONE,31_u2_ice cream cone.png
+20,73,prullenbak,1,TRASH CAN,48_u1_trash can.png
+20,48,koffiezetapparaat,1,COFFEE MACHINE,4_u2_coffee machine.png
+20,26,bureau,1,DESK,62_u2_desk.png
+20,79,ijsbeer,1,POLAR BEAR,62_sem_polar bear.png
+20,13,adelaar,1,EAGLE,27_u1_eagle.png
+20,98,hengel,1,FISHING ROD,100_vis_fishing rod.png
+20,63,scheerkwast,1,SHAVING BRUSH,28_u1_shaving brush.png
+20,93,kandelaar,1,CANDLE HOLDER,92_vis_candle holder.png
+20,76,koekenpan,1,FRYING PAN,58_sem_frying pan.png
+20,52,kaasschaaf,1,CHEESE SLICER,7_u1_cheese slicer.png
+20,4,cake,1,CAKE,5_sem_cake.png
+20,54,meetlint,1,MEASURING TAPE,14_sem_measuring tape.png
+20,6,aap,1,MONKEY,8_sem_monkey.png
+20,45,slot,1,LOCK,98_u2_lock.png
+20,89,verkeerslicht,1,TRAFFIC LIGHT,82_u1_traffic light.png
+20,7,vlees,1,MEAT,12_u1_meat.png
+20,44,worst,1,SAUSAGE,97_u1_sausage.png
+19,1,sleutel,1,KEY,17_u2_key.png
+19,35,touw,1,ROPE,82_vis_rope.png
+19,21,aansteker,1,LIGHTER,47_vis_lighter.png
+19,47,basketbal handschoen,3,BASEBALL GLOVE,3_u1_baseball glove.png
+19,90,aardappelstamper,1,POTATO MASHER,86_vis_potato masher.png
+19,17,stoel,1,CHAIR,40_u1_chair.png
+19,20,tas,1,BAG,45_u2_bag.png
+19,54,meetlint,1,MEASURING TAPE,14_sem_measuring tape.png
+19,7,vlees,1,MEAT,12_u1_meat.png
+19,75,afvalzak,1,TRASH BAGS,52_u2_trash bags.png
+19,89,verkeerslicht,1,TRAFFIC LIGHT,82_u1_traffic light.png
+19,48,koffiezetapparaat,1,COFFEE MACHINE,4_u2_coffee machine.png
+19,3,stropdas,1,TIE,5_u2_tie.png
+19,23,aardbol,1,GLOBE,56_vis_globe.png
+19,85,kandelaar,3,LIGHT BULB,75_vis_light bulb.png
+19,50,schaats,1,ICE SKATE,5_u1_ice skate.png
+19,59,speelkaarten,1,PLAYING CARDS,22_u2_playing cards.png
+19,41,haai,1,SHARK,94_u1_shark.png
+19,39,tanden,1,TEETH,93_sem_teeth.png
+19,14,mand,1,BASKET,27_u2_basket.png
+19,68,flesopener,1,BOTTLE OPENER,34_u2_bottle opener.png
+19,58,ijsje,1,ICE CREAM,20_vis_ice cream.png
+19,44,worst,1,SAUSAGE,97_u1_sausage.png
+19,29,horloge,1,WATCH,69_u1_watch.png
+19,57,reddingsboei,1,LIFEBUOY,19_vis_life saver.png
+19,69,x,0,COAT RACK,36_sem_coat rack.png
+19,27,blad,1,LEAF,63_u1_leaf.png
+19,36,paard,1,HORSE,86_sem_horse.png
+19,98,vishengel,1,FISHING ROD,100_vis_fishing rod.png
+19,79,ijsbeer,1,POLAR BEAR,62_sem_polar bear.png
+19,93,kandelaar,1,CANDLE HOLDER,92_vis_candle holder.png
+19,15,ventilator,1,FAN,35_u1_fan.png
+19,88,cavia,1,GUINEA PIG,79_vis_guinea pig.png
+19,72,schommelstoel,1,ROCKING CHAIR,43_sem_rocking chair.png
+19,81,puntenslijper,1,PENCIL SHARPENER,66_sem_pencil sharpener.png
+19,32,doos,3,PACKAGE,74_u2_package.png
+19,24,ketting,1,CHAIN,59_u1_chain.png
+19,73,afvalbak,1,TRASH CAN,48_u1_trash can.png
+19,96,verkeerslicht,3,TRAFFIC SIGN,96_vis_traffic sign.png
+19,87,strijkplank,1,IRONING BOARD,79_u2_ironing board.png
+19,28,hek,1,FENCE,67_vis_fence.png
+19,61,x,0,ROLLING PIN,25_vis_rolling pin.png
+19,74,reddingsvest,1,LIFE JACKET,48_u2_life jacket.png
+19,19,trommel,1,DRUM,41_u2_drum.png
+19,16,boog,1,BOW,38_u1_bow.png
+19,77,regenlaarzen,1,RAIN BOOTS,60_sem_rain boots.png
+19,37,bloem,1,FLOWER,87_u1_flower.png
+19,65,ijshoorntje,1,ICE CREAM CONE,31_u2_ice cream cone.png
+19,78,veiligheidsspeld,1,SAFETY PINS,60_u1_safety pins.png
+19,60,badeend,1,RUBBER DUCK,25_u1_rubber duck.png
+19,11,x,0,BARREL,25_u2_barrel.png
+19,10,broek,1,PANTS,24_u1_pants.png
+19,51,voetbalschoenen,1,SOCCER SHOES,6_sem_soccer shoes.png
+19,55,bureaustoel,1,OFFICE CHAIR,14_u2_office chair.png
+19,76,koekenpan,1,FRYING PAN,58_sem_frying pan.png
+19,84,aardappelschiller,1,POTATO PEELER,75_u2_potato peeler.png
+19,82,etui,1,PENCIL CASE,68_u1_pencil case.png
+19,56,babyfles,1,BABY BOTTLE,18_sem_baby bottle.png
+19,40,kers,1,CHERRY,7_vis_cherry.png
+19,9,bel,1,BELL,21_u2_bell.png
+19,12,kom,1,BOWL,26_sem_bowl.png
+19,8,geweer,1,GUN,14_vis_gun.png
+19,97,rijdhelm,3,RIDING HELMET,100_sem_riding helmet.png
+19,92,x,0,REMOTE CONTROL,91_sem_remote control.png
+19,49,kruik,1,HOT WATER BOTTLE,4_vis_hot water bottle.png
+19,66,cementvrachtwagen,2,CEMENT TRUCK,32_sem_cement truck.png
+19,46,kruis,1,CROSS,97_vis_cross.png
+19,33,strijkijzer,1,IRON,74_vis_iron.png
+19,30,slang,1,SNAKE,70_vis_snake.png
+19,86,x,0,CUTTING BOARD,76_u2_cutting board.png
+19,4,taart,1,CAKE,5_sem_cake.png
+19,22,x,0,TRAY,54_vis_tray.png
+19,53,x,0,ROCKING HORSE,11_sem_rocking horse.png
+19,31,helm,2,CAP,74_sem_cap.png
+19,18,kikker,1,FROG,41_u1_frog.png
+19,80,waterkan,3,WATERING CAN,65_sem_watering can.png
+19,83,winkelwagen,1,SHOPPING CART,73_u2_shopping cart.png
+19,63,scheerborstel,3,SHAVING BRUSH,28_u1_shaving brush.png
+19,43,kreeft,1,LOBSTER,95_sem_lobster.png
+19,67,teddybeer,1,TEDDY BEAR,33_u1_teddy bear.png
+19,34,jas,1,JACKET,80_u2_jacket.png
+19,25,riem,1,BELT,61_u1_belt.png
+19,95,lantaarn,3,STREETLIGHT,95_u1_lamp post.png
+19,38,lepel,1,SPOON,92_sem_spoon.png
+19,45,slot,1,LOCK,98_u2_lock.png
+19,52,kaasschaaf,1,CHEESE SLICER,7_u1_cheese slicer.png
+19,64,fietspedaal,1,BIKE PEDALS,28_vis_bike pedals.png
+19,94,strikje,3,BOW TIE,93_vis_bow tie.png
+19,6,aap,1,MONKEY,8_sem_monkey.png
+19,70,x,0,BAND AID,38_vis_band aid.png
+19,71,tandartsstoel,1,DENTIST CHAIR,42_u2_dentist chair.png
+19,2,kraan,1,TAP,3_sem_tap.png
+19,42,stukje,3,SLIDE,94_u2_slide.png
+19,26,bureau,1,DESK,62_u2_desk.png
+19,5,cadeai,1,PRESENT,7_sem_present.png
+19,91,wasmand,1,LAUNDRY BASKET,87_sem_laundry basket.png
+19,13,adelaar,1,EAGLE,27_u1_eagle.png
+19,62,lichtschakelaar,1,LIGHT SWITCH,27_sem_light switch.png
+18,17,stoel,1,CHAIR,40_u1_chair.png
+18,54,meetlint,1,MEASURING TAPE,14_sem_measuring tape.png
+18,92,afstandsbediening,1,REMOTE CONTROL,91_sem_remote control.png
+18,10,broek,1,PANTS,24_u1_pants.png
+18,58,ijsje,1,ICE CREAM,20_vis_ice cream.png
+18,60,badeend,1,RUBBER DUCK,25_u1_rubber duck.png
+18,38,lepel,1,SPOON,92_sem_spoon.png
+18,56,babyflesje,1,BABY BOTTLE,18_sem_baby bottle.png
+18,37,bloem,1,FLOWER,87_u1_flower.png
+18,12,kom,1,BOWL,26_sem_bowl.png
+18,67,knuffelbeer,1,TEDDY BEAR,33_u1_teddy bear.png
+18,45,slot,1,LOCK,98_u2_lock.png
+18,78,veiligheidsspelden,1,SAFETY PINS,60_u1_safety pins.png
+18,25,riem,1,BELT,61_u1_belt.png
+18,97,rijhelm,3,RIDING HELMET,100_sem_riding helmet.png
+18,15,ventillator,1,FAN,35_u1_fan.png
+18,20,tas,1,BAG,45_u2_bag.png
+18,49,kruik,1,HOT WATER BOTTLE,4_vis_hot water bottle.png
+18,53,hobbelpaard,1,ROCKING HORSE,11_sem_rocking horse.png
+18,50,schaats,1,ICE SKATE,5_u1_ice skate.png
+18,66,cementwagen,1,CEMENT TRUCK,32_sem_cement truck.png
+18,57,reddingsboei,1,LIFEBUOY,19_vis_life saver.png
+18,69,kapstok,1,COAT RACK,36_sem_coat rack.png
+18,73,vuilnisbak,1,TRASH CAN,48_u1_trash can.png
+18,16,strik,2,BOW,38_u1_bow.png
+18,74,reddingsvest,1,LIFE JACKET,48_u2_life jacket.png
+18,72,schommelstoel,1,ROCKING CHAIR,43_sem_rocking chair.png
+18,75,vuilniszakken,1,TRASH BAGS,52_u2_trash bags.png
+18,95,stoplicht,3,STREETLIGHT,95_u1_lamp post.png
+18,65,ijshoorntje,1,ICE CREAM CONE,31_u2_ice cream cone.png
+18,35,touw,1,ROPE,82_vis_rope.png
+18,18,kikker,1,FROG,41_u1_frog.png
+18,11,stal,3,BARREL,25_u2_barrel.png
+18,2,kraan,1,TAP,3_sem_tap.png
+18,13,adelaar,1,EAGLE,27_u1_eagle.png
+18,82,etui,1,PENCIL CASE,68_u1_pencil case.png
+18,44,worst,1,SAUSAGE,97_u1_sausage.png
+18,33,strijkijzer,1,IRON,74_vis_iron.png
+18,79,ijsbeer,1,POLAR BEAR,62_sem_polar bear.png
+18,71,tandartsstoel,1,DENTIST CHAIR,42_u2_dentist chair.png
+18,22,x,0,TRAY,54_vis_tray.png
+18,68,flesopener,1,BOTTLE OPENER,34_u2_bottle opener.png
+18,39,tanden,1,TEETH,93_sem_teeth.png
+18,76,koekenpan,1,FRYING PAN,58_sem_frying pan.png
+18,85,peertje,1,LIGHT BULB,75_vis_light bulb.png
+18,46,kruis,1,CROSS,97_vis_cross.png
+18,21,aansteker,1,LIGHTER,47_vis_lighter.png
+18,26,bureau,1,DESK,62_u2_desk.png
+18,40,kers,1,CHERRY,7_vis_cherry.png
+18,63,scheerkwast,1,SHAVING BRUSH,28_u1_shaving brush.png
+18,47,honkbalhandschoen,1,BASEBALL GLOVE,3_u1_baseball glove.png
+18,77,regenlaarsen,1,RAIN BOOTS,60_sem_rain boots.png
+18,9,bel,1,BELL,21_u2_bell.png
+18,28,hek,1,FENCE,67_vis_fence.png
+18,24,ketting,1,CHAIN,59_u1_chain.png
+18,59,spelkaarten,1,PLAYING CARDS,22_u2_playing cards.png
+18,80,gieter,1,WATERING CAN,65_sem_watering can.png
+18,23,wereldbol,1,GLOBE,56_vis_globe.png
+18,14,mand,1,BASKET,27_u2_basket.png
+18,34,jas,1,JACKET,80_u2_jacket.png
+18,32,pakket,1,PACKAGE,74_u2_package.png
+18,48,koffieapparaat,1,COFFEE MACHINE,4_u2_coffee machine.png
+18,91,wasmand,1,LAUNDRY BASKET,87_sem_laundry basket.png
+18,5,cadeau,1,PRESENT,7_sem_present.png
+18,55,bureaustoel,1,OFFICE CHAIR,14_u2_office chair.png
+18,90,stamppotstamper,1,POTATO MASHER,86_vis_potato masher.png
+18,36,paard,1,HORSE,86_sem_horse.png
+18,1,sleutel,1,KEY,17_u2_key.png
+18,84,aardappelschilmes,1,POTATO PEELER,75_u2_potato peeler.png
+18,96,verkeersbord,1,TRAFFIC SIGN,96_vis_traffic sign.png
+18,52,kaasschaaf,1,CHEESE SLICER,7_u1_cheese slicer.png
+18,93,kandelaar,1,CANDLE HOLDER,92_vis_candle holder.png
+18,29,horloge,1,WATCH,69_u1_watch.png
+18,4,taart,1,CAKE,5_sem_cake.png
+18,61,deegroller,1,ROLLING PIN,25_vis_rolling pin.png
+18,6,aap,1,MONKEY,8_sem_monkey.png
+18,41,haai,1,SHARK,94_u1_shark.png
+18,62,lichtschakelaar,1,LIGHT SWITCH,27_sem_light switch.png
+18,27,blaadje,1,LEAF,63_u1_leaf.png
+18,42,glijbaan,1,SLIDE,94_u2_slide.png
+18,88,cavia,1,GUINEA PIG,79_vis_guinea pig.png
+18,87,strijkplank,1,IRONING BOARD,79_u2_ironing board.png
+18,64,fietspedalen,1,BIKE PEDALS,28_vis_bike pedals.png
+18,19,trommel,1,DRUM,41_u2_drum.png
+18,43,kreeft,1,LOBSTER,95_sem_lobster.png
+18,81,puntenslijper,1,PENCIL SHARPENER,66_sem_pencil sharpener.png
+18,7,vlees,1,MEAT,12_u1_meat.png
+18,51,voetbalschoenen,1,SOCCER SHOES,6_sem_soccer shoes.png
+18,98,vishengel,1,FISHING ROD,100_vis_fishing rod.png
+18,83,winkelwagen,1,SHOPPING CART,73_u2_shopping cart.png
+18,31,pet,1,CAP,74_sem_cap.png
+18,70,plijster,1,BAND AID,38_vis_band aid.png
+18,3,stropdas,1,TIE,5_u2_tie.png
+18,89,stoplicht,1,TRAFFIC LIGHT,82_u1_traffic light.png
+18,94,strik,3,BOW TIE,93_vis_bow tie.png
+18,86,snijplank,1,CUTTING BOARD,76_u2_cutting board.png
+18,8,pistool,1,GUN,14_vis_gun.png
+18,30,slang,1,SNAKE,70_vis_snake.png
+17,84,aardappel schiller,1,POTATO PEELER,75_u2_potato peeler.png
+17,70,pleister,1,BAND AID,38_vis_band aid.png
+17,87,strijkijzer,3,IRONING BOARD,79_u2_ironing board.png
+17,61,x,0,ROLLING PIN,25_vis_rolling pin.png
+17,18,kikker,1,FROG,41_u1_frog.png
+17,25,riem,1,BELT,61_u1_belt.png
+17,1,sleutel,1,KEY,17_u2_key.png
+17,79,ijsbeer,1,POLAR BEAR,62_sem_polar bear.png
+17,97,helm,3,RIDING HELMET,100_sem_riding helmet.png
+17,81,puntenslijper,1,PENCIL SHARPENER,66_sem_pencil sharpener.png
+17,63,scheerkwast,1,SHAVING BRUSH,28_u1_shaving brush.png
+17,53,hobbelpaard,1,ROCKING HORSE,11_sem_rocking horse.png
+17,11,x,0,BARREL,25_u2_barrel.png
+17,47,honkbalhandschoen,1,BASEBALL GLOVE,3_u1_baseball glove.png
+17,60,rubberen eend,2,RUBBER DUCK,25_u1_rubber duck.png
+17,6,aap,1,MONKEY,8_sem_monkey.png
+17,38,lepel,1,SPOON,92_sem_spoon.png
+17,64,fiets pedalen,1,BIKE PEDALS,28_vis_bike pedals.png
+17,33,strijkijzer,1,IRON,74_vis_iron.png
+17,30,slang,1,SNAKE,70_vis_snake.png
+17,31,pet,1,CAP,74_sem_cap.png
+17,44,worst,1,SAUSAGE,97_u1_sausage.png
+17,10,broek,1,PANTS,24_u1_pants.png
+17,56,babyfles,1,BABY BOTTLE,18_sem_baby bottle.png
+17,96,verkeerslicht,3,TRAFFIC SIGN,96_vis_traffic sign.png
+17,58,ijs,1,ICE CREAM,20_vis_ice cream.png
+17,82,etui,1,PENCIL CASE,68_u1_pencil case.png
+17,42,glijbaan,1,SLIDE,94_u2_slide.png
+17,13,arend,1,EAGLE,27_u1_eagle.png
+17,48,koffiezet apparaat,1,COFFEE MACHINE,4_u2_coffee machine.png
+17,66,cement vrachtwagen,2,CEMENT TRUCK,32_sem_cement truck.png
+17,29,horloge,1,WATCH,69_u1_watch.png
+17,5,cadeau,1,PRESENT,7_sem_present.png
+17,74,reddingsvest,1,LIFE JACKET,48_u2_life jacket.png
+17,39,tanden,1,TEETH,93_sem_teeth.png
+17,2,kraan,1,TAP,3_sem_tap.png
+17,57,x,0,LIFEBUOY,19_vis_life saver.png
+17,92,afstandsbediening,1,REMOTE CONTROL,91_sem_remote control.png
+17,55,bureau stoel,1,OFFICE CHAIR,14_u2_office chair.png
+17,17,stoel,1,CHAIR,40_u1_chair.png
+17,19,trommel,1,DRUM,41_u2_drum.png
+17,76,frituurpan,3,FRYING PAN,58_sem_frying pan.png
+17,95,lantaren,3,STREETLIGHT,95_u1_lamp post.png
+17,90,aardappel stamper,1,POTATO MASHER,86_vis_potato masher.png
+17,89,verkeerslicht,1,TRAFFIC LIGHT,82_u1_traffic light.png
+17,28,hek,1,FENCE,67_vis_fence.png
+17,43,kreeft,1,LOBSTER,95_sem_lobster.png
+17,98,x,0,FISHING ROD,100_vis_fishing rod.png
+17,24,ketting,1,CHAIN,59_u1_chain.png
+17,68,flesopener,1,BOTTLE OPENER,34_u2_bottle opener.png
+17,78,veiligheidsspelden,1,SAFETY PINS,60_u1_safety pins.png
+17,34,jas,1,JACKET,80_u2_jacket.png
+17,80,kruik,3,WATERING CAN,65_sem_watering can.png
+17,9,bel,1,BELL,21_u2_bell.png
+17,54,veiligheidstape,3,MEASURING TAPE,14_sem_measuring tape.png
+17,3,das,1,TIE,5_u2_tie.png
+17,4,cake,1,CAKE,5_sem_cake.png
+17,26,bureau,1,DESK,62_u2_desk.png
+17,35,touw,1,ROPE,82_vis_rope.png
+17,88,varken,3,GUINEA PIG,79_vis_guinea pig.png
+17,12,kom,1,BOWL,26_sem_bowl.png
+17,46,kruis,1,CROSS,97_vis_cross.png
+17,16,boog,1,BOW,38_u1_bow.png
+17,27,blaadje,1,LEAF,63_u1_leaf.png
+17,45,slot,1,LOCK,98_u2_lock.png
+17,14,mand,1,BASKET,27_u2_basket.png
+17,83,winkelwagen,1,SHOPPING CART,73_u2_shopping cart.png
+17,71,tandarts stoel,1,DENTIST CHAIR,42_u2_dentist chair.png
+17,15,ventilator,1,FAN,35_u1_fan.png
+17,21,aansteker,1,LIGHTER,47_vis_lighter.png
+17,7,vlees,1,MEAT,12_u1_meat.png
+17,72,schommel stoel,1,ROCKING CHAIR,43_sem_rocking chair.png
+17,93,kaarsenhouder,3,CANDLE HOLDER,92_vis_candle holder.png
+17,23,aardbol,1,GLOBE,56_vis_globe.png
+17,22,x,0,TRAY,54_vis_tray.png
+17,50,schaats,1,ICE SKATE,5_u1_ice skate.png
+17,52,kaasschaaf,1,CHEESE SLICER,7_u1_cheese slicer.png
+17,32,pakket,1,PACKAGE,74_u2_package.png
+17,41,haai,1,SHARK,94_u1_shark.png
+17,69,x,0,COAT RACK,36_sem_coat rack.png
+17,91,wasmand,1,LAUNDRY BASKET,87_sem_laundry basket.png
+17,73,vuilnisbak,1,TRASH CAN,48_u1_trash can.png
+17,40,kers,1,CHERRY,7_vis_cherry.png
+17,49,kruik,1,HOT WATER BOTTLE,4_vis_hot water bottle.png
+17,77,regenlaarzen,1,RAIN BOOTS,60_sem_rain boots.png
+17,85,x,0,LIGHT BULB,75_vis_light bulb.png
+17,94,stropdas,3,BOW TIE,93_vis_bow tie.png
+17,86,snijplank,1,CUTTING BOARD,76_u2_cutting board.png
+17,36,paard,1,HORSE,86_sem_horse.png
+17,65,ijs hoorn,1,ICE CREAM CONE,31_u2_ice cream cone.png
+17,51,voetbalschoenen,1,SOCCER SHOES,6_sem_soccer shoes.png
+17,67,teddy beer,1,TEDDY BEAR,33_u1_teddy bear.png
+17,75,vuilniszakken,1,TRASH BAGS,52_u2_trash bags.png
+17,37,bloem,1,FLOWER,87_u1_flower.png
+17,59,spel kaarten,1,PLAYING CARDS,22_u2_playing cards.png
+17,62,schakelaar,3,LIGHT SWITCH,27_sem_light switch.png
+17,8,pistool,1,GUN,14_vis_gun.png
+17,20,tas,1,BAG,45_u2_bag.png
+16,75,vuilniszakken,1,TRASH BAGS,52_u2_trash bags.png
+16,49,kruik,1,HOT WATER BOTTLE,4_vis_hot water bottle.png
+16,10,broek,1,PANTS,24_u1_pants.png
+16,20,tas,1,BAG,45_u2_bag.png
+16,14,mandje,1,BASKET,27_u2_basket.png
+16,43,kreeft,1,LOBSTER,95_sem_lobster.png
+16,48,koffiezetapparaat,1,COFFEE MACHINE,4_u2_coffee machine.png
+16,21,aansteker,1,LIGHTER,47_vis_lighter.png
+16,16,boog,1,BOW,38_u1_bow.png
+16,41,haai,1,SHARK,94_u1_shark.png
+16,80,gieter,1,WATERING CAN,65_sem_watering can.png
+16,39,tanden,1,TEETH,93_sem_teeth.png
+16,58,ijsje,1,ICE CREAM,20_vis_ice cream.png
+16,31,pet,1,CAP,74_sem_cap.png
+16,34,vestje,3,JACKET,80_u2_jacket.png
+16,96,verkeersbord,1,TRAFFIC SIGN,96_vis_traffic sign.png
+16,88,cavia,1,GUINEA PIG,79_vis_guinea pig.png
+16,56,baby flesje,1,BABY BOTTLE,18_sem_baby bottle.png
+16,61,deegroller,1,ROLLING PIN,25_vis_rolling pin.png
+16,62,lichtschakelaar,1,LIGHT SWITCH,27_sem_light switch.png
+16,38,lepel,1,SPOON,92_sem_spoon.png
+16,55,bureaustoel,1,OFFICE CHAIR,14_u2_office chair.png
+16,97,motorhelm,3,RIDING HELMET,100_sem_riding helmet.png
+16,5,cadeau,1,PRESENT,7_sem_present.png
+16,63,scheerborstel,3,SHAVING BRUSH,28_u1_shaving brush.png
+16,83,winkelwagen,1,SHOPPING CART,73_u2_shopping cart.png
+16,46,kruis,1,CROSS,97_vis_cross.png
+16,60,badeend,1,RUBBER DUCK,25_u1_rubber duck.png
+16,9,bel,1,BELL,21_u2_bell.png
+16,74,reddingsvest,1,LIFE JACKET,48_u2_life jacket.png
+16,52,kaasschaaf,1,CHEESE SLICER,7_u1_cheese slicer.png
+16,71,tandarts stoel,1,DENTIST CHAIR,42_u2_dentist chair.png
+16,68,blikopener,3,BOTTLE OPENER,34_u2_bottle opener.png
+16,11,vat,1,BARREL,25_u2_barrel.png
+16,7,vlees,1,MEAT,12_u1_meat.png
+16,26,bureau,1,DESK,62_u2_desk.png
+16,66,cement vrachtwagen,2,CEMENT TRUCK,32_sem_cement truck.png
+16,37,bloem,1,FLOWER,87_u1_flower.png
+16,64,fietspedalen,1,BIKE PEDALS,28_vis_bike pedals.png
+16,79,ijsbeer,1,POLAR BEAR,62_sem_polar bear.png
+16,15,waaier,2,FAN,35_u1_fan.png
+16,24,ketting,1,CHAIN,59_u1_chain.png
+16,33,strijkijzer,1,IRON,74_vis_iron.png
+16,98,vishengel,1,FISHING ROD,100_vis_fishing rod.png
+16,85,lampje,1,LIGHT BULB,75_vis_light bulb.png
+16,50,schaatsen,1,ICE SKATE,5_u1_ice skate.png
+16,17,stoel,1,CHAIR,40_u1_chair.png
+16,72,schommelstoel,1,ROCKING CHAIR,43_sem_rocking chair.png
+16,87,strijkplank,1,IRONING BOARD,79_u2_ironing board.png
+16,36,paard,1,HORSE,86_sem_horse.png
+16,12,kom,1,BOWL,26_sem_bowl.png
+16,95,straatlantaarn,1,STREETLIGHT,95_u1_lamp post.png
+16,53,hobbelpaard,1,ROCKING HORSE,11_sem_rocking horse.png
+16,29,horloge,1,WATCH,69_u1_watch.png
+16,6,aap,1,MONKEY,8_sem_monkey.png
+16,92,afstandsbediening,1,REMOTE CONTROL,91_sem_remote control.png
+16,35,touw,1,ROPE,82_vis_rope.png
+16,4,taart,1,CAKE,5_sem_cake.png
+16,1,sleutel,1,KEY,17_u2_key.png
+16,81,potloodslijper,1,PENCIL SHARPENER,66_sem_pencil sharpener.png
+16,67,knuffelbeer,1,TEDDY BEAR,33_u1_teddy bear.png
+16,78,veiligheidsspelden,1,SAFETY PINS,60_u1_safety pins.png
+16,77,regenlaarzen,1,RAIN BOOTS,60_sem_rain boots.png
+16,23,wereldbol,1,GLOBE,56_vis_globe.png
+16,89,verkeerslicht,1,TRAFFIC LIGHT,82_u1_traffic light.png
+16,51,voetbalschoenen,1,SOCCER SHOES,6_sem_soccer shoes.png
+16,47,honkbal handschoen,1,BASEBALL GLOVE,3_u1_baseball glove.png
+16,76,koekenpan,1,FRYING PAN,58_sem_frying pan.png
+16,13,adelaar,1,EAGLE,27_u1_eagle.png
+16,40,kers,1,CHERRY,7_vis_cherry.png
+16,65,ijshoorntje,1,ICE CREAM CONE,31_u2_ice cream cone.png
+16,18,kikker,1,FROG,41_u1_frog.png
+16,22,dienblad,1,TRAY,54_vis_tray.png
+16,32,pakket,1,PACKAGE,74_u2_package.png
+16,19,trommel,1,DRUM,41_u2_drum.png
+16,30,slang,1,SNAKE,70_vis_snake.png
+16,28,hek,1,FENCE,67_vis_fence.png
+16,94,vlinderdas,1,BOW TIE,93_vis_bow tie.png
+16,42,glijbaan,1,SLIDE,94_u2_slide.png
+16,59,speelkaarten,1,PLAYING CARDS,22_u2_playing cards.png
+16,84,aardappel snijder,3,POTATO PEELER,75_u2_potato peeler.png
+16,45,slot,1,LOCK,98_u2_lock.png
+16,54,rolmaat,1,MEASURING TAPE,14_sem_measuring tape.png
+16,25,riem,1,BELT,61_u1_belt.png
+16,57,reddingsboei,1,LIFEBUOY,19_vis_life saver.png
+16,93,kandelaarhouder,3,CANDLE HOLDER,92_vis_candle holder.png
+16,90,aardappelstamper,1,POTATO MASHER,86_vis_potato masher.png
+16,27,blad,1,LEAF,63_u1_leaf.png
+16,70,verband,3,BAND AID,38_vis_band aid.png
+16,91,wasmand,1,LAUNDRY BASKET,87_sem_laundry basket.png
+16,8,pistool,1,GUN,14_vis_gun.png
+16,3,stropdas,1,TIE,5_u2_tie.png
+16,44,worst,1,SAUSAGE,97_u1_sausage.png
+16,86,snijplank,1,CUTTING BOARD,76_u2_cutting board.png
+16,2,kraan,1,TAP,3_sem_tap.png
+16,82,etui,1,PENCIL CASE,68_u1_pencil case.png
+16,69,kapstok,1,COAT RACK,36_sem_coat rack.png
+16,73,prullenbak,1,TRASH CAN,48_u1_trash can.png
+15,74,veiligheidsvest,3,LIFE JACKET,48_u2_life jacket.png
+15,28,hek,1,FENCE,67_vis_fence.png
+15,2,kraan,1,TAP,3_sem_tap.png
+15,80,gieter,1,WATERING CAN,65_sem_watering can.png
+15,6,aap,1,MONKEY,8_sem_monkey.png
+15,54,meetlint,1,MEASURING TAPE,14_sem_measuring tape.png
+15,56,babyflesje,1,BABY BOTTLE,18_sem_baby bottle.png
+15,75,vuilniszakken,1,TRASH BAGS,52_u2_trash bags.png
+15,81,puntenslijper,1,PENCIL SHARPENER,66_sem_pencil sharpener.png
+15,11,gewicht,3,BARREL,25_u2_barrel.png
+15,90,stamper,1,POTATO MASHER,86_vis_potato masher.png
+15,95,straatlantaarn,1,STREETLIGHT,95_u1_lamp post.png
+15,55,bureaustoel,1,OFFICE CHAIR,14_u2_office chair.png
+15,78,veiligheidsspelden,1,SAFETY PINS,60_u1_safety pins.png
+15,27,blad,1,LEAF,63_u1_leaf.png
+15,67,knuffelbeer,1,TEDDY BEAR,33_u1_teddy bear.png
+15,45,slot,1,LOCK,98_u2_lock.png
+15,35,touw,1,ROPE,82_vis_rope.png
+15,50,schaats,1,ICE SKATE,5_u1_ice skate.png
+15,59,speelkaarten,1,PLAYING CARDS,22_u2_playing cards.png
+15,57,veiligheidsboei,1,LIFEBUOY,19_vis_life saver.png
+15,70,pleister,1,BAND AID,38_vis_band aid.png
+15,72,schommelstoel,1,ROCKING CHAIR,43_sem_rocking chair.png
+15,85,lamp,1,LIGHT BULB,75_vis_light bulb.png
+15,22,dienblad,1,TRAY,54_vis_tray.png
+15,12,kom,1,BOWL,26_sem_bowl.png
+15,19,trommel,1,DRUM,41_u2_drum.png
+15,64,fietspedalen,1,BIKE PEDALS,28_vis_bike pedals.png
+15,53,schommelpaard,1,ROCKING HORSE,11_sem_rocking horse.png
+15,60,badeend,1,RUBBER DUCK,25_u1_rubber duck.png
+15,68,flessenopener,1,BOTTLE OPENER,34_u2_bottle opener.png
+15,61,deegroller,1,ROLLING PIN,25_vis_rolling pin.png
+15,24,ketting,1,CHAIN,59_u1_chain.png
+15,58,ijsje,1,ICE CREAM,20_vis_ice cream.png
+15,89,verkeerslicht,1,TRAFFIC LIGHT,82_u1_traffic light.png
+15,73,vuilnisbak,1,TRASH CAN,48_u1_trash can.png
+15,69,x,0,COAT RACK,36_sem_coat rack.png
+15,9,bel,1,BELL,21_u2_bell.png
+15,44,worst,1,SAUSAGE,97_u1_sausage.png
+15,97,helm,3,RIDING HELMET,100_sem_riding helmet.png
+15,51,voetbalschoenen,1,SOCCER SHOES,6_sem_soccer shoes.png
+15,76,frituurpan,3,FRYING PAN,58_sem_frying pan.png
+15,48,koffiezetapparaat,1,COFFEE MACHINE,4_u2_coffee machine.png
+15,82,etui,1,PENCIL CASE,68_u1_pencil case.png
+15,77,regenlaarzen,1,RAIN BOOTS,60_sem_rain boots.png
+15,65,ijshoorntje,1,ICE CREAM CONE,31_u2_ice cream cone.png
+15,63,scheerkwast,1,SHAVING BRUSH,28_u1_shaving brush.png
+15,26,bureau,1,DESK,62_u2_desk.png
+15,79,ijsbeer,1,POLAR BEAR,62_sem_polar bear.png
+15,8,pistool,1,GUN,14_vis_gun.png
+15,3,das,1,TIE,5_u2_tie.png
+15,18,kikker,1,FROG,41_u1_frog.png
+15,46,kruis,1,CROSS,97_vis_cross.png
+15,92,afstandsbediening,1,REMOTE CONTROL,91_sem_remote control.png
+15,47,honkbalhandschoen,1,BASEBALL GLOVE,3_u1_baseball glove.png
+15,39,tanden,1,TEETH,93_sem_teeth.png
+15,25,riem,1,BELT,61_u1_belt.png
+15,84,aardappelschiller,1,POTATO PEELER,75_u2_potato peeler.png
+15,37,bloem,1,FLOWER,87_u1_flower.png
+15,88,cavia,1,GUINEA PIG,79_vis_guinea pig.png
+15,23,aarde,1,GLOBE,56_vis_globe.png
+15,62,lichtschakelaar,1,LIGHT SWITCH,27_sem_light switch.png
+15,13,adelaar,1,EAGLE,27_u1_eagle.png
+15,93,kandelaar,1,CANDLE HOLDER,92_vis_candle holder.png
+15,98,vishengel,1,FISHING ROD,100_vis_fishing rod.png
+15,66,cementwagen,1,CEMENT TRUCK,32_sem_cement truck.png
+15,16,strik,2,BOW,38_u1_bow.png
+15,43,kreeft,1,LOBSTER,95_sem_lobster.png
+15,96,verkeersbord,1,TRAFFIC SIGN,96_vis_traffic sign.png
+15,38,lepel,1,SPOON,92_sem_spoon.png
+15,5,cadeau,1,PRESENT,7_sem_present.png
+15,17,stoel,1,CHAIR,40_u1_chair.png
+15,52,kaasschaaf,1,CHEESE SLICER,7_u1_cheese slicer.png
+15,40,kers,1,CHERRY,7_vis_cherry.png
+15,71,tandartsstoel,1,DENTIST CHAIR,42_u2_dentist chair.png
+15,42,glijbaan,1,SLIDE,94_u2_slide.png
+15,49,kruik,1,HOT WATER BOTTLE,4_vis_hot water bottle.png
+15,20,tas,1,BAG,45_u2_bag.png
+15,91,wasmand,1,LAUNDRY BASKET,87_sem_laundry basket.png
+15,30,slang,1,SNAKE,70_vis_snake.png
+15,32,pakket,1,PACKAGE,74_u2_package.png
+15,33,ijzer,2,IRON,74_vis_iron.png
+15,4,taart,1,CAKE,5_sem_cake.png
+15,34,jas,1,JACKET,80_u2_jacket.png
+15,10,broek,1,PANTS,24_u1_pants.png
+15,87,strijkijzerplank,1,IRONING BOARD,79_u2_ironing board.png
+15,41,haai,1,SHARK,94_u1_shark.png
+15,86,snijplank,1,CUTTING BOARD,76_u2_cutting board.png
+15,31,pet,1,CAP,74_sem_cap.png
+15,7,vlees,1,MEAT,12_u1_meat.png
+15,21,aansteker,1,LIGHTER,47_vis_lighter.png
+15,1,sleutel,1,KEY,17_u2_key.png
+15,29,horloge,1,WATCH,69_u1_watch.png
+15,83,winkelwagen,1,SHOPPING CART,73_u2_shopping cart.png
+15,14,mand,1,BASKET,27_u2_basket.png
+15,36,paard,1,HORSE,86_sem_horse.png
+15,94,strik,3,BOW TIE,93_vis_bow tie.png
+15,15,ventilator,1,FAN,35_u1_fan.png
+14,44,worstje,1,SAUSAGE,97_u1_sausage.png
+14,96,verkeersbord,1,TRAFFIC SIGN,96_vis_traffic sign.png
+14,17,stoel,1,CHAIR,40_u1_chair.png
+14,27,blad,1,LEAF,63_u1_leaf.png
+14,39,tand,1,TEETH,93_sem_teeth.png
+14,34,jasje,1,JACKET,80_u2_jacket.png
+14,80,waterkan,3,WATERING CAN,65_sem_watering can.png
+14,85,gloeilamp,1,LIGHT BULB,75_vis_light bulb.png
+14,1,sleutel,1,KEY,17_u2_key.png
+14,77,regenlaarzen,1,RAIN BOOTS,60_sem_rain boots.png
+14,28,potlood,3,FENCE,67_vis_fence.png
+14,13,adelaar,1,EAGLE,27_u1_eagle.png
+14,97,rijhelm,3,RIDING HELMET,100_sem_riding helmet.png
+14,71,tandartsstoel,1,DENTIST CHAIR,42_u2_dentist chair.png
+14,89,verkeerslicht,1,TRAFFIC LIGHT,82_u1_traffic light.png
+14,33,ijzer,2,IRON,74_vis_iron.png
+14,12,bakje,3,BOWL,26_sem_bowl.png
+14,21,aansteker,1,LIGHTER,47_vis_lighter.png
+14,42,glijbaan,1,SLIDE,94_u2_slide.png
+14,4,taart,1,CAKE,5_sem_cake.png
+14,49,waterkoker,3,HOT WATER BOTTLE,4_vis_hot water bottle.png
+14,29,horloge,1,WATCH,69_u1_watch.png
+14,30,slang,1,SNAKE,70_vis_snake.png
+14,58,ijsje,1,ICE CREAM,20_vis_ice cream.png
+14,9,bel,1,BELL,21_u2_bell.png
+14,70,pleister,1,BAND AID,38_vis_band aid.png
+14,73,vuilnisbak,1,TRASH CAN,48_u1_trash can.png
+14,98,hengel,1,FISHING ROD,100_vis_fishing rod.png
+14,36,paard,1,HORSE,86_sem_horse.png
+14,79,ijsbeer,1,POLAR BEAR,62_sem_polar bear.png
+14,69,jas,3,COAT RACK,36_sem_coat rack.png
+14,22,blikje,3,TRAY,54_vis_tray.png
+14,18,kikker,1,FROG,41_u1_frog.png
+14,51,voetbalschoenen,1,SOCCER SHOES,6_sem_soccer shoes.png
+14,72,stoel,3,ROCKING CHAIR,43_sem_rocking chair.png
+14,3,stropdas,1,TIE,5_u2_tie.png
+14,61,pen,3,ROLLING PIN,25_vis_rolling pin.png
+14,64,fietsendalen,NA,BIKE PEDALS,28_vis_bike pedals.png
+14,66,cementwagen,1,CEMENT TRUCK,32_sem_cement truck.png
+14,20,tas,1,BAG,45_u2_bag.png
+14,25,riem,1,BELT,61_u1_belt.png
+14,88,cavia,1,GUINEA PIG,79_vis_guinea pig.png
+14,75,vuilniszakken,1,TRASH BAGS,52_u2_trash bags.png
+14,10,broek,1,PANTS,24_u1_pants.png
+14,55,bureaustoel,1,OFFICE CHAIR,14_u2_office chair.png
+14,94,vlinderdas,1,BOW TIE,93_vis_bow tie.png
+14,14,bakje,3,BASKET,27_u2_basket.png
+14,35,touw,1,ROPE,82_vis_rope.png
+14,23,wereldbol,1,GLOBE,56_vis_globe.png
+14,15,bewonderaar,2,FAN,35_u1_fan.png
+14,52,kaasschaaf,1,CHEESE SLICER,7_u1_cheese slicer.png
+14,54,ducktape,3,MEASURING TAPE,14_sem_measuring tape.png
+14,7,vlees,1,MEAT,12_u1_meat.png
+14,76,frituurpan,3,FRYING PAN,58_sem_frying pan.png
+14,26,bureau,1,DESK,62_u2_desk.png
+14,19,drumstel,3,DRUM,41_u2_drum.png
+14,93,kandelaar,1,CANDLE HOLDER,92_vis_candle holder.png
+14,91,wasmand,1,LAUNDRY BASKET,87_sem_laundry basket.png
+14,92,afstandsbediening,1,REMOTE CONTROL,91_sem_remote control.png
+14,65,ijshoorntje,1,ICE CREAM CONE,31_u2_ice cream cone.png
+14,47,handbalhandschoenen,3,BASEBALL GLOVE,3_u1_baseball glove.png
+14,56,flesje,3,BABY BOTTLE,18_sem_baby bottle.png
+14,2,drukken,2,TAP,3_sem_tap.png
+14,38,lepel,1,SPOON,92_sem_spoon.png
+14,81,puntenslijper,1,PENCIL SHARPENER,66_sem_pencil sharpener.png
+14,41,haai,1,SHARK,94_u1_shark.png
+14,50,ijsschaatsen,1,ICE SKATE,5_u1_ice skate.png
+14,62,lichtknopje,1,LIGHT SWITCH,27_sem_light switch.png
+14,83,winkelmand,3,SHOPPING CART,73_u2_shopping cart.png
+14,68,bieropener,1,BOTTLE OPENER,34_u2_bottle opener.png
+14,46,kruis,1,CROSS,97_vis_cross.png
+14,67,teddybeer,1,TEDDY BEAR,33_u1_teddy bear.png
+14,84,aardappel snijder,3,POTATO PEELER,75_u2_potato peeler.png
+14,40,kers,1,CHERRY,7_vis_cherry.png
+14,37,bloem,1,FLOWER,87_u1_flower.png
+14,48,koffiemachine,1,COFFEE MACHINE,4_u2_coffee machine.png
+14,86,snijplank,1,CUTTING BOARD,76_u2_cutting board.png
+14,5,heden,2,PRESENT,7_sem_present.png
+14,24,kleed,3,CHAIN,59_u1_chain.png
+14,59,speelkaarten,1,PLAYING CARDS,22_u2_playing cards.png
+14,82,etui,1,PENCIL CASE,68_u1_pencil case.png
+14,53,speelgoed paard,2,ROCKING HORSE,11_sem_rocking horse.png
+14,8,pistool,1,GUN,14_vis_gun.png
+14,74,veiligheidsvest,3,LIFE JACKET,48_u2_life jacket.png
+14,45,slot,1,LOCK,98_u2_lock.png
+14,11,vat,1,BARREL,25_u2_barrel.png
+14,78,veiligheidsspelden,1,SAFETY PINS,60_u1_safety pins.png
+14,31,pet,1,CAP,74_sem_cap.png
+14,43,kreeft,1,LOBSTER,95_sem_lobster.png
+14,57,veiligheid,3,LIFEBUOY,19_vis_life saver.png
+14,63,scheer kwast,1,SHAVING BRUSH,28_u1_shaving brush.png
+14,32,bagage,3,PACKAGE,74_u2_package.png
+14,16,das,3,BOW,38_u1_bow.png
+14,90,stampotmaker,1,POTATO MASHER,86_vis_potato masher.png
+14,95,lantaarn,3,STREETLIGHT,95_u1_lamp post.png
+14,6,aap,1,MONKEY,8_sem_monkey.png
+14,60,badeend,1,RUBBER DUCK,25_u1_rubber duck.png
+14,87,strijkplank,1,IRONING BOARD,79_u2_ironing board.png
+13,36,paard,1,HORSE,86_sem_horse.png
+13,5,kadootjes/tegenwoordige tijd,2,PRESENT,7_sem_present.png
+13,8,geweer,1,GUN,14_vis_gun.png
+13,89,verkeerslicht,1,TRAFFIC LIGHT,82_u1_traffic light.png
+13,11,ton,1,BARREL,25_u2_barrel.png
+13,38,lepel,1,SPOON,92_sem_spoon.png
+13,58,ijsje,1,ICE CREAM,20_vis_ice cream.png
+13,51,voetbalschoenen,1,SOCCER SHOES,6_sem_soccer shoes.png
+13,81,puntenslijper,1,PENCIL SHARPENER,66_sem_pencil sharpener.png
+13,24,ketting,1,CHAIN,59_u1_chain.png
+13,69,kapstok,1,COAT RACK,36_sem_coat rack.png
+13,49,waterfles,3,HOT WATER BOTTLE,4_vis_hot water bottle.png
+13,74,reddingsvest,1,LIFE JACKET,48_u2_life jacket.png
+13,50,schaats,1,ICE SKATE,5_u1_ice skate.png
+13,63,scheerborstel,3,SHAVING BRUSH,28_u1_shaving brush.png
+13,54,meetteep,3,MEASURING TAPE,14_sem_measuring tape.png
+13,26,bureau,1,DESK,62_u2_desk.png
+13,64,fietspedalen,1,BIKE PEDALS,28_vis_bike pedals.png
+13,40,bes,3,CHERRY,7_vis_cherry.png
+13,82,etui,1,PENCIL CASE,68_u1_pencil case.png
+13,10,broek,1,PANTS,24_u1_pants.png
+13,47,honkbal handschoen,1,BASEBALL GLOVE,3_u1_baseball glove.png
+13,94,vlinderdas,1,BOW TIE,93_vis_bow tie.png
+13,3,stropdas,1,TIE,5_u2_tie.png
+13,30,slang,1,SNAKE,70_vis_snake.png
+13,37,bloem,1,FLOWER,87_u1_flower.png
+13,25,riem,1,BELT,61_u1_belt.png
+13,68,flessenopener,1,BOTTLE OPENER,34_u2_bottle opener.png
+13,52,kaasschaaf,1,CHEESE SLICER,7_u1_cheese slicer.png
+13,42,glijden/dia,2,SLIDE,94_u2_slide.png
+13,12,kom,1,BOWL,26_sem_bowl.png
+13,60,badeendje,1,RUBBER DUCK,25_u1_rubber duck.png
+13,45,slot,1,LOCK,98_u2_lock.png
+13,72,schommelstoel,1,ROCKING CHAIR,43_sem_rocking chair.png
+13,62,lichtknop,1,LIGHT SWITCH,27_sem_light switch.png
+13,75,vuilniszakken,1,TRASH BAGS,52_u2_trash bags.png
+13,18,kikker,1,FROG,41_u1_frog.png
+13,43,kreeft,1,LOBSTER,95_sem_lobster.png
+13,91,wasmand,1,LAUNDRY BASKET,87_sem_laundry basket.png
+13,55,bureaustoel,1,OFFICE CHAIR,14_u2_office chair.png
+13,83,winkelwagen,1,SHOPPING CART,73_u2_shopping cart.png
+13,80,waterkan,3,WATERING CAN,65_sem_watering can.png
+13,92,afstandbediening,1,REMOTE CONTROL,91_sem_remote control.png
+13,9,x,0,BELL,21_u2_bell.png
+13,67,teddybeer,1,TEDDY BEAR,33_u1_teddy bear.png
+13,31,kap,3,CAP,74_sem_cap.png
+13,32,pakketje,1,PACKAGE,74_u2_package.png
+13,21,aansteker,1,LIGHTER,47_vis_lighter.png
+13,22,lade/dienblad,3,TRAY,54_vis_tray.png
+13,98,hengel,1,FISHING ROD,100_vis_fishing rod.png
+13,59,speelkaarten,1,PLAYING CARDS,22_u2_playing cards.png
+13,23,wereldbol,1,GLOBE,56_vis_globe.png
+13,13,arend,1,EAGLE,27_u1_eagle.png
+13,29,horloge,1,WATCH,69_u1_watch.png
+13,87,strijkbout,3,IRONING BOARD,79_u2_ironing board.png
+13,61,x,0,ROLLING PIN,25_vis_rolling pin.png
+13,15,fan/waaier,2,FAN,35_u1_fan.png
+13,34,jas,1,JACKET,80_u2_jacket.png
+13,84,aardappelschiller,1,POTATO PEELER,75_u2_potato peeler.png
+13,7,vlees,1,MEAT,12_u1_meat.png
+13,88,cavia,1,GUINEA PIG,79_vis_guinea pig.png
+13,48,koffiezetapparaat,1,COFFEE MACHINE,4_u2_coffee machine.png
+13,96,verkeersbord,1,TRAFFIC SIGN,96_vis_traffic sign.png
+13,85,lamp,1,LIGHT BULB,75_vis_light bulb.png
+13,39,tanden,1,TEETH,93_sem_teeth.png
+13,20,zak,2,BAG,45_u2_bag.png
+13,56,fles,3,BABY BOTTLE,18_sem_baby bottle.png
+13,4,taart,1,CAKE,5_sem_cake.png
+13,44,worst,1,SAUSAGE,97_u1_sausage.png
+13,41,haai,1,SHARK,94_u1_shark.png
+13,77,regenlaarzen,1,RAIN BOOTS,60_sem_rain boots.png
+13,28,hek,1,FENCE,67_vis_fence.png
+13,66,cementwagen,1,CEMENT TRUCK,32_sem_cement truck.png
+13,35,touw,1,ROPE,82_vis_rope.png
+13,78,veiligheidsspelden,1,SAFETY PINS,60_u1_safety pins.png
+13,97,helm,3,RIDING HELMET,100_sem_riding helmet.png
+13,76,koekenpan,1,FRYING PAN,58_sem_frying pan.png
+13,57,reddingsvest,3,LIFEBUOY,19_vis_life saver.png
+13,70,pleister,1,BAND AID,38_vis_band aid.png
+13,86,snijplank,1,CUTTING BOARD,76_u2_cutting board.png
+13,95,verkeerslicht,3,STREETLIGHT,95_u1_lamp post.png
+13,65,horentje,1,ICE CREAM CONE,31_u2_ice cream cone.png
+13,73,afvalbak,1,TRASH CAN,48_u1_trash can.png
+13,33,strijkijzer,1,IRON,74_vis_iron.png
+13,46,kruis,1,CROSS,97_vis_cross.png
+13,14,mand,1,BASKET,27_u2_basket.png
+13,27,blad,1,LEAF,63_u1_leaf.png
+13,17,stoel,1,CHAIR,40_u1_chair.png
+13,16,boog,1,BOW,38_u1_bow.png
+13,2,kraan,1,TAP,3_sem_tap.png
+13,19,trommel,1,DRUM,41_u2_drum.png
+13,90,aardappel,3,POTATO MASHER,86_vis_potato masher.png
+13,6,aap,1,MONKEY,8_sem_monkey.png
+13,93,kandelaar,1,CANDLE HOLDER,92_vis_candle holder.png
+13,53,speelpaardje,2,ROCKING HORSE,11_sem_rocking horse.png
+13,1,sleutel,1,KEY,17_u2_key.png
+13,71,tandardsstoel,1,DENTIST CHAIR,42_u2_dentist chair.png
+13,79,ijsbeer,1,POLAR BEAR,62_sem_polar bear.png
+12,25,riem,1,BELT,61_u1_belt.png
+12,34,jas,1,JACKET,80_u2_jacket.png
+12,54,meetlint,1,MEASURING TAPE,14_sem_measuring tape.png
+12,87,strijkplank,1,IRONING BOARD,79_u2_ironing board.png
+12,11,vat,1,BARREL,25_u2_barrel.png
+12,79,ijsbeer,1,POLAR BEAR,62_sem_polar bear.png
+12,93,kandelaar,1,CANDLE HOLDER,92_vis_candle holder.png
+12,37,bloem,1,FLOWER,87_u1_flower.png
+12,58,ijs,1,ICE CREAM,20_vis_ice cream.png
+12,2,kraan,1,TAP,3_sem_tap.png
+12,74,reddingsvest,1,LIFE JACKET,48_u2_life jacket.png
+12,56,flesje,3,BABY BOTTLE,18_sem_baby bottle.png
+12,77,regenlaarzen,1,RAIN BOOTS,60_sem_rain boots.png
+12,55,bureaustoel,1,OFFICE CHAIR,14_u2_office chair.png
+12,94,strik,3,BOW TIE,93_vis_bow tie.png
+12,28,hek,1,FENCE,67_vis_fence.png
+12,97,helm,3,RIDING HELMET,100_sem_riding helmet.png
+12,65,horentje,1,ICE CREAM CONE,31_u2_ice cream cone.png
+12,19,trommel,1,DRUM,41_u2_drum.png
+12,40,kers,1,CHERRY,7_vis_cherry.png
+12,47,slagbalhandschoen,1,BASEBALL GLOVE,3_u1_baseball glove.png
+12,41,haai,1,SHARK,94_u1_shark.png
+12,23,wereldbol,1,GLOBE,56_vis_globe.png
+12,21,aansteker,1,LIGHTER,47_vis_lighter.png
+12,88,cavia,1,GUINEA PIG,79_vis_guinea pig.png
+12,71,tandartsstoel,1,DENTIST CHAIR,42_u2_dentist chair.png
+12,12,kom,1,BOWL,26_sem_bowl.png
+12,85,lichtpeer,1,LIGHT BULB,75_vis_light bulb.png
+12,61,deegroller,1,ROLLING PIN,25_vis_rolling pin.png
+12,27,blad,1,LEAF,63_u1_leaf.png
+12,32,pakje,1,PACKAGE,74_u2_package.png
+12,60,rubber eend,2,RUBBER DUCK,25_u1_rubber duck.png
+12,96,verkeerslicht,3,TRAFFIC SIGN,96_vis_traffic sign.png
+12,18,kikker,1,FROG,41_u1_frog.png
+12,84,aardappelschiller,1,POTATO PEELER,75_u2_potato peeler.png
+12,73,vuilnisbak,1,TRASH CAN,48_u1_trash can.png
+12,95,verkeerslicht,3,STREETLIGHT,95_u1_lamp post.png
+12,17,stoel,1,CHAIR,40_u1_chair.png
+12,29,horloge,1,WATCH,69_u1_watch.png
+12,10,broek,1,PANTS,24_u1_pants.png
+12,43,kreeft,1,LOBSTER,95_sem_lobster.png
+12,75,vuilniszakken,1,TRASH BAGS,52_u2_trash bags.png
+12,26,bureau,1,DESK,62_u2_desk.png
+12,81,puntenslijper,1,PENCIL SHARPENER,66_sem_pencil sharpener.png
+12,8,pistool,1,GUN,14_vis_gun.png
+12,64,pedalen,3,BIKE PEDALS,28_vis_bike pedals.png
+12,63,scheerborstel,3,SHAVING BRUSH,28_u1_shaving brush.png
+12,24,ketting,1,CHAIN,59_u1_chain.png
+12,13,arend,1,EAGLE,27_u1_eagle.png
+12,44,worst,1,SAUSAGE,97_u1_sausage.png
+12,82,etui,1,PENCIL CASE,68_u1_pencil case.png
+12,14,mand,1,BASKET,27_u2_basket.png
+12,53,hobbelpaard,1,ROCKING HORSE,11_sem_rocking horse.png
+12,83,winkelwagen,1,SHOPPING CART,73_u2_shopping cart.png
+12,33,strijkijzer,1,IRON,74_vis_iron.png
+12,1,sleutel,1,KEY,17_u2_key.png
+12,5,cadeau,1,PRESENT,7_sem_present.png
+12,70,verband,3,BAND AID,38_vis_band aid.png
+12,6,aap,1,MONKEY,8_sem_monkey.png
+12,35,touw,1,ROPE,82_vis_rope.png
+12,39,tand,1,TEETH,93_sem_teeth.png
+12,7,vlees,1,MEAT,12_u1_meat.png
+12,89,verkeerslicht,1,TRAFFIC LIGHT,82_u1_traffic light.png
+12,69,kapstok,1,COAT RACK,36_sem_coat rack.png
+12,57,reddingsboei,1,LIFEBUOY,19_vis_life saver.png
+12,76,bakpan,1,FRYING PAN,58_sem_frying pan.png
+12,80,gieter,1,WATERING CAN,65_sem_watering can.png
+12,22,dienblad,1,TRAY,54_vis_tray.png
+12,42,glijbaan,1,SLIDE,94_u2_slide.png
+12,16,boog,1,BOW,38_u1_bow.png
+12,52,kaasschaaf,1,CHEESE SLICER,7_u1_cheese slicer.png
+12,68,flesopener,1,BOTTLE OPENER,34_u2_bottle opener.png
+12,4,taart,1,CAKE,5_sem_cake.png
+12,36,paard,1,HORSE,86_sem_horse.png
+12,49,kruik,1,HOT WATER BOTTLE,4_vis_hot water bottle.png
+12,86,snijplank,1,CUTTING BOARD,76_u2_cutting board.png
+12,72,schommelstoel,1,ROCKING CHAIR,43_sem_rocking chair.png
+12,78,veiligheidsspelden,1,SAFETY PINS,60_u1_safety pins.png
+12,90,stamper,1,POTATO MASHER,86_vis_potato masher.png
+12,66,cementwagen,1,CEMENT TRUCK,32_sem_cement truck.png
+12,92,afstandsbediening,1,REMOTE CONTROL,91_sem_remote control.png
+12,3,stropdas,1,TIE,5_u2_tie.png
+12,98,hengel,1,FISHING ROD,100_vis_fishing rod.png
+12,9,bel,1,BELL,21_u2_bell.png
+12,48,koffiezetapparaat,1,COFFEE MACHINE,4_u2_coffee machine.png
+12,20,tas,1,BAG,45_u2_bag.png
+12,30,slang,1,SNAKE,70_vis_snake.png
+12,31,pet,1,CAP,74_sem_cap.png
+12,15,verntilator,1,FAN,35_u1_fan.png
+12,38,lepel,1,SPOON,92_sem_spoon.png
+12,50,schaats,1,ICE SKATE,5_u1_ice skate.png
+12,91,wasmand,1,LAUNDRY BASKET,87_sem_laundry basket.png
+12,45,slot,1,LOCK,98_u2_lock.png
+12,51,voetbalschoenen,1,SOCCER SHOES,6_sem_soccer shoes.png
+12,59,kaarten,3,PLAYING CARDS,22_u2_playing cards.png
+12,67,beer,3,TEDDY BEAR,33_u1_teddy bear.png
+12,46,kruis,1,CROSS,97_vis_cross.png
+12,62,lichtknop,1,LIGHT SWITCH,27_sem_light switch.png
+11,71,tandartsstoel,1,DENTIST CHAIR,42_u2_dentist chair.png
+11,42,vegen,3,SLIDE,94_u2_slide.png
+11,55,bureaustoel,1,OFFICE CHAIR,14_u2_office chair.png
+11,11,x,0,BARREL,25_u2_barrel.png
+11,20,tas,1,BAG,45_u2_bag.png
+11,80,waterkan,3,WATERING CAN,65_sem_watering can.png
+11,62,lichtknop,1,LIGHT SWITCH,27_sem_light switch.png
+11,19,trommel,1,DRUM,41_u2_drum.png
+11,90,aardappelstamper,1,POTATO MASHER,86_vis_potato masher.png
+11,79,ijsbeer,1,POLAR BEAR,62_sem_polar bear.png
+11,13,adelaar,1,EAGLE,27_u1_eagle.png
+11,40,kers,1,CHERRY,7_vis_cherry.png
+11,58,ijsje,1,ICE CREAM,20_vis_ice cream.png
+11,74,zwemvest,1,LIFE JACKET,48_u2_life jacket.png
+11,14,mand,1,BASKET,27_u2_basket.png
+11,48,koffiezetapparaat,1,COFFEE MACHINE,4_u2_coffee machine.png
+11,26,bureau,1,DESK,62_u2_desk.png
+11,33,staal,3,IRON,74_vis_iron.png
+11,6,aap,1,MONKEY,8_sem_monkey.png
+11,96,verkeersbord,1,TRAFFIC SIGN,96_vis_traffic sign.png
+11,36,paard,1,HORSE,86_sem_horse.png
+11,52,kaasschaaf,1,CHEESE SLICER,7_u1_cheese slicer.png
+11,24,stoel,3,CHAIN,59_u1_chain.png
+11,8,pistool,1,GUN,14_vis_gun.png
+11,17,stoel,1,CHAIR,40_u1_chair.png
+11,1,sleutel,1,KEY,17_u2_key.png
+11,81,puntenslijper,1,PENCIL SHARPENER,66_sem_pencil sharpener.png
+11,98,hengel,1,FISHING ROD,100_vis_fishing rod.png
+11,67,knuffelbeer,1,TEDDY BEAR,33_u1_teddy bear.png
+11,12,kom,1,BOWL,26_sem_bowl.png
+11,70,ehbo doos,3,BAND AID,38_vis_band aid.png
+11,43,kreeft,1,LOBSTER,95_sem_lobster.png
+11,95,lantaarn,3,STREETLIGHT,95_u1_lamp post.png
+11,30,slang,1,SNAKE,70_vis_snake.png
+11,32,pakket,1,PACKAGE,74_u2_package.png
+11,76,koekepan,1,FRYING PAN,58_sem_frying pan.png
+11,93,kaarshouder,3,CANDLE HOLDER,92_vis_candle holder.png
+11,41,haai,1,SHARK,94_u1_shark.png
+11,44,worst,1,SAUSAGE,97_u1_sausage.png
+11,91,wasmand,1,LAUNDRY BASKET,87_sem_laundry basket.png
+11,22,lade,3,TRAY,54_vis_tray.png
+11,29,horloge,1,WATCH,69_u1_watch.png
+11,63,scheerborstel,3,SHAVING BRUSH,28_u1_shaving brush.png
+11,75,vuilniszakken,1,TRASH BAGS,52_u2_trash bags.png
+11,50,schaats,1,ICE SKATE,5_u1_ice skate.png
+11,53,x,0,ROCKING HORSE,11_sem_rocking horse.png
+11,92,afstandsbediening,1,REMOTE CONTROL,91_sem_remote control.png
+11,51,voetbalschoenen,1,SOCCER SHOES,6_sem_soccer shoes.png
+11,69,x,0,COAT RACK,36_sem_coat rack.png
+11,88,cavia,1,GUINEA PIG,79_vis_guinea pig.png
+11,3,stropdas,1,TIE,5_u2_tie.png
+11,59,spel kaarten,1,PLAYING CARDS,22_u2_playing cards.png
+11,87,x,0,IRONING BOARD,79_u2_ironing board.png
+11,5,aanwezigheid,2,PRESENT,7_sem_present.png
+11,97,helm,3,RIDING HELMET,100_sem_riding helmet.png
+11,61,x,0,ROLLING PIN,25_vis_rolling pin.png
+11,31,hoed,3,CAP,74_sem_cap.png
+11,65,ijshoorntje,1,ICE CREAM CONE,31_u2_ice cream cone.png
+11,82,etui,1,PENCIL CASE,68_u1_pencil case.png
+11,23,wereldbol,1,GLOBE,56_vis_globe.png
+11,16,x,0,BOW,38_u1_bow.png
+11,4,taart,1,CAKE,5_sem_cake.png
+11,77,regenlaarzen,1,RAIN BOOTS,60_sem_rain boots.png
+11,34,jas,1,JACKET,80_u2_jacket.png
+11,39,tanden,1,TEETH,93_sem_teeth.png
+11,60,badeend,1,RUBBER DUCK,25_u1_rubber duck.png
+11,64,pedalen,3,BIKE PEDALS,28_vis_bike pedals.png
+11,86,knutseltafel,3,CUTTING BOARD,76_u2_cutting board.png
+11,94,x,0,BOW TIE,93_vis_bow tie.png
+11,10,broek,1,PANTS,24_u1_pants.png
+11,66,cementwagen,1,CEMENT TRUCK,32_sem_cement truck.png
+11,15,x,0,FAN,35_u1_fan.png
+11,54,rolmaat,1,MEASURING TAPE,14_sem_measuring tape.png
+11,72,x,0,ROCKING CHAIR,43_sem_rocking chair.png
+11,35,touw,1,ROPE,82_vis_rope.png
+11,45,slot,1,LOCK,98_u2_lock.png
+11,85,gloeilamp,1,LIGHT BULB,75_vis_light bulb.png
+11,37,bloem,1,FLOWER,87_u1_flower.png
+11,56,flesje,3,BABY BOTTLE,18_sem_baby bottle.png
+11,47,pet,3,BASEBALL GLOVE,3_u1_baseball glove.png
+11,18,kikker,1,FROG,41_u1_frog.png
+11,83,winkelwagen,1,SHOPPING CART,73_u2_shopping cart.png
+11,7,vlees,1,MEAT,12_u1_meat.png
+11,25,riem,1,BELT,61_u1_belt.png
+11,57,reddingsboei,1,LIFEBUOY,19_vis_life saver.png
+11,89,verkeerslicht,1,TRAFFIC LIGHT,82_u1_traffic light.png
+11,21,aansteker,1,LIGHTER,47_vis_lighter.png
+11,46,kruis,1,CROSS,97_vis_cross.png
+11,68,flessenopener,1,BOTTLE OPENER,34_u2_bottle opener.png
+11,28,x,0,FENCE,67_vis_fence.png
+11,78,veiligheidsspelt,1,SAFETY PINS,60_u1_safety pins.png
+11,73,prullenbak,1,TRASH CAN,48_u1_trash can.png
+11,49,theekan,3,HOT WATER BOTTLE,4_vis_hot water bottle.png
+11,84,aardappelschilmesje,1,POTATO PEELER,75_u2_potato peeler.png
+11,2,bar,3,TAP,3_sem_tap.png
+11,38,lepel,1,SPOON,92_sem_spoon.png
+11,27,bloemkool,3,LEAF,63_u1_leaf.png
+11,9,bel,1,BELL,21_u2_bell.png
+10,42,glijbaan,1,SLIDE,94_u2_slide.png
+10,53,hobbelpaard,1,ROCKING HORSE,11_sem_rocking horse.png
+10,45,slot,1,LOCK,98_u2_lock.png
+10,61,deegroller,1,ROLLING PIN,25_vis_rolling pin.png
+10,49,kruik,1,HOT WATER BOTTLE,4_vis_hot water bottle.png
+10,28,hek,1,FENCE,67_vis_fence.png
+10,46,kruis,1,CROSS,97_vis_cross.png
+10,16,strik,2,BOW,38_u1_bow.png
+10,88,cavia,1,GUINEA PIG,79_vis_guinea pig.png
+10,87,strijkplank,1,IRONING BOARD,79_u2_ironing board.png
+10,80,waterfles,3,WATERING CAN,65_sem_watering can.png
+10,97,paardrijhelm,1,RIDING HELMET,100_sem_riding helmet.png
+10,64,trappers,1,BIKE PEDALS,28_vis_bike pedals.png
+10,18,kikker,1,FROG,41_u1_frog.png
+10,39,tanden,1,TEETH,93_sem_teeth.png
+10,78,veiligheidsspelden,1,SAFETY PINS,60_u1_safety pins.png
+10,34,jas,1,JACKET,80_u2_jacket.png
+10,8,pistool,1,GUN,14_vis_gun.png
+10,96,verkeersbord,1,TRAFFIC SIGN,96_vis_traffic sign.png
+10,85,gloeilamp,1,LIGHT BULB,75_vis_light bulb.png
+10,95,lantaarnpaal,1,STREETLIGHT,95_u1_lamp post.png
+10,72,schommelstoel,1,ROCKING CHAIR,43_sem_rocking chair.png
+10,63,scheerkwast,1,SHAVING BRUSH,28_u1_shaving brush.png
+10,56,baby flesje,1,BABY BOTTLE,18_sem_baby bottle.png
+10,10,broek,1,PANTS,24_u1_pants.png
+10,67,knuffelbeer,1,TEDDY BEAR,33_u1_teddy bear.png
+10,30,slang,1,SNAKE,70_vis_snake.png
+10,71,tandartsenstoel,1,DENTIST CHAIR,42_u2_dentist chair.png
+10,6,aap,1,MONKEY,8_sem_monkey.png
+10,23,wereldbol,1,GLOBE,56_vis_globe.png
+10,38,lepel,1,SPOON,92_sem_spoon.png
+10,17,stoel,1,CHAIR,40_u1_chair.png
+10,54,rolmaat,1,MEASURING TAPE,14_sem_measuring tape.png
+10,93,kandelaar,1,CANDLE HOLDER,92_vis_candle holder.png
+10,32,pakket,1,PACKAGE,74_u2_package.png
+10,29,horloge,1,WATCH,69_u1_watch.png
+10,89,verkeerslicht,1,TRAFFIC LIGHT,82_u1_traffic light.png
+10,20,tas,1,BAG,45_u2_bag.png
+10,25,riem,1,BELT,61_u1_belt.png
+10,81,puntenslijper,1,PENCIL SHARPENER,66_sem_pencil sharpener.png
+10,7,vlees,1,MEAT,12_u1_meat.png
+10,75,vuilniszakken,1,TRASH BAGS,52_u2_trash bags.png
+10,76,koekenpan,1,FRYING PAN,58_sem_frying pan.png
+10,24,ketting,1,CHAIN,59_u1_chain.png
+10,94,vlinderdas,1,BOW TIE,93_vis_bow tie.png
+10,51,voetbalschoenen,1,SOCCER SHOES,6_sem_soccer shoes.png
+10,13,adelaar,1,EAGLE,27_u1_eagle.png
+10,11,ton,1,BARREL,25_u2_barrel.png
+10,48,koffiemachine,1,COFFEE MACHINE,4_u2_coffee machine.png
+10,2,kraan,1,TAP,3_sem_tap.png
+10,69,kapstok,1,COAT RACK,36_sem_coat rack.png
+10,91,wasmand,1,LAUNDRY BASKET,87_sem_laundry basket.png
+10,36,paard,1,HORSE,86_sem_horse.png
+10,70,pleister,1,BAND AID,38_vis_band aid.png
+10,77,regenlaarzen,1,RAIN BOOTS,60_sem_rain boots.png
+10,92,afstandsbediening,1,REMOTE CONTROL,91_sem_remote control.png
+10,3,strik,3,TIE,5_u2_tie.png
+10,19,trommel,1,DRUM,41_u2_drum.png
+10,43,kreeft,1,LOBSTER,95_sem_lobster.png
+10,57,reddingsboei,1,LIFEBUOY,19_vis_life saver.png
+10,74,reddingsvest,1,LIFE JACKET,48_u2_life jacket.png
+10,33,strijkijzer,1,IRON,74_vis_iron.png
+10,66,cementwagen,1,CEMENT TRUCK,32_sem_cement truck.png
+10,84,aardappelschilmesje,1,POTATO PEELER,75_u2_potato peeler.png
+10,5,op dit moment,3,PRESENT,7_sem_present.png
+10,73,afvalbak,1,TRASH CAN,48_u1_trash can.png
+10,12,kom,1,BOWL,26_sem_bowl.png
+10,60,badeend,1,RUBBER DUCK,25_u1_rubber duck.png
+10,83,winkelwagen,1,SHOPPING CART,73_u2_shopping cart.png
+10,9,bel,1,BELL,21_u2_bell.png
+10,50,schaats,1,ICE SKATE,5_u1_ice skate.png
+10,15,ventilator,1,FAN,35_u1_fan.png
+10,41,haai,1,SHARK,94_u1_shark.png
+10,1,sleutel,1,KEY,17_u2_key.png
+10,98,vishengel,1,FISHING ROD,100_vis_fishing rod.png
+10,86,snijplank,1,CUTTING BOARD,76_u2_cutting board.png
+10,90,stampot stamper,1,POTATO MASHER,86_vis_potato masher.png
+10,4,taart,1,CAKE,5_sem_cake.png
+10,44,worst,1,SAUSAGE,97_u1_sausage.png
+10,37,bloem,1,FLOWER,87_u1_flower.png
+10,22,dienblad,1,TRAY,54_vis_tray.png
+10,59,speelkaarten,1,PLAYING CARDS,22_u2_playing cards.png
+10,68,flessenopener,1,BOTTLE OPENER,34_u2_bottle opener.png
+10,27,blad,1,LEAF,63_u1_leaf.png
+10,58,ijsje,1,ICE CREAM,20_vis_ice cream.png
+10,47,softbal handschoen,1,BASEBALL GLOVE,3_u1_baseball glove.png
+10,55,bureaustoel,1,OFFICE CHAIR,14_u2_office chair.png
+10,21,aansteker,1,LIGHTER,47_vis_lighter.png
+10,65,ijshoorntje,1,ICE CREAM CONE,31_u2_ice cream cone.png
+10,52,kaasschaaf,1,CHEESE SLICER,7_u1_cheese slicer.png
+10,79,ijsbeer,1,POLAR BEAR,62_sem_polar bear.png
+10,82,etui,1,PENCIL CASE,68_u1_pencil case.png
+10,14,mand,1,BASKET,27_u2_basket.png
+10,62,lichtschakelaar,1,LIGHT SWITCH,27_sem_light switch.png
+10,31,pet,1,CAP,74_sem_cap.png
+10,26,bureau,1,DESK,62_u2_desk.png
+10,40,kers,1,CHERRY,7_vis_cherry.png
+10,35,touw,1,ROPE,82_vis_rope.png
+9,52,kaasschaaf,1,CHEESE SLICER,7_u1_cheese slicer.png
+9,2,kraan,1,TAP,3_sem_tap.png
+9,37,bloem,1,FLOWER,87_u1_flower.png
+9,12,schaal/kom,1,BOWL,26_sem_bowl.png
+9,42,glijbaan,1,SLIDE,94_u2_slide.png
+9,77,regenlaarzen,1,RAIN BOOTS,60_sem_rain boots.png
+9,24,ketting,1,CHAIN,59_u1_chain.png
+9,23,wereldbol,1,GLOBE,56_vis_globe.png
+9,43,kreeft,1,LOBSTER,95_sem_lobster.png
+9,82,etui,1,PENCIL CASE,68_u1_pencil case.png
+9,30,slang,1,SNAKE,70_vis_snake.png
+9,14,mand,1,BASKET,27_u2_basket.png
+9,89,stoplicht,1,TRAFFIC LIGHT,82_u1_traffic light.png
+9,45,slot,1,LOCK,98_u2_lock.png
+9,57,reddingsboei,1,LIFEBUOY,19_vis_life saver.png
+9,81,puntenslijper,1,PENCIL SHARPENER,66_sem_pencil sharpener.png
+9,15,ventilator,1,FAN,35_u1_fan.png
+9,18,kikker,1,FROG,41_u1_frog.png
+9,55,bureaustoel,1,OFFICE CHAIR,14_u2_office chair.png
+9,47,honkbalhandschoen,1,BASEBALL GLOVE,3_u1_baseball glove.png
+9,28,hek,1,FENCE,67_vis_fence.png
+9,90,aardappelschiller,3,POTATO MASHER,86_vis_potato masher.png
+9,54,meetlint/rolmaat,1,MEASURING TAPE,14_sem_measuring tape.png
+9,71,tandartsstoel,1,DENTIST CHAIR,42_u2_dentist chair.png
+9,9,bel,1,BELL,21_u2_bell.png
+9,63,scheerkwast,1,SHAVING BRUSH,28_u1_shaving brush.png
+9,85,lamp,1,LIGHT BULB,75_vis_light bulb.png
+9,11,vat,1,BARREL,25_u2_barrel.png
+9,21,aansteker,1,LIGHTER,47_vis_lighter.png
+9,75,vuilniszakken,1,TRASH BAGS,52_u2_trash bags.png
+9,40,kers,1,CHERRY,7_vis_cherry.png
+9,62,lichtschakelaar,1,LIGHT SWITCH,27_sem_light switch.png
+9,94,vlinderstrik,1,BOW TIE,93_vis_bow tie.png
+9,70,pleister,1,BAND AID,38_vis_band aid.png
+9,19,trommel,1,DRUM,41_u2_drum.png
+9,33,strijkijzer,1,IRON,74_vis_iron.png
+9,72,schommelstoel,1,ROCKING CHAIR,43_sem_rocking chair.png
+9,96,stoplicht,3,TRAFFIC SIGN,96_vis_traffic sign.png
+9,44,worst,1,SAUSAGE,97_u1_sausage.png
+9,17,stoel,1,CHAIR,40_u1_chair.png
+9,92,afstandsbediening,1,REMOTE CONTROL,91_sem_remote control.png
+9,69,x,0,COAT RACK,36_sem_coat rack.png
+9,88,cavia,1,GUINEA PIG,79_vis_guinea pig.png
+9,68,flesopener,1,BOTTLE OPENER,34_u2_bottle opener.png
+9,29,horloge,1,WATCH,69_u1_watch.png
+9,31,pet,1,CAP,74_sem_cap.png
+9,13,arend,1,EAGLE,27_u1_eagle.png
+9,65,ijshoorntje,1,ICE CREAM CONE,31_u2_ice cream cone.png
+9,48,koffiemachine/koffiezetapparaat,1,COFFEE MACHINE,4_u2_coffee machine.png
+9,16,boog,1,BOW,38_u1_bow.png
+9,64,fietspedalen,1,BIKE PEDALS,28_vis_bike pedals.png
+9,51,voetbalschoenen,1,SOCCER SHOES,6_sem_soccer shoes.png
+9,7,vlees,1,MEAT,12_u1_meat.png
+9,56,babyflesje,1,BABY BOTTLE,18_sem_baby bottle.png
+9,73,prullenbak,1,TRASH CAN,48_u1_trash can.png
+9,34,jas,1,JACKET,80_u2_jacket.png
+9,6,aap,1,MONKEY,8_sem_monkey.png
+9,86,snijplank,1,CUTTING BOARD,76_u2_cutting board.png
+9,22,dienblad,1,TRAY,54_vis_tray.png
+9,87,strijkplank,1,IRONING BOARD,79_u2_ironing board.png
+9,59,speelkaarten,1,PLAYING CARDS,22_u2_playing cards.png
+9,98,vishengel,1,FISHING ROD,100_vis_fishing rod.png
+9,50,schaats,1,ICE SKATE,5_u1_ice skate.png
+9,38,lepel,1,SPOON,92_sem_spoon.png
+9,97,paardrijhelm,1,RIDING HELMET,100_sem_riding helmet.png
+9,32,pakketje,1,PACKAGE,74_u2_package.png
+9,58,ijsje,1,ICE CREAM,20_vis_ice cream.png
+9,35,touw,1,ROPE,82_vis_rope.png
+9,61,x,0,ROLLING PIN,25_vis_rolling pin.png
+9,4,taart,1,CAKE,5_sem_cake.png
+9,20,tas,1,BAG,45_u2_bag.png
+9,80,gieter,1,WATERING CAN,65_sem_watering can.png
+9,5,cadeau,1,PRESENT,7_sem_present.png
+9,36,paard,1,HORSE,86_sem_horse.png
+9,84,aardappelschiller,1,POTATO PEELER,75_u2_potato peeler.png
+9,27,blad,1,LEAF,63_u1_leaf.png
+9,78,veiligheidsspelden,1,SAFETY PINS,60_u1_safety pins.png
+9,53,schommelpaard,1,ROCKING HORSE,11_sem_rocking horse.png
+9,91,wasmand,1,LAUNDRY BASKET,87_sem_laundry basket.png
+9,1,sleutel,1,KEY,17_u2_key.png
+9,3,stropdas,1,TIE,5_u2_tie.png
+9,46,kruis,1,CROSS,97_vis_cross.png
+9,66,cementwagen,1,CEMENT TRUCK,32_sem_cement truck.png
+9,39,tanden,1,TEETH,93_sem_teeth.png
+9,60,rubberen eend,2,RUBBER DUCK,25_u1_rubber duck.png
+9,49,kruik,1,HOT WATER BOTTLE,4_vis_hot water bottle.png
+9,93,kaarshouder,3,CANDLE HOLDER,92_vis_candle holder.png
+9,79,ijsbeer,1,POLAR BEAR,62_sem_polar bear.png
+9,74,zwemvest,1,LIFE JACKET,48_u2_life jacket.png
+9,8,pistool,1,GUN,14_vis_gun.png
+9,95,lantaarnpaal,1,STREETLIGHT,95_u1_lamp post.png
+9,67,teddybeer,1,TEDDY BEAR,33_u1_teddy bear.png
+9,76,frituurpan,3,FRYING PAN,58_sem_frying pan.png
+9,25,riem,1,BELT,61_u1_belt.png
+9,26,bureau,1,DESK,62_u2_desk.png
+9,41,haai,1,SHARK,94_u1_shark.png
+9,10,broek,1,PANTS,24_u1_pants.png
+9,83,winkelwagen,1,SHOPPING CART,73_u2_shopping cart.png
+8,1,sleutel,1,KEY,17_u2_key.png
+8,4,taart,1,CAKE,5_sem_cake.png
+8,82,etui,1,PENCIL CASE,68_u1_pencil case.png
+8,38,lepel,1,SPOON,92_sem_spoon.png
+8,26,bureau,1,DESK,62_u2_desk.png
+8,71,tandartsstoel,1,DENTIST CHAIR,42_u2_dentist chair.png
+8,42,glijbaan,1,SLIDE,94_u2_slide.png
+8,11,ton,1,BARREL,25_u2_barrel.png
+8,66,cement vrachtwagen,2,CEMENT TRUCK,32_sem_cement truck.png
+8,28,hek,1,FENCE,67_vis_fence.png
+8,73,prullenbak,1,TRASH CAN,48_u1_trash can.png
+8,22,dienblad,1,TRAY,54_vis_tray.png
+8,74,reddingsvest,1,LIFE JACKET,48_u2_life jacket.png
+8,55,bureaustoel,1,OFFICE CHAIR,14_u2_office chair.png
+8,8,pistool,1,GUN,14_vis_gun.png
+8,52,kaasschaaf,1,CHEESE SLICER,7_u1_cheese slicer.png
+8,44,worst,1,SAUSAGE,97_u1_sausage.png
+8,29,horloge,1,WATCH,69_u1_watch.png
+8,46,kruis,1,CROSS,97_vis_cross.png
+8,47,handbalhandschoen,3,BASEBALL GLOVE,3_u1_baseball glove.png
+8,60,rubberen eend,2,RUBBER DUCK,25_u1_rubber duck.png
+8,68,flesopener,1,BOTTLE OPENER,34_u2_bottle opener.png
+8,15,ventilator,1,FAN,35_u1_fan.png
+8,56,baby flesje,1,BABY BOTTLE,18_sem_baby bottle.png
+8,16,strik,2,BOW,38_u1_bow.png
+8,69,kapstok,1,COAT RACK,36_sem_coat rack.png
+8,33,strijkijzer,1,IRON,74_vis_iron.png
+8,6,aap,1,MONKEY,8_sem_monkey.png
+8,98,vishengel,1,FISHING ROD,100_vis_fishing rod.png
+8,76,wokpan,3,FRYING PAN,58_sem_frying pan.png
+8,48,koffiezetapparaat,1,COFFEE MACHINE,4_u2_coffee machine.png
+8,92,afstandsbediening,1,REMOTE CONTROL,91_sem_remote control.png
+8,80,waterkan,3,WATERING CAN,65_sem_watering can.png
+8,51,voetbalschoenen,1,SOCCER SHOES,6_sem_soccer shoes.png
+8,31,pet,1,CAP,74_sem_cap.png
+8,3,stropdas,1,TIE,5_u2_tie.png
+8,70,pleister,1,BAND AID,38_vis_band aid.png
+8,17,stoel,1,CHAIR,40_u1_chair.png
+8,53,hobbelpaard,1,ROCKING HORSE,11_sem_rocking horse.png
+8,83,winkelwagen,1,SHOPPING CART,73_u2_shopping cart.png
+8,84,aardappelschilmesje,1,POTATO PEELER,75_u2_potato peeler.png
+8,95,lantaarnpaal,1,STREETLIGHT,95_u1_lamp post.png
+8,72,schommelstoel,1,ROCKING CHAIR,43_sem_rocking chair.png
+8,61,x,0,ROLLING PIN,25_vis_rolling pin.png
+8,34,jas,1,JACKET,80_u2_jacket.png
+8,94,strikje,3,BOW TIE,93_vis_bow tie.png
+8,65,ijshoorntje,1,ICE CREAM CONE,31_u2_ice cream cone.png
+8,79,ijsbeer,1,POLAR BEAR,62_sem_polar bear.png
+8,13,arend,1,EAGLE,27_u1_eagle.png
+8,50,schaatsen,1,ICE SKATE,5_u1_ice skate.png
+8,87,strijkplank,1,IRONING BOARD,79_u2_ironing board.png
+8,63,scheerkwast,1,SHAVING BRUSH,28_u1_shaving brush.png
+8,97,paardrij helm,1,RIDING HELMET,100_sem_riding helmet.png
+8,45,slot,1,LOCK,98_u2_lock.png
+8,88,cavia,1,GUINEA PIG,79_vis_guinea pig.png
+8,93,kandelaar,1,CANDLE HOLDER,92_vis_candle holder.png
+8,37,bloem,1,FLOWER,87_u1_flower.png
+8,54,meetlint,1,MEASURING TAPE,14_sem_measuring tape.png
+8,90,aardappelstamper,1,POTATO MASHER,86_vis_potato masher.png
+8,10,broek,1,PANTS,24_u1_pants.png
+8,58,ijsje,1,ICE CREAM,20_vis_ice cream.png
+8,67,speelgoed beer,1,TEDDY BEAR,33_u1_teddy bear.png
+8,81,puntenslijper,1,PENCIL SHARPENER,66_sem_pencil sharpener.png
+8,9,bel,1,BELL,21_u2_bell.png
+8,27,blad,1,LEAF,63_u1_leaf.png
+8,77,regenlaarzen,1,RAIN BOOTS,60_sem_rain boots.png
+8,43,kreeft,1,LOBSTER,95_sem_lobster.png
+8,64,fietspedalen,1,BIKE PEDALS,28_vis_bike pedals.png
+8,75,vuilniszakken,1,TRASH BAGS,52_u2_trash bags.png
+8,36,paard,1,HORSE,86_sem_horse.png
+8,85,lamp,1,LIGHT BULB,75_vis_light bulb.png
+8,14,mand,1,BASKET,27_u2_basket.png
+8,20,tas,1,BAG,45_u2_bag.png
+8,91,wasmand,1,LAUNDRY BASKET,87_sem_laundry basket.png
+8,19,trommel,1,DRUM,41_u2_drum.png
+8,78,veiligheidsspelden,1,SAFETY PINS,60_u1_safety pins.png
+8,24,ketting,1,CHAIN,59_u1_chain.png
+8,96,verkeersbord,1,TRAFFIC SIGN,96_vis_traffic sign.png
+8,62,lichtschakelaar,1,LIGHT SWITCH,27_sem_light switch.png
+8,12,kom,1,BOWL,26_sem_bowl.png
+8,30,slang,1,SNAKE,70_vis_snake.png
+8,49,kruik,1,HOT WATER BOTTLE,4_vis_hot water bottle.png
+8,32,pakketje,1,PACKAGE,74_u2_package.png
+8,23,wereldbol,1,GLOBE,56_vis_globe.png
+8,25,riem,1,BELT,61_u1_belt.png
+8,35,touw,1,ROPE,82_vis_rope.png
+8,18,kikker,1,FROG,41_u1_frog.png
+8,39,tanden,1,TEETH,93_sem_teeth.png
+8,21,aansteker,1,LIGHTER,47_vis_lighter.png
+8,7,vlees,1,MEAT,12_u1_meat.png
+8,2,kraan,1,TAP,3_sem_tap.png
+8,89,verkeerslicht,1,TRAFFIC LIGHT,82_u1_traffic light.png
+8,5,cadeautje,1,PRESENT,7_sem_present.png
+8,59,kaartspel,3,PLAYING CARDS,22_u2_playing cards.png
+8,41,haai,1,SHARK,94_u1_shark.png
+8,57,reddingsvest,3,LIFEBUOY,19_vis_life saver.png
+8,86,snijplank,1,CUTTING BOARD,76_u2_cutting board.png
+8,40,kers,1,CHERRY,7_vis_cherry.png
+7,87,strijkplank,1,IRONING BOARD,79_u2_ironing board.png
+7,75,vuilniszakken,1,TRASH BAGS,52_u2_trash bags.png
+7,31,pet,1,CAP,74_sem_cap.png
+7,50,schaats,1,ICE SKATE,5_u1_ice skate.png
+7,54,rolmaat,1,MEASURING TAPE,14_sem_measuring tape.png
+7,13,adelaar,1,EAGLE,27_u1_eagle.png
+7,28,hek,1,FENCE,67_vis_fence.png
+7,6,aap,1,MONKEY,8_sem_monkey.png
+7,61,x,0,ROLLING PIN,25_vis_rolling pin.png
+7,37,bloem,1,FLOWER,87_u1_flower.png
+7,5,cadeautje,1,PRESENT,7_sem_present.png
+7,97,paardrijcap,1,RIDING HELMET,100_sem_riding helmet.png
+7,63,scheerkwast,1,SHAVING BRUSH,28_u1_shaving brush.png
+7,68,flesopener,1,BOTTLE OPENER,34_u2_bottle opener.png
+7,1,sleutel,1,KEY,17_u2_key.png
+7,44,worst,1,SAUSAGE,97_u1_sausage.png
+7,60,badeend,1,RUBBER DUCK,25_u1_rubber duck.png
+7,24,ketting,1,CHAIN,59_u1_chain.png
+7,29,horloge,1,WATCH,69_u1_watch.png
+7,64,trappers,1,BIKE PEDALS,28_vis_bike pedals.png
+7,72,schommelstoel,1,ROCKING CHAIR,43_sem_rocking chair.png
+7,92,afstandsbediening,1,REMOTE CONTROL,91_sem_remote control.png
+7,89,stoplicht,1,TRAFFIC LIGHT,82_u1_traffic light.png
+7,40,kers,1,CHERRY,7_vis_cherry.png
+7,48,koffiezetapparaat,1,COFFEE MACHINE,4_u2_coffee machine.png
+7,56,baby flesje,1,BABY BOTTLE,18_sem_baby bottle.png
+7,39,tanden,1,TEETH,93_sem_teeth.png
+7,71,tandartsstoel,1,DENTIST CHAIR,42_u2_dentist chair.png
+7,3,stropdas,1,TIE,5_u2_tie.png
+7,23,wereldbol,1,GLOBE,56_vis_globe.png
+7,90,aardappelstamper,1,POTATO MASHER,86_vis_potato masher.png
+7,74,reddingsvest,1,LIFE JACKET,48_u2_life jacket.png
+7,59,speelkaarten,1,PLAYING CARDS,22_u2_playing cards.png
+7,32,pakket,1,PACKAGE,74_u2_package.png
+7,91,wasmand,1,LAUNDRY BASKET,87_sem_laundry basket.png
+7,7,vlees,1,MEAT,12_u1_meat.png
+7,10,broek,1,PANTS,24_u1_pants.png
+7,57,reddingsboei,1,LIFEBUOY,19_vis_life saver.png
+7,62,lichtschakelaar,1,LIGHT SWITCH,27_sem_light switch.png
+7,95,lantaarnpaal,1,STREETLIGHT,95_u1_lamp post.png
+7,18,kikker,1,FROG,41_u1_frog.png
+7,27,blaadje,1,LEAF,63_u1_leaf.png
+7,82,etui,1,PENCIL CASE,68_u1_pencil case.png
+7,88,cavia,1,GUINEA PIG,79_vis_guinea pig.png
+7,52,kaasschaaf,1,CHEESE SLICER,7_u1_cheese slicer.png
+7,46,kruis,1,CROSS,97_vis_cross.png
+7,85,lamp,1,LIGHT BULB,75_vis_light bulb.png
+7,96,verkeersbord,1,TRAFFIC SIGN,96_vis_traffic sign.png
+7,4,taart,1,CAKE,5_sem_cake.png
+7,98,vishengel,1,FISHING ROD,100_vis_fishing rod.png
+7,51,voetbalschoenen,1,SOCCER SHOES,6_sem_soccer shoes.png
+7,94,strik,3,BOW TIE,93_vis_bow tie.png
+7,11,ton,1,BARREL,25_u2_barrel.png
+7,14,mandje,1,BASKET,27_u2_basket.png
+7,70,pleister,1,BAND AID,38_vis_band aid.png
+7,69,kapstok,1,COAT RACK,36_sem_coat rack.png
+7,42,glijbaan,1,SLIDE,94_u2_slide.png
+7,79,ijsbeer,1,POLAR BEAR,62_sem_polar bear.png
+7,16,strikje,2,BOW,38_u1_bow.png
+7,43,kreeft,1,LOBSTER,95_sem_lobster.png
+7,41,haai,1,SHARK,94_u1_shark.png
+7,15,ventilator,1,FAN,35_u1_fan.png
+7,78,veiligheidsspelden,1,SAFETY PINS,60_u1_safety pins.png
+7,25,riem,1,BELT,61_u1_belt.png
+7,45,slot,1,LOCK,98_u2_lock.png
+7,76,koekenpan,1,FRYING PAN,58_sem_frying pan.png
+7,80,gieter,1,WATERING CAN,65_sem_watering can.png
+7,2,kraan,1,TAP,3_sem_tap.png
+7,36,paard,1,HORSE,86_sem_horse.png
+7,65,ijshoorntje,1,ICE CREAM CONE,31_u2_ice cream cone.png
+7,34,jas,1,JACKET,80_u2_jacket.png
+7,35,touw,1,ROPE,82_vis_rope.png
+7,8,pistool,1,GUN,14_vis_gun.png
+7,93,kaarshouder,3,CANDLE HOLDER,92_vis_candle holder.png
+7,9,bel,1,BELL,21_u2_bell.png
+7,86,snijplank,1,CUTTING BOARD,76_u2_cutting board.png
+7,33,strijkijzer,1,IRON,74_vis_iron.png
+7,84,aardappelschilmesje,1,POTATO PEELER,75_u2_potato peeler.png
+7,84,aardappelschilmesje,1,POTATO PEELER,75_u2_potato peeler.png
+7,19,trommel,1,DRUM,41_u2_drum.png
+7,55,bureaustoel,1,OFFICE CHAIR,14_u2_office chair.png
+7,17,stoel,1,CHAIR,40_u1_chair.png
+7,47,baseball handschoen,1,BASEBALL GLOVE,3_u1_baseball glove.png
+7,26,bureau,1,DESK,62_u2_desk.png
+7,66,betonwagen,1,CEMENT TRUCK,32_sem_cement truck.png
+7,30,slang,1,SNAKE,70_vis_snake.png
+7,49,waterfles,3,HOT WATER BOTTLE,4_vis_hot water bottle.png
+7,53,hobbelpaard,1,ROCKING HORSE,11_sem_rocking horse.png
+7,77,regenlaarzen,1,RAIN BOOTS,60_sem_rain boots.png
+7,67,knuffelbeer,1,TEDDY BEAR,33_u1_teddy bear.png
+7,73,vuilnisbak,1,TRASH CAN,48_u1_trash can.png
+7,58,ijsje,1,ICE CREAM,20_vis_ice cream.png
+7,21,aansteker,1,LIGHTER,47_vis_lighter.png
+7,22,dienblad,1,TRAY,54_vis_tray.png
+7,38,lepel,1,SPOON,92_sem_spoon.png
+7,12,schaaltje,1,BOWL,26_sem_bowl.png
+7,83,winkelwagen,1,SHOPPING CART,73_u2_shopping cart.png
+7,20,tas,1,BAG,45_u2_bag.png
+7,81,puntenslijper,1,PENCIL SHARPENER,66_sem_pencil sharpener.png
+6,57,x,0,LIFEBUOY,19_vis_life saver.png
+6,16,boog,1,BOW,38_u1_bow.png
+6,38,lepel,1,SPOON,92_sem_spoon.png
+6,73,prullenbak,1,TRASH CAN,48_u1_trash can.png
+6,77,regenlaarzen,1,RAIN BOOTS,60_sem_rain boots.png
+6,2,kraan,1,TAP,3_sem_tap.png
+6,12,bakje,3,BOWL,26_sem_bowl.png
+6,82,etui,1,PENCIL CASE,68_u1_pencil case.png
+6,36,paard,1,HORSE,86_sem_horse.png
+6,5,aanwezig,2,PRESENT,7_sem_present.png
+6,52,kaasschaaf,1,CHEESE SLICER,7_u1_cheese slicer.png
+6,25,riem,1,BELT,61_u1_belt.png
+6,41,haai,1,SHARK,94_u1_shark.png
+6,15,ventilator,1,FAN,35_u1_fan.png
+6,65,ijshoorntje,1,ICE CREAM CONE,31_u2_ice cream cone.png
+6,42,glijbaan,1,SLIDE,94_u2_slide.png
+6,58,ijsje,1,ICE CREAM,20_vis_ice cream.png
+6,66,betonwagen,1,CEMENT TRUCK,32_sem_cement truck.png
+6,97,rijhelm,3,RIDING HELMET,100_sem_riding helmet.png
+6,85,lamp,1,LIGHT BULB,75_vis_light bulb.png
+6,48,koffieapparaat,1,COFFEE MACHINE,4_u2_coffee machine.png
+6,89,stoplicht,1,TRAFFIC LIGHT,82_u1_traffic light.png
+6,95,lantarenpaal,1,STREETLIGHT,95_u1_lamp post.png
+6,91,wasmand,1,LAUNDRY BASKET,87_sem_laundry basket.png
+6,93,kaarsenhouder,3,CANDLE HOLDER,92_vis_candle holder.png
+6,55,bureaustoel,1,OFFICE CHAIR,14_u2_office chair.png
+6,61,x,0,ROLLING PIN,25_vis_rolling pin.png
+6,76,frituese,3,FRYING PAN,58_sem_frying pan.png
+6,86,snijplank,1,CUTTING BOARD,76_u2_cutting board.png
+6,45,slot,1,LOCK,98_u2_lock.png
+6,79,ijsbeer,1,POLAR BEAR,62_sem_polar bear.png
+6,1,sleutel,1,KEY,17_u2_key.png
+6,18,kikker,1,FROG,41_u1_frog.png
+6,71,tandartsstoel,1,DENTIST CHAIR,42_u2_dentist chair.png
+6,40,kers,1,CHERRY,7_vis_cherry.png
+6,33,strijkijzer,1,IRON,74_vis_iron.png
+6,26,tafel,3,DESK,62_u2_desk.png
+6,44,worst,1,SAUSAGE,97_u1_sausage.png
+6,24,ketting,1,CHAIN,59_u1_chain.png
+6,53,schommelpaard,1,ROCKING HORSE,11_sem_rocking horse.png
+6,96,verkeerslicht,3,TRAFFIC SIGN,96_vis_traffic sign.png
+6,54,meetlint,1,MEASURING TAPE,14_sem_measuring tape.png
+6,23,wereldbol,1,GLOBE,56_vis_globe.png
+6,21,aansteker,1,LIGHTER,47_vis_lighter.png
+6,70,pleister,1,BAND AID,38_vis_band aid.png
+6,19,drum,3,DRUM,41_u2_drum.png
+6,14,ring,3,BASKET,27_u2_basket.png
+6,87,strijkplank,1,IRONING BOARD,79_u2_ironing board.png
+6,63,scheerkwast,1,SHAVING BRUSH,28_u1_shaving brush.png
+6,98,vishengel,1,FISHING ROD,100_vis_fishing rod.png
+6,83,winkelwagentje,1,SHOPPING CART,73_u2_shopping cart.png
+6,64,pedalen,3,BIKE PEDALS,28_vis_bike pedals.png
+6,7,vlees,1,MEAT,12_u1_meat.png
+6,11,x,0,BARREL,25_u2_barrel.png
+6,10,broek,1,PANTS,24_u1_pants.png
+6,75,vuilnismachnine,3,TRASH BAGS,52_u2_trash bags.png
+6,13,adelaar,1,EAGLE,27_u1_eagle.png
+6,46,kruis,1,CROSS,97_vis_cross.png
+6,31,pet,1,CAP,74_sem_cap.png
+6,78,veiligheidsspelden,1,SAFETY PINS,60_u1_safety pins.png
+6,28,hek,1,FENCE,67_vis_fence.png
+6,69,x,0,COAT RACK,36_sem_coat rack.png
+6,56,babyflesje,1,BABY BOTTLE,18_sem_baby bottle.png
+6,90,stampotstamper,1,POTATO MASHER,86_vis_potato masher.png
+6,20,tas,1,BAG,45_u2_bag.png
+6,8,pistool,1,GUN,14_vis_gun.png
+6,39,tanden,1,TEETH,93_sem_teeth.png
+6,29,horloge,1,WATCH,69_u1_watch.png
+6,17,stoel,1,CHAIR,40_u1_chair.png
+6,35,touw,1,ROPE,82_vis_rope.png
+6,74,reddingsvest,1,LIFE JACKET,48_u2_life jacket.png
+6,37,bloem,1,FLOWER,87_u1_flower.png
+6,49,kruik,1,HOT WATER BOTTLE,4_vis_hot water bottle.png
+6,6,aap,1,MONKEY,8_sem_monkey.png
+6,68,flessenopener,1,BOTTLE OPENER,34_u2_bottle opener.png
+6,92,afstandsbediening,1,REMOTE CONTROL,91_sem_remote control.png
+6,9,bel,1,BELL,21_u2_bell.png
+6,43,kreeft,1,LOBSTER,95_sem_lobster.png
+6,22,dienblad,1,TRAY,54_vis_tray.png
+6,80,x,0,WATERING CAN,65_sem_watering can.png
+6,67,knuffelbeer,1,TEDDY BEAR,33_u1_teddy bear.png
+6,30,slang,1,SNAKE,70_vis_snake.png
+6,81,puntenslijper,1,PENCIL SHARPENER,66_sem_pencil sharpener.png
+6,72,schommelstoel,1,ROCKING CHAIR,43_sem_rocking chair.png
+6,84,schilmesje,1,POTATO PEELER,75_u2_potato peeler.png
+6,59,kaartspel,3,PLAYING CARDS,22_u2_playing cards.png
+6,4,taart,1,CAKE,5_sem_cake.png
+6,32,doos,3,PACKAGE,74_u2_package.png
+6,60,badeend,1,RUBBER DUCK,25_u1_rubber duck.png
+6,50,schaats,1,ICE SKATE,5_u1_ice skate.png
+6,47,basketbal handschoen,3,BASEBALL GLOVE,3_u1_baseball glove.png
+6,94,boog,3,BOW TIE,93_vis_bow tie.png
+6,62,lichtknopje,1,LIGHT SWITCH,27_sem_light switch.png
+6,88,cavia,1,GUINEA PIG,79_vis_guinea pig.png
+6,51,voetbalschoenen,1,SOCCER SHOES,6_sem_soccer shoes.png
+6,34,jas,1,JACKET,80_u2_jacket.png
+6,3,stropdas,1,TIE,5_u2_tie.png
+6,27,blad,1,LEAF,63_u1_leaf.png
+5,30,slang,1,SNAKE,70_vis_snake.png
+5,61,deeg roller,1,ROLLING PIN,25_vis_rolling pin.png
+5,41,haai,1,SHARK,94_u1_shark.png
+5,68,flessenopener,1,BOTTLE OPENER,34_u2_bottle opener.png
+5,93,kaarsenstandaard,3,CANDLE HOLDER,92_vis_candle holder.png
+5,56,babyfles,1,BABY BOTTLE,18_sem_baby bottle.png
+5,72,schommelstoel,1,ROCKING CHAIR,43_sem_rocking chair.png
+5,33,strijkijzer,1,IRON,74_vis_iron.png
+5,39,tanden,1,TEETH,93_sem_teeth.png
+5,15,ventilator,1,FAN,35_u1_fan.png
+5,19,trommel,1,DRUM,41_u2_drum.png
+5,83,winkelwagentje,1,SHOPPING CART,73_u2_shopping cart.png
+5,25,riem,1,BELT,61_u1_belt.png
+5,38,lepel,1,SPOON,92_sem_spoon.png
+5,77,regenlaarzen,1,RAIN BOOTS,60_sem_rain boots.png
+5,87,strijkplank,1,IRONING BOARD,79_u2_ironing board.png
+5,95,stoplicht,3,STREETLIGHT,95_u1_lamp post.png
+5,64,pendalen,3,BIKE PEDALS,28_vis_bike pedals.png
+5,86,snijplank,1,CUTTING BOARD,76_u2_cutting board.png
+5,92,afstandsbediening,1,REMOTE CONTROL,91_sem_remote control.png
+5,49,warmte fles,3,HOT WATER BOTTLE,4_vis_hot water bottle.png
+5,42,slee,3,SLIDE,94_u2_slide.png
+5,62,licht knop,1,LIGHT SWITCH,27_sem_light switch.png
+5,22,dienblad,1,TRAY,54_vis_tray.png
+5,57,boei,3,LIFEBUOY,19_vis_life saver.png
+5,81,slijper,1,PENCIL SHARPENER,66_sem_pencil sharpener.png
+5,50,schaats,1,ICE SKATE,5_u1_ice skate.png
+5,97,paardenrij helm,1,RIDING HELMET,100_sem_riding helmet.png
+5,12,schaal,1,BOWL,26_sem_bowl.png
+5,73,prullenbak,1,TRASH CAN,48_u1_trash can.png
+5,27,blad,1,LEAF,63_u1_leaf.png
+5,53,schommelpaard,1,ROCKING HORSE,11_sem_rocking horse.png
+5,3,das,1,TIE,5_u2_tie.png
+5,47,honkbal handschoen,1,BASEBALL GLOVE,3_u1_baseball glove.png
+5,6,aap,1,MONKEY,8_sem_monkey.png
+5,40,kers,1,CHERRY,7_vis_cherry.png
+5,20,zak,2,BAG,45_u2_bag.png
+5,88,cavia,1,GUINEA PIG,79_vis_guinea pig.png
+5,76,koekenpan,1,FRYING PAN,58_sem_frying pan.png
+5,32,pakket,1,PACKAGE,74_u2_package.png
+5,13,arend,1,EAGLE,27_u1_eagle.png
+5,4,taart,1,CAKE,5_sem_cake.png
+5,45,slot,1,LOCK,98_u2_lock.png
+5,90,stamper,1,POTATO MASHER,86_vis_potato masher.png
+5,78,veiligheidsspeld,1,SAFETY PINS,60_u1_safety pins.png
+5,7,vlees,1,MEAT,12_u1_meat.png
+5,66,cementwagen,1,CEMENT TRUCK,32_sem_cement truck.png
+5,80,gieter,1,WATERING CAN,65_sem_watering can.png
+5,75,vuilniszakken,1,TRASH BAGS,52_u2_trash bags.png
+5,36,paard,1,HORSE,86_sem_horse.png
+5,59,kaarten,3,PLAYING CARDS,22_u2_playing cards.png
+5,70,pleister,1,BAND AID,38_vis_band aid.png
+5,28,hek,1,FENCE,67_vis_fence.png
+5,63,borstel,3,SHAVING BRUSH,28_u1_shaving brush.png
+5,67,knuffelbeer,1,TEDDY BEAR,33_u1_teddy bear.png
+5,58,ijsje,1,ICE CREAM,20_vis_ice cream.png
+5,51,voetbalschoenen,1,SOCCER SHOES,6_sem_soccer shoes.png
+5,71,tandartsstoel,1,DENTIST CHAIR,42_u2_dentist chair.png
+5,29,horloge,1,WATCH,69_u1_watch.png
+5,52,kaasschaaf,1,CHEESE SLICER,7_u1_cheese slicer.png
+5,46,kruis,1,CROSS,97_vis_cross.png
+5,23,globe,1,GLOBE,56_vis_globe.png
+5,34,jas,1,JACKET,80_u2_jacket.png
+5,98,vishengel,1,FISHING ROD,100_vis_fishing rod.png
+5,96,verkeersbord,1,TRAFFIC SIGN,96_vis_traffic sign.png
+5,55,kantoorstoel,1,OFFICE CHAIR,14_u2_office chair.png
+5,35,touw,1,ROPE,82_vis_rope.png
+5,10,broek,1,PANTS,24_u1_pants.png
+5,94,vlinderstrik,1,BOW TIE,93_vis_bow tie.png
+5,8,geweer,1,GUN,14_vis_gun.png
+5,5,cadeau,1,PRESENT,7_sem_present.png
+5,74,reddingsvest,1,LIFE JACKET,48_u2_life jacket.png
+5,84,aardappelschiller,1,POTATO PEELER,75_u2_potato peeler.png
+5,1,sleutel,1,KEY,17_u2_key.png
+5,89,verkeerslicht,1,TRAFFIC LIGHT,82_u1_traffic light.png
+5,24,ketting,1,CHAIN,59_u1_chain.png
+5,9,bel,1,BELL,21_u2_bell.png
+5,44,worst,1,SAUSAGE,97_u1_sausage.png
+5,60,badeend,1,RUBBER DUCK,25_u1_rubber duck.png
+5,79,ijsbeer,1,POLAR BEAR,62_sem_polar bear.png
+5,54,meetlint,1,MEASURING TAPE,14_sem_measuring tape.png
+5,2,kraan,1,TAP,3_sem_tap.png
+5,43,kreeft,1,LOBSTER,95_sem_lobster.png
+5,65,hoorntje,1,ICE CREAM CONE,31_u2_ice cream cone.png
+5,82,etiue,1,PENCIL CASE,68_u1_pencil case.png
+5,26,bureau,1,DESK,62_u2_desk.png
+5,14,prullenbak,3,BASKET,27_u2_basket.png
+5,31,pet,1,CAP,74_sem_cap.png
+5,37,bloem,1,FLOWER,87_u1_flower.png
+5,85,gloeilamp,1,LIGHT BULB,75_vis_light bulb.png
+5,17,stoel,1,CHAIR,40_u1_chair.png
+5,69,jassenhanger,3,COAT RACK,36_sem_coat rack.png
+5,48,koffiemachine,1,COFFEE MACHINE,4_u2_coffee machine.png
+5,91,wasmand,1,LAUNDRY BASKET,87_sem_laundry basket.png
+5,11,vat,1,BARREL,25_u2_barrel.png
+5,21,aansteker,1,LIGHTER,47_vis_lighter.png
+5,16,schaal,3,BOW,38_u1_bow.png
+5,18,kikker,1,FROG,41_u1_frog.png
+4,39,tanden,1,TEETH,93_sem_teeth.png
+4,56,babyflesje,1,BABY BOTTLE,18_sem_baby bottle.png
+4,33,strijkijzer,1,IRON,74_vis_iron.png
+4,19,trommel,1,DRUM,41_u2_drum.png
+4,23,wereldbol,1,GLOBE,56_vis_globe.png
+4,8,pistool,1,GUN,14_vis_gun.png
+4,43,kreeft,1,LOBSTER,95_sem_lobster.png
+4,91,wasmand,1,LAUNDRY BASKET,87_sem_laundry basket.png
+4,48,koffiezetapparaat,1,COFFEE MACHINE,4_u2_coffee machine.png
+4,28,hek,1,FENCE,67_vis_fence.png
+4,54,meetlint,1,MEASURING TAPE,14_sem_measuring tape.png
+4,41,haai,1,SHARK,94_u1_shark.png
+4,1,sleutel,1,KEY,17_u2_key.png
+4,21,aansteker,1,LIGHTER,47_vis_lighter.png
+4,67,teddybeer,1,TEDDY BEAR,33_u1_teddy bear.png
+4,50,schaatsen,1,ICE SKATE,5_u1_ice skate.png
+4,29,horloge,1,WATCH,69_u1_watch.png
+4,98,hengel,1,FISHING ROD,100_vis_fishing rod.png
+4,6,aap,1,MONKEY,8_sem_monkey.png
+4,26,bureau,1,DESK,62_u2_desk.png
+4,12,schaal,1,BOWL,26_sem_bowl.png
+4,58,ijsje,1,ICE CREAM,20_vis_ice cream.png
+4,59,speelkaarten,1,PLAYING CARDS,22_u2_playing cards.png
+4,80,gieter,1,WATERING CAN,65_sem_watering can.png
+4,40,kers,1,CHERRY,7_vis_cherry.png
+4,25,riem,1,BELT,61_u1_belt.png
+4,36,paard,1,HORSE,86_sem_horse.png
+4,90,stamper,1,POTATO MASHER,86_vis_potato masher.png
+4,89,verkeerslicht,1,TRAFFIC LIGHT,82_u1_traffic light.png
+4,83,winkelwagentje,1,SHOPPING CART,73_u2_shopping cart.png
+4,75,vuilniszakken,1,TRASH BAGS,52_u2_trash bags.png
+4,34,jas,1,JACKET,80_u2_jacket.png
+4,74,reddingsvest,1,LIFE JACKET,48_u2_life jacket.png
+4,49,kruik,1,HOT WATER BOTTLE,4_vis_hot water bottle.png
+4,42,plaatje,2,SLIDE,94_u2_slide.png
+4,17,stoel,1,CHAIR,40_u1_chair.png
+4,37,bloem,1,FLOWER,87_u1_flower.png
+4,84,aardappelschilmesje,1,POTATO PEELER,75_u2_potato peeler.png
+4,32,pakket,1,PACKAGE,74_u2_package.png
+4,13,arend,1,EAGLE,27_u1_eagle.png
+4,78,veiligheidsspelden,1,SAFETY PINS,60_u1_safety pins.png
+4,4,taart/cake,1,CAKE,5_sem_cake.png
+4,68,flesopener,1,BOTTLE OPENER,34_u2_bottle opener.png
+4,86,snijplank,1,CUTTING BOARD,76_u2_cutting board.png
+4,79,ijsbeer,1,POLAR BEAR,62_sem_polar bear.png
+4,52,kaasschaaf,1,CHEESE SLICER,7_u1_cheese slicer.png
+4,45,slot,1,LOCK,98_u2_lock.png
+4,66,cementwagen,1,CEMENT TRUCK,32_sem_cement truck.png
+4,24,ketting,1,CHAIN,59_u1_chain.png
+4,5,cadeautje,1,PRESENT,7_sem_present.png
+4,15,fan,2,FAN,35_u1_fan.png
+4,53,hobbelpaard,1,ROCKING HORSE,11_sem_rocking horse.png
+4,81,puntenslijper,1,PENCIL SHARPENER,66_sem_pencil sharpener.png
+4,87,strijkplank,1,IRONING BOARD,79_u2_ironing board.png
+4,93,kandelaar,1,CANDLE HOLDER,92_vis_candle holder.png
+4,63,scheerkwast,1,SHAVING BRUSH,28_u1_shaving brush.png
+4,88,cavia,1,GUINEA PIG,79_vis_guinea pig.png
+4,3,stropdas,1,TIE,5_u2_tie.png
+4,7,vlees,1,MEAT,12_u1_meat.png
+4,73,vuilnisbak,1,TRASH CAN,48_u1_trash can.png
+4,22,dienblad,1,TRAY,54_vis_tray.png
+4,71,tandartsstoel,1,DENTIST CHAIR,42_u2_dentist chair.png
+4,18,kikker,1,FROG,41_u1_frog.png
+4,97,cap,1,RIDING HELMET,100_sem_riding helmet.png
+4,64,pedalen,3,BIKE PEDALS,28_vis_bike pedals.png
+4,31,pet,1,CAP,74_sem_cap.png
+4,72,schommelstoel,1,ROCKING CHAIR,43_sem_rocking chair.png
+4,62,lichtknopje,1,LIGHT SWITCH,27_sem_light switch.png
+4,27,blad,1,LEAF,63_u1_leaf.png
+4,70,pleister,1,BAND AID,38_vis_band aid.png
+4,92,afstandsbediening,1,REMOTE CONTROL,91_sem_remote control.png
+4,57,reddingsboei,1,LIFEBUOY,19_vis_life saver.png
+4,46,kruis,1,CROSS,97_vis_cross.png
+4,11,vat,1,BARREL,25_u2_barrel.png
+4,16,boog,1,BOW,38_u1_bow.png
+4,10,broek,1,PANTS,24_u1_pants.png
+4,38,lepel,1,SPOON,92_sem_spoon.png
+4,51,voetbalschoenen,1,SOCCER SHOES,6_sem_soccer shoes.png
+4,94,vlinderstrik,1,BOW TIE,93_vis_bow tie.png
+4,35,touw,1,ROPE,82_vis_rope.png
+4,60,badeendje,1,RUBBER DUCK,25_u1_rubber duck.png
+4,77,regenlaarzen,1,RAIN BOOTS,60_sem_rain boots.png
+4,2,kraan,1,TAP,3_sem_tap.png
+4,14,bak,3,BASKET,27_u2_basket.png
+4,96,verkeersbord,1,TRAFFIC SIGN,96_vis_traffic sign.png
+4,47,softbal handschoen,1,BASEBALL GLOVE,3_u1_baseball glove.png
+4,9,bel,1,BELL,21_u2_bell.png
+4,61,rolstok,3,ROLLING PIN,25_vis_rolling pin.png
+4,69,kapstok,1,COAT RACK,36_sem_coat rack.png
+4,85,lampje,1,LIGHT BULB,75_vis_light bulb.png
+4,20,zak,2,BAG,45_u2_bag.png
+4,95,lantaarnpaal,1,STREETLIGHT,95_u1_lamp post.png
+4,44,worst,1,SAUSAGE,97_u1_sausage.png
+4,30,slang,1,SNAKE,70_vis_snake.png
+4,82,etui,1,PENCIL CASE,68_u1_pencil case.png
+4,65,ijshoorntje,1,ICE CREAM CONE,31_u2_ice cream cone.png
+4,76,koekenpan,1,FRYING PAN,58_sem_frying pan.png
+4,55,bureaustoel,1,OFFICE CHAIR,14_u2_office chair.png
+3,75,vuilniszakken,1,TRASH BAGS,52_u2_trash bags.png
+3,44,worst,1,SAUSAGE,97_u1_sausage.png
+3,53,schommelpaard,1,ROCKING HORSE,11_sem_rocking horse.png
+3,63,scheerkwast,1,SHAVING BRUSH,28_u1_shaving brush.png
+3,24,ketting,1,CHAIN,59_u1_chain.png
+3,40,kers,1,CHERRY,7_vis_cherry.png
+3,69,kapstok,1,COAT RACK,36_sem_coat rack.png
+3,95,straatlantaarn,1,STREETLIGHT,95_u1_lamp post.png
+3,22,dienblad,1,TRAY,54_vis_tray.png
+3,49,kruik,1,HOT WATER BOTTLE,4_vis_hot water bottle.png
+3,47,baseball handschoen,1,BASEBALL GLOVE,3_u1_baseball glove.png
+3,25,riem,1,BELT,61_u1_belt.png
+3,50,schaats,1,ICE SKATE,5_u1_ice skate.png
+3,51,voetbalschoenen,1,SOCCER SHOES,6_sem_soccer shoes.png
+3,59,speelkaarten,1,PLAYING CARDS,22_u2_playing cards.png
+3,21,aansteker,1,LIGHTER,47_vis_lighter.png
+3,9,bel,1,BELL,21_u2_bell.png
+3,60,badeend,1,RUBBER DUCK,25_u1_rubber duck.png
+3,18,kikker,1,FROG,41_u1_frog.png
+3,39,tanden,1,TEETH,93_sem_teeth.png
+3,83,winkelwagen,1,SHOPPING CART,73_u2_shopping cart.png
+3,57,reddingsboei,1,LIFEBUOY,19_vis_life saver.png
+3,8,pistool,1,GUN,14_vis_gun.png
+3,86,snijplank,1,CUTTING BOARD,76_u2_cutting board.png
+3,31,pet,1,CAP,74_sem_cap.png
+3,26,bureau,1,DESK,62_u2_desk.png
+3,73,vuilnisbak,1,TRASH CAN,48_u1_trash can.png
+3,16,boog,1,BOW,38_u1_bow.png
+3,66,cementwagen,1,CEMENT TRUCK,32_sem_cement truck.png
+3,55,bureaustoel,1,OFFICE CHAIR,14_u2_office chair.png
+3,79,ijsbeer,1,POLAR BEAR,62_sem_polar bear.png
+3,3,stropdas,1,TIE,5_u2_tie.png
+3,32,pakketje,1,PACKAGE,74_u2_package.png
+3,76,koekenpan,1,FRYING PAN,58_sem_frying pan.png
+3,92,afstandsbediening,1,REMOTE CONTROL,91_sem_remote control.png
+3,4,taart,1,CAKE,5_sem_cake.png
+3,93,kandelaar,1,CANDLE HOLDER,92_vis_candle holder.png
+3,96,verkeersbord,1,TRAFFIC SIGN,96_vis_traffic sign.png
+3,5,cadeau,1,PRESENT,7_sem_present.png
+3,98,vishengel,1,FISHING ROD,100_vis_fishing rod.png
+3,38,lepel,1,SPOON,92_sem_spoon.png
+3,80,waterfles,3,WATERING CAN,65_sem_watering can.png
+3,45,slot,1,LOCK,98_u2_lock.png
+3,58,ijshoorn,3,ICE CREAM,20_vis_ice cream.png
+3,84,aardappelschiller,1,POTATO PEELER,75_u2_potato peeler.png
+3,35,touw,1,ROPE,82_vis_rope.png
+3,71,tandartsstoel,1,DENTIST CHAIR,42_u2_dentist chair.png
+3,72,schommelstoel,1,ROCKING CHAIR,43_sem_rocking chair.png
+3,28,hek,1,FENCE,67_vis_fence.png
+3,30,slang,1,SNAKE,70_vis_snake.png
+3,68,bieropener,1,BOTTLE OPENER,34_u2_bottle opener.png
+3,74,reddingsvest,1,LIFE JACKET,48_u2_life jacket.png
+3,89,stoplicht,1,TRAFFIC LIGHT,82_u1_traffic light.png
+3,2,aanraken,2,TAP,3_sem_tap.png
+3,14,mand,1,BASKET,27_u2_basket.png
+3,6,aap,1,MONKEY,8_sem_monkey.png
+3,37,bloem,1,FLOWER,87_u1_flower.png
+3,70,pleister,1,BAND AID,38_vis_band aid.png
+3,20,tas,1,BAG,45_u2_bag.png
+3,48,koffiezetapparaat,1,COFFEE MACHINE,4_u2_coffee machine.png
+3,1,sleutel,1,KEY,17_u2_key.png
+3,10,broek,1,PANTS,24_u1_pants.png
+3,61,veiligheidsspeld,3,ROLLING PIN,25_vis_rolling pin.png
+3,17,stoel,1,CHAIR,40_u1_chair.png
+3,46,kruis,1,CROSS,97_vis_cross.png
+3,90,aardappelschiller,3,POTATO MASHER,86_vis_potato masher.png
+3,11,x,0,BARREL,25_u2_barrel.png
+3,36,paard,1,HORSE,86_sem_horse.png
+3,77,regenlaarzen,1,RAIN BOOTS,60_sem_rain boots.png
+3,88,cavia,1,GUINEA PIG,79_vis_guinea pig.png
+3,82,etui,1,PENCIL CASE,68_u1_pencil case.png
+3,62,lichtschakelaar,1,LIGHT SWITCH,27_sem_light switch.png
+3,56,babyflesje,1,BABY BOTTLE,18_sem_baby bottle.png
+3,42,dia,2,SLIDE,94_u2_slide.png
+3,67,teddybeer,1,TEDDY BEAR,33_u1_teddy bear.png
+3,85,gloeilamp,1,LIGHT BULB,75_vis_light bulb.png
+3,65,ijshoorn,1,ICE CREAM CONE,31_u2_ice cream cone.png
+3,12,x,0,BOWL,26_sem_bowl.png
+3,23,wereldbol,1,GLOBE,56_vis_globe.png
+3,52,kaassnijder,3,CHEESE SLICER,7_u1_cheese slicer.png
+3,64,trappers,1,BIKE PEDALS,28_vis_bike pedals.png
+3,81,puntenslijper,1,PENCIL SHARPENER,66_sem_pencil sharpener.png
+3,43,kreeft,1,LOBSTER,95_sem_lobster.png
+3,7,vlees,1,MEAT,12_u1_meat.png
+3,94,vlinderstrikje,1,BOW TIE,93_vis_bow tie.png
+3,29,horloge,1,WATCH,69_u1_watch.png
+3,33,strijkijzer,1,IRON,74_vis_iron.png
+3,97,paardrijhelm,1,RIDING HELMET,100_sem_riding helmet.png
+3,27,blad,1,LEAF,63_u1_leaf.png
+3,41,haai,1,SHARK,94_u1_shark.png
+3,15,ventilator,1,FAN,35_u1_fan.png
+3,87,strijkplank,1,IRONING BOARD,79_u2_ironing board.png
+3,34,jas,1,JACKET,80_u2_jacket.png
+3,54,meetlint,1,MEASURING TAPE,14_sem_measuring tape.png
+3,19,trommel,1,DRUM,41_u2_drum.png
+3,13,adelaar,1,EAGLE,27_u1_eagle.png
+3,91,wasmand,1,LAUNDRY BASKET,87_sem_laundry basket.png
+3,78,veiligheidsspeld,1,SAFETY PINS,60_u1_safety pins.png
+2,73,vuilnisemmer,1,TRASH CAN,48_u1_trash can.png
+2,4,taart,1,CAKE,5_sem_cake.png
+2,65,ijshoorntje,1,ICE CREAM CONE,31_u2_ice cream cone.png
+2,26,bureau,1,DESK,62_u2_desk.png
+2,85,peertje,1,LIGHT BULB,75_vis_light bulb.png
+2,92,afstandsbediening,1,REMOTE CONTROL,91_sem_remote control.png
+2,61,deegroller,1,ROLLING PIN,25_vis_rolling pin.png
+2,66,cement vrachtwagen,2,CEMENT TRUCK,32_sem_cement truck.png
+2,11,ton,1,BARREL,25_u2_barrel.png
+2,31,pet,1,CAP,74_sem_cap.png
+2,38,lepel,1,SPOON,92_sem_spoon.png
+2,40,kers,1,CHERRY,7_vis_cherry.png
+2,91,wasmand,1,LAUNDRY BASKET,87_sem_laundry basket.png
+2,14,bak,3,BASKET,27_u2_basket.png
+2,51,voetbalschoenen,1,SOCCER SHOES,6_sem_soccer shoes.png
+2,57,reddingsboei,1,LIFEBUOY,19_vis_life saver.png
+2,32,pakket,1,PACKAGE,74_u2_package.png
+2,75,vuilniszakken,1,TRASH BAGS,52_u2_trash bags.png
+2,95,straatlantaarn,1,STREETLIGHT,95_u1_lamp post.png
+2,12,schaal/kom,1,BOWL,26_sem_bowl.png
+2,71,tandartsstoel,1,DENTIST CHAIR,42_u2_dentist chair.png
+2,98,vis hengel,1,FISHING ROD,100_vis_fishing rod.png
+2,59,speelkaarten,1,PLAYING CARDS,22_u2_playing cards.png
+2,68,bieropener,1,BOTTLE OPENER,34_u2_bottle opener.png
+2,9,bel,1,BELL,21_u2_bell.png
+2,80,gieter,1,WATERING CAN,65_sem_watering can.png
+2,18,kikker,1,FROG,41_u1_frog.png
+2,23,wereldbol,1,GLOBE,56_vis_globe.png
+2,20,tas/zak,2,BAG,45_u2_bag.png
+2,5,cadeautje,1,PRESENT,7_sem_present.png
+2,21,aansteker,1,LIGHTER,47_vis_lighter.png
+2,90,(aardappel)stamper,1,POTATO MASHER,86_vis_potato masher.png
+2,76,koekenpan/wokpan,3,FRYING PAN,58_sem_frying pan.png
+2,42,glijbaan,1,SLIDE,94_u2_slide.png
+2,33,strijkijzer,1,IRON,74_vis_iron.png
+2,82,etui,1,PENCIL CASE,68_u1_pencil case.png
+2,83,winkelwagen,1,SHOPPING CART,73_u2_shopping cart.png
+2,7,vlees,1,MEAT,12_u1_meat.png
+2,36,paard,1,HORSE,86_sem_horse.png
+2,19,trommel,1,DRUM,41_u2_drum.png
+2,49,kruik,1,HOT WATER BOTTLE,4_vis_hot water bottle.png
+2,13,adelaar,1,EAGLE,27_u1_eagle.png
+2,6,aap,1,MONKEY,8_sem_monkey.png
+2,48,koffiemachine,1,COFFEE MACHINE,4_u2_coffee machine.png
+2,10,broek,1,PANTS,24_u1_pants.png
+2,29,horloge,1,WATCH,69_u1_watch.png
+2,53,hobbelpaard,1,ROCKING HORSE,11_sem_rocking horse.png
+2,54,meetlint,1,MEASURING TAPE,14_sem_measuring tape.png
+2,88,cavia,1,GUINEA PIG,79_vis_guinea pig.png
+2,27,blad,1,LEAF,63_u1_leaf.png
+2,89,verkeer/stoplicht,1,TRAFFIC LIGHT,82_u1_traffic light.png
+2,45,slot,1,LOCK,98_u2_lock.png
+2,84,aardappelschiller,1,POTATO PEELER,75_u2_potato peeler.png
+2,3,stropdas,1,TIE,5_u2_tie.png
+2,30,slang,1,SNAKE,70_vis_snake.png
+2,35,touw,1,ROPE,82_vis_rope.png
+2,47,honkbalhandschoen,1,BASEBALL GLOVE,3_u1_baseball glove.png
+2,22,lade/bakje,3,TRAY,54_vis_tray.png
+2,56,kinderflesje,1,BABY BOTTLE,18_sem_baby bottle.png
+2,39,tanden,1,TEETH,93_sem_teeth.png
+2,41,haai,1,SHARK,94_u1_shark.png
+2,58,ijsje,1,ICE CREAM,20_vis_ice cream.png
+2,63,scheer borstel,3,SHAVING BRUSH,28_u1_shaving brush.png
+2,78,veiligheidsspeld,1,SAFETY PINS,60_u1_safety pins.png
+2,70,pleister (/verband),3,BAND AID,38_vis_band aid.png
+2,60,badeend,1,RUBBER DUCK,25_u1_rubber duck.png
+2,97,(paardrij) helm,1,RIDING HELMET,100_sem_riding helmet.png
+2,77,regenlaarzen,1,RAIN BOOTS,60_sem_rain boots.png
+2,77,regenlaarzen,1,RAIN BOOTS,60_sem_rain boots.png
+2,96,verkeersbord,1,TRAFFIC SIGN,96_vis_traffic sign.png
+2,16,boog,1,BOW,38_u1_bow.png
+2,93,kaarsenhouder,3,CANDLE HOLDER,92_vis_candle holder.png
+2,1,sleutel,1,KEY,17_u2_key.png
+2,52,kaasschaaf,1,CHEESE SLICER,7_u1_cheese slicer.png
+2,46,kruis,1,CROSS,97_vis_cross.png
+2,55,kantoorstoel,1,OFFICE CHAIR,14_u2_office chair.png
+2,67,teddybeer,1,TEDDY BEAR,33_u1_teddy bear.png
+2,79,ijsbeer,1,POLAR BEAR,62_sem_polar bear.png
+2,87,strijkplank,1,IRONING BOARD,79_u2_ironing board.png
+2,72,schommelstoel,1,ROCKING CHAIR,43_sem_rocking chair.png
+2,25,riem,1,BELT,61_u1_belt.png
+2,34,jas,1,JACKET,80_u2_jacket.png
+2,81,puntenslijper,1,PENCIL SHARPENER,66_sem_pencil sharpener.png
+2,28,hek,1,FENCE,67_vis_fence.png
+2,15,ventilator,1,FAN,35_u1_fan.png
+2,17,stoel,1,CHAIR,40_u1_chair.png
+2,62,lichtschakelaar,1,LIGHT SWITCH,27_sem_light switch.png
+2,24,ketting,1,CHAIN,59_u1_chain.png
+2,94,vlinderdas,1,BOW TIE,93_vis_bow tie.png
+2,86,snijplank,1,CUTTING BOARD,76_u2_cutting board.png
+2,44,worst,1,SAUSAGE,97_u1_sausage.png
+2,43,kreeft,1,LOBSTER,95_sem_lobster.png
+2,64,trappers,1,BIKE PEDALS,28_vis_bike pedals.png
+2,8,pistool,1,GUN,14_vis_gun.png
+2,74,zwemvest,1,LIFE JACKET,48_u2_life jacket.png
+2,50,schaats,1,ICE SKATE,5_u1_ice skate.png
+2,2,kraan,1,TAP,3_sem_tap.png
+2,37,bloem,1,FLOWER,87_u1_flower.png
+2,69,kapstok,1,COAT RACK,36_sem_coat rack.png
+1,29,horloge,1,WATCH,69_u1_watch.png
+1,22,bak,3,TRAY,54_vis_tray.png
+1,60,badeend,1,RUBBER DUCK,25_u1_rubber duck.png
+1,38,lepel,1,SPOON,92_sem_spoon.png
+1,30,slang,1,SNAKE,70_vis_snake.png
+1,62,schakelaar,3,LIGHT SWITCH,27_sem_light switch.png
+1,86,snijplank,1,CUTTING BOARD,76_u2_cutting board.png
+1,14,bak,3,BASKET,27_u2_basket.png
+1,77,regenlaarzen,1,RAIN BOOTS,60_sem_rain boots.png
+1,67,knuffelbeer,1,TEDDY BEAR,33_u1_teddy bear.png
+1,65,ijs hoorntje,1,ICE CREAM CONE,31_u2_ice cream cone.png
+1,40,kers,1,CHERRY,7_vis_cherry.png
+1,24,ketting,1,CHAIN,59_u1_chain.png
+1,11,barrel,0,BARREL,25_u2_barrel.png
+1,61,veiligheidspeld,3,ROLLING PIN,25_vis_rolling pin.png
+1,12,kom,1,BOWL,26_sem_bowl.png
+1,1,sleutel,1,KEY,17_u2_key.png
+1,52,kaassnijder,3,CHEESE SLICER,7_u1_cheese slicer.png
+1,48,koffieapparaat,1,COFFEE MACHINE,4_u2_coffee machine.png
+1,47,softbal handschoen,1,BASEBALL GLOVE,3_u1_baseball glove.png
+1,15,ventilator,1,FAN,35_u1_fan.png
+1,96,verkeerslicht,3,TRAFFIC SIGN,96_vis_traffic sign.png
+1,53,houten paard,2,ROCKING HORSE,11_sem_rocking horse.png
+1,58,ijsje,1,ICE CREAM,20_vis_ice cream.png
+1,5,cadeau,1,PRESENT,7_sem_present.png
+1,81,puntenslijper,1,PENCIL SHARPENER,66_sem_pencil sharpener.png
+1,27,blad,1,LEAF,63_u1_leaf.png
+1,23,wereldbol,1,GLOBE,56_vis_globe.png
+1,82,etui,1,PENCIL CASE,68_u1_pencil case.png
+1,76,frituurpan,3,FRYING PAN,58_sem_frying pan.png
+1,13,adelaar,1,EAGLE,27_u1_eagle.png
+1,87,i,0,IRONING BOARD,79_u2_ironing board.png
+1,6,aap,1,MONKEY,8_sem_monkey.png
+1,4,cake of taart,1,CAKE,5_sem_cake.png
+1,17,stoel,1,CHAIR,40_u1_chair.png
+1,49,waterflesje,3,HOT WATER BOTTLE,4_vis_hot water bottle.png
+1,71,tandartsstoel,1,DENTIST CHAIR,42_u2_dentist chair.png
+1,16,boog,1,BOW,38_u1_bow.png
+1,75,vuilniszakken,1,TRASH BAGS,52_u2_trash bags.png
+1,55,bureaustoel,1,OFFICE CHAIR,14_u2_office chair.png
+1,33,iron,0,IRON,74_vis_iron.png
+1,88,cavia,1,GUINEA PIG,79_vis_guinea pig.png
+1,42,glijbaan,1,SLIDE,94_u2_slide.png
+1,3,das,1,TIE,5_u2_tie.png
+1,59,speelkaarten,1,PLAYING CARDS,22_u2_playing cards.png
+1,64,trappers,1,BIKE PEDALS,28_vis_bike pedals.png
+1,90,aardappelstamper,1,POTATO MASHER,86_vis_potato masher.png
+1,7,vlees,1,MEAT,12_u1_meat.png
+1,43,kreeft,1,LOBSTER,95_sem_lobster.png
+1,46,cross,0,CROSS,97_vis_cross.png
+1,18,kikker,1,FROG,41_u1_frog.png
+1,9,bel,1,BELL,21_u2_bell.png
+1,97,helm,3,RIDING HELMET,100_sem_riding helmet.png
+1,34,jas,1,JACKET,80_u2_jacket.png
+1,74,reddingsvest,1,LIFE JACKET,48_u2_life jacket.png
+1,10,broek,1,PANTS,24_u1_pants.png
+1,80,gieter,1,WATERING CAN,65_sem_watering can.png
+1,72,wiebelstoel,1,ROCKING CHAIR,43_sem_rocking chair.png
+1,36,paars,1,HORSE,86_sem_horse.png
+1,57,huh,0,LIFEBUOY,19_vis_life saver.png
+1,41,haai,1,SHARK,94_u1_shark.png
+1,21,aansteker,1,LIGHTER,47_vis_lighter.png
+1,26,bureau,1,DESK,62_u2_desk.png
+1,32,pakketje,1,PACKAGE,74_u2_package.png
+1,50,rolschaatsen,3,ICE SKATE,5_u1_ice skate.png
+1,93,kaarshouder,3,CANDLE HOLDER,92_vis_candle holder.png
+1,37,bloem,1,FLOWER,87_u1_flower.png
+1,45,slot,1,LOCK,98_u2_lock.png
+1,44,worst,1,SAUSAGE,97_u1_sausage.png
+1,83,winkelwagen,1,SHOPPING CART,73_u2_shopping cart.png
+1,35,touw,1,ROPE,82_vis_rope.png
+1,98,vishengel,1,FISHING ROD,100_vis_fishing rod.png
+1,91,wasmand,1,LAUNDRY BASKET,87_sem_laundry basket.png
+1,68,flessenopener,1,BOTTLE OPENER,34_u2_bottle opener.png
+1,94,vlinderdas,1,BOW TIE,93_vis_bow tie.png
+1,79,ijsbeer,1,POLAR BEAR,62_sem_polar bear.png
+1,84,aardappelsnijder,3,POTATO PEELER,75_u2_potato peeler.png
+1,69,..,0,COAT RACK,36_sem_coat rack.png
+1,70,pleister,1,BAND AID,38_vis_band aid.png
+1,25,riem,1,BELT,61_u1_belt.png
+1,2,tap,2,TAP,3_sem_tap.png
+1,28,hek,1,FENCE,67_vis_fence.png
+1,39,tanden,1,TEETH,93_sem_teeth.png
+1,31,helm,2,CAP,74_sem_cap.png
+1,54,meetlint,1,MEASURING TAPE,14_sem_measuring tape.png
+1,85,gloeilamp,1,LIGHT BULB,75_vis_light bulb.png
+1,89,verkeerslicht,1,TRAFFIC LIGHT,82_u1_traffic light.png
+1,92,afstandsbediening,1,REMOTE CONTROL,91_sem_remote control.png
+1,51,voetbalschoenen,1,SOCCER SHOES,6_sem_soccer shoes.png
+1,56,babyflesje,1,BABY BOTTLE,18_sem_baby bottle.png
+1,66,cement wagen,1,CEMENT TRUCK,32_sem_cement truck.png
+1,63,scheermes,3,SHAVING BRUSH,28_u1_shaving brush.png
+1,95,verkeerslicht,3,STREETLIGHT,95_u1_lamp post.png
+1,19,trommel,1,DRUM,41_u2_drum.png
+1,8,pistool,1,GUN,14_vis_gun.png
+1,20,tas,1,BAG,45_u2_bag.png
+1,73,vuilnisbak,1,TRASH CAN,48_u1_trash can.png
+1,78,veiligheidsspelden,1,SAFETY PINS,60_u1_safety pins.png
