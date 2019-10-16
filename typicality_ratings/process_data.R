@@ -194,10 +194,10 @@ head(typic)
 
 
 # Put the responses in a single column
-typic$Response <- typic$TagValue2
+typic$response <- typic$TagValue2
 # Mismatch responses:
-typic[typic$EventTag == "ObjectMismatch", "Response"] <- "Mismatch"
-typic[typic$EventTag == "DontKnowWord", "Response"] <- "WordUnknown"
+typic[typic$EventTag == "ObjectMismatch", "response"] <- "Mismatch"
+typic[typic$EventTag == "DontKnowWord", "response"] <- "WordUnknown"
 
 # Check if there are repeated data points. I think this happens because
 # participants jump back from a screen to the instructions screen and then
@@ -242,7 +242,7 @@ typic <- typic %>%
 # Simplify columns
 typic <- typic %>%
   ungroup %>%
-  select(user_id, task_order, trial, item_id : object_name, Response)
+  select(user_id, task_order, trial, item_id : object_name, response)
 head(typic)
 
 # Write to disk

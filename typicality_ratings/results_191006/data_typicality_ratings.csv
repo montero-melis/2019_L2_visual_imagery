@@ -1,4 +1,4 @@
-user_id,task_order,trial,item_id,trial_lang,trial_type,pic_file,object_name,Response
+user_id,task_order,trial,item_id,trial_lang,trial_type,pic_file,object_name,response
 30,Du-En,1,84,Dutch,target,75_u2_potato peeler.png,AARDAPPELSCHILLER,7
 30,Du-En,2,95,Dutch,target,95_u1_lamp post.png,LANTAARNPAAL,7
 30,Du-En,3,77,Dutch,target,60_sem_rain boots.png,REGENLAARZEN,7
