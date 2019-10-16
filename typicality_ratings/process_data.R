@@ -51,8 +51,13 @@ valid_ids <- user_ids[user_ids$TagValue2 %in% valid_codes$code, ] %>% pull(UserI
 d <- d_all[d_all$UserId %in% valid_ids, ]
 # same for participant info - keep only valid participants:
 ppt_info <- ppt_info[ppt_info$UserId %in% valid_ids,]
+# Assign more manageable user id's (simple integers)
 ppt_info$user_id <- seq_len(nrow(ppt_info))
 head(ppt_info)
+
+# For easy reference, save participant keys to file
+ppt_info %>% select(user_id, UserId) %>% arrange(user_id) %>%
+  write_csv(file.path(mypath, "participant_id_keys.csv"))
 
 d <- left_join(d, ppt_info %>% select(UserId, user_id))
 
