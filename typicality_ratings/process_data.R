@@ -1,7 +1,6 @@
 ## Process data as output by the online experiment in Frinex
 
 library("tidyverse")  # ggplot2, dplyr, readr, purrr, etc
-# library(readr)
 
 mypath <- file.path("typicality_ratings", "results_191006")
 mypath
@@ -96,7 +95,6 @@ head(transl4cod)
 write_csv(transl4cod, file.path(mypath, "transl_task_4coding.csv"))
 
 
-
 # Translation task: coded data --------------------------------------------
 
 # The coding was done offline by the RA. Now we merge the coded data set back:
@@ -161,8 +159,7 @@ transl_scored %>%
   ungroup %>%
   select(user_id, item_id, response = Response, score = Score,
          object_name, pic_file) %>%
-  write_csv(file.path(mypath, "translation_task.csv"))
-
+  write_csv(file.path(mypath, "data_translation_task.csv"))
 
 
 # Typicality ratings ------------------------------------------------------
@@ -197,7 +194,42 @@ typic$Response <- typic$TagValue2
 typic[typic$EventTag == "ObjectMismatch", "Response"] <- "Mismatch"
 typic[typic$EventTag == "DontKnowWord", "Response"] <- "WordUnknown"
 
-# Specify the trial within group (works bc data frame is ordered by row_nb)
+# Check if there are repeated data points. I think this happens because
+# participants jump back from a screen to the instructions screen and then
+# back to the task again:
+table(typic$user_id)  # there should be 228 observations / participant, but...
+table(typic$user_id)[table(typic$user_id) != 228]
+weird_ppts <- as.numeric(names(table(typic$user_id)[table(typic$user_id) != 228]))
+
+# Repeated items:
+typic %>%
+  filter(user_id %in% weird_ppts) %>%
+  group_by(user_id, item_id, trial_lang) %>%
+  summarise(n = n()) %>%
+  filter(n != 1)
+
+# Some detective work - requires going back to the original data file:
+# Remove duplicate items if they have the same response; if different, use the
+# least favourable
+# ppt 1
+typic %>% filter(user_id == 1, item_id %in% c(34, 103), trial_lang == "English")
+typic <- typic %>% filter(! row_nb %in% c(23026, 23028, 23036))
+# apparently ppt 14 started one day for a few minutes and then finished some days
+# later, which explains the large jump in row_nb
+typic %>% filter(user_id == 14, item_id == 69, trial_lang == "English")
+typic <- typic %>% filter(! row_nb %in% c(13069))
+# ppt 19
+typic %>% filter(user_id == 19, item_id == 60, trial_lang == "Dutch")
+typic <- typic %>% filter(! row_nb %in% c(9286))
+# ppt 26
+typic %>% filter(user_id == 26, item_id == 119, trial_lang == "Dutch")
+typic <- typic %>% filter(! row_nb %in% c(4122))
+
+# Check again
+sum(table(typic$user_id) != 228)  # problem solved
+
+
+# Specify the trial within participant (works bc data frame is ordered by row_nb)
 typic <- typic %>%
   group_by(user_id) %>%
   mutate(trial = row_number())
@@ -205,11 +237,8 @@ typic <- typic %>%
 # Simplify columns
 typic <- typic %>%
   ungroup %>%
-  select(user_id, task_order, trial, Response, item_id : object_name)
+  select(user_id, task_order, trial, item_id : object_name, Response)
 head(typic)
 
-# Does it look all right?
-table(typic$user_id)[table(typic$user_id) != 228]
-
-
 # Write to disk
+write_csv(typic, file.path(mypath, "data_typicality_ratings.csv"))
