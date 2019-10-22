@@ -157,7 +157,11 @@ weird_items <- names(table(transl_scored$object_name)[table(transl_scored$object
 weird_ppts <- transl_scored[transl_scored$trial == 99, ] %>% pull(UserId)
 transl_scored %>%
   filter(UserId %in% weird_ppts, object_name %in% weird_items)
-# ... well, at least they were consistent in their responses; leave it in for simplicity
+# ... well, at least they were consistent in their responses; remove the duplicates
+
+transl_scored <- transl_scored %>%
+  filter(! row_nb %in% c(19029, 22775))
+
 
 # Save to disk the final version with only necessary columns
 transl_scored %>%

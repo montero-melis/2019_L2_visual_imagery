@@ -2331,7 +2331,6 @@ user_id,item_id,response,score,object_name,pic_file
 7,86,snijplank,1,CUTTING BOARD,76_u2_cutting board.png
 7,33,strijkijzer,1,IRON,74_vis_iron.png
 7,84,aardappelschilmesje,1,POTATO PEELER,75_u2_potato peeler.png
-7,84,aardappelschilmesje,1,POTATO PEELER,75_u2_potato peeler.png
 7,19,trommel,1,DRUM,41_u2_drum.png
 7,55,bureaustoel,1,OFFICE CHAIR,14_u2_office chair.png
 7,17,stoel,1,CHAIR,40_u1_chair.png
@@ -2811,7 +2810,6 @@ user_id,item_id,response,score,object_name,pic_file
 2,70,pleister (/verband),3,BAND AID,38_vis_band aid.png
 2,60,badeend,1,RUBBER DUCK,25_u1_rubber duck.png
 2,97,(paardrij) helm,1,RIDING HELMET,100_sem_riding helmet.png
-2,77,regenlaarzen,1,RAIN BOOTS,60_sem_rain boots.png
 2,77,regenlaarzen,1,RAIN BOOTS,60_sem_rain boots.png
 2,96,verkeersbord,1,TRAFFIC SIGN,96_vis_traffic sign.png
 2,16,boog,1,BOW,38_u1_bow.png

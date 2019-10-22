@@ -4,6 +4,9 @@
 
 *test.R
 
+# html files
+*.html
+
 # Excel files
 *.xlsx
 !typicality_ratings/stimuli_typicality.xlsx
