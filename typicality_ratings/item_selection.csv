@@ -1,0 +1,155 @@
+item_id,pic_file,trial_lang,object_name,typicality
+1,17_u2_key.png,Dutch,SLEUTEL,6.363636363636363
+1,17_u2_key.png,English,KEY,6.363636363636363
+2,3_sem_tap.png,Dutch,KRAAN,5.2272727272727275
+2,3_sem_tap.png,English,TAP,5.136363636363637
+3,5_u2_tie.png,Dutch,STROPDAS,5.590909090909091
+3,5_u2_tie.png,English,TIE,5.666666666666667
+4,5_sem_cake.png,Dutch,TAART,5.7727272727272725
+4,5_sem_cake.png,English,CAKE,5.863636363636363
+5,7_sem_present.png,Dutch,CADEAU,6.181818181818182
+5,7_sem_present.png,English,PRESENT,6.142857142857143
+6,8_sem_monkey.png,Dutch,AAP,6.090909090909091
+6,8_sem_monkey.png,English,MONKEY,6
+7,12_u1_meat.png,Dutch,VLEES,5.7272727272727275
+7,12_u1_meat.png,English,MEAT,5.863636363636363
+8,14_vis_gun.png,Dutch,PISTOOL,6.636363636363637
+8,14_vis_gun.png,English,GUN,6.636363636363637
+9,21_u2_bell.png,Dutch,BEL,5.7272727272727275
+9,21_u2_bell.png,English,BELL,5.7272727272727275
+11,25_u2_barrel.png,Dutch,TON,6.454545454545454
+11,25_u2_barrel.png,English,BARREL,6.294117647058823
+12,26_sem_bowl.png,Dutch,KOM,5.681818181818182
+12,26_sem_bowl.png,English,BOWL,5.631578947368421
+13,27_u1_eagle.png,Dutch,ADELAAR,6.636363636363637
+13,27_u1_eagle.png,English,EAGLE,6.454545454545454
+15,35_u1_fan.png,Dutch,VENTILATOR,5.363636363636363
+15,35_u1_fan.png,English,FAN,5.523809523809524
+17,40_u1_chair.png,Dutch,STOEL,5.090909090909091
+17,40_u1_chair.png,English,CHAIR,5.045454545454546
+18,41_u1_frog.png,Dutch,KIKKER,5.7727272727272725
+18,41_u1_frog.png,English,FROG,5.863636363636363
+19,41_u2_drum.png,Dutch,TROMMEL,5.090909090909091
+19,41_u2_drum.png,English,DRUM,5.444444444444445
+21,47_vis_lighter.png,Dutch,AANSTEKER,6.545454545454546
+21,47_vis_lighter.png,English,LIGHTER,6.454545454545454
+22,54_vis_tray.png,Dutch,DIENBLAD,5.545454545454546
+22,54_vis_tray.png,English,TRAY,5.5
+23,56_vis_globe.png,Dutch,WERELDBOL,5.818181818181818
+23,56_vis_globe.png,English,GLOBE,6
+24,59_u1_chain.png,Dutch,KETTING,5.681818181818182
+24,59_u1_chain.png,English,CHAIN,5.809523809523809
+25,61_u1_belt.png,Dutch,RIEM,5.863636363636363
+25,61_u1_belt.png,English,BELT,5.909090909090909
+27,63_u1_leaf.png,Dutch,BLAD,5.545454545454546
+27,63_u1_leaf.png,English,LEAF,5.545454545454546
+28,67_vis_fence.png,Dutch,HEK,5.954545454545454
+28,67_vis_fence.png,English,FENCE,5.545454545454546
+29,69_u1_watch.png,Dutch,HORLOGE,5.818181818181818
+29,69_u1_watch.png,English,WATCH,5.681818181818182
+30,70_vis_snake.png,Dutch,SLANG,6.636363636363637
+30,70_vis_snake.png,English,SNAKE,6.636363636363637
+31,74_sem_cap.png,Dutch,PET,6.636363636363637
+31,74_sem_cap.png,English,CAP,6.409090909090909
+32,74_u2_package.png,Dutch,PAKKET,5.954545454545454
+32,74_u2_package.png,English,PACKAGE,5.85
+33,74_vis_iron.png,Dutch,STRIJKIJZER,5.7272727272727275
+33,74_vis_iron.png,English,IRON,5.7727272727272725
+34,80_u2_jacket.png,Dutch,JAS,5.045454545454546
+34,80_u2_jacket.png,English,JACKET,5.333333333333333
+35,82_vis_rope.png,Dutch,TOUW,5.318181818181818
+35,82_vis_rope.png,English,ROPE,5.181818181818182
+36,86_sem_horse.png,Dutch,PAARD,6.2272727272727275
+36,86_sem_horse.png,English,HORSE,6.045454545454546
+37,87_u1_flower.png,Dutch,BLOEM,5.363636363636363
+37,87_u1_flower.png,English,FLOWER,5.363636363636363
+38,92_sem_spoon.png,Dutch,LEPEL,6.181818181818182
+38,92_sem_spoon.png,English,SPOON,6.045454545454546
+39,93_sem_teeth.png,Dutch,TANDEN,5.2727272727272725
+39,93_sem_teeth.png,English,TEETH,5.181818181818182
+40,7_vis_cherry.png,Dutch,KERS,6.7272727272727275
+40,7_vis_cherry.png,English,CHERRY,6.681818181818182
+41,94_u1_shark.png,Dutch,HAAI,5.818181818181818
+41,94_u1_shark.png,English,SHARK,5.681818181818182
+42,94_u2_slide.png,Dutch,GLIJBAAN,5.545454545454546
+42,94_u2_slide.png,English,SLIDE,5.8
+43,95_sem_lobster.png,Dutch,KREEFT,6.545454545454546
+43,95_sem_lobster.png,English,LOBSTER,6.545454545454546
+44,97_u1_sausage.png,Dutch,WORST,5.681818181818182
+44,97_u1_sausage.png,English,SAUSAGE,5.636363636363637
+45,98_u2_lock.png,Dutch,SLOT,6.590909090909091
+45,98_u2_lock.png,English,LOCK,6.681818181818182
+46,97_vis_cross.png,Dutch,KRUIS,5.681818181818182
+46,97_vis_cross.png,English,CROSS,5.363636363636363
+47,3_u1_baseball glove.png,Dutch,HONKBALHANDSCHOEN,6.454545454545454
+47,3_u1_baseball glove.png,English,BASEBALL GLOVE,6.705882352941177
+48,4_u2_coffee machine.png,Dutch,KOFFIEZETAPPARAAT,6.409090909090909
+48,4_u2_coffee machine.png,English,COFFEE MACHINE,6.2727272727272725
+49,4_vis_hot water bottle.png,Dutch,KRUIK,6.681818181818182
+49,4_vis_hot water bottle.png,English,HOT WATER BOTTLE,6.2105263157894735
+50,5_u1_ice skate.png,Dutch,SCHAATS,6.5
+50,5_u1_ice skate.png,English,ICE SKATE,6.318181818181818
+51,6_sem_soccer shoes.png,Dutch,VOETBALSCHOENEN,6.2727272727272725
+51,6_sem_soccer shoes.png,English,SOCCER SHOES,6.2272727272727275
+52,7_u1_cheese slicer.png,Dutch,KAASSCHAAF,6.454545454545454
+52,7_u1_cheese slicer.png,English,CHEESE SLICER,6.363636363636363
+53,11_sem_rocking horse.png,Dutch,HOBBELPAARD,5.2272727272727275
+53,11_sem_rocking horse.png,English,ROCKING HORSE,5.05
+54,14_sem_measuring tape.png,Dutch,MEETLINT,5.7272727272727275
+54,14_sem_measuring tape.png,English,MEASURING TAPE,5.666666666666667
+55,14_u2_office chair.png,Dutch,BUREAUSTOEL,5.863636363636363
+55,14_u2_office chair.png,English,OFFICE CHAIR,6.045454545454546
+62,27_sem_light switch.png,Dutch,LICHTSCHAKELAAR,5.863636363636363
+62,27_sem_light switch.png,English,LIGHT SWITCH,6.333333333333333
+63,28_u1_shaving brush.png,Dutch,SCHEERKWAST,5.666666666666667
+63,28_u1_shaving brush.png,English,SHAVING BRUSH,5.5
+64,28_vis_bike pedals.png,Dutch,TRAPPERS,5.2727272727272725
+64,28_vis_bike pedals.png,English,BIKE PEDALS,5.333333333333333
+65,31_u2_ice cream cone.png,Dutch,IJSHOORNTJE,6.545454545454546
+65,31_u2_ice cream cone.png,English,ICE CREAM CONE,6.545454545454546
+68,34_u2_bottle opener.png,Dutch,FLESOPENER,5.818181818181818
+68,34_u2_bottle opener.png,English,BOTTLE OPENER,5.904761904761905
+70,38_vis_band aid.png,Dutch,PLEISTER,6.636363636363637
+70,38_vis_band aid.png,English,BAND AID,6.777777777777778
+71,42_u2_dentist chair.png,Dutch,TANDARTSSTOEL,5.909090909090909
+71,42_u2_dentist chair.png,English,DENTIST CHAIR,5.909090909090909
+72,43_sem_rocking chair.png,Dutch,SCHOMMELSTOEL,6.2727272727272725
+72,43_sem_rocking chair.png,English,ROCKING CHAIR,6
+73,48_u1_trash can.png,Dutch,PRULLENBAK,5
+73,48_u1_trash can.png,English,TRASH CAN,5.045454545454546
+74,48_u2_life jacket.png,Dutch,REDDINGSVEST,6
+74,48_u2_life jacket.png,English,LIFE JACKET,6
+75,52_u2_trash bags.png,Dutch,VUILNISZAKKEN,5.318181818181818
+75,52_u2_trash bags.png,English,TRASH BAGS,5.45
+76,58_sem_frying pan.png,Dutch,KOEKENPAN,6.363636363636363
+76,58_sem_frying pan.png,English,FRYING PAN,6.125
+77,60_sem_rain boots.png,Dutch,REGENLAARZEN,5.2272727272727275
+77,60_sem_rain boots.png,English,RAIN BOOTS,5.2727272727272725
+78,60_u1_safety pins.png,Dutch,VEILIGHEIDSSPELDEN,5.909090909090909
+78,60_u1_safety pins.png,English,SAFETY PINS,5.954545454545454
+79,62_sem_polar bear.png,Dutch,IJSBEER,6.2727272727272725
+79,62_sem_polar bear.png,English,POLAR BEAR,6.454545454545454
+81,66_sem_pencil sharpener.png,Dutch,PUNTENSLIJPER,6.363636363636363
+81,66_sem_pencil sharpener.png,English,PENCIL SHARPENER,6.318181818181818
+83,73_u2_shopping cart.png,Dutch,WINKELWAGEN,6.590909090909091
+83,73_u2_shopping cart.png,English,SHOPPING CART,6.636363636363637
+84,75_u2_potato peeler.png,Dutch,AARDAPPELSCHILLER,5.818181818181818
+84,75_u2_potato peeler.png,English,POTATO PEELER,5.904761904761905
+85,75_vis_light bulb.png,Dutch,GLOEILAMP,5.2727272727272725
+85,75_vis_light bulb.png,English,LIGHT BULB,5.25
+86,76_u2_cutting board.png,Dutch,SNIJPLANK,5.590909090909091
+86,76_u2_cutting board.png,English,CUTTING BOARD,5.523809523809524
+88,79_vis_guinea pig.png,Dutch,CAVIA,6.5
+88,79_vis_guinea pig.png,English,GUINEA PIG,6.476190476190476
+89,82_u1_traffic light.png,Dutch,STOPLICHT,5.571428571428571
+89,82_u1_traffic light.png,English,TRAFFIC LIGHT,5.619047619047619
+90,86_vis_potato masher.png,Dutch,STAMPOTSTAMPER,6.363636363636363
+90,86_vis_potato masher.png,English,POTATO MASHER,6.428571428571429
+91,87_sem_laundry basket.png,Dutch,WASMAND,5.818181818181818
+91,87_sem_laundry basket.png,English,LAUNDRY BASKET,6.181818181818182
+92,91_sem_remote control.png,Dutch,AFSTANDSBEDIENING,6.136363636363637
+92,91_sem_remote control.png,English,REMOTE CONTROL,6.095238095238095
+96,96_vis_traffic sign.png,Dutch,VERKEERSBORD,5.7272727272727275
+96,96_vis_traffic sign.png,English,TRAFFIC SIGN,5.666666666666667
+97,100_sem_riding helmet.png,Dutch,PAARDRIJHELM,6.590909090909091
+97,100_sem_riding helmet.png,English,RIDING HELMET,6.466666666666667

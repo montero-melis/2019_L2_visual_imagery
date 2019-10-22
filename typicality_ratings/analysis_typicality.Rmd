@@ -1,0 +1,615 @@
+---
+title: "Typicality ratings - analysis"
+author: '[Guillermo Montero-Melis](https://www.mpi.nl/people/montero-melis-guillermo)'
+date: '`r as.character(format(Sys.Date(), format="%d/%m/%Y"))`'
+output:
+  html_document:
+    depth: 2
+    number_sections: yes
+    theme: default
+    toc: yes
+---
+
+
+Setup workspace
+==============
+
+Load libraries
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, message=FALSE}
+library("knitr")
+library("tidyverse")  # ggplot2, dplyr, readr, purrr, etc
+theme_set(theme_bw())
+# library("lme4")
+# library("boot")       # for inv.logit()
+```
+
+
+Load original data set:
+
+```{r, message=FALSE}
+# Load data
+typic_full <- read_csv("results_191006/data_typicality_ratings.csv")
+head(typic_full) %>% kable
+transl <- read_csv("results_191006/data_translation_task.csv")
+head(transl) %>% kable
+```
+
+
+
+Participant exclusion criteria
+==================
+
+Performance on catch trials
+---------------------------
+
+For a catch trial to be counted as correct, the response has to be either
+"mismatch" or a typicality rating of 1 (any other response is incorrect).
+
+**We exclude participants who score <80% on any condition (L1 or L2).**
+
+```{r}
+catch <- typic_full %>% filter(trial_type == "catch")
+catch$score <- ifelse(catch$response %in% c("1", "Mismatch"), 1, 0)
+```
+
+```{r}
+catch %>%
+  group_by(user_id, trial_lang) %>%
+  summarise(Accuracy = mean(score)) %>%
+  ggplot(aes(x = trial_lang, y = Accuracy, label = user_id)) +
+  geom_label(position = position_jitter(height = 0, width = .3)) +
+  geom_hline(yintercept = .8, colour = "red")
+```
+
+```{r}
+subj_excl_catch <- catch %>%
+  group_by(user_id, trial_lang) %>%
+  summarise(acc = mean(score)) %>%
+  filter(acc < .80) %>%
+  pull(user_id)
+```
+
+
+Based on our initial criterion, we'd need to exclude `r length(subj_excl_catch)`
+out of 30 participants!
+As this is more than we expected, we reconsidered the 80% threshold.
+We note that:
+
+- The proportion of incorrect catch trials was much higher in the L2 than in the
+L1, suggesting that it is not that some participants are not paying attention
+trhoughout the experiment, but rather that they do not understand certain L2
+words.
+- This makes sense for the catch trials because these consisted often of less
+frequent words than the target trials (that is one of the reasons they were not
+target trials to begin with).
+
+Therefore we lowered our threshold to 70% correct responses on catch trials in
+any condition:
+
+```{r}
+catch %>%
+  group_by(user_id, trial_lang) %>%
+  summarise(Accuracy = mean(score)) %>%
+  ggplot(aes(x = trial_lang, y = Accuracy, label = user_id)) +
+  geom_label(position = position_jitter(height = 0, width = .3)) +
+  geom_hline(yintercept = .7, colour = "red")
+```
+
+```{r}
+subj_excl_catch <- catch %>%
+  group_by(user_id, trial_lang) %>%
+  summarise(acc = mean(score)) %>%
+  filter(acc < .70) %>%
+  pull(user_id)
+```
+
+This leads us to exclude `r length(subj_excl_catch)` out of the 30 participants.
+
+
+Unknown words
+-------------
+
+Exclude participants who used the "don't-know-word" button on more than 20% of
+the trials in any condition.
+
+```{r}
+unknown <- typic_full %>%
+  mutate(unknown = ifelse(response == "WordUnknown", 1, 0)) %>%
+  group_by(user_id, trial_lang) %>%
+  summarise(unknown = mean(unknown))
+```
+
+```{r}
+unknown %>%
+  ggplot(aes(x = trial_lang, y = unknown)) +
+  geom_jitter(height = 0, width = .2, alpha = .5) +
+  geom_hline(yintercept = .2, colour = "red")
+```
+
+This doesn't lead to excluding any participants.
+
+
+Performance on translation task
+-------------------------------
+
+Data for this task is coded with three values (see `score` column):
+
+- 0 = No response (incl ?, -, etc)
+- 1 = Correct and intended translation (corresponds to the picture)
+- 2 = Correct but unintended translation (does not correspond to the picture)
+- 3 = Incorrect translation
+
+The distribution of value is:
+
+```{r}
+table(transl$score)
+```
+
+
+For our final binary score for purposes of data exclusion, only 1 and 2 are
+considered correct.
+
+**We exclude participants who incorrectly translate >20% of trials.**
+
+```{r}
+transl$correct <- ifelse(transl$score %in% c(1, 2), 1, 0)
+transl %>%
+  group_by(user_id) %>%
+  summarise(accuracy = mean(correct)) %>%
+  ggplot(aes(x = "", y = accuracy, label = user_id)) +
+  geom_label(position = position_jitter(height = 0, width = .3)) +
+  geom_hline(yintercept = .8, colour = "red") +
+  xlab("")
+```
+
+```{r}
+subj_excl_transl <- transl %>%
+  group_by(user_id) %>%
+  summarise(accuracy = mean(correct)) %>%
+  filter(accuracy < .80) %>%
+  pull(user_id)
+```
+
+We need to exclude `r length(subj_excl_transl)` participants.
+
+
+Which were the most difficult words to translate out of the
+`r length(unique(transl$object_name))` that had to be translated?
+
+```{r}
+transl %>%
+  group_by(object_name) %>%
+  summarise(Accuracy = mean(correct)) %>%
+  filter(Accuracy < .8) %>%
+  arrange(Accuracy) %>%
+  kable
+```
+
+
+
+Total participant exclusions
+----------------
+
+```{r}
+subj_excl <- unique(c(subj_excl_catch, subj_excl_transl))
+```
+
+
+All in all, we exclude 
+`r length(subj_excl)` participants, namely:
+`r sort(subj_excl)`.
+
+
+Incorrectly translated trials (to be removed)
+-----------------------------
+
+We also want to remove L2 typicality rating trials for which participants
+provided the wrong translation.
+
+```{r}
+# Perhaps not the most elegant solution, but should work:
+typic_full$check_col <- with(typic_full, paste(trial_lang, user_id, item_id, sep = "_"))
+trial_excl <- transl %>%
+  filter(correct == 0 & ! user_id %in% subj_excl) %>%
+  mutate(exclude = paste("English", user_id, item_id, sep = "_")) %>%
+  pull(exclude)
+```
+
+Add the information about whether an item was translated as intended or not
+
+```{r}
+# Join this info with typicality ratings
+typic_full <- left_join(
+  typic_full,
+  transl %>%
+    mutate(intended = ifelse(score == 1, 1, 0), trial_lang = "English") %>%
+    select(user_id, item_id, trial_lang, intended)
+)
+```
+
+
+Keep only relevant rows
+----------------------
+
+Apply all the excluding criteria to keep a clean version of the typicality
+ratings:
+
+```{r}
+typic <- typic_full %>% 
+  filter(! user_id %in% subj_excl) %>%     # exclude whole subjects
+  filter(! check_col %in% trial_excl) %>%  # exclude incorrectly translated trials
+  filter(trial_type == "target") %>%       # only target trials
+  select(- check_col, - trial_type)
+```
+
+
+Some final oddities + formatting
+--------------
+
+Even after removing incorrectly translated trials, there are still some target
+trials for which participants indicated that there was a word-picture mismatch
+or that they didn't know the word (even in Dutch):
+
+```{r}
+typic %>% 
+  filter(response == "Mismatch" | response == "WordUnknown") %>%
+  arrange(trial_lang) %>%
+  kable
+```
+
+Let us simply remove those trials:
+
+```{r}
+typic <- typic %>% 
+  filter(! (response == "Mismatch" | response == "WordUnknown"))
+typic %>% head %>% kable
+```
+
+We can now convert the response into a numerical variable:
+
+```{r}
+typic$response <- as.numeric(typic$response)
+```
+
+
+
+Analysis
+========
+
+Typicality ratings -- descriptive tables
+------------------
+
+We are left with the following data set:
+
+```{r}
+with(typic, addmargins(table(task_order, trial_lang)))
+```
+
+Number of participants with a given number of observations:
+
+```{r}
+with(typic, table(table(user_id)))
+```
+
+
+Number of observations per participant and language:
+
+```{r}
+with(typic, table(trial_lang, user_id))
+```
+
+
+Number of items with a given number of ratings:
+
+```{r}
+with(typic, table(table(item_id)))
+```
+
+For which items are there relatively few ratings, i.e. 17 or fewer?
+(Remember: `r length(unique(typic$user_id))` ratings is the maximum.)
+
+```{r}
+typic %>%
+  group_by(item_id, trial_lang, object_name) %>%
+  count() %>%
+  filter(n < 18) %>%
+  arrange(n) %>%
+  kable
+```
+
+
+
+Mean typicality ratings
+---------------------
+
+Typicality ratings in L1 Dutch and L2 English
+
+```{r}
+ggplot(typic, aes(x = trial_lang, y = response)) +
+  geom_boxplot() +
+  geom_jitter(aes(colour = trial_lang), height = 0, width = .2, alpha = .05)
+```
+
+Overall the distribution of ratings seems quite similar. How strongly correlated
+were the ratings across languages?
+
+```{r}
+typic %>%
+  select(user_id, item_id, trial_lang, response) %>%
+  spread(trial_lang, response) %>%
+  ggplot(aes(x = Dutch, y = English)) + 
+  geom_jitter(height = .1, width = .1, alpha = .1) +
+  geom_smooth(method = "lm")
+```
+
+Note there seems to be a slight tendency to rate the low-typicality items as
+being somewhat more typical in L2 English than in L1 Dutch.
+
+
+```{r}
+typic %>%
+  select(user_id, item_id, trial_lang, response) %>%
+  spread(trial_lang, response) %>%
+  cor.test(formula = ~ Dutch + English, data = .)
+```
+
+
+
+By item
+-------
+
+```{r}
+typic_rank <- typic %>%
+  group_by(item_id) %>%
+  summarise(typicality = mean(response)) %>%
+  arrange(typicality) %>%
+  pull(item_id)
+typic$item_id <- factor(typic$item_id, levels = typic_rank)
+```
+
+
+```{r}
+typic %>%
+  group_by(item_id, trial_lang, object_name) %>%
+  summarise(typicality = mean(response)) %>%
+  ggplot(aes(x = item_id, y = typicality, label = object_name)) +
+  geom_point() +
+  geom_hline(yintercept = 5) +
+  # geom_text() +
+  facet_grid(. ~ trial_lang) +
+  ylim(1, 7.5) +
+  coord_flip()
+```
+
+
+```{r}
+ggplot(typic, aes(x = item_id, y = response, colour = trial_lang)) +
+  geom_hline(yintercept = 5) +
+  stat_summary(fun.data = "mean_cl_boot") +
+  geom_point(alpha = .1) +
+  ylab("Verb bias") + 
+  coord_flip() +
+  facet_grid(. ~ trial_lang) +
+  ggtitle("Variability around mean typicality ratings")
+```
+
+
+```{r, fig.height = 12}
+typic %>%
+  group_by(item_id, trial_lang, object_name) %>%
+  summarise(typicality = mean(response)) %>%
+  ggplot(aes(x = item_id, y = typicality, label = object_name)) +
+  # geom_point(alpha = .4) +
+  geom_hline(yintercept = 5) +
+  geom_text() +
+  facet_grid(. ~ trial_lang) +
+  ylim(1, 7.5) +
+  coord_flip()
+```
+
+
+
+Correlation between typicality score and number of ratings?
+-----------------------------------------------
+
+Less ratings for an item can be the consequence of
+
+a) "Mismatch" responses,
+b) "Don't know word" responses,
+c) Wrong translations.
+
+All of these could be correlated to a picture not being very typical an instance
+of the object denoted by the object label -- or the label might have a diffuse
+or heterogeneous reference class.
+
+
+```{r}
+typic %>%
+  group_by(item_id, trial_lang, object_name) %>%
+  summarise(typicality = mean(response),
+            nbRatings = n()) %>%
+  ggplot(aes(x = typicality, y = nbRatings, colour = trial_lang)) +
+  geom_point(alpha = .2) +
+  geom_text(aes(label = object_name)) +
+  geom_smooth()
+```
+
+But there doesn't seem to be any clear trend here.
+
+
+Translation consistency
+-----------------------
+
+How often did participants give the *intended* translation of the English
+word (i.e., the one that corresponded to the picture)?
+These are translations scored as 1 -- as opposed to those scored 2 which
+were correct translations but not for the intended object.
+
+```{r}
+table(transl$score)
+```
+
+There are relatively few correct but unintended translations.
+And even less if one looks at the typicality observations that we are actually
+using:
+
+```{r}
+table(typic$intended)
+```
+
+
+However, this is not necessarily very informative because participants did the
+translation task at the end of the session and so they had been primed by the
+pictures before.
+This is still no guarantee that participants will think about the correct object
+upon hearing the label the first time...
+
+```{r}
+typic %>%
+  filter(trial_lang == "English") %>%
+  group_by(item_id, object_name) %>%
+  summarise(typicality = mean(response),
+            Intended = mean(intended)) %>%
+  ggplot(aes(x = Intended, y = typicality, label = object_name)) +
+  geom_point(alpha = .4) +
+  geom_text(alpha = .5) +
+  geom_hline(yintercept = 5) +
+  geom_vline(xintercept = .8)
+```
+
+There are a couple of items that can be problematic, like
+BOW, RUBBER DUCK and CEMENT TRUCK.
+These are all judge to be quite typical examples of the object category denoted
+by the label, but upon translating the word, people seem to have activated a
+correct but non-intended referent.
+
+Exploratory: Mean typicality ratings in L1 vs L2
+-----------
+
+We had the following exploratory prediction:
+
+*Typicality ratings in L2 will be overall lower (or compressed towards the mean)*
+because the noise in semantic processing in L2 makes you unsure and pushes
+ratings towards the middle of the scale.
+
+```{r}
+typic %>%
+  group_by(user_id, trial_lang) %>%
+  summarise(typ = mean(response)) %>%
+  spread(trial_lang, typ) %>%
+  mutate(L1_minus_L2 = Dutch - English) %>%
+  ggplot(aes(x = "", y = L1_minus_L2)) +
+  geom_boxplot() +
+  geom_jitter(height = 0) +
+  xlab("")
+```
+
+Our prediction is clearly not borne out. The mean is quite exactly zero!
+
+We can see if  Is this correlation related to proficiency (use translation score as proxy)?
+
+```{r}
+typic %>%
+  group_by(user_id, trial_lang) %>%
+  summarise(typ = mean(response)) %>%
+  spread(trial_lang, typ) %>%
+  mutate(L1_minus_L2 = Dutch - English) %>%
+  select(user_id, L1_minus_L2) %>%
+  left_join(
+    transl %>%
+      group_by(user_id) %>% 
+      summarise(transl_accuracy = mean(correct))
+    ) %>%
+  ggplot(aes(x = transl_accuracy, y = L1_minus_L2)) +
+  geom_point() +
+  geom_smooth()
+```
+
+There is at best a very tenuous relationship between the L1-L2 difference and
+the translation accuracy (used here as a proxy for proficiency).
+
+
+
+Item selection
+==============
+
+Putting it all together, we select items that fulfill the following criteria:
+
+1. Mean typicality rating greater or equal to 5 in both languages;
+2. The English object name has to be translated as the *intended* referent
+(i.e., corresponding to the image) at least 80% of the time (NB: of the data
+remaining after translation exclusions);
+3. Needs to be rated by at least 15 participants in each language.
+
+```{r}
+item_sel <- typic %>%
+  mutate(item_id = as.numeric(as.character(item_id))) %>%
+  group_by(item_id, trial_lang, object_name) %>%
+  summarise(
+    typicality = mean(response),
+    intended_transl = mean(intended),
+    nb_obs = n()
+  ) %>%
+  filter(typicality >= 5,
+         is.na(intended_transl) | intended_transl >= .8,
+         nb_obs >= 15)
+# We need items for which both the Dutch and the English version satisfies the criteria:
+full_pairs <- as.numeric(names(table(item_sel$item_id)[table(item_sel$item_id) == 2]))
+item_sel <- item_sel %>% filter(item_id %in% full_pairs)
+```
+
+
+```{r}
+typic_rank2 <- item_sel %>%
+  group_by(item_id) %>%
+  summarise(typicality = mean(typicality)) %>%
+  arrange(typicality) %>%
+  pull(item_id)
+item_sel$item_id_fct <- factor(item_sel$item_id, levels = typic_rank2)
+```
+
+
+```{r, fig.height=10}
+item_sel %>%
+  ggplot(aes(x = item_id_fct, y = typicality, label = object_name)) +
+  geom_point(alpha = .2) +
+  geom_hline(yintercept = 5) +
+  geom_text() +
+  facet_grid(. ~ trial_lang) +
+  ylim(4, 7.5) +
+  coord_flip()
+```
+
+
+Correlation between mean typicality ratings:
+
+```{r}
+item_sel %>%
+  select(item_id, trial_lang, typicality) %>%
+  spread(trial_lang, typicality) %>%
+  ggplot(aes(x = Dutch, y = English)) +
+  geom_point() +
+  geom_smooth()
+```
+
+
+
+Save to disk:
+
+```{r}
+# Add the name of the image file as well
+item_sel %>%
+  ungroup() %>%
+  left_join(typic_full %>%
+              select(item_id, trial_lang, pic_file) %>% unique()
+            ) %>%
+  select(item_id, pic_file, trial_lang, object_name, typicality) %>%
+  write_csv("item_selection.csv")
+```
+
