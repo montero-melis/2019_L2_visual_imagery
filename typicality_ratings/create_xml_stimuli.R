@@ -6,13 +6,13 @@ library(tidyverse)
 
 
 ## read verb stimuli
-items <- read_csv("typicality_ratings/stimuli_typicality.csv")
+items <- read_csv("typicality_ratings/stimuli_etc/stimuli_typicality.csv")
 items$object_name <- toupper(items$object_name)
 head(items)
 
 
 ## create output file
-file.create("typicality_ratings/stimuli_xml.xml")
+file.create("typicality_ratings/stimuli_etc/stimuli_xml.xml")
 
 
 ## Dutch ratings
@@ -31,11 +31,11 @@ du_xml <- paste(
 head(du_xml)
 
 # Write to disk
-cat("<!-- stimuli for Dutch ratings -->", file = "typicality_ratings/stimuli_xml.xml",
+cat("<!-- stimuli for Dutch ratings -->", file = "typicality_ratings/stimuli_etc/stimuli_xml.xml",
     sep = "\n", append = TRUE)
-write.table(du_xml, file = "typicality_ratings/stimuli_xml.xml", quote = FALSE,
+write.table(du_xml, file = "typicality_ratings/stimuli_etc/stimuli_xml.xml", quote = FALSE,
             col.names = FALSE, row.names = FALSE, append = TRUE)
-cat("\n", file = "typicality_ratings/stimuli_xml.xml", append = TRUE)
+cat("\n", file = "typicality_ratings/stimuli_etc/stimuli_xml.xml", append = TRUE)
 
 
 
@@ -55,11 +55,11 @@ en_xml <- paste(
 head(en_xml)
 
 # Write to disk
-cat("<!-- stimuli for English ratings -->", file = "typicality_ratings/stimuli_xml.xml",
+cat("<!-- stimuli for English ratings -->", file = "typicality_ratings/stimuli_etc/stimuli_xml.xml",
     sep = "\n", append = TRUE)
-write.table(en_xml, file = "typicality_ratings/stimuli_xml.xml", quote = FALSE,
+write.table(en_xml, file = "typicality_ratings/stimuli_etc/stimuli_xml.xml", quote = FALSE,
             col.names = FALSE, row.names = FALSE, append = TRUE)
-cat("\n", file = "typicality_ratings/stimuli_xml.xml", append = TRUE)
+cat("\n", file = "typicality_ratings/stimuli_etc/stimuli_xml.xml", append = TRUE)
 
 
 
@@ -75,8 +75,8 @@ transl_xml <- paste(
 head(transl_xml)
 
 # Write to disk
-cat("<!-- stimuli for translation task -->", file = "typicality_ratings/stimuli_xml.xml",
+cat("<!-- stimuli for translation task -->", file = "typicality_ratings/stimuli_etc/stimuli_xml.xml",
     sep = "\n", append = TRUE)
-write.table(transl_xml, file = "typicality_ratings/stimuli_xml.xml", quote = FALSE,
+write.table(transl_xml, file = "typicality_ratings/stimuli_etc/stimuli_xml.xml", quote = FALSE,
             col.names = FALSE, row.names = FALSE, append = TRUE)
-cat("\n", file = "typicality_ratings/stimuli_xml.xml", append = TRUE)
+cat("\n", file = "typicality_ratings/stimuli_etc/stimuli_xml.xml", append = TRUE)
