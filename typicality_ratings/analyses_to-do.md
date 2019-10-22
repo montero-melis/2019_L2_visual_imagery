@@ -72,3 +72,11 @@ towards the middle of the scale
 
 Compute correlation L1-L2 ratings
 Is this correlation related to proficiency (use translation score as proxy)?
+
+
+Final checks
+============
+
+- Exclude cognates
+- What about compounds?
+- Frequency of items? (check with JvP)

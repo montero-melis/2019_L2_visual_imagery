@@ -63,7 +63,7 @@ catch %>%
   group_by(user_id, trial_lang) %>%
   summarise(Accuracy = mean(score)) %>%
   ggplot(aes(x = trial_lang, y = Accuracy, label = user_id)) +
-  geom_label(position = position_jitter(height = 0, width = .3)) +
+  geom_text(position = position_jitter(height = 0, width = .3)) +
   geom_hline(yintercept = .8, colour = "red")
 ```
 
@@ -97,7 +97,7 @@ catch %>%
   group_by(user_id, trial_lang) %>%
   summarise(Accuracy = mean(score)) %>%
   ggplot(aes(x = trial_lang, y = Accuracy, label = user_id)) +
-  geom_label(position = position_jitter(height = 0, width = .3)) +
+  geom_text(position = position_jitter(height = 0, width = .3)) +
   geom_hline(yintercept = .7, colour = "red")
 ```
 
@@ -127,8 +127,9 @@ unknown <- typic_full %>%
 
 ```{r}
 unknown %>%
-  ggplot(aes(x = trial_lang, y = unknown)) +
-  geom_jitter(height = 0, width = .2, alpha = .5) +
+  ggplot(aes(x = trial_lang, y = unknown, label = user_id)) +
+  geom_text(position = position_jitter(height = 0, width = .3)) +
+  # geom_jitter(height = 0, width = .2, alpha = .5) +
   geom_hline(yintercept = .2, colour = "red")
 ```
 
@@ -163,7 +164,7 @@ transl %>%
   group_by(user_id) %>%
   summarise(accuracy = mean(correct)) %>%
   ggplot(aes(x = "", y = accuracy, label = user_id)) +
-  geom_label(position = position_jitter(height = 0, width = .3)) +
+  geom_text(position = position_jitter(height = 0, width = .3)) +
   geom_hline(yintercept = .8, colour = "red") +
   xlab("")
 ```
@@ -178,6 +179,9 @@ subj_excl_transl <- transl %>%
 
 We need to exclude `r length(subj_excl_transl)` participants.
 
+
+Most difficult words
+-------------------
 
 Which were the most difficult words to translate out of the
 `r length(unique(transl$object_name))` that had to be translated?
@@ -222,6 +226,7 @@ trial_excl <- transl %>%
 ```
 
 Add the information about whether an item was translated as intended or not
+(this becomes relevant later in the analysis, see Translation consistency).
 
 ```{r}
 # Join this info with typicality ratings
@@ -364,6 +369,8 @@ typic %>%
 By item
 -------
 
+Mean typicality rating per item:
+
 ```{r}
 typic_rank <- typic %>%
   group_by(item_id) %>%
@@ -474,8 +481,10 @@ upon hearing the label the first time...
 typic %>%
   filter(trial_lang == "English") %>%
   group_by(item_id, object_name) %>%
-  summarise(typicality = mean(response),
-            Intended = mean(intended)) %>%
+  summarise(
+    typicality = mean(response),
+    Intended   = mean(intended)
+    ) %>%
   ggplot(aes(x = Intended, y = typicality, label = object_name)) +
   geom_point(alpha = .4) +
   geom_text(alpha = .5) +
@@ -485,9 +494,10 @@ typic %>%
 
 There are a couple of items that can be problematic, like
 BOW, RUBBER DUCK and CEMENT TRUCK.
-These are all judge to be quite typical examples of the object category denoted
+These were all judged to be quite typical examples of the object category denoted
 by the label, but upon translating the word, people seem to have activated a
 correct but non-intended referent.
+We will want to remove these items.
 
 Exploratory: Mean typicality ratings in L1 vs L2
 -----------
@@ -552,13 +562,15 @@ item_sel <- typic %>%
   mutate(item_id = as.numeric(as.character(item_id))) %>%
   group_by(item_id, trial_lang, object_name) %>%
   summarise(
-    typicality = mean(response),
+    typicality      = mean(response),
     intended_transl = mean(intended),
-    nb_obs = n()
+    nb_obs          = n()
   ) %>%
-  filter(typicality >= 5,
-         is.na(intended_transl) | intended_transl >= .8,
-         nb_obs >= 15)
+  filter(
+    typicality >= 5,
+    is.na(intended_transl) | intended_transl >= .8,
+    nb_obs >= 15
+    )
 # We need items for which both the Dutch and the English version satisfies the criteria:
 full_pairs <- as.numeric(names(table(item_sel$item_id)[table(item_sel$item_id) == 2]))
 item_sel <- item_sel %>% filter(item_id %in% full_pairs)
@@ -606,9 +618,11 @@ Save to disk:
 # Add the name of the image file as well
 item_sel %>%
   ungroup() %>%
-  left_join(typic_full %>%
-              select(item_id, trial_lang, pic_file) %>% unique()
-            ) %>%
+  left_join(
+    typic_full %>%
+      select(item_id, trial_lang, pic_file) %>% 
+      unique()
+    ) %>%
   select(item_id, pic_file, trial_lang, object_name, typicality) %>%
   write_csv("item_selection.csv")
 ```
