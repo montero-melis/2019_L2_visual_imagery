@@ -1,0 +1,312 @@
+---
+title: "Analyze design from Ostarek & Huetting (2017) and Lupyan & Ward (2013)"
+author: '[Guillermo Montero-Melis](https://www.mpi.nl/people/montero-melis-guillermo)'
+date: '`r as.character(format(Sys.Date(), format="%d/%m/%Y"))`'
+output:
+  html_document:
+    depth: 2
+    number_sections: yes
+    theme: default
+    toc: yes
+---
+
+
+Setup workspace
+==============
+
+Load libraries
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, message=FALSE}
+library("knitr")
+library("tidyverse")  # ggplot2, dplyr, readr, purrr, etc
+theme_set(theme_bw())
+library("lme4")
+library("lsr")
+```
+
+
+Load original data set:
+
+```{r, message=FALSE}
+# Load data
+ost <- read_csv("data_ostarek2017.csv")
+head(ost) %>% kable
+```
+
+
+Sanity checks
+============
+
+Number of participants:
+
+```{r}
+length(unique(ost$participant))
+```
+
+Five participants were excluded (O&H17, p. 501). Are they still in the data?
+
+Any Ss with hit rate <5%?
+```{r}
+ost %>%
+  filter(pic_presence == "present") %>%
+  group_by(participant) %>%
+  summarise(hit_rate = mean(resp_acc)) %>%
+  pull(hit_rate) %>%
+  summary()
+```
+
+No.
+
+Any false alarm rates >50%?
+
+```{r}
+ost %>%
+  filter(pic_presence == "absent") %>%
+  group_by(participant) %>%
+  summarise(FA_rate = mean(1 - resp_acc)) %>%
+  pull(FA_rate) %>%
+  summary()
+```
+
+No.
+
+
+Descriptives
+============
+
+```{r}
+ost %>%
+  group_by(participant, condition) %>%
+  summarise(accuracy = mean(resp_acc)) %>%
+  ggplot(aes(x = condition, y = accuracy)) +
+  stat_summary(fun.data = mean_cl_boot, colour = "red", size = 1) +
+  geom_jitter(height = 0, width = .2, alpha = .3)
+```
+
+The effect looks rather subtle!
+
+
+Reproduce analyses in the paper
+===============================
+
+
+Hit rates
+--------
+
+Figure 3:
+
+```{r}
+ost %>%
+  filter(pic_presence == "present") %>%
+  group_by(participant, condition) %>%
+  summarise(hit_rate = mean(resp_acc)) %>%
+  ggplot(aes(x = condition, y = hit_rate)) +
+  stat_summary(fun.data = mean_cl_boot, colour = "red", size = 1) +
+  geom_jitter(height = 0, width = .2, alpha = .3) +
+  ggtitle("Fig 3 (approx)")
+```
+
+Mean proportions:
+
+```{r}
+ost %>%
+  filter(pic_presence == "present") %>%
+  group_by(condition) %>%
+  summarise(hit_rate = mean(resp_acc)) %>%
+  kable(digits = 3)
+```
+
+The numbers are the same as in O&H17 up to the 2nd decimal (but small difference
+in the 3rd).
+
+
+d-prime
+-------
+
+To build an understanding of $d'$ and $\beta$, see
+[this interactive visualization](http://elvers.us/perception/sdtGraphic/)
+and its associated
+[SDT calculator](http://elvers.us/perception/sdtCalculator/).
+For the computations, I'm following 
+[this thread](https://psychology.stackexchange.com/questions/9282/calculating-d-prime).
+
+Compute false alarm rates:
+
+```{r}
+FA <- ost %>%
+  filter(pic_presence == "absent") %>%
+  group_by(participant) %>%
+  summarise(FA_rate = mean(1 - resp_acc)) %>%
+  mutate(z_FA = qnorm(FA_rate))
+head(FA, 3)
+```
+
+```{r}
+ggplot(FA, aes(x = "", y = z_FA)) + geom_jitter(height = 0, width = .2) +
+  xlab("")
+```
+
+Compute hit rates:
+
+```{r}
+ost_d_prime <- ost %>%
+  filter(pic_presence == "present") %>%
+  group_by(participant, condition) %>%
+  summarise(H_rate = mean(resp_acc)) %>%
+  mutate(z_H = qnorm(H_rate)) %>%
+  left_join(FA) %>%
+  mutate(d = z_H - z_FA)
+ost_d_prime %>% head %>% kable
+```
+
+
+### Figure 4
+
+```{r}
+ost_d_prime %>%
+  ggplot(aes(x = condition, y = d)) +
+  geom_line(aes(group = participant), alpha = .2) +
+  stat_summary(fun.data = mean_cl_boot, colour = "red", size = 1) +
+  geom_jitter(height = 0, width = .05, alpha = .3) +
+  ylab("d'-score") +
+  ggtitle("Fig 4 (approx)")
+```
+
+
+### Cell means
+
+```{r}
+ost_d_prime %>%
+  group_by(condition) %>%
+  summarise(M = mean(d), SD = sd(d)) %>%
+  kable(digits = 3)
+```
+
+
+### t-test
+
+```{r}
+t.test(formula = d ~ condition, data = ost_d_prime, paired = TRUE)
+```
+
+
+### Mixed model
+
+```{r}
+lmm_d <- lmer(d ~ 1 + condition + (1 | participant),
+              data = ost_d_prime)
+summary(lmm_d)
+```
+
+Coincides with the results reported in the paper.
+
+
+Reaction times
+--------------
+
+By-subject mean reaction times on trials with hits:
+
+```{r}
+ost %>%
+  filter(pic_presence == "present", resp_acc == 1) %>%
+  group_by(participant, condition) %>%
+  summarise(RT_mean = mean(RT)) %>%
+  ggplot(aes(x = condition, y = RT_mean)) +
+  geom_line(aes(group = participant), alpha = .2) +
+  stat_summary(fun.data = mean_cl_boot, colour = "red", size = 1) +
+  geom_jitter(height = 0, width = .05, alpha = .3) +
+  ylab("Mean RT by subject")
+```
+
+Individual data points grouped by participant:
+
+```{r}
+ppts_ordered <- ost %>% 
+  filter(pic_presence == "present", resp_acc == 1) %>%
+  group_by(participant) %>%
+  summarise(
+    RT_mean = mean(RT),
+    RT_median = median(RT)
+    ) %>%
+  arrange(RT_mean) 
+ost <- left_join(ost, ppts_ordered)
+ost$participant_ord <- factor(ost$participant, levels = ppts_ordered %>% pull(participant))
+```
+
+```{r, fig.height = 10, fig.width = 8}
+ost %>%
+  filter(pic_presence == "present", resp_acc == 1) %>%
+  ggplot(aes(x = condition, y = RT)) +
+  geom_boxplot() +
+  facet_wrap(~ participant_ord) +
+  geom_hline(aes(yintercept = RT_mean), linetype = "dotted", colour = "red") +
+  geom_hline(aes(yintercept = RT_median), linetype = "dashed", colour = "blue") +
+  ggtitle("Raw Response Times (no outliers removed)")
+```
+
+
+
+
+Power analysis
+==============
+
+Cohen's *d*
+-----------
+
+```{r}
+(cohens_d <- cohensD(d ~ condition, data = ost_d_prime, method = "paired"))
+```
+
+Cohen's $d = `r round(cohens_d, 2)`$, somewhat bigger than a medium effect size.
+
+
+BFDA: power to detect the effect in L1
+--------------------------------------
+
+Based on the data above, and in particular on the estimated Cohen's *d*,
+I used the [interactive shiny bfda app](http://shinyapps.org/apps/BFDA/) to
+generate a report that shows the sample size we would need to detect a language
+effect (better detection in congruent vs incongruent condition).
+The file name is `report_bfda_191030.pdf`.
+Note that this report is estimating the probability of replicating the result
+reported in O&H17!
+
+The upshot of the report is:
+
+- If the effect size is 0.6 and the *default prior* on effect size is used for
+analyses, you will need **at least 62 observations per group** to obtain a 
+*Bayes factor larger than 6* with a probability of p = 0.8.
+
+
+```{r}
+# # Run simulations and save to disk:
+# 
+# # Under alternative hypothesis H1 with ES d = 0.6
+# sim_H1_d_06_defPrior <- BFDA.sim(
+#   expected.ES = 0.6,
+#   type = "t.paired",
+#   prior=list("Cauchy",list(prior.location=0, prior.scale=sqrt(2)/2)),  # default non-informative
+#   n.min=12, n.max=96, stepsize = 12, boundary=Inf,
+#   alternative="two.sided",
+#   B=1000, verbose=TRUE, cores=1)
+# # Save to disk:
+# write_rds(sim_H1_d_06_defPrior, "sims/sim_H1_d_06_defPrior.rds")
+# 
+# # Under null hypothesis H0
+# sim_H0_defPrior <- BFDA.sim(
+#   expected.ES = 0,  # under H0
+#   type = "t.paired",
+#   prior=list("Cauchy",list(prior.location=0, prior.scale=sqrt(2)/2)),  # default non-informative
+#   n.min=12, n.max=96, stepsize = 12, boundary=Inf,
+#   alternative="two.sided",
+#   B=1000, verbose=TRUE, cores=1)
+# # Save to disk:
+# write_rds(sim_H0_defPrior, "sims/sim_H0_defPrior.rds")
+```
+
+
+
