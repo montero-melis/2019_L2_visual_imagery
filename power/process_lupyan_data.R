@@ -25,8 +25,15 @@ exp1 %>% select(sound_file, prime) %>% unique()  # redundant cols
 # what's this "is_valid" column?
 exp1 %>% select(is_valid, is_pres) %>% unique() %>% arrange(is_valid, is_pres)
 exp1 %>% select(is_valid, is_pres, cue) %>% unique() %>% arrange(is_valid, is_pres, cue)
-sum(exp1$is_valid != exp1$validity_recoded)
-sum(exp1$is_valid == exp1$validity_recoded)
+# I think it's coding whether the validity prompt is valid or not, but it's a
+# bit misleading since any prompt is considered as "valid" for the no-object
+# trials, the "validity_recoded" column might have addressed this...
+exp1 %>%
+  group_by(validity_prompt, picture, cue, prime, is_pres, is_valid, validity_recoded) %>%
+  count() %>%
+  arrange(validity_prompt, picture, is_pres, is_valid, validity_recoded) %>%
+  print(n = 22)
+# oh man, this seems quite convoluted and their might be some errors in there...
 #
 exp1 %>% select(prime, picture) %>% unique() %>% arrange(prime, picture) %>% print(n=50)
 
@@ -34,24 +41,26 @@ exp1 %>% select(prime, picture) %>% unique() %>% arrange(prime, picture) %>% pri
 # Create columns for compatibility with Markus's data
 exp1 <- exp1 %>%
   mutate(condition = ifelse(prime == picture, "congruent", "incongruent"))
-exp1$condition[is.na(exp1$condition)] <- "noPic"
+exp1$condition[is.na(exp1$condition)] <- "incongruent"
+exp1$condition[exp1$prime == "noise"] <- "noise"
 # check result
 exp1 %>% select(prime, picture, condition) %>% unique() %>%
   arrange(prime, picture, condition) %>% print(n=20)
-table(exp1$condition)
 # pic_presence
+table(exp1$condition)
 table(exp1$is_pres)
+with(exp1, addmargins(table(condition, is_pres)))
 
 # Simplified version of data, enough to compute d' and make it compatible with
 # Markus's data:
 exp1_simple <- exp1 %>%
   select(
     participant, block, trial, condition, pic_presence = is_pres, cue, prime,
-    target = picture, resp_acc = obj_presence_acc
+    target = picture, resp_acc = obj_presence_acc, RT = rt
   )
 head(exp1_simple)
 
-write_csv(exp1_simple, "power/lupyan_ward_exp1_simplified.csv")
+write_csv(exp1_simple, "power/data_lupyan13_exp1_simple.csv")
 
 
 # Experiment 2 data -------------------------------------------------------
@@ -84,4 +93,4 @@ exp2_simple <- exp2 %>%
   )
 head(exp2_simple)
 
-write_csv(exp2_simple, "power/lupyan_ward_exp2_simplified.csv")
+write_csv(exp2_simple, "power/data_lupyan13_exp2_simple.csv")
