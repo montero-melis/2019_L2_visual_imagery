@@ -1,0 +1,168 @@
+---
+title: "Understand design from Ostarek & Huetting (2017) and Lupyan & Ward (2013)"
+author: '[Guillermo Montero-Melis](https://www.mpi.nl/people/montero-melis-guillermo)'
+date: '`r as.character(format(Sys.Date(), format="%d/%m/%Y"))`'
+output:
+  html_document:
+    depth: 2
+    number_sections: yes
+    theme: default
+    toc: yes
+---
+
+
+Setup workspace
+==============
+
+Load libraries
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, message=FALSE}
+library("knitr")
+library("tidyverse")  # ggplot2, dplyr, readr, purrr, etc
+theme_set(theme_bw())
+```
+
+
+Load data sets:
+
+```{r, message=FALSE}
+# Load data OH17
+ost <- read_csv("data_ostarek2017.csv")
+head(ost) %>% kable
+# LW13
+lw1 <- read_csv("data_lupyan13_exp1_simple.csv")
+head(lw1) %>% kable
+```
+
+OH17
+====
+
+The design in OH17 is very clean and balanced, and straightforward to understand.
+
+Number of participants:
+
+```{r}
+length(unique(ost$participant))
+```
+
+
+Unique target images and their frequency.
+
+```{r}
+table(ost$target)
+```
+
+Unique primes and their frequency.
+
+```{r}
+table(ost$prime)
+```
+
+
+Prime-target combinations
+
+```{r}
+ost %>%
+  group_by(target, prime, condition) %>%
+  summarise(N = n()) %>%
+  arrange(target, condition, prime) %>%
+  kable
+```
+
+
+There's a slight imbalance for some primes, but it is present across the board,
+not just for a few participants:
+
+```{r}
+with(ost, addmargins(table(participant, prime)), 1)
+```
+
+Which are the odd items in the design?
+
+```{r}
+ost %>%
+  group_by(participant, target, prime, condition) %>%
+  summarise(N = n()) %>%
+  filter(! N %in% c(1, 4, 8)) %>%
+  arrange(participant, target, condition, prime) %>%
+  kable
+```
+
+
+
+LW13 (Exp 1)
+====
+
+Basics
+------
+
+The data frame:
+
+```{r}
+lw1 %>% head %>% kable
+```
+
+
+Number of participants:
+
+```{r}
+length(unique(lw1$participant))
+```
+
+
+Unique target images and their frequency.
+
+```{r}
+sort(table(lw1$target, useNA = "ifany"))
+```
+
+Unique primes and their frequency. One difference in the design is that LW had
+a "noise" condition, in addition to the congruent/incongruent conditions.
+
+```{r}
+sort(table(lw1$prime, useNA = "ifany"))
+```
+
+
+Experimental cells
+------------------
+
+What is the proportion of items in each experimental cell
+
+```{r}
+lw1 %>%
+  mutate(totalN = nrow(lw1)) %>%
+  group_by(pic_presence, cue, condition, totalN) %>%
+  summarise(N = n()) %>%
+  mutate(prop = round(N / totalN, 3)) %>%
+  arrange(pic_presence, cue, condition) %>%
+  kable
+```
+
+By the very nature of the task, the two experimental factors ObjectPresence and
+CueType cannot be fully crossed, because there is no "congruent" cue when there
+is no object.
+
+```{r}
+with(lw1, addmargins(table(condition, pic_presence)))
+```
+
+
+
+Individual items
+----------------
+
+Now let's look at all prime-target combinations -- there is more imbalance than
+in Markus's case:
+
+```{r}
+lw1 %>%
+  group_by(prime, target, pic_presence, cue, condition) %>%
+  count() %>%
+  arrange(prime, target, pic_presence, cue, condition) %>%
+  kable
+```
