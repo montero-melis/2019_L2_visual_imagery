@@ -1,5 +1,5 @@
 ---
-title: "Analyze design from Ostarek & Huetting (2017) and Lupyan & Ward (2013)"
+title: "Analyze data from Ostarek & Huetting (2017) and Lupyan & Ward (2013)"
 author: '[Guillermo Montero-Melis](https://www.mpi.nl/people/montero-melis-guillermo)'
 date: '`r as.character(format(Sys.Date(), format="%d/%m/%Y"))`'
 output:
@@ -32,24 +32,39 @@ library("lsr")
 Load original data set:
 
 ```{r, message=FALSE}
-# Load data
+# Load data OH17
 ost <- read_csv("data_ostarek2017.csv")
 head(ost) %>% kable
+# LW13
+lw1 <- read_csv("data_lupyan13_exp1_simple.csv")
+lw1$condition <- factor(
+  lw1$condition, levels = c("congruent", "noise", "incongruent")
+  )
+head(lw1) %>% kable
+lw2 <- read_csv("data_lupyan13_exp2_simple.csv")
+lw2$condition <- factor(
+  lw2$condition, levels = c("congruent", "noise", "incongruent")
+  )
+head(lw2) %>% kable
 ```
 
 
-Sanity checks
+Some basics for each study
 ============
 
-Number of participants:
+Number of participants in each study:
 
 ```{r}
 length(unique(ost$participant))
+length(unique(lw1$participant))
+length(unique(lw2$participant))
 ```
 
-Five participants were excluded (O&H17, p. 501). Are they still in the data?
+Five participants were excluded in OH17 (O&H17, p. 501). Are they still in the
+data and are there extreme observations?
 
-Any Ss with hit rate <5%?
+Hit rates by participant:
+
 ```{r}
 ost %>%
   filter(pic_presence == "present") %>%
@@ -57,11 +72,24 @@ ost %>%
   summarise(hit_rate = mean(resp_acc)) %>%
   pull(hit_rate) %>%
   summary()
+
+lw1 %>%
+  filter(pic_presence == "present") %>%
+  group_by(participant) %>%
+  summarise(hit_rate = mean(resp_acc)) %>%
+  pull(hit_rate) %>%
+  summary()
+
+lw2 %>%
+  filter(pic_presence == "present") %>%
+  group_by(participant) %>%
+  summarise(hit_rate = mean(resp_acc)) %>%
+  pull(hit_rate) %>%
+  summary()
 ```
 
-No.
 
-Any false alarm rates >50%?
+False alarm rates by participant?
 
 ```{r}
 ost %>%
@@ -70,13 +98,26 @@ ost %>%
   summarise(FA_rate = mean(1 - resp_acc)) %>%
   pull(FA_rate) %>%
   summary()
+
+lw1 %>%
+  filter(pic_presence == "absent") %>%
+  group_by(participant) %>%
+  summarise(FA_rate = mean(1 - resp_acc)) %>%
+  pull(FA_rate) %>%
+  summary()
+
+lw2 %>%
+  filter(pic_presence == "absent") %>%
+  group_by(participant) %>%
+  summarise(FA_rate = mean(1 - resp_acc)) %>%
+  pull(FA_rate) %>%
+  summary()
 ```
 
-No.
 
 
-Descriptives
-============
+Accuracy
+=======
 
 ```{r}
 ost %>%
@@ -84,18 +125,43 @@ ost %>%
   summarise(accuracy = mean(resp_acc)) %>%
   ggplot(aes(x = condition, y = accuracy)) +
   stat_summary(fun.data = mean_cl_boot, colour = "red", size = 1) +
-  geom_jitter(height = 0, width = .2, alpha = .3)
+  geom_jitter(height = 0, width = .2, alpha = .3) +
+  ggtitle("O&H17 Exp 1")
 ```
 
-The effect looks rather subtle!
+```{r}
+lw1 %>%
+  group_by(participant, condition, pic_presence) %>%
+  summarise(accuracy = mean(resp_acc)) %>%
+  ggplot(aes(x = condition, y = accuracy)) +
+  stat_summary(fun.data = mean_cl_boot, colour = "red", size = 1) +
+  geom_jitter(height = 0, width = .2, alpha = .3) +
+  facet_grid(. ~ pic_presence) +
+  ggtitle("L&W13 Exp 1")
+```
 
 
-Reproduce analyses in the paper
-===============================
+```{r}
+lw2 %>%
+  group_by(participant, condition, pic_presence) %>%
+  summarise(accuracy = mean(resp_acc)) %>%
+  ggplot(aes(x = condition, y = accuracy)) +
+  stat_summary(fun.data = mean_cl_boot, colour = "red", size = 1) +
+  geom_jitter(height = 0, width = .2, alpha = .3) +
+  facet_grid(. ~ pic_presence) +
+  ggtitle("L&W13 Exp 2")
+```
+
+
+
+Reproduce analyses
+==================
 
 
 Hit rates
 --------
+
+### OH17
 
 Figure 3:
 
@@ -107,10 +173,8 @@ ost %>%
   ggplot(aes(x = condition, y = hit_rate)) +
   stat_summary(fun.data = mean_cl_boot, colour = "red", size = 1) +
   geom_jitter(height = 0, width = .2, alpha = .3) +
-  ggtitle("Fig 3 (approx)")
+  ggtitle("OH17 - Fig 3 (approx)")
 ```
-
-Mean proportions:
 
 ```{r}
 ost %>%
@@ -124,6 +188,140 @@ The numbers are the same as in O&H17 up to the 2nd decimal (but small difference
 in the 3rd).
 
 
+### LW13 Exp 1
+
+```{r}
+lw1_sbj <- lw1 %>%
+  filter(pic_presence == "present") %>%
+  group_by(participant, condition, pic_presence) %>%
+  summarise(accuracy = mean(resp_acc))
+lw1_ite <- lw1 %>%
+  filter(pic_presence == "present") %>%
+  group_by(target, condition, pic_presence) %>%
+  summarise(accuracy = mean(resp_acc))
+```
+
+#### Figure
+
+```{r}
+ggplot(lw1_sbj, aes(x = condition, y = accuracy)) +
+  stat_summary(fun.data = mean_cl_boot, colour = "red", size = 1) +
+  geom_jitter(height = 0, width = .2, alpha = .3) +
+  ylab("Hit rates") +
+  ggtitle("LW13 Exp 1")
+```
+
+Cell means:
+
+```{r}
+lw1 %>%
+  filter(pic_presence == "present") %>%
+  group_by(condition) %>%
+  summarise(hit_rate = mean(resp_acc)) %>%
+  kable(digits = 2)
+```
+
+Yes, these line up exactly with those reported in LW13.
+
+#### Repeated measures ANOVAs
+
+By-subject:
+
+```{r}
+aov_lw1_s <- aov(
+  accuracy ~ condition + Error(participant / (condition)),
+  data = lw1_sbj
+  )
+summary(aov_lw1_s)
+```
+
+Lines up with LW13!
+
+By items:
+
+```{r}
+aov_lw1_i <- aov(
+  accuracy ~ condition + Error(target / (condition)),
+  data = lw1_ite
+  )
+summary(aov_lw1_i)
+```
+
+
+#### Does it come out with a GLMM?
+
+```{r}
+# Appropriate coding
+lw1$condition_contr <- factor(lw1$condition, levels = c("incongruent", "noise", "congruent"))
+contrasts(lw1$condition_contr) <- contr.sum(3)
+colnames(contrasts(lw1$condition_contr)) <- c("incongr_congr", "noise_congr")
+contrasts(lw1$condition_contr)
+```
+
+
+```{r}
+# ## model fitting
+# # Adding by-item slope for condition leads to boundary singular fit, so simplify
+# glmm_lw1 <- glmer(
+#   resp_acc ~ condition_contr + (1 + condition_contr | participant) + (1 | prime),
+#   data = lw1 %>% filter(pic_presence == "present"),
+#   family = "binomial"
+# )
+# # Save to disk
+# write_rds(glmm_lw1, "sims/glmm_lw1.rds")
+```
+
+
+```{r}
+glmm_lw1 <- read_rds("sims/glmm_lw1.rds")
+summary(glmm_lw1)
+```
+
+It doesn't look like it does.
+
+Let's compare this model against a null model by LRT:
+
+```{r}
+# # Null model
+# glmm_lw1_null <- glmer(
+#   resp_acc ~ 1 + (1 + condition_contr | participant) + (1 | prime),
+#   data = lw1 %>% filter(pic_presence == "present"),
+#   family = "binomial"
+# )
+# # Save to disk
+# write_rds(glmm_lw1_null, "sims/glmm_lw1_null.rds")
+```
+
+
+```{r}
+glmm_lw1_null <- read_rds("sims/glmm_lw1_null.rds")
+anova(glmm_lw1, glmm_lw1_null)
+```
+
+Hmm, so there seems to be an effect of condition!
+
+### LW13 Exp 2
+
+```{r}
+lw2 %>%
+  filter(pic_presence == "present") %>%
+  group_by(participant, condition) %>%
+  summarise(hit_rate = mean(resp_acc)) %>%
+  ggplot(aes(x = condition, y = hit_rate)) +
+  stat_summary(fun.data = mean_cl_boot, colour = "red", size = 1) +
+  geom_jitter(height = 0, width = .2, alpha = .3) +
+  ggtitle("LW13 Exp 2")
+```
+
+```{r}
+lw2 %>%
+  filter(pic_presence == "present") %>%
+  group_by(condition) %>%
+  summarise(hit_rate = mean(resp_acc)) %>%
+  kable(digits = 3)
+```
+
+
 d-prime
 -------
 
@@ -134,40 +332,39 @@ and its associated
 For the computations, I'm following 
 [this thread](https://psychology.stackexchange.com/questions/9282/calculating-d-prime).
 
-Compute false alarm rates:
+Compute $d'$ from false alarm and hit rates:
 
 ```{r}
-FA <- ost %>%
-  filter(pic_presence == "absent") %>%
-  group_by(participant) %>%
-  summarise(FA_rate = mean(1 - resp_acc)) %>%
-  mutate(z_FA = qnorm(FA_rate))
-head(FA, 3)
+dprime_fnc <- function(df) {
+  FA <- df %>%
+    filter(pic_presence == "absent") %>%
+    group_by(participant) %>%
+    summarise(FA_rate = mean(1 - resp_acc)) %>%
+    mutate(z_FA = qnorm(FA_rate))
+  d_prime <- df %>%
+    filter(pic_presence == "present") %>%
+    group_by(participant, condition) %>%
+    summarise(H_rate = mean(resp_acc)) %>%
+    mutate(z_H = qnorm(H_rate)) %>%
+    left_join(FA) %>%
+    mutate(d = z_H - z_FA)
+  d_prime
+}
 ```
 
 ```{r}
-ggplot(FA, aes(x = "", y = z_FA)) + geom_jitter(height = 0, width = .2) +
-  xlab("")
-```
-
-Compute hit rates:
-
-```{r}
-ost_d_prime <- ost %>%
-  filter(pic_presence == "present") %>%
-  group_by(participant, condition) %>%
-  summarise(H_rate = mean(resp_acc)) %>%
-  mutate(z_H = qnorm(H_rate)) %>%
-  left_join(FA) %>%
-  mutate(d = z_H - z_FA)
-ost_d_prime %>% head %>% kable
+dprime_ost <- dprime_fnc(ost)
+dprime_lw1 <- dprime_fnc(lw1)
+dprime_lw2 <- dprime_fnc(lw2)
+# Example with OH17 data
+head(dprime_ost) %>% kable
 ```
 
 
 ### Figure 4
 
 ```{r}
-ost_d_prime %>%
+dprime_ost %>%
   ggplot(aes(x = condition, y = d)) +
   geom_line(aes(group = participant), alpha = .2) +
   stat_summary(fun.data = mean_cl_boot, colour = "red", size = 1) +
@@ -180,7 +377,7 @@ ost_d_prime %>%
 ### Cell means
 
 ```{r}
-ost_d_prime %>%
+dprime_ost %>%
   group_by(condition) %>%
   summarise(M = mean(d), SD = sd(d)) %>%
   kable(digits = 3)
@@ -190,7 +387,7 @@ ost_d_prime %>%
 ### t-test
 
 ```{r}
-t.test(formula = d ~ condition, data = ost_d_prime, paired = TRUE)
+t.test(formula = d ~ condition, data = dprime_ost, paired = TRUE)
 ```
 
 
@@ -198,7 +395,7 @@ t.test(formula = d ~ condition, data = ost_d_prime, paired = TRUE)
 
 ```{r}
 lmm_d <- lmer(d ~ 1 + condition + (1 | participant),
-              data = ost_d_prime)
+              data = dprime_ost)
 summary(lmm_d)
 ```
 
@@ -258,7 +455,7 @@ Cohen's *d*
 -----------
 
 ```{r}
-(cohens_d <- cohensD(d ~ condition, data = ost_d_prime, method = "paired"))
+(cohens_d <- cohensD(d ~ condition, data = dprime_ost, method = "paired"))
 ```
 
 Cohen's $d = `r round(cohens_d, 2)`$, somewhat bigger than a medium effect size.
