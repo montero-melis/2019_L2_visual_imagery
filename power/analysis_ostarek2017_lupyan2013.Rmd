@@ -11,6 +11,25 @@ output:
 ---
 
 
+Intro
+====
+
+Reanalysis of three datasets reporting a congruency effect in image detection
+using CFS:
+
+- Exp 1 in: Ostarek, M., & Huettig, F. (2017). Spoken words can make the
+invisible visible—Testing the involvement of low-level visual representations in
+spoken word processing. Journal of Experimental Psychology: Human Perception and
+Performance, 43(3), 499–508. http://dx.doi.org/10.1037/xhp0000313 [*OH17*] 
+- Exps 1 & 2 in: Lupyan, G., & Ward, E. J. (2013). Language can boost otherwise
+unseen objects into visual awareness. Proceedings of the National Academy of
+Sciences, 110(35), 14196–14201. https://doi.org/10.1073/pnas.1303312110
+[*LW1* and *LW2*, respectively.]
+
+
+
+
+
 Setup workspace
 ==============
 
@@ -80,10 +99,11 @@ comb %>%
 ```
 
 
-Number of target images in each study (this includes the "absent image"):
+Number of target images in each study (excluding "no image"):
 
 ```{r}
 comb %>% 
+  filter(pic_presence == "present") %>%
   group_by(exp) %>% 
   summarise(N = length(unique(target))) %>%
   kable
@@ -129,7 +149,7 @@ comb %>%
   kable(digits = 2)
 ```
 
-The zero FA rates in LW2 will be problemati when computing d' scores...
+The zero FA rates in LW2 will be problemati when computing $d'$ scores...
 
 
 
@@ -251,8 +271,9 @@ by(comb, comb$exp, function(df) {
 
 ## GLMMs
 
-We'll run a separate model for each data set, but first adjust factor coding
-scheme:
+We'll run a separate model for each data set, but first...
+
+### Factor coding
 
 ```{r}
 # Appropriate coding:
@@ -399,7 +420,7 @@ For the computations, I'm following
 [this thread](https://psychology.stackexchange.com/questions/9282/calculating-d-prime).
 
 
-## Compute d'
+## Compute $d'$
 
 Compute $d'$ from false alarm and hit rates:
 
@@ -428,7 +449,7 @@ head(dprime_comb) %>% kable
 
 ## Sanity checks
 
-Quite a few participants in LW2 yield non-finite values for d' in some of the
+Quite a few participants in LW2 yield non-finite values for $d'$ in some of the
 conditions, either because their hit rate is 1, their false alarm rate is 0, or
 both:
 
@@ -509,14 +530,31 @@ dprime_comb %>%
   filter(
     participant != excl_ppt,
     condition %in% c("congruent", "incongruent")
-    ) %>%  
+    ) %>%
+  mutate(condition = factor(condition)) %>%  # drop empty factor levels
   by(data = ., .$exp, function(df) {
     t.test(formula = d ~ condition, data = df, paired = TRUE)
   })
 ```
 
 
-## Mixed models
+## Effect size: Cohen's $d$ for the congruency effect
+
+```{r, warning = FALSE}
+dprime_comb %>%
+  filter(
+    participant != excl_ppt,
+    condition %in% c("congruent", "incongruent")
+    ) %>%
+  mutate(condition = factor(condition)) %>%  # drop empty factor levels
+  by(data = ., .$exp, function(df) {
+    cohensD(d ~ condition, data = df, method = "paired")
+  })
+```
+
+
+## Mixed models (TO DO)
+
 
 
 ```{r}
@@ -534,9 +572,11 @@ dprime_comb %>%
 
 
 
-Reaction times
+Reaction times (TO DO)
 ==============
 
+OH17
+----
 
 By-subject mean reaction times on trials with hits:
 
