@@ -43,8 +43,9 @@ knitr::opts_chunk$set(echo = TRUE)
 library("knitr")
 library("tidyverse")  # ggplot2, dplyr, readr, purrr, etc
 theme_set(theme_bw())
+library("broom")
 library("lme4")
-library("lsr")
+library("lsr")  # cohensD function
 ```
 
 
@@ -149,7 +150,7 @@ comb %>%
   kable(digits = 2)
 ```
 
-The zero FA rates in LW2 will be problemati when computing $d'$ scores...
+The zero FA rates in LW2 will be problematic when computing $d'$ scores...
 
 
 
@@ -276,21 +277,29 @@ We'll run a separate model for each data set, but first...
 ### Factor coding
 
 ```{r}
-# Appropriate coding:
+# Appropriate coding
+# Convenience functions bc I might use them later in the script:
+contrast2 <- function(v) {
+  myfactor <- factor(v, levels = c("incongruent", "congruent"))
+  contrasts(myfactor) <- contr.sum(2)
+  colnames(contrasts(myfactor)) <- "incongr_congr"
+  myfactor
+  }
+contrast3 <- function(v) {
+  myfactor <- factor(v, levels = c("incongruent", "noise", "congruent"))
+  contrasts(myfactor) <- contr.sum(3)
+  colnames(contrasts(myfactor)) <- c("incongr_congr", "noise_congr")
+  myfactor
+  }
+
 # LW1
-lw1$condition_contr <- factor(lw1$condition, levels = c("incongruent", "noise", "congruent"))
-contrasts(lw1$condition_contr) <- contr.sum(3)
-colnames(contrasts(lw1$condition_contr)) <- c("incongr_congr", "noise_congr")
+lw1$condition_contr <- contrast3(lw1$condition)
 contrasts(lw1$condition_contr)
 # LW2
-lw2$condition_contr <- factor(lw2$condition, levels = c("incongruent", "noise", "congruent"))
-contrasts(lw2$condition_contr) <- contr.sum(3)
-colnames(contrasts(lw2$condition_contr)) <- c("incongr_congr", "noise_congr")
+lw2$condition_contr <- contrast3(lw2$condition)
 contrasts(lw2$condition_contr)
 # OH17
-ost$condition_contr <- factor(ost$condition, levels = c("incongruent", "congruent"))
-contrasts(ost$condition_contr) <- contr.sum(2)
-colnames(contrasts(ost$condition_contr)) <- "incongr_congr"
+ost$condition_contr <- contrast2(ost$condition)
 contrasts(ost$condition_contr)
 ```
 
@@ -451,7 +460,8 @@ head(dprime_comb) %>% kable
 
 Quite a few participants in LW2 yield non-finite values for $d'$ in some of the
 conditions, either because their hit rate is 1, their false alarm rate is 0, or
-both:
+both. This isn't reported for LW Exp2 (there is also mention of this for LW Exp
+1, but these participants seem to have been removed from the data).
 
 ```{r}
 inf_values <- apply(sapply(dprime_comb, is.infinite), 1, sum) != 0
@@ -553,69 +563,361 @@ dprime_comb %>%
 ```
 
 
-## Mixed models (TO DO)
+## Linear models (LM) / Linear mixed models (LMM)
+
+Our critical analysis of $d'$ scores is based on just two observations per
+participant: one $d'$ sensitivity value for each of the two critical conditions.
+With so few data points per participant it is not clear that fitting a LMM
+makes much sense. Therefore we will fit both a LMM and a LM below and compare
+the outcome. If there is no difference, we will use the simpler LMs in our power
+simulations.
 
 
+### Fit models
+
+We'll use the [purrr approach](https://emoriebeck.github.io/R-tutorials/purrr/)
+to model fitting.
+
+```{r, warning = FALSE}
+# Define functions
+lm_d_fnc <- function(df) glm(d ~ 1 + condition_contr, data = df)
+lmm_d_fnc <- function(df) {
+  lmer(d ~ 1 + condition_contr + (1 | participant), data = df)
+  }
+# Fit models to data sets
+dprime_comb_nested <- dprime_comb %>%
+  # focus on critical conditions and implement contrast coding
+  filter(condition %in% c("congruent", "incongruent")) %>%
+  mutate(condition_contr = contrast2(condition)) %>%
+  # nested structure
+  group_by(exp) %>%
+  nest() %>%
+  # fit the models
+  mutate(
+    LM  = map(data, lm_d_fnc),
+    LMM = map(data, lmm_d_fnc)
+  ) %>%
+  # extract model parameters with tidy
+  mutate(
+    LM_tidy  = map(LM, broom::tidy),
+    LMM_tidy = map(LMM, broom::tidy)
+  )
+```
+
+Get an idea of the data structure:
 
 ```{r}
-# comb_nest <- dprime_comb %>%
-#   nest(-exp) %>%
-#   mutate(
-#     model = map(data, function(df) {
-#       lmer(d ~ 1 + condition + (1 | participant), data = df)
-#       } 
-#       )
-#     )
-# head(comb_nest)
+dprime_comb_nested
+# Check out column content
+dprime_comb_nested %>% unnest(LM_tidy) %>% head(3) %>% kable
+dprime_comb_nested %>% unnest(LMM_tidy) %>% head(5) %>% kable
+```
+
+Now combine into data frame that allows for comparison.
+
+```{r}
+dprime_compare_models <- bind_rows(
+  dprime_comb_nested %>%
+    unnest(LM_tidy) %>%
+    select(exp : statistic) %>%
+    mutate(model = "lm"),
+  dprime_comb_nested %>%
+    unnest(LMM_tidy) %>%
+    filter(group == "fixed") %>%
+    select(exp : statistic) %>%
+    mutate(model = "lmm")
+  ) %>%
+  mutate(term = factor(term, labels = c("intercept", "beta"))) %>%
+  arrange(exp, model, term)
+dprime_compare_models %>% head %>% kable
+```
+
+
+### Plot comparison: LMM vs LM
+
+```{r, fig.width = 8, fig.height = 4}
+dprime_compare_models %>%
+  ggplot(aes(x = term, y = estimate, colour = model)) +
+  geom_hline(aes(yintercept = 0), linetype = "dashed") +
+  geom_errorbar(
+    aes(ymin = estimate - 2 * std.error,
+        ymax = estimate + 2 * std.error),
+    position = position_dodge(width=0.2),
+    width = .1
+    ) +
+  facet_wrap(~ exp, scale = "free") +
+  geom_point(size = 3, position = position_dodge(width=0.2)) +
+ coord_flip()
+```
+
+While the estimates for the intercepts are almost identical, the estimate for
+the critical coefficient is much reduced in the LMMs compared to the LMs.
+This is probably because the latter are not capturing the within-subject
+correlation inherent in a within-subjects design. Note also that the ANOVAs
+above all yielded significant results for the critical coefficient. This is
+because they captured the repeated measures by using the error terms.
+
+
+### Results: LMMs on $d'$ scores
+
+Here are the critical results, first as a figure:
+
+```{r, fig.height=3}
+dprime_compare_models %>%
+  filter(model == "lmm") %>%
+  ggplot(aes(x = term, y = estimate)) +
+  geom_hline(aes(yintercept = 0), linetype = "dashed") +
+  geom_errorbar(
+    aes(ymin = estimate - 2 * std.error,
+        ymax = estimate + 2 * std.error),
+    width = .1
+    ) +
+  facet_wrap(~ exp) +
+  geom_point(size = 3) +
+ coord_flip()
+```
+
+
+Critical coefficients
+
+```{r}
+dprime_compare_models %>%
+  filter(model == "lmm", term == "beta") %>%
+  kable(digits = 2)
+```
+
+Note that the test statistics are very similar for the three data sets!
+
+
+Finally, the complete model summaries:
+
+```{r}
+map(dprime_comb_nested$LMM, summary)
 ```
 
 
 
+Analysis of reaction times
+=======================
 
-Reaction times (TO DO)
-==============
+Descriptive plots
+-----------------
 
-OH17
-----
-
-By-subject mean reaction times on trials with hits:
+Start by plotting the raw response times for correct trials in each study:
 
 ```{r}
-ost %>%
+comb %>%
+  filter(resp_acc == 1) %>%
+  ggplot(aes(x = condition, y = RT)) +
+  geom_boxplot() +
+  facet_grid(. ~ exp)
+```
+
+There are rather extreme observations in LW13 of >30 s! This makes me wonder if
+analyzing the data using raw RTs (as in both studies) is the wisest way to go.
+
+Let's look (again) at the by-subject reaction times, broken down by object 
+presence:
+
+```{r, fig.height=6, fig.width=7}
+comb %>%
+  filter(resp_acc == 1) %>%
+  group_by(exp, participant, condition, pic_presence) %>%
+  summarise(RT = mean(RT)) %>%
+  ggplot(aes(x = condition, y = RT)) +
+  geom_violin() +
+  stat_summary(fun.data = mean_cl_boot, colour = "red", size = .25) +
+  geom_jitter(height = 0, width = .2, alpha = .1) +
+  facet_grid(pic_presence ~ exp) +
+  ggtitle("By-subject mean RTs")
+```
+
+Averaged by subject RTs look more normal, which is probably good for the ANOVA
+analysis performed in LW13.
+
+The critical trials are those with hits. Plot those:
+
+
+```{r}
+# Raw RTs
+comb %>%
   filter(pic_presence == "present", resp_acc == 1) %>%
-  group_by(participant, condition) %>%
+  group_by(exp, participant, condition) %>%
   summarise(RT_mean = mean(RT)) %>%
   ggplot(aes(x = condition, y = RT_mean)) +
   geom_line(aes(group = participant), alpha = .2) +
   stat_summary(fun.data = mean_cl_boot, colour = "red", size = .75) +
   geom_jitter(height = 0, width = .05, alpha = .3) +
-  ylab("Mean RT by subject")
+  facet_grid(. ~ exp) +
+  ylab("Mean RT by subject") + 
+  ggtitle("Raw RTs")
+# Log RTs
+comb %>%
+  mutate(RT = log(RT)) %>%
+  filter(pic_presence == "present", resp_acc == 1) %>%
+  group_by(exp, participant, condition) %>%
+  summarise(RT_mean = mean(RT)) %>%
+  ggplot(aes(x = condition, y = RT_mean)) +
+  geom_line(aes(group = participant), alpha = .2) +
+  stat_summary(fun.data = mean_cl_boot, colour = "red", size = .75) +
+  geom_jitter(height = 0, width = .05, alpha = .3) +
+  facet_grid(. ~ exp) +
+  ylab("Mean log(RT) by subject") + 
+  ggtitle("Log RTs")
 ```
 
-Individual data points grouped by participant:
+
+## Linear mixed models (LMM)
+
+Analyze using LMMs, but restrict it to the two critical conditions (congruent
+vs incongruent).
+
+### Fit models
+
+```{r, warning = FALSE}
+# Define function
+lmm_rt_fnc <- function(df, DV) {
+  # model formula
+  predictors <- c(
+    "1", "condition_contr", "(1 | participant)", "(1 | target)"
+    )
+  f <- as.formula(paste(DV, paste(predictors, collapse = " + "), sep = " ~ "))
+  # fit model
+  lmer(formula = f, data = df)
+  }
+# Fit models to data sets
+comb_lmm_RT <- comb %>%
+  mutate(logRT = log(RT)) %>%
+  filter(pic_presence == "present", resp_acc == 1) %>%
+  # focus on critical conditions and implement contrast coding
+  filter(condition %in% c("congruent", "incongruent")) %>%
+  mutate(condition_contr = contrast2(condition)) %>%
+  # nested structure
+  group_by(exp) %>%
+  nest() %>%
+  # fit the models
+  mutate(
+    LMM_RT = map(data, lmm_rt_fnc, DV = "RT"),
+    LMM_logRT = map(data, lmm_rt_fnc, DV = "logRT")
+  ) %>%
+  # extract model parameters with tidy
+  mutate(
+    LMM_RT_tidy    = map(LMM_RT, broom::tidy),
+    LMM_logRT_tidy = map(LMM_logRT, broom::tidy),
+)
+```
+
 
 ```{r}
-ppts_ordered <- ost %>% 
-  filter(pic_presence == "present", resp_acc == 1) %>%
-  group_by(participant) %>%
-  summarise(
-    RT_mean = mean(RT),
-    RT_median = median(RT)
-    ) %>%
-  arrange(RT_mean) 
-ost <- left_join(ost, ppts_ordered)
-ost$participant_ord <- factor(ost$participant, levels = ppts_ordered %>% pull(participant))
+# Now combine into data frame that allows for comparison.
+RT_models <- bind_rows(
+  comb_lmm_RT %>%
+    unnest(LMM_RT_tidy) %>%
+    mutate(DV = "RT"),
+  comb_lmm_RT %>%
+    unnest(LMM_logRT_tidy) %>%
+    mutate(DV = "logRT")
+  ) %>%
+  filter(group == "fixed") %>%
+  select(exp : statistic, DV) %>%
+  mutate(term = factor(term, labels = c("intercept", "beta"))) %>%
+  arrange(exp, DV, term)
+RT_models %>% kable
 ```
 
-```{r, fig.height = 10, fig.width = 8}
-ost %>%
-  filter(pic_presence == "present", resp_acc == 1) %>%
-  ggplot(aes(x = condition, y = RT)) +
-  geom_boxplot() +
-  facet_wrap(~ participant_ord) +
-  geom_hline(aes(yintercept = RT_mean), linetype = "dotted", colour = "red") +
-  geom_hline(aes(yintercept = RT_median), linetype = "dashed", colour = "blue") +
-  ggtitle("Raw Response Times (no outliers removed)")
+
+### Plot coefficients from LMMs with either RT or logRT as DV
+
+```{r, fig.width = 8, fig.height = 4}
+RT_models %>%
+  filter(DV == "RT") %>%
+  ggplot(aes(x = term, y = estimate)) +
+  geom_hline(aes(yintercept = 0), linetype = "dashed") +
+  geom_errorbar(
+    aes(ymin = estimate - 2 * std.error,
+        ymax = estimate + 2 * std.error),
+    position = position_dodge(width=0.2),
+    width = .1
+    ) +
+  facet_wrap(~ exp, scale = "free") +
+  geom_point(size = 1, position = position_dodge(width=0.2)) +
+  coord_flip() +
+  ggtitle("Raw RTs")
 ```
 
+```{r, fig.width = 8, fig.height = 4}
+RT_models %>%
+  filter(DV == "logRT") %>%
+  ggplot(aes(x = term, y = estimate)) +
+  geom_hline(aes(yintercept = 0), linetype = "dashed") +
+  geom_errorbar(
+    aes(ymin = estimate - 2 * std.error,
+        ymax = estimate + 2 * std.error),
+    position = position_dodge(width=0.2),
+    width = .1
+    ) +
+  facet_wrap(~ exp, scale = "free") +
+  geom_point(size = 1, position = position_dodge(width=0.2)) +
+  coord_flip() +
+  ggtitle("Log RTs")
+```
+
+
+### Model summaries
+
+Critical coefficients
+
+```{r}
+RT_models %>% filter(term == "beta") %>% kable(digits = 2)
+```
+
+And the complete model summaries:
+
+First with DV = raw RT
+```{r}
+map(comb_lmm_RT$LMM_RT, summary)
+```
+
+Then with DV = log(RT)
+
+```{r}
+map(comb_lmm_RT$LMM_logRT, summary)
+```
+
+
+### A closer look at RTs by participant
+
+Individual data points grouped by participant and condition within experiment:
+
+```{r}
+plot_RT_fnc <- function(df, myexp) {
+  # set up data frame
+  df <- df %>% filter(exp == myexp, pic_presence == "present", resp_acc == 1)
+  ppts_ordered <- df %>%
+    group_by(participant) %>%
+    summarise(
+      RT_mean = mean(RT),
+      RT_median = median(RT)
+      ) %>%
+    arrange(RT_mean) 
+  df <- left_join(df, ppts_ordered)
+  df$participant_ord <- factor(
+    df$participant, levels = ppts_ordered %>% pull(participant)
+    )
+  # plot
+  df %>%
+    ggplot(aes(x = condition, y = RT)) +
+    geom_boxplot() +
+    facet_wrap(~ participant_ord) +
+    geom_hline(aes(yintercept = RT_mean), linetype = "dotted", colour = "red") +
+    geom_hline(aes(yintercept = RT_median), linetype = "dashed", colour = "blue") +
+    ggtitle(paste(myexp, "- Raw RTs on hits"))
+}
+```
+
+```{r, fig.height=7, fig.width=9}
+plot_RT_fnc(comb, "OH")
+plot_RT_fnc(comb, "LW1")
+plot_RT_fnc(comb, "LW2")
+```
 
