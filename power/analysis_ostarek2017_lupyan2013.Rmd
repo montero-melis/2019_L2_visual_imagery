@@ -311,7 +311,7 @@ contrasts(ost$condition_contr)
 # glmm_ost <- glmer(
 #   resp_acc ~ condition_contr +
 #     (1 + condition_contr | participant) +
-#     (1 + condition_contr| prime),
+#     (1 + condition_contr| target),
 #   data = ost %>% filter(pic_presence == "present"),
 #   family = "binomial"
 # )
@@ -324,6 +324,7 @@ glmm_ost <- read_rds("sims/glmm_ost.rds")
 summary(glmm_ost)
 ```
 
+Significant effect of congruency on hit rates.
 
 ### LW1
 
@@ -331,7 +332,7 @@ summary(glmm_ost)
 # # model fitting
 # # Adding by-item slope for condition leads to boundary singular fit, so simplify
 # glmm_lw1 <- glmer(
-#   resp_acc ~ condition_contr + (1 + condition_contr | participant) + (1 | prime),
+#   resp_acc ~ condition_contr + (1 + condition_contr | participant) + (1 | target),
 #   data = lw1 %>% filter(pic_presence == "present"),
 #   family = "binomial"
 # )
@@ -345,14 +346,14 @@ glmm_lw1 <- read_rds("sims/glmm_lw1.rds")
 summary(glmm_lw1)
 ```
 
-There is no significant effect of congruency (incongruent vs congruent).
+Significant effect of congruency (incongruent vs congruent) on hit rates.
 
 Let's compare this model against a null model by LRT:
 
 ```{r}
 # # Null model
 # glmm_lw1_null <- glmer(
-#   resp_acc ~ 1 + (1 + condition_contr | participant) + (1 | prime),
+#   resp_acc ~ 1 + (1 + condition_contr | participant) + (1 | target),
 #   data = lw1 %>% filter(pic_presence == "present"),
 #   family = "binomial"
 # )
@@ -366,10 +367,7 @@ glmm_lw1_null <- read_rds("sims/glmm_lw1_null.rds")
 anova(glmm_lw1, glmm_lw1_null)
 ```
 
-Hmm, so there seems to be an effect of condition when comparing the two models
--- even though there is no signficant effect for the coefficient of interest!
-How come?
-
+Confirms there is a main effect of the factor Condition.
 
 
 ### LW2
@@ -378,7 +376,7 @@ How come?
 # # model fitting
 # # Adding by-item slope for condition leads to boundary singular fit, so simplify
 # glmm_lw2 <- glmer(
-#   resp_acc ~ condition_contr + (1 + condition_contr | participant) + (1 | prime),
+#   resp_acc ~ condition_contr + (1 + condition_contr | participant) + (1 | target),
 #   data = lw2 %>% filter(pic_presence == "present"),
 #   family = "binomial"
 # )
@@ -392,14 +390,14 @@ glmm_lw2 <- read_rds("sims/glmm_lw2.rds")
 summary(glmm_lw2)
 ```
 
-There is a marginal effect of congruency (incongruent vs congruent).
+Significant effect of congruency (incongruent vs congruent) on hit rates.
 
 Let's again compare this model against a null model by LRT:
 
 ```{r}
 # # Null model
 # glmm_lw2_null <- glmer(
-#   resp_acc ~ 1 + (1 + condition_contr | participant) + (1 | prime),
+#   resp_acc ~ 1 + (1 + condition_contr | participant) + (1 | target),
 #   data = lw2 %>% filter(pic_presence == "present"),
 #   family = "binomial"
 # )
@@ -413,8 +411,7 @@ glmm_lw2_null <- read_rds("sims/glmm_lw2_null.rds")
 anova(glmm_lw2, glmm_lw2_null)
 ```
 
-Once again, there is an effect of condition when comparing the two models with
-LRT. How come?
+Main effect of condition confirmed.
 
 
 
@@ -662,7 +659,7 @@ because they captured the repeated measures by using the error terms.
 
 Here are the critical results, first as a figure:
 
-```{r, fig.height=3}
+```{r}
 dprime_compare_models %>%
   filter(model == "lmm") %>%
   ggplot(aes(x = term, y = estimate)) +
@@ -673,8 +670,7 @@ dprime_compare_models %>%
     width = .1
     ) +
   facet_wrap(~ exp) +
-  geom_point(size = 3) +
- coord_flip()
+  geom_point(size = 3)
 ```
 
 
@@ -919,5 +915,13 @@ plot_RT_fnc <- function(df, myexp) {
 plot_RT_fnc(comb, "OH")
 plot_RT_fnc(comb, "LW1")
 plot_RT_fnc(comb, "LW2")
+```
+
+
+Session info
+===========
+
+```{r}
+sessionInfo()
 ```
 
