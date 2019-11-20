@@ -1,5 +1,5 @@
 ---
-title: "Analyze data from Ostarek & Huetting (2017) and Lupyan & Ward (2013)"
+title: "Analyze data from Ostarek & Huettig (2017) and Lupyan & Ward (2013)"
 author: '[Guillermo Montero-Melis](https://www.mpi.nl/people/montero-melis-guillermo)'
 date: '`r as.character(format(Sys.Date(), format="%d/%m/%Y"))`'
 output:
@@ -90,6 +90,9 @@ head(comb) %>% kable
 Some basics for each study
 ============
 
+Descriptives
+-----------
+
 Number of participants in each study:
 
 ```{r}
@@ -151,6 +154,7 @@ comb %>%
 ```
 
 The zero FA rates in LW2 will be problematic when computing $d'$ scores...
+
 
 
 
@@ -473,10 +477,44 @@ dprime_comb[inf_values, ] %>% group_by(condition) %>% count()
 ```
 
 
+## Two ways of dealing with Infinite $d'$ scores
+
+### Alternative 1: Exclusion
+
 We exclude all non-finite observations:
 
 ```{r}
 dprime_comb <- dprime_comb[! inf_values, ]
+```
+
+
+### Alternative 2: Change ceiling or floor observations
+
+Jeroen suggested it is better to replace the floor and ceiling values by either
+adding 1 false alarm (if FA rate = 0) or subtracting 1 hit (if Hit rate = 1).
+This is what the following code snippet does.
+
+```{r}
+# TO DO
+# See Stanislaw and Todorov (1999, p.143-144) "Hit and False-Alarm Rates of Zero
+# or One" for different approaches. Jeroen essentially proposed the 4th approach
+# but the authors seem to favour the 3rd approach ("loglinear")
+
+# find_floor_ceiling_fnc <- function (df) {
+#   FA_0 <- df %>%
+#     filter(pic_presence == "absent") %>%
+#     group_by(exp, participant, pic_presence) %>%
+#     summarise(Acc = mean(resp_acc)) %>%
+#     filter(Acc %in% c(1,0))
+#   print(FA_0)
+#   HR_1 <- df %>%
+#     filter(pic_presence == "present") %>%
+#     group_by(exp, participant, pic_presence, condition) %>%
+#     summarise(Acc = mean(resp_acc)) %>%
+#     filter(Acc %in% c(1,0))
+#   print(HR_1)
+# }
+# find_floor_ceiling_fnc(comb)
 ```
 
 
