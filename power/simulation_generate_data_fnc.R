@@ -16,11 +16,10 @@ simulate_dprime <- function (
   b_L1,     # congruency effect in the L1
   b0_SE,    # SEM for interecept
   b_L1_SE,  # SEM for L1 congruency effect
-  uncertainty_critical_beta = TRUE,  # model the uncertainty (SEM) for critical effect?
-  L2_effect,  # as a proportion of the effect in the L1, e.g. 0.5 for half the ES in L1
-  ranef_sigma_subj,  # covariance matrix for random effects by subject (interecept only)
-  resid_error,       # residual error
-  full_output = FALSE,      # Output list with fixef/ranef dfs in addition to data?
+  uncertainty_critical_beta = TRUE,  # model the uncertainty (SEM) for critical b_L1?
+  L2_effect,     # proportion of the effect in the L1, e.g. 0.5 for half the ES in L1
+  rand_subj_sd,  # random variability by subject (interecept only) in SD
+  resid_error,   # residual error
   print_each_step = FALSE   # print output at each step to unveil inner workings
   ) {
 
@@ -59,27 +58,18 @@ simulate_dprime <- function (
 
   # 3) Fixed effects in this simulation
   # 3a) Sample fixef for current simulation from estimates and SEMs
-  b0 <- 
-  fixef_L1 <- rmvnorm(
-    n = 1,  # One simulation
-    mean = fixef_means_L1,  # The mean of fixed effects
-    sigma = fixef_sigma_L1  # covariance of fixed effects
-    )
-  myprint(fixef_L1)
-  # 3b) Depending on uncertainty_critical_beta, plug the intended coefficient
-  # for the interaction back in?
-  if (! uncertainty_critical_beta) {
-    fixef_L1[2] <- fixef_means_L1[2]
+  b0 <- rnorm(1, b0, b0_SE)
+  if (uncertainty_critical_beta) {
+    b_L1 <- rnorm(1, b_L1, b_L1_SE)
   }
-  myprint(fixef_L1)
-  # 3c) Now add the fixef estimates for the design with L2 condition
+  # 3b) Now add the fixef estimates for the design with L2 condition
   # Amount by which we need to correct the L2 effect wrt L1 effect, e.g. if the
   # L2 effect is 0.75 that in the L1, we need to subtract 0.25 of the L1 effect
   # in the L2 condition (this is what the following line does):
-  L2_correction <- - (1 - L2_effect) * fixef_L1[2]
+  L2_correction <- - (1 - L2_effect) * b_L1
   # Put it all together. The zero refers to the main effect of L2:
-  fixef <- c(fixef_L1, 0, L2_correction)
-  # To clarify (consistent with the model matrix X above):
+  fixef <- c(b0, b_L1, 0, L2_correction)
+  # To clarify (and consistent with the model matrix X above):
   names(fixef) <- c("Intercept", "congr_incongr_L1", "L2", "congr_incongr_L1:L2")
   myprint(fixef)
   # 3c) Save fixed effects as df for output
@@ -92,13 +82,13 @@ simulate_dprime <- function (
   myprint(fixef_cell_means_df)
   data <- left_join(data, fixef_cell_means_df)
   myprint(data)
-  
+
   # 4) By-subject adjustments (normal with mean zero and SD from random effects)
   # 4a) Each matrix row gives subject adjustments for betas of the 4 predictors in X
   subj_adjust <- rnorm(
     n = Nsubj,
     mean = 0,
-    sd = ranef_sigma_subj
+    sd = rand_subj_sd
     )
   myprint(subj_adjust)
   # 4b) Save as df for output
@@ -110,7 +100,7 @@ simulate_dprime <- function (
   # 4c) Join with data:
   data <- left_join(data, subj_adj_df)
   myprint(data)
-  
+
   # 5) Add residual error to each observation
   data$resid <- rnorm(n = nrow(data), sd = resid_error)
   myprint(data)
@@ -119,8 +109,7 @@ simulate_dprime <- function (
   data <- data %>% mutate(d = fixef + subj_adjust + resid)
 
   # Add also information about effect size of critical effect
-  data$ES_L1 <- fixef_means_L1
-  data$ES_L2 <- L2_effect * fixef_means_L1
+  data$ES_L1 <- b_L1
   data$ES_L2_prop_L1 <- L2_effect
 
   data
