@@ -1,0 +1,415 @@
+---
+title: "Power analysis for L2 visual imagery study"
+author: '[Guillermo Montero-Melis](https://www.mpi.nl/people/montero-melis-guillermo)'
+date: '`r as.character(format(Sys.Date(), format="%d/%m/%Y"))`'
+output:
+  html_document:
+    depth: 2
+    number_sections: yes
+    theme: default
+    toc: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+Introduction
+============
+
+Goal
+----
+
+We want to test whether visual imagery is reduced in a second language (L2)
+compared to the first language (L1), following the experimental design we
+propose in:
+
+Montero-Melis, G., Isaksson, P., Paridon, J. van, & Ostarek, M. (accepted). Does
+using a foreign language reduce mental imagery? *Cognition*.
+
+Specifically, then, we want to estimate our power to detect the critical 2-way
+interaction between:
+
+1) The label-congruency advantage (i.e., improved detection of images when cued
+by a congruent vs incongruent label), and
+2) The language in which the task is done (L1 vs L2, blocked within subjects,
+order counterbalanced).
+
+For our simulations we had the data for three experiments from two previous
+studies that have used a very similar CFS design in native speakers, namely:
+
+- Exp 1 in Ostarek and Huettig (2017) [OH17]
+- Exps 1 & 2 in Lupyan and Ward (2013) [LW13]
+
+We will base our simulations on the data from LW13's Experiment 1 ("lw1")
+because of all three its design is most similar to our intended design.
+
+
+Approach
+--------
+
+We will focus on the comparison of $d'$ (d-prime) scores for the two critical
+conditions (congruent/incongruent). 
+We aim for a power of 80% under reasonable assumptions about how much smaller
+the L2 effect is in relation to the L1 effect.
+
+These are the steps of the power analysis:
+
+1) Generate by-subject L1 $d'$ scores from the distribution we get from the data
+in Lupyan and Ward's (2013) Exp 1, as this is most similar to our intended
+design.
+2) Generate L2 $d'$ scores by assuming a smaller effect size (but same 
+variability): The L2 effect varies between 0 and .75 times the L1 effect.
+3) For each such generated data set run the same GLMM we will fit to our own
+data and keep track of whether the critical coefficient is significant or not.
+4) Compute the proportion of significant interactions for the different choices
+of L2 effect sizes and sample size Ns. This proportion is our power under the
+different scenarios.
+
+
+Set up workspace
+================
+
+Libraries:
+
+```{r, message=FALSE}
+library("knitr")
+library("tidyverse")
+theme_set(theme_bw())
+library("lme4")
+```
+
+
+Data from Lupyan and Ward (2013) Experiment 1:
+
+```{r, message=FALSE}
+# The data set with all three conditions, including noise
+lw1 <- read_csv("data_lupyan13_exp1_simple.csv")
+head(lw1)
+```
+
+
+External functions:
+
+```{r}
+# source function to generate data for power simulations:
+source("generate_data_fnc.R")
+```
+
+
+
+Compute $d'$ scores
+===================
+
+```{r}
+# Function to compute d' using the log-linear approach to deal with hit or
+# false alarm rates equal to 0 or 1 (see Stanislaw & Todorov, 1999, p. 143-144).
+dprime_loglin_fnc <- function(df) {
+  
+  # Compute FA rates
+  FA <- df %>%
+    filter(pic_presence == "absent") %>%
+    group_by(participant, condition) %>%
+    summarise(
+      n_loglin = n() + 1,
+      FA_count_loglin = sum(resp_acc == 0) + 0.5,
+      FA_rate = FA_count_loglin / n_loglin
+      ) %>%
+    mutate(z_FA = qnorm(FA_rate)) %>%  # with loglinear correction
+    # Rename the condition for left_join below, because FA rates for congruent
+    # and incongruent conditions are the same.
+    rename(FA_condition = condition) %>%
+    select(participant, FA_condition, FA_rate, z_FA)
+  # See intermediate dataframe
+  # print(head(FA))
+  
+  d_prime <- df %>%
+    filter(pic_presence == "present") %>%
+    group_by(participant, condition) %>%
+    summarise(
+      n_loglin = n() + 1,
+      Hit_count_loglin = sum(resp_acc) + 0.5,
+      H_rate = Hit_count_loglin / n_loglin  # with loglinear correction
+      ) %>%
+    mutate(z_H = qnorm(H_rate)) %>%
+    # To join with the correct FA rates:
+    mutate(FA_condition = ifelse(condition == "noise", "noise", "incongruent")) %>%
+    select(participant, condition, FA_condition, H_rate, z_H) %>%
+    left_join(FA) %>%
+    mutate(d = z_H - z_FA) %>%
+    select(- FA_condition)
+  d_prime
+}
+```
+
+```{r}
+# Compute d prime scores
+d_lw1 <- dprime_loglin_fnc(lw1)
+head(d_lw1) %>% kable
+```
+
+Factor coding for plotting and model fitting:
+
+```{r}
+# Coding scheme
+# Contrast the 2 critical conditions...
+contrast2 <- function(v) {
+  myfactor <- factor(v, levels = c("congruent", "incongruent"))
+  contrasts(myfactor) <- contr.sum(2)
+  colnames(contrasts(myfactor)) <- "congr_incongr"
+  myfactor
+  }
+# ... or contrast all 3 conditions
+contrast3 <- function(v) {
+  myfactor <- factor(v, levels = c("congruent", "noise", "incongruent"))
+  contrasts(myfactor) <- matrix(
+    c(1, 0, -1,
+      1, -1, 0),
+    ncol = 2
+  )
+  colnames(contrasts(myfactor)) <- c("congr_incongr", "congr_noise")
+  myfactor
+  }
+# LW1: we use the 3 conditions for now
+d_lw1$condition <- contrast3(d_lw1$condition)
+contrasts(d_lw1$condition)
+```
+
+
+
+Plot $d'$ scores + cell means
+================
+
+```{r}
+d_lw1 %>%
+  ggplot(aes(x = condition, y = d)) +
+  geom_line(aes(group = participant), alpha = .2) +
+  stat_summary(fun.data = mean_cl_boot, colour = "red", size = .75) +
+  geom_jitter(height = 0, width = .05, alpha = .3) +
+  ylab("d' score")
+```
+
+```{r}
+d_lw1 %>%
+  group_by(condition) %>%
+  summarise(
+    d_mean = mean(d),
+    d_SD   = sd(d)
+    ) %>%
+  kable(digits = 2)
+```
+
+
+LMM analysis of LW13's Exp 1
+============================
+
+Using all three conditions
+--------------------------
+
+Fit LMM:
+
+```{r}
+fm_lw1_3conds <- lmer(d ~ 1 + condition + (1 | participant), data = d_lw1)
+summary(fm_lw1_3conds)
+```
+
+
+Using only the two critical conditions (congruent vs incongruent)
+------------------------------------------------------
+
+For our power simulations we use only the two critical conditions.
+
+Fit LMM:
+
+```{r}
+fm_lw1 <- d_lw1 %>%
+  ungroup() %>%  # super important!!! (this drove me crazy!)
+  # Subset data and appropriate coding
+  filter(condition %in% c("congruent", "incongruent")) %>%
+  mutate(condition = contrast2(condition)) %>%
+  # Now fit model
+  lmer(formula = d ~ 1 + condition + (1 | participant), data = .)
+summary(fm_lw1)
+```
+
+Note that the estimate of the effect is very similar to the model with all three
+conditions. Only the SE around the estimate is somewhat smaller, leading to a
+slightly larger t-statistic.
+
+
+
+Power analysis
+==============
+
+We will simulate data based on the results from LW1.
+To do that, we need first to convert some of the model output into the format
+required by our simulation function.
+
+
+Extract necessary information from the model fitted to original data
+----------------------------------------------------------
+
+```{r}
+# Fixed effects estimates from the model:
+fixef(fm_lw1)
+(b0_lw1 <- fixef(fm_lw1)[1])
+(b_L1_lw1 <- fixef(fm_lw1)[2])
+# Associated Variance-covariance matrix (diagonals contain SEMs^2):
+(vcov_lw1 <- sqrt(as.matrix(vcov(fm_lw1))))
+(b0_SE_lw1 <- vcov_lw1[1,1])
+(b_L1_SE_lw1 <- vcov_lw1[2,2])
+# By-subject random variability (SD):
+as.data.frame(VarCorr(fm_lw1))
+(rand_subj_sd_lw1 <- as.data.frame(VarCorr(fm_lw1))[1,5])
+# residual variability (SD):
+(resid_error_lw1 <- as.data.frame(VarCorr(fm_lw1))[2,5])
+```
+
+
+Data simulation - an example
+---------------
+
+First, an example to illustrate. In this case, we assume the critical effect in
+the L1 is as in the original, but that in the L2 is only 25% as big. We simulate
+a study with 40 participants and plot the results.
+
+```{r}
+# NB: See source code for this function to understand its workings!
+# Example to illustrate the output
+set.seed(743227)
+sim_ex <- simulate_dprime(
+  Nsubj = 40,
+  b0      = b0_lw1,
+  b_L1    = b_L1_lw1,
+  b0_SE   = b0_SE_lw1,
+  b_L1_SE = b_L1_SE_lw1,
+  uncertainty_critical_beta = FALSE,
+  L2_effect = .25,
+  rand_subj_sd = rand_subj_sd_lw1,
+  resid_error  = resid_error_lw1
+  )
+head(sim_ex) %>% kable
+# plot
+sim_ex %>%
+  ggplot(aes(x = condition, y = d)) +
+  geom_line(aes(group = participant), alpha = .2) +
+  geom_jitter(height = 0, width = .05, alpha = .1) +
+  stat_summary(
+    aes(colour = language),
+    fun.data = mean_cl_boot, 
+    size = .75, 
+    position = position_dodge(width = .2)
+    ) +
+  stat_summary(
+    aes(group = 1, colour = language), 
+    fun.y = mean, 
+    geom = "line",
+    size = .75
+    ) +
+  facet_grid(. ~ language) +
+  ylab("d' score")
+```
+
+The crucial question is how much power is to detect the critical 2-way 
+interaction between condition (congruent vs incongruent) and language (L1 vs L2).
+For each such simulation, we thus run a mixed model:
+
+```{r}
+# Contrast coding for language (function to avoid clutter)
+contrast2_lang <- function(v) {
+  myfactor <- factor(v, levels = c("L1", "L2"))
+  contrasts(myfactor) <- contr.sum(2)
+  colnames(contrasts(myfactor)) <- "L1_L2"
+  myfactor
+  }
+sim_ex$condition <- contrast2(sim_ex$condition)
+sim_ex$language <- contrast2_lang(sim_ex$language)
+# fit model
+fm_sim_ex <- lmer(
+  d ~ 1 + condition * language + (1 | participant), data = sim_ex)
+summary(fm_sim_ex)
+```
+
+In this case, for instance, the interaction would come out as significant,
+indicating a significantly greater effect of congruency in L1 vs L2.
+
+
+Simulate many studies
+---------------------
+
+
+
+
+BFDA approach
+============
+
+Cohen's *d*
+-----------
+
+```{r}
+# (cohens_d <- cohensD(d ~ condition, data = dprime_ost, method = "paired"))
+```
+
+
+BFDA: power to detect the effect in L1
+--------------------------------------
+
+Based on the data above, and in particular on the estimated Cohen's *d*,
+I used the [interactive shiny bfda app](http://shinyapps.org/apps/BFDA/) to
+generate a report that shows the sample size we would need to detect a language
+effect (better detection in congruent vs incongruent condition).
+The file name is `report_bfda_191030.pdf`.
+Note that this report is estimating the probability of replicating the result
+reported in O&H17!
+
+The upshot of the report is:
+
+- If the effect size is 0.6 and the *default prior* on effect size is used for
+analyses, you will need **at least 62 observations per group** to obtain a 
+*Bayes factor larger than 6* with a probability of p = 0.8.
+
+
+```{r}
+# # Run simulations and save to disk:
+# 
+# # Under alternative hypothesis H1 with ES d = 0.6
+# sim_H1_d_06_defPrior <- BFDA.sim(
+#   expected.ES = 0.6,
+#   type = "t.paired",
+#   prior=list("Cauchy",list(prior.location=0, prior.scale=sqrt(2)/2)),  # default non-informative
+#   n.min=12, n.max=96, stepsize = 12, boundary=Inf,
+#   alternative="two.sided",
+#   B=1000, verbose=TRUE, cores=1)
+# # Save to disk:
+# write_rds(sim_H1_d_06_defPrior, "sims/sim_H1_d_06_defPrior.rds")
+# 
+# # Under null hypothesis H0
+# sim_H0_defPrior <- BFDA.sim(
+#   expected.ES = 0,  # under H0
+#   type = "t.paired",
+#   prior=list("Cauchy",list(prior.location=0, prior.scale=sqrt(2)/2)),  # default non-informative
+#   n.min=12, n.max=96, stepsize = 12, boundary=Inf,
+#   alternative="two.sided",
+#   B=1000, verbose=TRUE, cores=1)
+# # Save to disk:
+# write_rds(sim_H0_defPrior, "sims/sim_H0_defPrior.rds")
+```
+
+
+
+References
+==========
+
+- Lupyan, G., & Ward, E. J. (2013). Language can boost otherwise unseen objects into visual awareness. Proceedings of the National Academy of Sciences, 110(35), 14196–14201. https://doi.org/10.1073/pnas.1303312110 
+- Ostarek, M., & Huettig, F. (2017). Spoken words can make the invisible visible—Testing the involvement of low-level visual representations in spoken word processing. Journal of Experimental Psychology: Human Perception and Performance, 43(3), 499–508. http://dx.doi.org/10.1037/xhp0000313 
+- Stanislaw, H., & Todorov, N. (1999). Calculation of signal detection theory measures. Behavior Research Methods, Instruments, & Computers, 31(1), 137–149. https://doi.org/10.3758/BF03207704
+
+
+Session info
+============
+
+```{r}
+sessionInfo()
+```
+
