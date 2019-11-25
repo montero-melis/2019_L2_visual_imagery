@@ -20,7 +20,8 @@ simulate_dprime <- function (
   L2_effect,     # proportion of the effect in the L1, e.g. 0.5 for half the ES in L1
   rand_subj_sd,  # random variability by subject (interecept only) in SD
   resid_error,   # residual error
-  print_each_step = FALSE   # print output at each step to unveil inner workings
+  print_each_step = FALSE,   # print output at each step to unveil inner workings
+  ...
   ) {
 
   myprint <- function(x) {
@@ -109,7 +110,7 @@ simulate_dprime <- function (
   data <- data %>% mutate(d = fixef + subj_adjust + resid)
 
   # Add also information about effect size of critical effect
-  data$ES_L1 <- b_L1
+  data$ES_L1_true <- b_L1
   data$ES_L2_prop_L1 <- L2_effect
 
   data
