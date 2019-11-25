@@ -78,6 +78,7 @@ library("knitr")
 library("tidyverse")
 theme_set(theme_bw())
 library("lme4")
+library("tictoc")  # time code
 ```
 
 
@@ -94,7 +95,8 @@ External functions:
 
 ```{r}
 # source function to generate data for power simulations:
-source("generate_data_fnc.R")
+source("simulation_generate_data_fnc.R")
+source("simulations_analyze_fnc.R")
 ```
 
 
@@ -338,6 +340,106 @@ indicating a significantly greater effect of congruency in L1 vs L2.
 Simulate many studies
 ---------------------
 
+Define the parameters that we want to vary in our simulations:
+
+```{r}
+nb_sims <- 4000  # number of simulations per parameter setting
+# Cross all the values of the parameters:
+params <- expand.grid(
+  Nsubj = seq(20, 100, 20),
+  L2_effect = seq(0, 1, .25),
+  uncertainty_critical_beta = c(FALSE, TRUE)
+)
+head(params) %>% kable
+# repeat each row nb_sims times
+params <- params[rep(1 : nrow(params), each = nb_sims), ]
+```
+
+We also want to generate a random seed for each simulation (for reproducibility)
+and assign a unique identifier to each simulation:
+
+```{r}
+params$rseed <- sample.int(10 ^ 9, size = nrow(params))
+params$sim_id <- seq_len(nrow(params))
+head(params) %>% kable
+```
+
+We get
+`r nrow(params) / nb_sims`
+unique combinations of parameters,
+each of which we repeat `r nb_sims` times,
+for a total of `r nrow(params)`  simulations.
+
+```{r, message=FALSE}
+# tictoc::tic()
+# mysims <- pmap(
+#   .l = params,
+#   .f = sim_many,
+#   # fixed parameters (for clarity, comment out the ones we pass through params)
+#   # Nsubj =,
+#   b0      = b0_lw1,
+#   b_L1    = b_L1_lw1,
+#   b0_SE   = b0_SE_lw1,
+#   b_L1_SE = b_L1_SE_lw1,
+#   # uncertainty_critical_beta = ,
+#   # L2_effect = ,
+#   rand_subj_sd = rand_subj_sd_lw1,
+#   resid_error  = resid_error_lw1
+#   ) %>%
+#   bind_rows()
+# tictoc::toc()
+# head(mysims)
+# # Merge back the info about the parameters that generated each simulation.
+# mysims <- left_join(mysims, params)
+# write_csv(mysims, "sims/power_simulation_results.csv")
+# head(mysims)
+```
+
+Since the simulations take time, run them once and save the result to disk,
+then read the data from disk.
+
+```{r}
+mysims <- read_csv("sims/power_simulation_results.csv")
+head(mysims) %>% kable
+```
+
+
+Plot results from power analysis
+-------------------------------
+
+```{r}
+power <- mysims %>%
+  filter(
+    is.na(convergence),
+    param == "t"
+    ) %>%
+  mutate(
+    coefficient = paste(model, coef, sep = "_"),
+    sig = abs(value) > 1.96,
+    uncert = ifelse(uncertainty_critical_beta, "uncertain_b", "no_uncertainty")
+    ) %>%
+  group_by(Nsubj, L2_effect, uncert, model, coef, coefficient) %>%
+  summarise(power = mean(sig))
+head(power)
+```
+
+```{r}
+ggplot(power, aes(x = Nsubj, y = power, colour = factor(L2_effect))) +
+  geom_point() +
+  facet_grid(uncert ~ coefficient) +
+  geom_hline(yintercept = c(.05, .8), linetype = "dashed") +
+  geom_line(aes(group = factor(L2_effect)))
+```
+
+
+
+Type I error analysis
+=====================
+
+Same approach as we used for power can be used to assess our Type I error rate.
+In fact, this rate has already been computed in the simulations above for some
+of the coefficients, namely the L1-L2:congruence interaction when the L2 effect
+is a factor of 1 of the L1 effect.
 
 
 
