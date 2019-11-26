@@ -343,7 +343,7 @@ Simulate many studies
 Define the parameters that we want to vary in our simulations:
 
 ```{r}
-nb_sims <- 4000  # number of simulations per parameter setting
+nb_sims <- 2000  # number of simulations per parameter setting
 # Cross all the values of the parameters:
 params <- expand.grid(
   Nsubj = seq(20, 100, 20),
@@ -403,6 +403,29 @@ mysims <- read_csv("sims/power_simulation_results.csv")
 head(mysims) %>% kable
 ```
 
+Any repeated seeds?
+
+```{r}
+sum(table(mysims$rseed) != 12)  # no
+```
+
+
+Proportion of convergence failures:
+
+```{r}
+mysims %>%
+  select(model, Nsubj, rseed, convergence) %>%
+  unique() %>%
+  group_by(Nsubj) %>%
+  summarise(
+    conv_fail = sum(!is.na(convergence)),
+    N = n(),
+    prop = conv_fail / N
+    ) %>%
+  kable(digits = 4)
+```
+
+
 
 Plot results from power analysis
 -------------------------------
@@ -416,7 +439,7 @@ power <- mysims %>%
   mutate(
     coefficient = paste(model, coef, sep = "_"),
     sig = abs(value) > 1.96,
-    uncert = ifelse(uncertainty_critical_beta, "uncertain_b", "no_uncertainty")
+    uncert = ifelse(uncertainty_critical_beta, "uncertain_b", "no_uncertain_b")
     ) %>%
   group_by(Nsubj, L2_effect, uncert, model, coef, coefficient) %>%
   summarise(power = mean(sig))
