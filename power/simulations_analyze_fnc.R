@@ -76,6 +76,10 @@ analyze_simulation <- function(df) {
 
 # Function to analyze many data sets, called with pmap
 sim_many <- function(rseed, sim_id, ...) {
+  if(sim_id %% 1000 == 0) {
+    cat("\n")
+    print(paste("Simulated datasets:", sim_id, "at time", Sys.time()))
+  }
   set.seed(rseed)
   df <- simulate_dprime(...)
   result <- analyze_simulation(df)
